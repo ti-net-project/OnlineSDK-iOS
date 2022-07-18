@@ -58,13 +58,13 @@ typedef NS_ENUM(NSUInteger, TinetChatStatusType) {
 /// 快捷入口的数据
 @property (nonatomic, strong) NSArray *quickEntryAllItems;
 
-/// 快捷入口的点击事件    index    点击索引从0开始
+/// 快捷入口的点击事件    index    点击索引从0开始 （需要在子类实现这个方法）
 - (void)quickEntryItemDidTouchIndex:(NSInteger)index;
 
 /// 当前会话状态监听
 - (void)chatStatusChanged:(TinetChatStatusType)status;
 
-/// 扩展面板，自定义按钮事件
+/// 扩展面板，自定义按钮事件 （需要在子类实现这个方法）
 - (void)didClinkCustomExtendBoardItemAction:(TOSKitExtendBoardItemModel *)item;
 
 @end

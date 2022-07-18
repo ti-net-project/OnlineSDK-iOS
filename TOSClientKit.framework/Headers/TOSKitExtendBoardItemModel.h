@@ -11,7 +11,7 @@
 NS_ASSUME_NONNULL_BEGIN
 
 typedef NS_ENUM(NSInteger, TOSChatBoxExtendBoardType) {
-    TOSChatBoxExtendBoardTypePhotos,        //相册
+    TOSChatBoxExtendBoardTypePhotos = 0,    //相册
     TOSChatBoxExtendBoardTypeTakePicture,   //相机
     TOSChatBoxExtendBoardTypeCustomFile,    //文件
     TOSChatBoxExtendBoardTypeArtificial,    //转人工
@@ -30,7 +30,7 @@ typedef NS_ENUM(NSInteger, TOSChatBoxExtendBoardType) {
 /// 扩展项的唯一标示符
 @property (nonatomic, assign) NSInteger index;
 
-/// 类型
+/// 类型，除自定义类型外，其他类型不填即为默认UI
 @property (nonatomic, assign) TOSChatBoxExtendBoardType type;
 
 @end
