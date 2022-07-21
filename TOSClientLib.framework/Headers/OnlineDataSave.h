@@ -60,6 +60,10 @@ NS_ASSUME_NONNULL_BEGIN
 - (void)saveCustomTitle:(NSString*)title;
 -(NSString*)getCustomTitle;
 
+// 存储链接时带的参数
+- (void)saveConnectAdParams:(NSString*)params;
+-(NSString*)getConnectAdParams;
+
 //客服头像地址
 - (void)saveKefuAvaterUrl:(NSString*)saveStr;
 -(NSString*)getKefuAvaterUrl;

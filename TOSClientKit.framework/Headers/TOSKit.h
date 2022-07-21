@@ -82,7 +82,7 @@ TIMKit核心类
 /**
 初始化天润TIMSDK
 
-@param option 初始化参数对象实例
+@param option 初始化参数对象实例 (将废弃)
 
 @discussion
 您在使用天润TIMSDK所有功能之前，您必须先调用此方法初始化SDK。
