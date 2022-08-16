@@ -45,6 +45,56 @@ NS_ASSUME_NONNULL_BEGIN
 /// 发送方字体颜色
 @property (nonatomic, strong) UIColor *senderText_Color;
 
+/// 聊天底部输入中的语音按钮控制
+@property (nonatomic, assign) BOOL ChatBox_voiceButton_enable;
+
+/// 聊天底部输入中文本输入框的暗文设置
+@property (nonatomic, strong) NSString *ChatBox_textview_placeholder;
+
+/// 聊天底部背景颜色
+@property (nonatomic, strong) UIColor *ChatBox_backGroundColor;
+
+/// 聊天底部中线条颜色
+@property (nonatomic, strong) UIColor *ChatBox_lineColor;
+
+/// 聊天中显示的时间字体颜色
+@property (nonatomic, strong) UIColor *Chat_time_textColor;
+
+/// 启用或关闭客服或机器人昵称的显示
+@property (nonatomic, assign) BOOL Chat_tosRobotName_show;
+
+/// 启用或关闭访客昵称的显示
+@property (nonatomic, assign) BOOL Chat_visitorName_show;
+
+/// 启用或关闭客服昵称(机器人昵称)UI区域的显示
+@property (nonatomic, assign) BOOL Chat_tosRobotName_enable;
+
+/// 启用或关闭访客昵称UI区域的显示
+@property (nonatomic, assign) BOOL Chat_visitorName_enable;
+
+/// 启用或关闭客服和机器人头像UI区域的显示
+@property (nonatomic, assign) BOOL Chat_tosRobot_portrait_enable;
+
+/// 启用或关闭访客头像UI区域的显示
+@property (nonatomic, assign) BOOL Chat_visitor_portrait_enable;
+
+/// 相册展示导航栏中的文字颜色
+@property (nonatomic, strong) UIColor *imagePicker_barItemTextColor;
+
+/// 相册展示导航栏中的背景颜色
+@property (nonatomic, strong) UIColor *imagePicker_naviBgColor;
+
+/// 吐司提示气泡背景颜色
+@property (nonatomic, strong) UIColor *Toast_backGroundColor;
+
+/// 吐司提示中文字颜色
+@property (nonatomic, strong) UIColor *Toast_textColor;
+
+/// 语音按钮中文字颜色
+@property (nonatomic, strong) UIColor *VoiceButton_textColor;
+
+/// 语音按钮中文字高亮颜色
+@property (nonatomic, strong) UIColor *VoiceButton_highlight_textColor;
 @end
 
 NS_ASSUME_NONNULL_END

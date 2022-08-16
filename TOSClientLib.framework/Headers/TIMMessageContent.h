@@ -7,6 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
+#import <TOSClientLib/NSObject+TIMModel.h>
 
 NS_ASSUME_NONNULL_BEGIN
 
@@ -16,7 +17,7 @@ NS_ASSUME_NONNULL_BEGIN
 @discussion 此类为消息实体类TIMMessage中的消息内容content的基类。
 */
 
-@interface TIMMessageContent : NSObject
+@interface TIMMessageContent : NSObject <TIMModel, NSCopying, NSMutableCopying>
 
 @end
 

@@ -19,9 +19,9 @@ FOUNDATION_EXPORT const unsigned char TIMClientKitVersionString[];
 #import <TOSClientKit/TOSKit.h>
 
 /// Session相关
-#import <TOSClientKit/TIMSessionListViewController.h>
-#import <TOSClientKit/TIMSessionBaseCell.h>
-#import <TOSClientKit/TIMSessionBaseTableViewCell.h>
+#import <TOSClientKit/TOSSessionListViewController.h>
+#import <TOSClientKit/TOSSessionBaseCell.h>
+#import <TOSClientKit/TOSSessionBaseTableViewCell.h>
 
 /// Chat相关
 #import <TOSClientKit/TOSCustomerChatVC.h>
@@ -30,22 +30,22 @@ FOUNDATION_EXPORT const unsigned char TIMClientKitVersionString[];
 
 
 // Base
-#import <TOSClientKit/TIMBaseView.h>
-#import <TOSClientKit/TIMBaseModel.h>
-#import <TOSClientKit/TIMBaseTableView.h>
-#import <TOSClientKit/TIMBaseTableViewCell.h>
-#import <TOSClientKit/TIMBaseViewController.h>
+#import <TOSClientKit/TOSBaseView.h>
+#import <TOSClientKit/TOSBaseModel.h>
+#import <TOSClientKit/TOSBaseTableView.h>
+#import <TOSClientKit/TOSBaseTableViewCell.h>
+#import <TOSClientKit/TOSBaseViewController.h>
 
 // 布局相关
-#import <TOSClientKit/TIMAutoLayout.h>
-#import <TOSClientKit/UIView+TIMAutoLayout.h>
-#import <TOSClientKit/UITableView+TIMAutoTableViewCellHeight.h>
+#import <TOSClientKit/TOSAutoLayout.h>
+#import <TOSClientKit/UIView+TOSAutoLayout.h>
+#import <TOSClientKit/UITableView+TOSAutoTableViewCellHeight.h>
 
 //发送多媒体消息 图片 声音 视频
-#import <TOSClientKit/TIMSendMultiMedia.h>
+#import <TOSClientKit/TOSSendMultiMedia.h>
 
 // 工具类
-#import <TOSClientKit/kitUtils.h>
+#import <TOSClientKit/TOSKitCustomInfo.h>
 
 
 
