@@ -79,7 +79,18 @@ NS_ASSUME_NONNULL_BEGIN
 
 #pragma mark  获取评价地址
 -(void)getInvestigationUrlSuccess:(void (^)(NSString * investigationUrl))successBlock
-                            error:(void (^)(TIMConnectErrorCode errCode,NSString *errorDes))errorBloc;
+                            error:(void (^)(TIMConnectErrorCode errCode,NSString *errorDes))errorBlock;
+
+#pragma mark  获取已提交满意度信息
+-(void)getInvestigationInfoSuccess:(void (^)(void))successBlock
+                            error:(void (^)(TIMConnectErrorCode errCode,NSString *errorDes))errorBlock;
+
+#pragma mark  提交满意度
+//options: @[@{@"name": @"", @"star": @"", @"label": @[@"", @"",]}]
+-(void)submitInvestigationUniqueId:(NSString *)uniqueId
+                           options:(NSArray *)options
+                           Success:(void (^)(void))successBlock
+                            error:(void (^)(TIMConnectErrorCode errCode,NSString *errorDes))errorBlock;
 
 /**
  未读消息获取

@@ -80,25 +80,9 @@
 		<data>
 		wMQKBOP7BMupgVqdvP3JKxnDlCA=
 		</data>
-		<key>ICChatMessageCommodityCardCell.nib</key>
-		<data>
-		44roDNbFd2Ncph37lqCuHgW/mAs=
-		</data>
-		<key>ICChatMessageCommodityCardDetailsCell.nib/objects-11.0+.nib</key>
-		<data>
-		NOG0cYVUj+ZDBpfjbuR06Vt1BJg=
-		</data>
-		<key>ICChatMessageCommodityCardDetailsCell.nib/runtime.nib</key>
-		<data>
-		xqyTT4wAaXMj08XitKshaVk4VZ8=
-		</data>
-		<key>ICTransportDetailsTableCell.nib</key>
-		<data>
-		o1MN3KgZvohvTJmOGOymY3PZEYc=
-		</data>
 		<key>Info.plist</key>
 		<data>
-		UG4jQA8AfvMDhbZVc9YpxvFmihE=
+		kzc32XThkdtSr7/3CWoup+qpF0A=
 		</data>
 		<key>LICENSE</key>
 		<data>
@@ -107,10 +91,6 @@
 		<key>Modules/module.modulemap</key>
 		<data>
 		xEfMQ+Ku701VhU0/YDX8pjNnuwE=
-		</data>
-		<key>OSEventSatisfactionCell.nib</key>
-		<data>
-		rLV7/yvcaSMUdO/CQQl7XlrfM0A=
 		</data>
 		<key>YBImageBrowser.bundle/ybib_loading@2x.png</key>
 		<data>
@@ -388,50 +368,6 @@
 			+67Xcj70+2bmf6dknhDUsyUrwDbRAio+QVqnT+o511s=
 			</data>
 		</dict>
-		<key>ICChatMessageCommodityCardCell.nib</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			44roDNbFd2Ncph37lqCuHgW/mAs=
-			</data>
-			<key>hash2</key>
-			<data>
-			JSN20fmeu0SWYaeHCyUdjRUlSDeasVpPVE181YsVta4=
-			</data>
-		</dict>
-		<key>ICChatMessageCommodityCardDetailsCell.nib/objects-11.0+.nib</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			NOG0cYVUj+ZDBpfjbuR06Vt1BJg=
-			</data>
-			<key>hash2</key>
-			<data>
-			pdQSaqR9Wrxl4CBZ5yt9kWbd+6lB8pSeWMsqeYQNrRo=
-			</data>
-		</dict>
-		<key>ICChatMessageCommodityCardDetailsCell.nib/runtime.nib</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			xqyTT4wAaXMj08XitKshaVk4VZ8=
-			</data>
-			<key>hash2</key>
-			<data>
-			Sfeu1FpejCIJPqgJXOREvoSkpSeY+Zq9mY1tnP0yBVw=
-			</data>
-		</dict>
-		<key>ICTransportDetailsTableCell.nib</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			o1MN3KgZvohvTJmOGOymY3PZEYc=
-			</data>
-			<key>hash2</key>
-			<data>
-			5wklPAouBqYn4xE/D8KkHwMIX6yWyYYgXDs+Pzsx7vI=
-			</data>
-		</dict>
 		<key>LICENSE</key>
 		<dict>
 			<key>hash</key>
@@ -452,17 +388,6 @@
 			<key>hash2</key>
 			<data>
 			m8dvx+JQmLFKM0AafcuWUP37rSxJaBVjud6O4fTs7Ho=
-			</data>
-		</dict>
-		<key>OSEventSatisfactionCell.nib</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			rLV7/yvcaSMUdO/CQQl7XlrfM0A=
-			</data>
-			<key>hash2</key>
-			<data>
-			jUsx9bs/H/msge69Qmed2IZTo7P1VbVp46qF4BBQCUQ=
 			</data>
 		</dict>
 		<key>YBImageBrowser.bundle/ybib_loading@2x.png</key>
