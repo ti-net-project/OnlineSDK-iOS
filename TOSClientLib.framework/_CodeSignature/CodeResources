@@ -58,7 +58,7 @@
 		</data>
 		<key>Headers/CombinationMessage.h</key>
 		<data>
-		sl7LOe9FeiebyOSl9l+fHjxtmkQ=
+		ZVbjwgcMIcSgLVK1vDKOcbroIN8=
 		</data>
 		<key>Headers/FileMessage.h</key>
 		<data>
@@ -222,7 +222,7 @@
 		</data>
 		<key>Headers/TIMStatusDefine.h</key>
 		<data>
-		ZzepgZHyI7aoIzwcnfnfQNvmN/0=
+		qdo3hFvQ37AqoPffvGzJIyeF+HE=
 		</data>
 		<key>Headers/TIMTextMessage.h</key>
 		<data>
@@ -276,6 +276,10 @@
 		<data>
 		mi49gh5HTk1b/xfbqhtq36Lz1mc=
 		</data>
+		<key>Headers/TOSMessageTextTagModel.h</key>
+		<data>
+		2Cf0dyPihKGV3VkNQ1w0om19f0Y=
+		</data>
 		<key>Headers/TOSSessionInfoModel.h</key>
 		<data>
 		vTa2QMyYv8F4SUAn7JOTrZBoCKM=
@@ -298,7 +302,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		Hjo+cAVMw2Gvgyhxg6GuEhw3YgM=
+		rroXHCW9gVQlN/+87XIBT8hpki8=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -454,11 +458,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			sl7LOe9FeiebyOSl9l+fHjxtmkQ=
+			ZVbjwgcMIcSgLVK1vDKOcbroIN8=
 			</data>
 			<key>hash2</key>
 			<data>
-			yoTavfbSv22juQp7jadG5egwKB0vAL5H1GkqQJfMWLk=
+			3aic1azWg9NCqYpf77A+PFlK7H0R6oAg9J3xiKipUvM=
 			</data>
 		</dict>
 		<key>Headers/FileMessage.h</key>
@@ -905,11 +909,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			ZzepgZHyI7aoIzwcnfnfQNvmN/0=
+			qdo3hFvQ37AqoPffvGzJIyeF+HE=
 			</data>
 			<key>hash2</key>
 			<data>
-			wc65CMar+tDgr4USRTg2M4OI32v91fADMGIrvXeCYA4=
+			gqWdvLq2Z3SC/km9xeZKE1U5wvdOGZ/lEHnHpCSRP6g=
 			</data>
 		</dict>
 		<key>Headers/TIMTextMessage.h</key>
@@ -1053,6 +1057,17 @@
 			<key>hash2</key>
 			<data>
 			jnJzZZXQz4EEqsQ100urUzaIHPXF6B6Ax6mMP/EfjMU=
+			</data>
+		</dict>
+		<key>Headers/TOSMessageTextTagModel.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			2Cf0dyPihKGV3VkNQ1w0om19f0Y=
+			</data>
+			<key>hash2</key>
+			<data>
+			xrVwpA6/uZNTxZmVvomtRxV2vF0mts2+ECdtqwsz1fU=
 			</data>
 		</dict>
 		<key>Headers/TOSSessionInfoModel.h</key>

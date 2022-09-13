@@ -13,7 +13,7 @@
 static NSString * kTIMMessageUpdateChatUIFromLibNotification=@"TIMMessageUpdateChatUIFromLibNotification";
 
 //更新群聊已读/未读 刷新
-static NSString * const kTIMUpdateUnreadMessageNotification = @"kTIMUpdateUnreadMessageNotification";
+//static NSString * const kTIMUpdateUnreadMessageNotification = @"kTIMUpdateUnreadMessageNotification";
 
 //数据同步完成
 static NSString * const kTIMIOnDataSynced = @"kTIMIOnDataSynced";

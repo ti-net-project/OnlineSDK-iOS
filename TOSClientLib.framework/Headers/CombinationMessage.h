@@ -46,6 +46,8 @@ NS_ASSUME_NONNULL_BEGIN
 
 @property (nonatomic, assign) CGRect contentF;
 
+@property (nonatomic, strong) NSArray <NSNumber *>*hotSubIssueH;
+
 @property (nonatomic, assign) CGFloat tableViewH;
 
 @end
