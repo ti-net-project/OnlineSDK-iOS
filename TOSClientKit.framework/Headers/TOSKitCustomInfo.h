@@ -95,6 +95,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 /// 语音按钮中文字高亮颜色
 @property (nonatomic, strong) UIColor *VoiceButton_highlight_textColor;
+
 @end
 
 NS_ASSUME_NONNULL_END

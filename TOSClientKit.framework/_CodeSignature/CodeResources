@@ -42,7 +42,7 @@
 		</data>
 		<key>Headers/TOSKit.h</key>
 		<data>
-		+lH9xt+usMDGPA+UfIBHQDElY8g=
+		UPY2jzj8LefPaGM6XtaCNtnU2kk=
 		</data>
 		<key>Headers/TOSKitChatBoxExtendBoard.h</key>
 		<data>
@@ -50,7 +50,7 @@
 		</data>
 		<key>Headers/TOSKitCustomInfo.h</key>
 		<data>
-		tXtzkAIOaPZJoNs2sBAutLuVEV8=
+		jdamadIBlmkPa5qztEY1kXUHdsI=
 		</data>
 		<key>Headers/TOSKitExtendBoardItemModel.h</key>
 		<data>
@@ -82,7 +82,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		p9A2RADezfYjeQGr7BAGe1MQYkA=
+		mshm5sxuKVgbdq6iFjh/BJreXXs=
 		</data>
 		<key>LICENSE</key>
 		<data>
@@ -262,11 +262,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			+lH9xt+usMDGPA+UfIBHQDElY8g=
+			UPY2jzj8LefPaGM6XtaCNtnU2kk=
 			</data>
 			<key>hash2</key>
 			<data>
-			18nEfUJiQXxxoWE7446zGxVhYXc9k5KObF/pcvfCfMA=
+			gMt4YpJX2pssTCWrdAtzTDuXxwhu6sBBEWW2lPu1+xs=
 			</data>
 		</dict>
 		<key>Headers/TOSKitChatBoxExtendBoard.h</key>
@@ -284,11 +284,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			tXtzkAIOaPZJoNs2sBAutLuVEV8=
+			jdamadIBlmkPa5qztEY1kXUHdsI=
 			</data>
 			<key>hash2</key>
 			<data>
-			3BElrAgh0cX6/fO6cVkj4zzJigrmbz6Jh1inY5qjN/8=
+			606MWHTAcmv1mehppnByMAqFuctyBToXyJ3lFooZx2c=
 			</data>
 		</dict>
 		<key>Headers/TOSKitExtendBoardItemModel.h</key>

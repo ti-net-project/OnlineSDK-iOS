@@ -31,6 +31,8 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic, strong) NSArray <NSString *>*cards;
 @property (nonatomic, strong) NSArray <CombinationDataModel *>*data;
 
+@property (nonatomic, strong) RichTextMessage *richTextMessage;
+
 /// 文件沙盒存储地址
 @property (nonatomic, copy) NSString *mediaPath;
 /**

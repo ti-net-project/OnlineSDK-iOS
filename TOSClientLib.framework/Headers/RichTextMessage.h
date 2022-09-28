@@ -15,7 +15,7 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic, copy,readonly) NSString *content;
 @property (nonatomic, copy,readonly) NSString *textContent;
 
-/// text、a、img、video
+/// text、a、img、video、tr
 @property (nonatomic, copy,readonly) NSString *type;
 @property (nonatomic, copy) NSString *urlPath;
 

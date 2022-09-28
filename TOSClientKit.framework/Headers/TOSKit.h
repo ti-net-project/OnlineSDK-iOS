@@ -11,6 +11,9 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
+/// 最后一条消息/消息未读数
+static NSString * const KTOSClientLibLastMessageReceivedNotification = @"KTOSClientLibLastMessageReceivedNotification";
+
 #pragma mark - 消息接收监听器
 
 /*
@@ -254,6 +257,11 @@ SDK内置的消息类型，如果您将pushOption置为nil，会使用默认的�
 获取会话信息
  */
 - (TOSSessionInfoModel *)getCurrentSessionInfo;
+
+/// 获取未读消息数
+/// @param successBlock 成功
+/// @param errorBlock 失败
+- (void)getUnreadMessage:(void (^)(NSString *lastMessage , NSInteger unreadCount))successBlock withError:(void (^)(NSString *errorStr))errorBlock;
 
 @end
 

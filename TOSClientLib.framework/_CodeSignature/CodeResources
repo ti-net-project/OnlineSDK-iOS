@@ -58,7 +58,7 @@
 		</data>
 		<key>Headers/CombinationMessage.h</key>
 		<data>
-		ZVbjwgcMIcSgLVK1vDKOcbroIN8=
+		nDmo2ApHW7mARMPaU3Ntsv+xUkc=
 		</data>
 		<key>Headers/FileMessage.h</key>
 		<data>
@@ -110,7 +110,7 @@
 		</data>
 		<key>Headers/RichTextMessage.h</key>
 		<data>
-		loD4g/+bSE2SWry2QSiqkJvDU0A=
+		ZDHjsu5S0i5bFZYdWrb90dZJX3k=
 		</data>
 		<key>Headers/RobotBridgeMessage.h</key>
 		<data>
@@ -302,7 +302,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		kAa72EUFtlyWWxBHbDM/Jum6mhc=
+		pLx7AiAFTm1qxJC335B4Z6434wg=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -458,11 +458,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			ZVbjwgcMIcSgLVK1vDKOcbroIN8=
+			nDmo2ApHW7mARMPaU3Ntsv+xUkc=
 			</data>
 			<key>hash2</key>
 			<data>
-			3aic1azWg9NCqYpf77A+PFlK7H0R6oAg9J3xiKipUvM=
+			kMIumo/pfWj2baSys5E/41wcilKlm0ToJQTZp/KtFj8=
 			</data>
 		</dict>
 		<key>Headers/FileMessage.h</key>
@@ -601,11 +601,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			loD4g/+bSE2SWry2QSiqkJvDU0A=
+			ZDHjsu5S0i5bFZYdWrb90dZJX3k=
 			</data>
 			<key>hash2</key>
 			<data>
-			qq69IxlJxZSshj5bAOxhCfWgRzsDDapjXc4BbuAs9S4=
+			31ND9TWmyMqVNDL6VSNNOA85rFjJqFveMPjc4HO1XVI=
 			</data>
 		</dict>
 		<key>Headers/RobotBridgeMessage.h</key>
