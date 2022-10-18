@@ -72,9 +72,13 @@
 		<data>
 		KSLMI5gtO2lbFfPWFf6Dmpv0iyU=
 		</data>
+		<key>Headers/OctoIMParamDefines.h</key>
+		<data>
+		2vmlYRhv2lY2Q9qeyHkWijXGu68=
+		</data>
 		<key>Headers/OnlineChatRecordModel.h</key>
 		<data>
-		nUzEEENoR6k5SijYMgPyaoFklQI=
+		Vo/9ADfgM0IylrNgtu/YfhgCDvQ=
 		</data>
 		<key>Headers/OnlineClientInfoModel.h</key>
 		<data>
@@ -110,7 +114,7 @@
 		</data>
 		<key>Headers/RichTextMessage.h</key>
 		<data>
-		ZDHjsu5S0i5bFZYdWrb90dZJX3k=
+		ZdDP7Taj7kTU7cAC6o+UIUIZQPE=
 		</data>
 		<key>Headers/RobotBridgeMessage.h</key>
 		<data>
@@ -302,7 +306,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		1vkcEmP77lllzh3dbVnDVBf0Nig=
+		c89XPjgSl/Fnai5t1d9NqomYevY=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -498,15 +502,26 @@
 			VSsMhqGwQJgis4AeTFR3G4qB9CtV6lIS8F0EAcfP2l4=
 			</data>
 		</dict>
+		<key>Headers/OctoIMParamDefines.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			2vmlYRhv2lY2Q9qeyHkWijXGu68=
+			</data>
+			<key>hash2</key>
+			<data>
+			RghQWR2l8y67A0Spt9yOget2MMvUPcDfNdJoysIMLGg=
+			</data>
+		</dict>
 		<key>Headers/OnlineChatRecordModel.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			nUzEEENoR6k5SijYMgPyaoFklQI=
+			Vo/9ADfgM0IylrNgtu/YfhgCDvQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			LofDH/fyuFmFR+CoZCYPQCTMw4DujverJbfAknMDVN8=
+			4OwUAmVxd19aIR20Ui8SgIhQi9jBq3XljrqCPmVqxYY=
 			</data>
 		</dict>
 		<key>Headers/OnlineClientInfoModel.h</key>
@@ -601,11 +616,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			ZDHjsu5S0i5bFZYdWrb90dZJX3k=
+			ZdDP7Taj7kTU7cAC6o+UIUIZQPE=
 			</data>
 			<key>hash2</key>
 			<data>
-			31ND9TWmyMqVNDL6VSNNOA85rFjJqFveMPjc4HO1XVI=
+			Zkqg99TQxL+U/GljyWvYm6SZ6WgDMAX2ZvPrMSkP7P8=
 			</data>
 		</dict>
 		<key>Headers/RobotBridgeMessage.h</key>

@@ -7,6 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <TOSClientKit/TOSBaseViewController.h>
 #import <TOSClientLib/TIMSession.h>
 #import <TOSClientLib/TOSClientKitCommodityCardOption.h>
 #import <TOSClientKit/TOSKitExtendBoardItemModel.h>
@@ -26,7 +27,7 @@ typedef NS_ENUM(NSUInteger, TinetChatStatusType) {
     TinetChatStatusTypeOnline,    // 客服在线
 };
 
-@interface TOSCustomerChatVC : UIViewController
+@interface TOSCustomerChatVC : TOSBaseViewController
 
 @property (nonatomic, strong) TOSClientKitCommodityCardOption *commodityCardOption;
 

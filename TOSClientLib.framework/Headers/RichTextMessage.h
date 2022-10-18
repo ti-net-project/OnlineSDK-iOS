@@ -8,10 +8,15 @@
 
 #import <TOSClientLib/TOSClientLib.h>
 #import "TIMMessageContent.h"
+#import "OnlineChatRecordModel.h"
 
 NS_ASSUME_NONNULL_BEGIN
 
 @interface RichTextMessage : TIMMessageContent
+
+/// 引用消息数据
+@property (nonatomic, strong) RepliedMessageModel *repliedMessage;
+
 @property (nonatomic, copy,readonly) NSString *content;
 @property (nonatomic, copy,readonly) NSString *textContent;
 

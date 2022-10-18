@@ -11,6 +11,24 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
+@interface RepliedMessageModel : TIMLibBaseModel
+
+@property (nonatomic, copy) NSString *content;
+@property (nonatomic, strong) NSNumber *createTime;
+@property (nonatomic, copy) NSString *fileKey;
+@property (nonatomic, copy) NSString *fileName;
+@property (nonatomic, copy) NSString *mainUniqueId;
+
+/// 1、文本  2、图片  3、文件  4、视频  7、语音
+@property (nonatomic, strong) NSNumber *messageType;
+@property (nonatomic, copy) NSString *messageUniqueId;
+@property (nonatomic, copy) NSString *sender;
+@property (nonatomic, copy) NSString *senderAvatar;
+@property (nonatomic, copy) NSString *senderName;
+@property (nonatomic, strong) NSNumber *senderType;
+
+@end
+
 @interface OnlineChatRecordModel : TIMLibBaseModel
 
 /**
@@ -142,6 +160,8 @@ NS_ASSUME_NONNULL_BEGIN
 /// 判断是否评价 1已评价 0或null未评价
 @property (nonatomic, strong) NSString *alreadyInvestigation;
 
+/// 引用消息数据
+@property (nonatomic, strong) RepliedMessageModel *repliedMessage;
 
 @end
 
