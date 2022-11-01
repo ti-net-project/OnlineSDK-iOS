@@ -74,7 +74,7 @@
 		</data>
 		<key>Headers/OctoIMParamDefines.h</key>
 		<data>
-		qpVBH+guTXoKxY3ikD84qmKLqfY=
+		4eh7+sGjnpyIANIuJUCBz0icgPY=
 		</data>
 		<key>Headers/OnlineChatRecordModel.h</key>
 		<data>
@@ -102,7 +102,7 @@
 		</data>
 		<key>Headers/OnlineMessageSendManager.h</key>
 		<data>
-		NL15pNedE/921l4sGQ/VMeTKeE0=
+		cQGQfR1hUZEMUCxzYB6rBiltGzk=
 		</data>
 		<key>Headers/OnlineRequestManager.h</key>
 		<data>
@@ -284,6 +284,10 @@
 		<data>
 		2Cf0dyPihKGV3VkNQ1w0om19f0Y=
 		</data>
+		<key>Headers/TOSSensitiveWordEventModel.h</key>
+		<data>
+		hMdIq1tG8s/47Ku2iMLeiJO5v1w=
+		</data>
 		<key>Headers/TOSSessionInfoModel.h</key>
 		<data>
 		vTa2QMyYv8F4SUAn7JOTrZBoCKM=
@@ -306,7 +310,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		ZiKeSLr3OLXXTbJVWCja8PaTm6k=
+		Dh158CzFpVVUlOMwWKvKNOAY9xw=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -506,11 +510,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			qpVBH+guTXoKxY3ikD84qmKLqfY=
+			4eh7+sGjnpyIANIuJUCBz0icgPY=
 			</data>
 			<key>hash2</key>
 			<data>
-			vbMMfEiZx0VOiNbHtrAiEZkfz9pki7kdGl1zlvIZ43Q=
+			62/7I/IPINZwiYEUj/Cvyl6H9tVtLCDEo+rvybOVp7c=
 			</data>
 		</dict>
 		<key>Headers/OnlineChatRecordModel.h</key>
@@ -583,11 +587,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			NL15pNedE/921l4sGQ/VMeTKeE0=
+			cQGQfR1hUZEMUCxzYB6rBiltGzk=
 			</data>
 			<key>hash2</key>
 			<data>
-			CfNzJC6/7XJfkcJy9vUDit2RtJvVZWGhZ+Vmbt7ECJ0=
+			d7QRJth9oQMqXV0M62aXXTvMFevPyDoi2RrUZfdky0s=
 			</data>
 		</dict>
 		<key>Headers/OnlineRequestManager.h</key>
@@ -1083,6 +1087,17 @@
 			<key>hash2</key>
 			<data>
 			xrVwpA6/uZNTxZmVvomtRxV2vF0mts2+ECdtqwsz1fU=
+			</data>
+		</dict>
+		<key>Headers/TOSSensitiveWordEventModel.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			hMdIq1tG8s/47Ku2iMLeiJO5v1w=
+			</data>
+			<key>hash2</key>
+			<data>
+			vfjN/hnzwuTWmN+mCMBc1bCEq2wFNs5EnKBE4J1djRc=
 			</data>
 		</dict>
 		<key>Headers/TOSSessionInfoModel.h</key>

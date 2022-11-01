@@ -24,6 +24,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 #pragma mark  发送文字消息
 - (void)sendTextMessageWithMessageStr:(NSString*)messageStr
+                          messageUUID:(NSString *)messageUUID
                               success:(void (^)(TOSMessage * timMessage))successBlock
                                 error:(void (^)(TIMConnectErrorCode errCode,NSString *errorDes))errorBlock;
 
