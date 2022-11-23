@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'TOSClientKit'
-  s.version          = '1.5.9.3'
+  s.version          = '1.5.9.4'
   s.summary          = 'TOSClientKit 集成UI的在线客服SDK'
 
 # This description is used to generate tags and improve search results.
@@ -26,7 +26,7 @@ TODO: Add long description of the pod here.
   s.author           = { 'gyb1314' => 'gyb_1314@126.com' }
   s.source           = { :git => 'https://github.com/ti-net-project/OnlineSDK-iOS', :tag => s.version.to_s }
 
-  s.ios.deployment_target = '10.0'
+  s.ios.deployment_target = '9.0'
 
   s.resource      = 'TOSClient.bundle'
   s.vendored_frameworks  = "TOSClientLib.framework",  "TOSClientKit.framework"
