@@ -96,6 +96,36 @@ NS_ASSUME_NONNULL_BEGIN
 /// 语音按钮中文字高亮颜色
 @property (nonatomic, strong) UIColor *VoiceButton_highlight_textColor;
 
+/// 商品卡片-待发送  发送按钮背景颜色
+@property (nonatomic, strong) UIColor *CommodityCard_sendBtn_backgroundColor;
+
+/// 商品卡片-待发送  发送按钮文字颜色
+@property (nonatomic, strong) UIColor *CommodityCard_sendBtn_textColor;
+
+/// 商品卡片-详情  订单号: xxx 文字颜色
+@property (nonatomic, strong) UIColor *CommodityCardDetails_orderId_sender_textColor;
+@property (nonatomic, strong) UIColor *CommodityCardDetails_orderId_receive_textColor;
+
+/// 商品卡片-详情  时间文字颜色
+@property (nonatomic, strong) UIColor *CommodityCardDetails_time_sender_textColor;
+@property (nonatomic, strong) UIColor *CommodityCardDetails_time_receive_textColor;
+
+/// 商品卡片-详情  标题文字颜色
+@property (nonatomic, strong) UIColor *CommodityCardDetails_title_sender_textColor;
+@property (nonatomic, strong) UIColor *CommodityCardDetails_title_receive_textColor;
+
+/// 商品卡片-详情  商品描述文字颜色
+@property (nonatomic, strong) UIColor *CommodityCardDetails_description_sender_textColor;
+@property (nonatomic, strong) UIColor *CommodityCardDetails_description_receive_textColor;
+
+/// 商品卡片-详情  商品价格文字颜色
+@property (nonatomic, strong) UIColor *CommodityCardDetails_price_sender_textColor;
+@property (nonatomic, strong) UIColor *CommodityCardDetails_price_receive_textColor;
+
+/// 商品卡片-详情  到货状态:xxx 文字颜色
+@property (nonatomic, strong) UIColor *CommodityCardDetails_transportStatus_sender_textColor;
+@property (nonatomic, strong) UIColor *CommodityCardDetails_transportStatus_receive_textColor;
+
 @end
 
 NS_ASSUME_NONNULL_END
