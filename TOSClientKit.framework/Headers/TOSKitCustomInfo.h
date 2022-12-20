@@ -102,6 +102,12 @@ NS_ASSUME_NONNULL_BEGIN
 /// 商品卡片-待发送  发送按钮文字颜色
 @property (nonatomic, strong) UIColor *CommodityCard_sendBtn_textColor;
 
+/// 商品卡片-待发送  标题文字颜色
+@property (nonatomic, strong) UIColor *CommodityCard_title_textColor;
+
+/// 商品卡片-待发送  商品价格文字颜色
+@property (nonatomic, strong) UIColor *CommodityCard_price_textColor;
+
 /// 商品卡片-详情  订单号: xxx 文字颜色
 @property (nonatomic, strong) UIColor *CommodityCardDetails_orderId_sender_textColor;
 @property (nonatomic, strong) UIColor *CommodityCardDetails_orderId_receive_textColor;

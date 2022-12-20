@@ -23,7 +23,8 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface CombinationMessage : TIMMessageContent
 
-/// 2：图片，3：文件，4：视频，5：文本，7：语音，15~20：热点问题
+/// 2：图片，3：文件，4：视频，5：文本，7：语音，6、15~20：热点问题
+/// 1：文本消息，6：机器人机器人选项消息，8：，9：，11：，10：商品卡片，12：留言消息，14：机器人组合消息，15：机器人相关问题，16：机器人猜你想问，17：机器人常见问题，18：机器人近似问题，19：机器人选项消息(计算机)，20：机器人相关问题，30：机器人快捷回复
 @property (nonatomic, copy) NSString *type;
 @property (nonatomic, copy) NSString *text;
 @property (nonatomic, copy) NSString *name;

@@ -58,7 +58,7 @@
 		</data>
 		<key>Headers/CombinationMessage.h</key>
 		<data>
-		nDmo2ApHW7mARMPaU3Ntsv+xUkc=
+		03yFeyO4pK0hzV8b7smwrEZmUh8=
 		</data>
 		<key>Headers/FileMessage.h</key>
 		<data>
@@ -74,7 +74,7 @@
 		</data>
 		<key>Headers/OctoIMParamDefines.h</key>
 		<data>
-		kURuWrMRb4mlizLh0fWI8u7N4U0=
+		mjiNkuVKu1ryuGczfMGgAxQs2J4=
 		</data>
 		<key>Headers/OnlineChatRecordModel.h</key>
 		<data>
@@ -310,7 +310,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		m8h2GW0ELJSwRVhCWgQTRvwZc2Y=
+		ndVRD6cZN+yITNDLsW/+ZTVEV1Q=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -466,11 +466,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			nDmo2ApHW7mARMPaU3Ntsv+xUkc=
+			03yFeyO4pK0hzV8b7smwrEZmUh8=
 			</data>
 			<key>hash2</key>
 			<data>
-			kMIumo/pfWj2baSys5E/41wcilKlm0ToJQTZp/KtFj8=
+			wkFGDHEnJ+blAW39qVUTN2//QZy8oJB3uJLk94kmjB0=
 			</data>
 		</dict>
 		<key>Headers/FileMessage.h</key>
@@ -510,11 +510,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			kURuWrMRb4mlizLh0fWI8u7N4U0=
+			mjiNkuVKu1ryuGczfMGgAxQs2J4=
 			</data>
 			<key>hash2</key>
 			<data>
-			s5enAkRW1hODxU0O+Wfw7HRlfSGDje5i4IisWF+RJ7Q=
+			yznXLs845ixu2Ws5hfYCX1Wzq4luie0ngiVPU9kz2oE=
 			</data>
 		</dict>
 		<key>Headers/OnlineChatRecordModel.h</key>
