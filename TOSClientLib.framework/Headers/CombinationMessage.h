@@ -10,6 +10,17 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
+@interface KnowledgeDataModel : TIMMessageContent
+
+@property (nonatomic, copy) NSString *content;
+
+@property (nonatomic, strong) NSNumber *rename_id;
+
+@property (nonatomic, copy) NSString *type;
+
+@end
+
+
 @interface CombinationDataModel : TIMMessageContent 
 
 @property (nonatomic, copy) NSString *name;
@@ -19,18 +30,24 @@ NS_ASSUME_NONNULL_BEGIN
 
 @property (nonatomic, assign) CGFloat tableViewH;
 
+/// 当前展示在哪页
+@property (nonatomic, assign) NSInteger selectPageData;
+
+@property (nonatomic, strong) NSArray <KnowledgeDataModel *>*knowledge;
+
 @end
 
 @interface CombinationMessage : TIMMessageContent
 
 /// 2：图片，3：文件，4：视频，5：文本，7：语音，6、15~20：热点问题
-/// 1：文本消息，6：机器人机器人选项消息，8：，9：，11：，10：商品卡片，12：留言消息，14：机器人组合消息，15：机器人相关问题，16：机器人猜你想问，17：机器人常见问题，18：机器人近似问题，19：机器人选项消息(计算机)，20：机器人相关问题，30：机器人快捷回复
+/// 1：文本消息，6：机器人选项消息，8：，9：，11：，10：商品卡片，12：留言消息，14：机器人组合消息，15：机器人相关问题，16：机器人猜你想问，17：机器人常见问题，18：机器人近似问题，19：机器人选项消息(计算机)，20：机器人相关问题，30：机器人快捷回复 31：机器人热门问题（竖版）
 @property (nonatomic, copy) NSString *type;
 @property (nonatomic, copy) NSString *text;
 @property (nonatomic, copy) NSString *name;
 @property (nonatomic, copy) NSString *subType;
 @property (nonatomic, strong) NSArray <NSString *>*cards;
 @property (nonatomic, strong) NSArray <CombinationDataModel *>*data;
+@property (nonatomic, strong) NSArray <KnowledgeDataModel *>*knowledge;
 
 @property (nonatomic, strong) RichTextMessage *richTextMessage;
 
@@ -49,7 +66,20 @@ NS_ASSUME_NONNULL_BEGIN
 
 @property (nonatomic, assign) CGRect contentF;
 
+/// 横版热点问题的子问题布局
 @property (nonatomic, strong) NSArray <NSNumber *>*hotSubIssueH;
+
+/// 竖版热点问题的标题布局
+@property (nonatomic, strong) NSArray <NSNumber *>*hotListTypeTitleH;
+
+/// 竖版热点问题的标题布局
+@property (nonatomic, strong) NSArray <NSNumber *>*hotListTypeTitleY;
+
+/// 竖版热点问题的子问题布局
+@property (nonatomic, strong) NSArray <NSNumber *>*hotListTypeSubIssueH;
+
+/// 竖版热点问题的子问题布局
+@property (nonatomic, strong) NSArray <NSNumber *>*hotListTypeSubIssueY;
 
 @property (nonatomic, assign) CGFloat tableViewH;
 

@@ -58,7 +58,7 @@
 		</data>
 		<key>Headers/CombinationMessage.h</key>
 		<data>
-		03yFeyO4pK0hzV8b7smwrEZmUh8=
+		x92pTwY8x38qWZs8V43qcis8hB8=
 		</data>
 		<key>Headers/FileMessage.h</key>
 		<data>
@@ -74,7 +74,7 @@
 		</data>
 		<key>Headers/OctoIMParamDefines.h</key>
 		<data>
-		mjiNkuVKu1ryuGczfMGgAxQs2J4=
+		wLR3ir0riVmL0N++YH/v8vvdFAY=
 		</data>
 		<key>Headers/OnlineChatRecordModel.h</key>
 		<data>
@@ -102,7 +102,7 @@
 		</data>
 		<key>Headers/OnlineMessageSendManager.h</key>
 		<data>
-		cQGQfR1hUZEMUCxzYB6rBiltGzk=
+		LmQ88XMfZF7hzVXig5VS2i5IVz0=
 		</data>
 		<key>Headers/OnlineRequestManager.h</key>
 		<data>
@@ -114,7 +114,7 @@
 		</data>
 		<key>Headers/RichTextMessage.h</key>
 		<data>
-		ZdDP7Taj7kTU7cAC6o+UIUIZQPE=
+		zJTE3tdxk5Ka4gR8v2nDObjaB0o=
 		</data>
 		<key>Headers/RobotBridgeMessage.h</key>
 		<data>
@@ -310,7 +310,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		ndVRD6cZN+yITNDLsW/+ZTVEV1Q=
+		sY3SkFOexvU41sNpDCkdYVOzmEE=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -466,11 +466,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			03yFeyO4pK0hzV8b7smwrEZmUh8=
+			x92pTwY8x38qWZs8V43qcis8hB8=
 			</data>
 			<key>hash2</key>
 			<data>
-			wkFGDHEnJ+blAW39qVUTN2//QZy8oJB3uJLk94kmjB0=
+			TsSmrzitPcVLXnt9QKCXN2/nWqPXh7Y148DYadDR9Ko=
 			</data>
 		</dict>
 		<key>Headers/FileMessage.h</key>
@@ -510,11 +510,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			mjiNkuVKu1ryuGczfMGgAxQs2J4=
+			wLR3ir0riVmL0N++YH/v8vvdFAY=
 			</data>
 			<key>hash2</key>
 			<data>
-			yznXLs845ixu2Ws5hfYCX1Wzq4luie0ngiVPU9kz2oE=
+			dSbWWsyGq/KdHbX1kiwiRQ6rt1q5QsZPXoYXwAbNpto=
 			</data>
 		</dict>
 		<key>Headers/OnlineChatRecordModel.h</key>
@@ -587,11 +587,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			cQGQfR1hUZEMUCxzYB6rBiltGzk=
+			LmQ88XMfZF7hzVXig5VS2i5IVz0=
 			</data>
 			<key>hash2</key>
 			<data>
-			d7QRJth9oQMqXV0M62aXXTvMFevPyDoi2RrUZfdky0s=
+			I15QQZQpznFwRUP+6V03LuazCOu90/IvBpeoAMbuk+4=
 			</data>
 		</dict>
 		<key>Headers/OnlineRequestManager.h</key>
@@ -620,11 +620,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			ZdDP7Taj7kTU7cAC6o+UIUIZQPE=
+			zJTE3tdxk5Ka4gR8v2nDObjaB0o=
 			</data>
 			<key>hash2</key>
 			<data>
-			Zkqg99TQxL+U/GljyWvYm6SZ6WgDMAX2ZvPrMSkP7P8=
+			1ekAJEuZMhQGcTFXM2f7UmIwT2ftrMAzv9xA/mNYugc=
 			</data>
 		</dict>
 		<key>Headers/RobotBridgeMessage.h</key>

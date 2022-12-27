@@ -23,6 +23,7 @@ NS_ASSUME_NONNULL_BEGIN
 /// text、a、img、video、tr
 @property (nonatomic, copy,readonly) NSString *type;
 @property (nonatomic, copy) NSString *urlPath;
+@property (nonatomic, copy) NSString *knowledge;
 
 @property (nonatomic, assign) CGRect contentF;
 
