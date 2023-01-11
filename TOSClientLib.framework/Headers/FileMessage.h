@@ -18,6 +18,10 @@ NS_ASSUME_NONNULL_BEGIN
 
 - (instancetype)initMessageWithContent:(NSString *)content;
 
+- (instancetype)initMessageWithContent:(NSString *)content
+                               fileKey:(NSString *)fileKey
+                              fileName:(NSString *)fileName;
+
 @end
 
 NS_ASSUME_NONNULL_END

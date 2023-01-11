@@ -19,6 +19,8 @@ typedef NS_ENUM(NSUInteger, TinetClickTextMessageEventType) {
     TinetClickEventTypeOrderNumber,
     TinetClickEventTypePhone,
     TinetClickCommodityCard,
+    TinetClickMiniProgramCard,
+    TinetClickLogisticsCard,
 };
 
 typedef NS_ENUM(NSUInteger, TinetChatStatusType) {

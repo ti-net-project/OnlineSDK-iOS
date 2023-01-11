@@ -58,11 +58,11 @@
 		</data>
 		<key>Headers/CombinationMessage.h</key>
 		<data>
-		x92pTwY8x38qWZs8V43qcis8hB8=
+		xuf9vofLkvbdKssjZ+bF9B+KFqw=
 		</data>
 		<key>Headers/FileMessage.h</key>
 		<data>
-		DFlIJGp2blbDGB7RZ1zX0ZXxeM0=
+		flvZ7443pVauOBsLPrbiWNho4Fk=
 		</data>
 		<key>Headers/ImageMessage.h</key>
 		<data>
@@ -74,7 +74,7 @@
 		</data>
 		<key>Headers/OctoIMParamDefines.h</key>
 		<data>
-		wLR3ir0riVmL0N++YH/v8vvdFAY=
+		/sYN4RBT4G1IG58L0ST8RKx1jSY=
 		</data>
 		<key>Headers/OnlineChatRecordModel.h</key>
 		<data>
@@ -114,7 +114,7 @@
 		</data>
 		<key>Headers/RichTextMessage.h</key>
 		<data>
-		zJTE3tdxk5Ka4gR8v2nDObjaB0o=
+		SROp6lFwl8DQebImQ1sI/nssJIU=
 		</data>
 		<key>Headers/RobotBridgeMessage.h</key>
 		<data>
@@ -278,7 +278,11 @@
 		</data>
 		<key>Headers/TOSMessage.h</key>
 		<data>
-		mi49gh5HTk1b/xfbqhtq36Lz1mc=
+		0Sux/HAqKlE1rDaIROuyQ1ItT5A=
+		</data>
+		<key>Headers/TOSMessageSmallProgramModel.h</key>
+		<data>
+		b7lRoK2JJjwdibuvMK8ywbUbyBk=
 		</data>
 		<key>Headers/TOSMessageTextTagModel.h</key>
 		<data>
@@ -310,7 +314,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		sY3SkFOexvU41sNpDCkdYVOzmEE=
+		9SFVttnt0CgpO122Tzdt1anSi9A=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -466,22 +470,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			x92pTwY8x38qWZs8V43qcis8hB8=
+			xuf9vofLkvbdKssjZ+bF9B+KFqw=
 			</data>
 			<key>hash2</key>
 			<data>
-			TsSmrzitPcVLXnt9QKCXN2/nWqPXh7Y148DYadDR9Ko=
+			OFe36UAQrGc5PNAEP+ZH8UBKwFH7BacPQONHPukZKrs=
 			</data>
 		</dict>
 		<key>Headers/FileMessage.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			DFlIJGp2blbDGB7RZ1zX0ZXxeM0=
+			flvZ7443pVauOBsLPrbiWNho4Fk=
 			</data>
 			<key>hash2</key>
 			<data>
-			6dZIaRAU3jTR1+rzlHEt75ydMwEvb9xBDzkL0txIdrE=
+			o/q/Z/r8AhE70ck358SCNr5b2OwTnPEvo0ZUwov8opQ=
 			</data>
 		</dict>
 		<key>Headers/ImageMessage.h</key>
@@ -510,11 +514,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			wLR3ir0riVmL0N++YH/v8vvdFAY=
+			/sYN4RBT4G1IG58L0ST8RKx1jSY=
 			</data>
 			<key>hash2</key>
 			<data>
-			dSbWWsyGq/KdHbX1kiwiRQ6rt1q5QsZPXoYXwAbNpto=
+			pHnM6hF+uIZ8bGsvulh5xWjhkpGRz9WZPCDFOdBOO5Q=
 			</data>
 		</dict>
 		<key>Headers/OnlineChatRecordModel.h</key>
@@ -620,11 +624,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			zJTE3tdxk5Ka4gR8v2nDObjaB0o=
+			SROp6lFwl8DQebImQ1sI/nssJIU=
 			</data>
 			<key>hash2</key>
 			<data>
-			1ekAJEuZMhQGcTFXM2f7UmIwT2ftrMAzv9xA/mNYugc=
+			KaJ3sqDYWxTtWUU3kwJEmqM5sispUZhlpBxsGvmChg0=
 			</data>
 		</dict>
 		<key>Headers/RobotBridgeMessage.h</key>
@@ -1071,11 +1075,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			mi49gh5HTk1b/xfbqhtq36Lz1mc=
+			0Sux/HAqKlE1rDaIROuyQ1ItT5A=
 			</data>
 			<key>hash2</key>
 			<data>
-			jnJzZZXQz4EEqsQ100urUzaIHPXF6B6Ax6mMP/EfjMU=
+			rGwDaqeFwdm7OApGsOhnOzfzrSkc0jSh6gI1l3ob7DQ=
+			</data>
+		</dict>
+		<key>Headers/TOSMessageSmallProgramModel.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			b7lRoK2JJjwdibuvMK8ywbUbyBk=
+			</data>
+			<key>hash2</key>
+			<data>
+			IA/BmJLGzzsSik+Q7ju0+HVDa+dRamPPAbh3l7JVGc8=
 			</data>
 		</dict>
 		<key>Headers/TOSMessageTextTagModel.h</key>
