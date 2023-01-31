@@ -132,6 +132,18 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic, strong) UIColor *CommodityCardDetails_transportStatus_sender_textColor;
 @property (nonatomic, strong) UIColor *CommodityCardDetails_transportStatus_receive_textColor;
 
+/// 设置聊天页面的标题名字
+@property(nonatomic, copy) NSString *titleName;
+
+/// 接入号名称
+@property(nonatomic, copy) NSString *appName;
+
+/// 快捷入口的数据
+@property (nonatomic, strong) NSArray *quickEntryAllItems;
+
+/// 商品卡片配置数据
+@property (nonatomic, strong) TOSClientKitCommodityCardOption *commodityCardOption;
+
 @end
 
 NS_ASSUME_NONNULL_END

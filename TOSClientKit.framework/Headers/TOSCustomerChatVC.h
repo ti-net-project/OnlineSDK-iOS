@@ -31,6 +31,16 @@ typedef NS_ENUM(NSUInteger, TinetChatStatusType) {
 
 @interface TOSCustomerChatVC : TOSBaseViewController
 
+/// 标题名字
+@property(nonatomic, copy) NSString *titleName;
+
+/// 接入号名称
+@property(nonatomic, copy) NSString *appName;
+
+/// 快捷入口的数据
+@property (nonatomic, strong) NSArray *quickEntryAllItems;
+
+/// 商品卡片配置数据
 @property (nonatomic, strong) TOSClientKitCommodityCardOption *commodityCardOption;
 
 // 会话
@@ -51,15 +61,6 @@ typedef NS_ENUM(NSUInteger, TinetChatStatusType) {
 //此方法获取文件保存得到的文件路径
 -(NSString*)saveFileMethed;
 
-
-/*以下是会话聊天必须参数*/
-//标题名字
-@property(nonatomic, copy) NSString *titleName;
-//接入号名称
-@property(nonatomic, copy) NSString *appName;
-
-/// 快捷入口的数据
-@property (nonatomic, strong) NSArray *quickEntryAllItems;
 
 /// 快捷入口的点击事件    index    点击索引从0开始 （需要在子类实现这个方法）
 - (void)quickEntryItemDidTouchIndex:(NSInteger)index;
