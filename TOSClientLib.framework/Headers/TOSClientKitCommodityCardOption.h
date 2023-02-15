@@ -31,6 +31,21 @@ NS_ASSUME_NONNULL_BEGIN
 /// 运输状态
 @property (nonatomic, strong) NSString *status;
 
+/// 标题
+@property (nonatomic, strong) NSString *title;
+
+/// 卡片副标题点击跳转链接
+@property (nonatomic, strong) NSString *subUrl;
+
+/// 卡片点击跳转链接
+@property (nonatomic, strong) NSString *url;
+
+/// 按钮文本内容
+@property (nonatomic, strong) NSString *buttonText;
+
+/// 附加字段
+@property (nonatomic, strong) NSString *extraData;
+
 /// 附加字段，例：[{"name":"订单号","value":"1234567890"},{"name":"产品类型","value":"电子产品"},{"name":"师傅","value":"金师傅"},{"name":"服务地区","value":"北京市"},{"name":"服务","value":"满意"},{"name":"师傅电话","value":"12345678900"},{"name":"订单状态","value":"已完成"}]
 @property (nonatomic, strong) NSArray <NSDictionary <NSString *, NSString *>*>*extraInfo;
 

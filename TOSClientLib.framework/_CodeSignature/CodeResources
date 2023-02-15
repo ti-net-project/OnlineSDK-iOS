@@ -74,7 +74,7 @@
 		</data>
 		<key>Headers/OctoIMParamDefines.h</key>
 		<data>
-		SQw6yU2HjVM2aLu2MQ5DTzj5FMM=
+		BJ2BdTCeeye7TpnuqK0vI1cI5iQ=
 		</data>
 		<key>Headers/OnlineChatRecordModel.h</key>
 		<data>
@@ -258,7 +258,7 @@
 		</data>
 		<key>Headers/TOSClientKitCommodityCardOption.h</key>
 		<data>
-		sBBv+4KwoVHBY4OkjxT2k7jc7AY=
+		BdFez4BbZfDILj0cEYGHQyQEYqk=
 		</data>
 		<key>Headers/TOSClientLib.h</key>
 		<data>
@@ -314,7 +314,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		c/ze8bU1nnwDg1bQJXaiw4A3hkU=
+		YyNP8buP3foCr1918mO7tL106nk=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -514,11 +514,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			SQw6yU2HjVM2aLu2MQ5DTzj5FMM=
+			BJ2BdTCeeye7TpnuqK0vI1cI5iQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			SPu0XQCIDVwbVlk1KnhRDlgkmXbn1WHaffn4Eg5bMKw=
+			FPoOZ1q6TFWDWbQEdXwt9eBEiedU2RbQPFZMmbM2gq8=
 			</data>
 		</dict>
 		<key>Headers/OnlineChatRecordModel.h</key>
@@ -1020,11 +1020,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			sBBv+4KwoVHBY4OkjxT2k7jc7AY=
+			BdFez4BbZfDILj0cEYGHQyQEYqk=
 			</data>
 			<key>hash2</key>
 			<data>
-			dw0w+vO3J0azATFNw+ngVqth7dszt4j8k1PhwrWuBoI=
+			qCwpNtTk7tFJ9nSTslAmajw069F8Ydk2qYL0ggp402M=
 			</data>
 		</dict>
 		<key>Headers/TOSClientLib.h</key>
