@@ -197,6 +197,9 @@ NS_ASSUME_NONNULL_BEGIN
 */
 - (void)initWithOption:(TIMInitOption *)option;
 
+/// 手机与服务器的时间差
+@property (nonatomic, assign) NSInteger timeDifference;
+
 #pragma mark - 连接/断开服务器
 
 /**

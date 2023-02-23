@@ -74,7 +74,7 @@
 		</data>
 		<key>Headers/OctoIMParamDefines.h</key>
 		<data>
-		BJ2BdTCeeye7TpnuqK0vI1cI5iQ=
+		dsoC7MAzixNQcQVHmzyWoY99eFk=
 		</data>
 		<key>Headers/OnlineChatRecordModel.h</key>
 		<data>
@@ -130,7 +130,7 @@
 		</data>
 		<key>Headers/TIMClient.h</key>
 		<data>
-		SzIm4f5ihtfg0sY52wS7BL9ISKU=
+		atOW2yojqYxjf5q7leiNJF5r9XU=
 		</data>
 		<key>Headers/TIMConnectOption.h</key>
 		<data>
@@ -314,7 +314,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		YyNP8buP3foCr1918mO7tL106nk=
+		LaiKMuYtaHOLxR7n35IEuzP9dls=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -514,11 +514,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			BJ2BdTCeeye7TpnuqK0vI1cI5iQ=
+			dsoC7MAzixNQcQVHmzyWoY99eFk=
 			</data>
 			<key>hash2</key>
 			<data>
-			FPoOZ1q6TFWDWbQEdXwt9eBEiedU2RbQPFZMmbM2gq8=
+			o4ImvlYlcr/MZjxnwzXNzA0LB8VDPKAruzHMmR6QKUo=
 			</data>
 		</dict>
 		<key>Headers/OnlineChatRecordModel.h</key>
@@ -668,11 +668,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			SzIm4f5ihtfg0sY52wS7BL9ISKU=
+			atOW2yojqYxjf5q7leiNJF5r9XU=
 			</data>
 			<key>hash2</key>
 			<data>
-			rGBXJNYnFpvyyKVwIzeHehpIYmyTP1Q+WNqsOniaEss=
+			i7GBBnka2qpjZ7VBLeVUWskioDw2YTq1SWXm07M8XuU=
 			</data>
 		</dict>
 		<key>Headers/TIMConnectOption.h</key>
