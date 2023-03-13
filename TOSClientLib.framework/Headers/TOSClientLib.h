@@ -24,7 +24,6 @@ FOUNDATION_EXPORT const unsigned char TIMClientVersionString[];
 #import <TOSClientLib/TIMClient.h>
 
 // 会话类
-#import <TOSClientLib/TIMSession.h>
 #import <TOSClientLib/TOSClientKitCommodityCardOption.h>
 
 // 消息类

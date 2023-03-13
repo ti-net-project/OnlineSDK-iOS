@@ -10,12 +10,7 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-//typedef void(^FooterRefresh)(void);
-//typedef void(^HeaderRefresh)(void);
 @interface TOSBaseTableView : UITableView
-
-//- (TIMRefreshBackNormalFooter *)setFooterRefresh:(FooterRefresh)footerRefresh;
-//- (TIMRefreshNormalHeader *)setHeaderRefresh:(HeaderRefresh)headerRefresh;
 
 @end
 

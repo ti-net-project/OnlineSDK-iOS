@@ -12,17 +12,9 @@
 		<data>
 		1aj4AxiTiHAWCV9Wg8T2wlOhutA=
 		</data>
-		<key>Headers/TOSBaseModel.h</key>
-		<data>
-		WJ/teQ5C3ZtI9ScOdI0bxga8yks=
-		</data>
 		<key>Headers/TOSBaseTableView.h</key>
 		<data>
-		NRxjRzHRGBo2EXeLLh4MK4ZP3/E=
-		</data>
-		<key>Headers/TOSBaseTableViewCell.h</key>
-		<data>
-		E40GRxwf1pHsptFvSvCIPDZpKKc=
+		fLh8nYdq8G+L5I9pfTm1Wc6ubI4=
 		</data>
 		<key>Headers/TOSBaseView.h</key>
 		<data>
@@ -34,15 +26,15 @@
 		</data>
 		<key>Headers/TOSClientKit.h</key>
 		<data>
-		ARSVVXl6YFlgMuFUyu7LJjAOjhQ=
+		mISIr4vS7MtFtMe4zazASk1zqYY=
 		</data>
 		<key>Headers/TOSCustomerChatVC.h</key>
 		<data>
-		lyBKlgEMv4+OnibjML88zqdyInA=
+		AJDkPqs5kJPHw3SUWgQmkCGiAMU=
 		</data>
 		<key>Headers/TOSKit.h</key>
 		<data>
-		UPY2jzj8LefPaGM6XtaCNtnU2kk=
+		voAiDSH3ysnjn86cD50ZHZc/myU=
 		</data>
 		<key>Headers/TOSKitChatBoxExtendBoard.h</key>
 		<data>
@@ -60,18 +52,6 @@
 		<data>
 		avp6meQQ+t77DQ975caflqL5yEE=
 		</data>
-		<key>Headers/TOSSessionBaseCell.h</key>
-		<data>
-		VmfnxhI+jCJjIcKl8zuZA+/PPf4=
-		</data>
-		<key>Headers/TOSSessionBaseTableViewCell.h</key>
-		<data>
-		cwOCrHeUsKMLUnnBLErxQzFZXpI=
-		</data>
-		<key>Headers/TOSSessionListViewController.h</key>
-		<data>
-		o5uDPBh3GegtmCgdSRjswdwS9us=
-		</data>
 		<key>Headers/UITableView+TOSAutoTableViewCellHeight.h</key>
 		<data>
 		beJRo23XSGPIrSYstzAK+G5K0jA=
@@ -82,7 +62,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		+FCqWXuzJGRq+BTwY/wUR9mnIpM=
+		Vf7L9Xr4rTx2KKtbzE/1KDfhJH8=
 		</data>
 		<key>LICENSE</key>
 		<data>
@@ -181,37 +161,15 @@
 			Z2sJuRRuNLBUkSM6rb7nYNg93QrPW9JDO3HslBiSVfg=
 			</data>
 		</dict>
-		<key>Headers/TOSBaseModel.h</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			WJ/teQ5C3ZtI9ScOdI0bxga8yks=
-			</data>
-			<key>hash2</key>
-			<data>
-			quaj4IfeG85GWd3cMDLax7dCvnzsqiAQ7mAajec6/Tk=
-			</data>
-		</dict>
 		<key>Headers/TOSBaseTableView.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			NRxjRzHRGBo2EXeLLh4MK4ZP3/E=
+			fLh8nYdq8G+L5I9pfTm1Wc6ubI4=
 			</data>
 			<key>hash2</key>
 			<data>
-			h2vOTtGOZ/Hl+ap1WLzN/hgb3/w33jIeyILEFAD3LBs=
-			</data>
-		</dict>
-		<key>Headers/TOSBaseTableViewCell.h</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			E40GRxwf1pHsptFvSvCIPDZpKKc=
-			</data>
-			<key>hash2</key>
-			<data>
-			+Cyi675Ei6JQ4auaqQMYPYUnfQU5r5C8P8975mXIpNc=
+			DrFQcfMaHBF6tGMGXdGkH4vjErU5UCLb5XBv6oK1ILw=
 			</data>
 		</dict>
 		<key>Headers/TOSBaseView.h</key>
@@ -240,33 +198,33 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			ARSVVXl6YFlgMuFUyu7LJjAOjhQ=
+			mISIr4vS7MtFtMe4zazASk1zqYY=
 			</data>
 			<key>hash2</key>
 			<data>
-			RyE2fDWO9FhTVka9wd4IInqgcR98Z9K/vhXH76g7rrA=
+			XFPuEsmsP8p4/ioNLOHQFI3WNOZG+EvnXxygeSZ82iQ=
 			</data>
 		</dict>
 		<key>Headers/TOSCustomerChatVC.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			lyBKlgEMv4+OnibjML88zqdyInA=
+			AJDkPqs5kJPHw3SUWgQmkCGiAMU=
 			</data>
 			<key>hash2</key>
 			<data>
-			GqUaBxNfTPJ4THPZEeDxBRd3vx9jGmr/+5ltYZWFcSU=
+			LdNm0gWK9RIqkcJkG3F3mzW1jqtieEg5A8K8nBGfs9M=
 			</data>
 		</dict>
 		<key>Headers/TOSKit.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			UPY2jzj8LefPaGM6XtaCNtnU2kk=
+			voAiDSH3ysnjn86cD50ZHZc/myU=
 			</data>
 			<key>hash2</key>
 			<data>
-			gMt4YpJX2pssTCWrdAtzTDuXxwhu6sBBEWW2lPu1+xs=
+			1wIFS/78K5koSlK9OipVSgit5dNguxRVXlhZiBj4f9g=
 			</data>
 		</dict>
 		<key>Headers/TOSKitChatBoxExtendBoard.h</key>
@@ -311,39 +269,6 @@
 			<key>hash2</key>
 			<data>
 			hQyx7skpPJehm/bqY7TVzH9RNDaMjZ2iqrPQGTf/lFo=
-			</data>
-		</dict>
-		<key>Headers/TOSSessionBaseCell.h</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			VmfnxhI+jCJjIcKl8zuZA+/PPf4=
-			</data>
-			<key>hash2</key>
-			<data>
-			3mNW8S0Ewlq91D0H8VSbyYu+oPCPCk2JySjnzbfWI78=
-			</data>
-		</dict>
-		<key>Headers/TOSSessionBaseTableViewCell.h</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			cwOCrHeUsKMLUnnBLErxQzFZXpI=
-			</data>
-			<key>hash2</key>
-			<data>
-			ws7oLWZLGz9050pGe6X5cVuA7iyrP+YUP6fD8sfluEY=
-			</data>
-		</dict>
-		<key>Headers/TOSSessionListViewController.h</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			o5uDPBh3GegtmCgdSRjswdwS9us=
-			</data>
-			<key>hash2</key>
-			<data>
-			ghgZ5BAnV26Bwr4s67Ae1XJ30wneUnKoOS8VvgzPhDs=
 			</data>
 		</dict>
 		<key>Headers/UITableView+TOSAutoTableViewCellHeight.h</key>

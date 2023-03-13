@@ -62,6 +62,7 @@ NS_ASSUME_NONNULL_BEGIN
 #pragma mark  发送文件消息
 -(void)sendFileMessageWithFileData:(NSData *)fileData
                           fileType:(NSString *)fileType
+                          fileName:(NSString *)fileName
                              success:(void (^)(void))successBlock
                                error:(void (^)(TIMConnectErrorCode errCode,NSString *errorDes))errorBlock;
 

@@ -8,7 +8,6 @@
 
 #import <UIKit/UIKit.h>
 #import <TOSClientKit/TOSBaseViewController.h>
-#import <TOSClientLib/TIMSession.h>
 #import <TOSClientLib/TOSClientKitCommodityCardOption.h>
 #import <TOSClientKit/TOSKitExtendBoardItemModel.h>
 
@@ -43,15 +42,8 @@ typedef NS_ENUM(NSUInteger, TinetChatStatusType) {
 /// 商品卡片配置数据
 @property (nonatomic, strong) TOSClientKitCommodityCardOption *commodityCardOption;
 
-// 会话
-@property (nonatomic, strong) TIMSession *session;
-
 /// 自定义欢迎语
 @property(nonatomic, copy) NSString *welcomsString;
-
-/// 设置常用语
-/// @param commonWords 常用语数组
-- (void)setupCommonWords:(NSArray <NSString *>*)commonWords;
 
 /// 文本类型消息中关于链接、单号和手机号的相关点击回调
 /// @param eventType 事件类型

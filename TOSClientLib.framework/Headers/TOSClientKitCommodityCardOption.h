@@ -40,7 +40,7 @@ NS_ASSUME_NONNULL_BEGIN
 /// 卡片点击跳转链接
 @property (nonatomic, strong) NSString *url;
 
-/// 按钮文本内容
+/// 发送按钮文本内容
 @property (nonatomic, strong) NSString *buttonText;
 
 /// 附加字段

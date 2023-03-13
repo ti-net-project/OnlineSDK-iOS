@@ -82,17 +82,6 @@ TIMKit核心类
  */
 + (instancetype)sharedTOSKit;
 
-/**
-初始化天润TIMSDK
-
-@param option 初始化参数对象实例 (将废弃)
-
-@discussion
-您在使用天润TIMSDK所有功能之前，您必须先调用此方法初始化SDK。
-在App整个生命周期中，您只需要执行一次初始化。
-*/
-- (void)initWithOption:(TIMInitOption *)option;
-
 #pragma mark - 连接/断开服务器
 
 /**

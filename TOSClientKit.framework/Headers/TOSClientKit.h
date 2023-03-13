@@ -18,11 +18,6 @@ FOUNDATION_EXPORT const unsigned char TIMClientKitVersionString[];
 /// TIMKit核心类
 #import <TOSClientKit/TOSKit.h>
 
-/// Session相关
-#import <TOSClientKit/TOSSessionListViewController.h>
-#import <TOSClientKit/TOSSessionBaseCell.h>
-#import <TOSClientKit/TOSSessionBaseTableViewCell.h>
-
 /// Chat相关
 #import <TOSClientKit/TOSCustomerChatVC.h>
 #import <TOSClientKit/TOSKitChatBoxExtendBoard.h>
@@ -31,9 +26,7 @@ FOUNDATION_EXPORT const unsigned char TIMClientKitVersionString[];
 
 // Base
 #import <TOSClientKit/TOSBaseView.h>
-#import <TOSClientKit/TOSBaseModel.h>
 #import <TOSClientKit/TOSBaseTableView.h>
-#import <TOSClientKit/TOSBaseTableViewCell.h>
 #import <TOSClientKit/TOSBaseViewController.h>
 
 // 布局相关

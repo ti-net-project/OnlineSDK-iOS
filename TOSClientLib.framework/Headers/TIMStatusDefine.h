@@ -23,20 +23,13 @@ static NSString * kSendPushExtra_CUSTOMER_TINET = @"customer_tinet";
 
 #pragma mark - 消息事件字串定义
 static NSString * kMQTTMessage_EVENT_MESSAGE_ARRIVED = @"[MESSAGE ARRIVED]";
-static NSString * kMQTTMessage_EVENT_GROUP_JOIN = @"[GROUP JOIN]";      // 加入群组事件
-static NSString * kMQTTMessage_EVENT_GROUP_QUIT = @"[GROUP QUIT]";      // 退出群组事件
-static NSString * kMQTTMessage_EVENT_GROUP_DELETE = @"[GROUP DELETE]";   // 删除群组事件
-static NSString * kMQTTMessage_EVENT_GROUP_CREATE = @"[GROUP CREATE]";   // 创建群组事件
 static NSString * kMQTTMessage_EVENT_MESSAGE_ACK = @"[MESSAGE ACK]";     // 消息发送确认事件
-static NSString * kMQTTMessage_EVENT_DELETE_ACK = @"[DELETE ACK]";       // 消息删除确认事件
 static NSString * kMQTTMessage_EVENT_KICK_OUT = @"[KICK OUT]";          // 剔除事件
-static NSString * kMQTTMessage_EVENT_CLEAN_SESSION_ACK = @"[CLEAN SESSION ACK]";   // 清空会话确认事件
 static NSString * kMQTTMessage_EVENT_REVOKE_ACK = @"[REVOKE ACK]";         // 撤回确认事件
 static NSString * kMQTTMessage_EVENT_REVOKE = @"[REVOKE]";         // 撤回事件
 static NSString * kMQTTMessage_EVENT_ENDPOINT_ARRIVED = @"[ENDPOINT ARRIVED]";// 客服消息事件
 
 static NSString * kMQTTMessage_EVENT_SYNC_DATA = @"[SYNC DATA]";  //会话未读数同步数据
-static NSString * kMQTTMessage_EVENT_SESSION_REPORT_ACK = @"[SESSION REPORT ACK]"; //会话上报ACK
 
 static NSString * kMQTTMessage_EVENT_MESSAGE_RECEIVE_ACK = @"[MESSAGE RECEIVE ACK]"; //消息确认已读，服务器回给发送者消息已读，多个msgIds之间用逗号分隔
 
@@ -162,12 +155,12 @@ NSString *TIMMessageStatusString(TIMMessageStatus timSessionType);
  */
 typedef NS_ENUM(NSInteger, TIMSessionType) {
     /*
-     单聊
+     单聊 废弃
 
      */
     TIMSessionType_SINGLE_CHAT = 1,
     /*
-     群聊
+     群聊 废弃
 
      */
     TIMSessionType_GROUP_CHAT = 2,
@@ -176,8 +169,6 @@ typedef NS_ENUM(NSInteger, TIMSessionType) {
 
      */
     TIMSessionType_OnLINESERVICE_CHAT = 3,
-    
-    
 };
 
 TIMSessionType TIMSessionTypeWithString(NSString *commandString);
@@ -225,205 +216,20 @@ typedef NS_ENUM(NSInteger, TIMConnectErrorCode) {
      @discussion 连接相关的错误码，SDK会做好自动重连，开发者无须处理。
      */
     TIM_API_RESPONSE_ERROR = 4004,
-
-    /**
-     Api请求HTTP返回数据格式错误
-
-     @discussion 连接相关的错误码，SDK会做好自动重连，开发者无须处理。
-     */
-    TIM_NODE_NOT_FOUND = 4005,
-
-    /**
-     创建Socket连接失败
-
-     @discussion 连接相关的错误码，SDK会做好自动重连，开发者无须处理。
-     */
-    TIM_SOCKET_NOT_CONNECTED = 4006,
-
-    /**
-     Socket断开
-
-     @discussion 连接相关的错误码，SDK会做好自动重连，开发者无须处理。
-     */
-    TIM_SOCKET_DISCONNECTED = 4007,
-
-    /**
-     PING失败
-
-     @discussion 连接相关的错误码，SDK会做好自动重连，开发者无须处理。
-     */
-    TIM_PING_SEND_FAIL = 4008,
-
-    /**
-     PING超时
-
-     @discussion 连接相关的错误码，SDK会做好自动重连，开发者无须处理。
-     */
-    TIM_PONG_RECV_FAIL = 4009,
-
+    
     /**
      信令发送失败
 
      @discussion 连接相关的错误码，SDK会做好自动重连，开发者无须处理。
      */
-    TIM_MSG_SEND_FAIL = 4010,
+    TIM_MSG_SEND_FAIL = 4005,
 
-    /**
-     连接过于频繁
-
-     @discussion 连接相关的错误码，SDK会做好自动重连，开发者无须处理。
-     */
-    TIM_CONN_OVERFREQUENCY = 4011,
-
-    /**
-     连接ACK超时
-
-     @discussion 连接相关的错误码，SDK会做好自动重连，开发者无须处理。
-     */
-    TIM_CONN_ACK_TIMEOUT = 4012,
-
-    /**
-     信令版本错误
-
-     @discussion 连接相关的错误码，SDK会做好自动重连，开发者无须处理。
-     */
-    TIM_CONN_PROTO_VERSION_ERROR = 4013,
-
-    /**
-     accessKey错误
-
-     @discussion 请检查您使用的accessKey是否正确。
-     */
-    TIM_CONN_ID_REJECT = 4014,
-
-    /**
-     服务器当前不可用（预留）
-
-     @discussion 连接相关的错误码，SDK会做好自动重连，开发者无须处理。
-     */
-    TIM_CONN_SERVER_UNAVAILABLE = 4015,
-    
     /**
      获取设备UDID失败
 
      @discussion 连接相关的错误码，需要主动再次调用。
      */
-    TIM_CONN_GETUDID_FAILED = 4016,
-
-    /**
-     accessToken错误或无效
-
-     @discussion accessToken无效一般有以下两种原因。
-     accessToken错误，请您检查客户端初始化使用的accessKey和您服务器获取accessToken使用的accessKey是否一致；
-     */
-    TIM_CONN_TOKEN_INCORRECT = 10001,
-
-    /**
-     accessKey与accessToken不匹配
-
-     @discussion
-     请检查您使用的accessKey与accessToken是否正确，是否匹配。一般有以下两种原因。
-     一是accessToken错误，请您检查客户端初始化使用的accessKey和您服务器获取accessToken使用的accessKey是否一致；
-     二是accessToken过期，是因为您在开发者后台设置了accessToken过期时间，您需要请求您的服务器重新获取accessToken并再次用新的accessToken建立连接。
-     */
-    TIM_CONN_NOT_AUTHRORIZED = 4017,
-
-    /**
-     连接重定向
-
-     @discussion 连接相关的错误码，SDK会做好自动重连，开发者无须处理。
-     */
-    TIM_CONN_REDIRECTED = 4018,
-
-    /**
-     BundleID不正确
-
-     @discussion 请检查您App的BundleID是否正确。
-     */
-    TIM_CONN_PACKAGE_NAME_INVALID = 4019,
-
-    /**
-     accessKey被封禁或已删除
-
-     @discussion 请检查您使用的accessKey是否被封禁或已删除。
-     */
-    TIM_CONN_APP_BLOCKED_OR_DELETED = 4020,
-
-    /**
-     用户被封禁
-
-     @discussion 请检查您使用的accessToken是否正确，以及对应的UserId是否被封禁。
-     */
-    TIM_CONN_USER_BLOCKED = 4021,
-
-    /**
-     用户被踢下线
-
-      @discussion 当前用户在其他设备上登录，此设备被踢下线
-     */
-    TIM_DISCONN_KICK = 4022,
-
-    /**
-     用户在其它设备上登录
-
-      @discussion 重连过程中当前用户在其它设备上登录
-     */
-    TIM_CONN_OTHER_DEVICE_LOGIN = 4023,
-
-    /**
-     连接被拒绝
-
-     @discussion 连接相关的错误码，SDK会做好自动重连，开发者无须处理。
-     */
-    TIM_CONN_REFUSED = 4024,
-
-    /**
-     SDK没有初始化
-
-     @discussion 在使用SDK任何功能之前，必须先Init。
-     */
-    TIM_CLIENT_NOT_INIT = 4025,
-
-    /**
-     开发者接口调用时传入的参数错误
-
-     @discussion 请检查接口调用时传入的参数类型和值。
-     */
-    TIM_INVALID_PARAMETER = 4026,
-
-    /**
-     Connection已经存在
-
-     @discussion
-     调用过connect之后，只有在accessToken错误或者被踢下线或者用户logout的情况下才需要再次调用connect。SDK会自动重连，不需要应用多次调用connect来保证连接性。
-     */
-    TIM_CONNECTION_EXIST = 4027,
-
-    /**
-     连接环境不正确（公有云 SDK 无法连接到私有云环境）
-
-     @discussion 公有云 SDK 无法连接到私有云环境。请确认需要连接的环境，使用正确 SDK 版本。
-     */
-    TIM_ENVIRONMENT_ERROR = 4028,
-    
-    /**
-     写入本地数据库失败
-
-     */
-    TIM_WRITE_DATABASE_ERROR = 4029,
-    
-    /**
-     上传文件失败
-
-     */
-    TIM_UPLOAD_FILE_ERROR = 4030,
-
-    /**
-     开发者接口调用时传入的参数错误
-
-     @discussion 请检查接口调用时传入的参数类型和值。
-     */
-//    TIM_INVALID_ARGUMENT = -1000
+    TIM_CONN_GETUDID_FAILED = 4006,
 };
 
 

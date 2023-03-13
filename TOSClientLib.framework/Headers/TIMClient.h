@@ -9,25 +9,14 @@
 #import <Foundation/Foundation.h>
 #import "TIMStatusDefine.h"
 #import "TOSMessage.h"
-//#import "TIMMessageHistoryOption.h"
 #import "TIMMessageSendOption.h"
 #import "TIMMessageRevokeOption.h"
 #import "TIMMessageReadOption.h"
 #import "TIMATMessageReadOption.h"
 #import "TIMInitOption.h"
 #import "TIMConnectOption.h"
-//#import "TIMRole.h"
-#import "TIMUserInfo.h"
-#import "TIMContactDetail.h"
-#import "TIMContact.h"
-#import "TIMContactGroup.h"
-#import "TIMCreateGroupOption.h"
-#import "TIMUserGroup.h"
-#import "TIMUserGroupMember.h"
 #import "TOSDisConnectOption.h"
 #import "TIMMessageDeleteOption.h"
-#import "TIMJoinGroupOption.h"
-#import "TIMUpdateGroupOption.h"
 
 
 NS_ASSUME_NONNULL_BEGIN
@@ -129,21 +118,6 @@ NS_ASSUME_NONNULL_BEGIN
 - (void)onReceived:(TOSMessage *)message withMessageType:(int)messageType;
 
 @optional
-/**
- 消息被删除的回调方法
-
- @param messages 被删除的消息实体数组
-
- */
-- (void)onMessageDeleted:(NSArray *)messages isSuccess:(BOOL)isSuccess;
-
-/**
- 消息被清空的回调方法
-
- @param targetId 被清空的用户id或会话id
-
- */
-- (void)onMessageClear:(NSString *)targetId;
 
 /**
  消息被撤回的回调方法
@@ -153,17 +127,6 @@ NS_ASSUME_NONNULL_BEGIN
  @discussion 被撤回的消息会变更为TIMRecallNotificationMessage，App需要在UI上刷新这条消息。
  */
 - (void)onMessageRecalled:(TOSMessage *)message;
-
-
-/**
- 消息已读回执响应（收到阅读回执响应，可以按照 messageId 更新消息的阅读数）
- @param messageId       请求已读回执的消息ID
- @param targetId         targetId
- @param userIdList     已读userId列表
- */
-- (void)onMessageReceiptResponse:(NSString *)targetId
-                      messageId:(NSString *)messageId
-                      readerList:(NSMutableDictionary *)userIdList;
 
 @end
 
@@ -261,15 +224,6 @@ NS_ASSUME_NONNULL_BEGIN
  */
  -(void)setTIMReceiveMessageDelegate:(id<TIMClientReceiveMessageDelegate>)delegate;
 
-#pragma mark - 用户管理
-
-/**
- 获取用户信息
- 
- @param contactId               用户Id
- */
-
-- (void)getUserInfo:(NSString *)contactId success:(void (^)(TIMContactDetail * detail))successBlock error:(void (^)(TIMConnectErrorCode errCode,NSString *errorDes))errorBlock;
 
 #pragma mark - 消息管理
 
@@ -316,31 +270,13 @@ SDK内置的消息类型，如果您将pushOption置为nil，会使用默认的�
 /// @param option AT消息已读参数对象实例
 - (void)sendATMessageRead:(TIMATMessageReadOption *)option;
 
-#pragma mark 消息撤回 
-
-/**
- 其他
- */
-// 更新URL文件地址
--(NSString *)updateWithFileUrl:(NSString *)fileUrl;
+#pragma mark 消息撤回
 
 /**
 获取所有会话的总未读数
 
 */
 @property (nonatomic, strong) NSNumber *totalUnreadCount;
-
-#pragma mark 设置离线推送扩展标识
-
-typedef NS_ENUM(NSInteger, TIMSendPushExtraType){
-    TIMPushExtraDefaultType = 0,   // 默认 不加标识
-    TIMPushExtraEVHCType,          // eVHC
-    TIMPushExtraDMO20Type,         // DMO
-    TIMPushExtraRDSA20Type,        // RDSA
-    TIMPushExtraMybmwType,         // MyBmw
-};
-
-- (void)setSendPushExtra:(TIMSendPushExtraType)pushExtraType;
 
 #pragma mark 设置总未读数的改变监听
 
