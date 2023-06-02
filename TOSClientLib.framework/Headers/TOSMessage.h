@@ -64,6 +64,17 @@ NS_ASSUME_NONNULL_BEGIN
  */
 @property (nonatomic, assign, readonly) int messageType;
 
+/*
+ 消息发送者类型
+ 0:  消息事件(忽略)
+ 1:  座席
+ 2:  访客
+ 3:  系统
+ 4:  机器人
+ 5:  系统通知
+*/
+@property (nonatomic, assign, readonly) int                senderType;
+
 /**
  创建时间
  */
