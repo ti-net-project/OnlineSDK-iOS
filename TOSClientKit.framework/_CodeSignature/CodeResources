@@ -30,11 +30,11 @@
 		</data>
 		<key>Headers/TOSCustomerChatVC.h</key>
 		<data>
-		AJDkPqs5kJPHw3SUWgQmkCGiAMU=
+		VKmpxFYWiXCQmEYNjmJV820xF6k=
 		</data>
 		<key>Headers/TOSKit.h</key>
 		<data>
-		voAiDSH3ysnjn86cD50ZHZc/myU=
+		Ixy+uhrJGMewnXdzRu9U0uO9RUE=
 		</data>
 		<key>Headers/TOSKitChatBoxExtendBoard.h</key>
 		<data>
@@ -42,7 +42,7 @@
 		</data>
 		<key>Headers/TOSKitCustomInfo.h</key>
 		<data>
-		pO1p0tNKNFzcUegqNs8Qc9mXTng=
+		d8KxFjHs5r1s+BwExrJ3ykrm3vw=
 		</data>
 		<key>Headers/TOSKitExtendBoardItemModel.h</key>
 		<data>
@@ -62,7 +62,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		GPG4LzHsd6EpHj993kiqUnMkYH4=
+		uHJj6xLIRsSrZHONGzTcUdRQ+mA=
 		</data>
 		<key>LICENSE</key>
 		<data>
@@ -209,22 +209,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			AJDkPqs5kJPHw3SUWgQmkCGiAMU=
+			VKmpxFYWiXCQmEYNjmJV820xF6k=
 			</data>
 			<key>hash2</key>
 			<data>
-			LdNm0gWK9RIqkcJkG3F3mzW1jqtieEg5A8K8nBGfs9M=
+			OyPimmeP/GB6uOnUKU9oLK8cyfKnePU2BLTllqr1X7U=
 			</data>
 		</dict>
 		<key>Headers/TOSKit.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			voAiDSH3ysnjn86cD50ZHZc/myU=
+			Ixy+uhrJGMewnXdzRu9U0uO9RUE=
 			</data>
 			<key>hash2</key>
 			<data>
-			1wIFS/78K5koSlK9OipVSgit5dNguxRVXlhZiBj4f9g=
+			kyBlVvniw6duvZiXV+C0s3HMVPV/K8xwnjgsrm/wyHQ=
 			</data>
 		</dict>
 		<key>Headers/TOSKitChatBoxExtendBoard.h</key>
@@ -242,11 +242,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			pO1p0tNKNFzcUegqNs8Qc9mXTng=
+			d8KxFjHs5r1s+BwExrJ3ykrm3vw=
 			</data>
 			<key>hash2</key>
 			<data>
-			OMn/EtLUJaSSPqIwXDVTN5zTI8JACSYV7bHOzbvpQxo=
+			y/WmsZH69ZvUPfMa+9XDYAVGY28ZtF5D0NhNheNA06g=
 			</data>
 		</dict>
 		<key>Headers/TOSKitExtendBoardItemModel.h</key>

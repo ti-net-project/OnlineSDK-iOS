@@ -47,6 +47,12 @@ static NSString * const KTOSClientLibLastMessageReceivedNotification = @"KTOSCli
  */
 - (void)onMessageRecalled:(TOSMessage *)message;
 
+/**
+ 当前会话状态变更
+ @param statusType  0: 不在线或结束会话 1: 机器人 2: 人工座席
+ */
+- (void)getCurrentOnlineStatus:(TinetChatStatusType)statusType;
+
 @end
 
 #pragma mark -总未读数变化监听器
@@ -251,6 +257,9 @@ SDK内置的消息类型，如果您将pushOption置为nil，会使用默认的�
 /// @param successBlock 成功
 /// @param errorBlock 失败
 - (void)getUnreadMessage:(void (^)(NSString *lastMessage , NSInteger unreadCount))successBlock withError:(void (^)(NSString *errorStr))errorBlock;
+
+/// 获取是否app在前台活跃
+-(BOOL)getStateActive;
 
 @end
 

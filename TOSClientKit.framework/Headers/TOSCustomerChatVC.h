@@ -22,11 +22,11 @@ typedef NS_ENUM(NSUInteger, TinetClickTextMessageEventType) {
     TinetClickLogisticsCard,
 };
 
-typedef NS_ENUM(NSUInteger, TinetChatStatusType) {
-    TinetChatStatusTypeOutline,   // 不在线或结束会话
-    TinetChatStatusTypeRobot,     // 机器人在线
-    TinetChatStatusTypeOnline,    // 客服在线
-};
+//typedef NS_ENUM(NSUInteger, TinetChatStatusType) {
+//    TinetChatStatusTypeOutline,   // 不在线或结束会话
+//    TinetChatStatusTypeRobot,     // 机器人在线
+//    TinetChatStatusTypeOnline,    // 客服在线
+//};
 
 @interface TOSCustomerChatVC : TOSBaseViewController
 
@@ -62,6 +62,10 @@ typedef NS_ENUM(NSUInteger, TinetChatStatusType) {
 
 /// 扩展面板，自定义按钮事件 （需要在子类实现这个方法）
 - (void)didClinkCustomExtendBoardItemAction:(TOSKitExtendBoardItemModel *)item;
+
+/// 结束会话事件
+- (void)closeViewEvent;
+
 
 @end
 

@@ -144,6 +144,94 @@ NS_ASSUME_NONNULL_BEGIN
 /// 商品卡片配置数据
 @property (nonatomic, strong) TOSClientKitCommodityCardOption *commodityCardOption;
 
+
+
+/// 头像的大小，图像是正方形只需要设置宽度就可以了  default：40
+@property (nonatomic, assign) CGFloat                headWidth;
+
+/// 头像距屏幕边缘的距离 default：10
+@property (nonatomic, assign) CGFloat                headMargin;
+/// 头像距离气泡的距离 default：8.0
+@property (nonatomic, assign) CGFloat                headToBubble;
+
+/// 每条消息的间距 default：10.0
+@property (nonatomic, assign) CGFloat                cellMargin;
+
+/// 气泡的内间距 default：10.0
+@property (nonatomic, assign) CGFloat                bubblePadding;
+
+/// 聊天底部输入中的表情按钮控制 default：YES
+@property (nonatomic, assign) BOOL chatBox_emotionButton_enable;
+
+/// 聊天底部输入中的更多按钮控制 default：YES
+@property (nonatomic, assign) BOOL chatBox_moreButton_enable;
+
+/// 聊天底部的整体高度 default：56.0
+@property (nonatomic, assign) CGFloat                chatBox_Height;
+
+/// 聊天底部文本框距上下方的间距 default: 8.0
+@property (nonatomic, assign) CGFloat                chatBox_textView_topAndBottomMargin;
+
+/// 聊天底部文本框的初始高度，只读属性，想要改变该值需要配合另外两个属性 （⚠️该值的计算公式是：chatBox_Height - chatBox_textView_topAndBottomMargin*2 得出）
+@property (nonatomic, assign, readonly) CGFloat                chatBox_textView_height;
+
+/// 聊天底部最左侧的item距左侧间距 default: 10.0
+@property (nonatomic, assign) CGFloat                chatBox_itemLeftPadding;
+
+/// 聊天底部最右侧的item距右侧间距 default: 10.0
+@property (nonatomic, assign) CGFloat                chatBox_itemRightPadding;
+
+/// 聊天底部每个item之间的间距 default: 10.0
+@property (nonatomic, assign) CGFloat                chatBox_itemSpacing;
+
+/// 聊天底部的输入框字体 default: [UIFont fontWithName:@"PingFangSC-Regular" size:16.0]
+@property (nonatomic, strong) UIFont                * chatBox_textView_font;
+
+/// 聊天底部的输入框字体颜色 default：262626
+@property (nonatomic, strong) UIColor                * chatBox_textView_textColor;
+
+/// 聊天底部文本框的圆角值 default：8.0
+@property (nonatomic, assign) CGFloat                chatBox_textView_cornerRadius;
+
+/// 聊天底部文本框的最多显示行数 default：5
+@property (nonatomic, assign) NSInteger                chatBox_textView_maxRows;
+
+/// 默认提示文字距离输入框左边的距离 default: 10.0
+@property (nonatomic, assign) CGFloat                chatBox_textView_placeholderMargin;
+
+/// 输入框右侧的发送按钮开关 default: NO (发送按钮设置为YES时，chatBox_emotionButton_enable和chatBox_moreButton_enable 值需要为NO，且chatBox_sendButton_enable为YES，才会显示发送按钮)
+@property (nonatomic, assign) BOOL                chatBox_sendButton_enable;
+
+/// 输入框右侧的发送按钮大小 defatult: 60 : chatBox_textView_height
+@property (nonatomic, assign) CGSize                chatBox_sendButtonSize;
+
+/// 输入框右侧的发送按钮 只需要设置按钮的内容，样式需要设置其他属性(chatBox_sendButtonSize/chatBox_sendButton_cornerRadius/chatBox_sendButton_borderColor/chatBox_sendButton_HighlightedColor)
+@property (nonatomic, strong) UIButton                * chatBox_sendButton;
+
+/// 输入框右侧的发送按钮的圆角 default: 10.0
+@property (nonatomic, assign) CGFloat                chatBox_sendButton_cornerRadius;
+
+/// 输入框右侧的发送按钮边框默认颜色，即输入框没有值时发送按钮的边框颜色 default: UIColor.grayColor
+@property (nonatomic, strong) UIColor                * chatBox_sendButton_borderColor;
+
+/// 输入框右侧的发送按钮高亮的颜色，即输入框有值时发送按钮的边框颜色 default: UIColor.blackColor
+@property (nonatomic, strong) UIColor                * chatBox_sendButton_HighlightedColor;
+
+/// 输入框右侧的发送按钮边框宽度 default: 1
+@property (nonatomic, assign) CGFloat                chatBox_sendButton_borderWidth;
+
+/// 重新发送按钮的大小 default: 20:20
+@property (nonatomic, assign) CGSize                resendButtonSize;
+
+/// 重新发送按钮，设置后会显示这个按钮，不需要设置大小，大小由 resendButtonSize 控制。default: 红色感叹号的图片样式
+@property (nonatomic, strong) UIButton                * resendButton;
+
+/// 重新发送按钮距离气泡的间距 default: 4.0
+@property (nonatomic, assign) CGFloat                resendToBubblePadding;
+
+
+
+
 @end
 
 NS_ASSUME_NONNULL_END
