@@ -187,8 +187,13 @@ NS_ASSUME_NONNULL_BEGIN
 /// 聊天底部的输入框字体 default: [UIFont fontWithName:@"PingFangSC-Regular" size:16.0]
 @property (nonatomic, strong) UIFont                * chatBox_textView_font;
 
+/// 聊天底部的输入框内边距 default: UIEdgeInsetsMake(10, 10, 10, 10)
+@property (nonatomic, assign) UIEdgeInsets                chatBox_textView_textContainerInset;
 /// 聊天底部的输入框字体颜色 default：262626
 @property (nonatomic, strong) UIColor                * chatBox_textView_textColor;
+
+/// 聊天底部的输入框背景颜色 default：whiteColor
+@property (nonatomic, strong) UIColor                * chatBox_textView_backgroundColor;
 
 /// 聊天底部文本框的圆角值 default：8.0
 @property (nonatomic, assign) CGFloat                chatBox_textView_cornerRadius;
@@ -198,6 +203,11 @@ NS_ASSUME_NONNULL_BEGIN
 
 /// 默认提示文字距离输入框左边的距离 default: 10.0
 @property (nonatomic, assign) CGFloat                chatBox_textView_placeholderMargin;
+///// 聊天底部文本框的暗文文字 default: [UIFont fontWithName:@"PingFangSC-Regular" size:16.0]
+//@property (nonatomic, strong) UIFont                * chatBox_textview_placeholderFont;
+
+/// 聊天底部文本框的暗文的字体颜色 default: grayColor
+@property (nonatomic, strong) UIColor                * chatBox_textview_placeholderTextColor;
 
 /// 输入框右侧的发送按钮开关 default: NO (发送按钮设置为YES时，chatBox_emotionButton_enable和chatBox_moreButton_enable 值需要为NO，且chatBox_sendButton_enable为YES，才会显示发送按钮)
 @property (nonatomic, assign) BOOL                chatBox_sendButton_enable;
@@ -230,6 +240,17 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic, assign) CGFloat                resendToBubblePadding;
 
 
+/**
+ 自定义cell的注册事件
+ 要在页面加载前进行赋值，key：事件名，value：对应的cell。
+ 示例
+ @{
+    @"TypeEventQueue" :  [CustomTableViewCell class]
+ }
+ 然后在页面实现- (UITableViewCell *)customTableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath withModel:(nonnull TIMMessageModel *)model;方法
+ 自定义的cell需要继承于 TOSChatCustomBaseTableViewCell 
+ */
+@property (nonatomic, strong) NSMutableDictionary                * customCellRegister;
 
 
 @end

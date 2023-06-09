@@ -11,6 +11,9 @@
 #import <TOSClientLib/TOSClientKitCommodityCardOption.h>
 #import <TOSClientKit/TOSKitExtendBoardItemModel.h>
 
+//#import <TOSClientKit/TIMMessageModel.h>
+
+@class TIMMessageModel;
 NS_ASSUME_NONNULL_BEGIN
 
 typedef NS_ENUM(NSUInteger, TinetClickTextMessageEventType) {
@@ -65,6 +68,9 @@ typedef NS_ENUM(NSUInteger, TinetClickTextMessageEventType) {
 
 /// 结束会话事件
 - (void)closeViewEvent;
+
+/// 自定义cell要实现这个方法，要在实现该方法前，配置 [TOSKitCustomInfo shareCustomInfo].customCellRegister
+- (UITableViewCell *)customTableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath withModel:(TIMMessageModel *)model;
 
 
 @end
