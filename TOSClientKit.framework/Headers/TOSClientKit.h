@@ -28,6 +28,8 @@ FOUNDATION_EXPORT const unsigned char TIMClientKitVersionString[];
 #import <TOSClientKit/TOSBaseView.h>
 #import <TOSClientKit/TOSBaseTableView.h>
 #import <TOSClientKit/TOSBaseViewController.h>
+#import <TOSClientKit/TOSChatCustomBaseTableViewCell.h>
+
 
 // 布局相关
 #import <TOSClientKit/TOSAutoLayout.h>
@@ -40,5 +42,7 @@ FOUNDATION_EXPORT const unsigned char TIMClientKitVersionString[];
 // 工具类
 #import <TOSClientKit/TOSKitCustomInfo.h>
 
-
-
+/// Model
+#import <TOSClientKit/TIMMessageModel.h>
+#import <TOSClientKit/TIMICMessage.h>
+#import <TOSClientKit/ICChatServerDefs.h>

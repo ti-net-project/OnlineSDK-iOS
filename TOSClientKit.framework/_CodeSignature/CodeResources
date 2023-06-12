@@ -8,6 +8,18 @@
 		<data>
 		2jmj7l5rSw0yVb/vlWAYkK/YBwk=
 		</data>
+		<key>Headers/ICChatServerDefs.h</key>
+		<data>
+		kQJENnL5G3nPz9xYNGbke0fKM6w=
+		</data>
+		<key>Headers/TIMICMessage.h</key>
+		<data>
+		pQ07oqA6NVTry/hsgVftpkSROyY=
+		</data>
+		<key>Headers/TIMMessageModel.h</key>
+		<data>
+		rcD2g13evCFQvJZ32SPVKadAJ8U=
+		</data>
 		<key>Headers/TOSAutoLayout.h</key>
 		<data>
 		1aj4AxiTiHAWCV9Wg8T2wlOhutA=
@@ -24,13 +36,17 @@
 		<data>
 		ruMKw3XKpSpQMeuvEC+iTj/MSWo=
 		</data>
+		<key>Headers/TOSChatCustomBaseTableViewCell.h</key>
+		<data>
+		GY9HnJnWSs+yPdBOO3EKpOxY+QU=
+		</data>
 		<key>Headers/TOSClientKit.h</key>
 		<data>
-		mISIr4vS7MtFtMe4zazASk1zqYY=
+		X7LDO55w4phXJLgLE6XqWTIUMp0=
 		</data>
 		<key>Headers/TOSCustomerChatVC.h</key>
 		<data>
-		O1YJ5KHRXJw3eq/y890GbSbETSg=
+		kysMi2qkxKOHDU7bUBudqwM5EeM=
 		</data>
 		<key>Headers/TOSKit.h</key>
 		<data>
@@ -62,7 +78,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		lyacP1IidI1BN/qSiT+bF8MmU4Y=
+		I7lYSNRftSknarUZviQ+A+yNn6I=
 		</data>
 		<key>LICENSE</key>
 		<data>
@@ -150,6 +166,39 @@
 			47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=
 			</data>
 		</dict>
+		<key>Headers/ICChatServerDefs.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			kQJENnL5G3nPz9xYNGbke0fKM6w=
+			</data>
+			<key>hash2</key>
+			<data>
+			brcHQKGrgjqQ9dnWPGat9D1VxQqHcWJwPfej0fyp5S4=
+			</data>
+		</dict>
+		<key>Headers/TIMICMessage.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			pQ07oqA6NVTry/hsgVftpkSROyY=
+			</data>
+			<key>hash2</key>
+			<data>
+			6zqQZCeup7ooufN9MKqLyQoDc51VB7OZiI4Dk6flz8o=
+			</data>
+		</dict>
+		<key>Headers/TIMMessageModel.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			rcD2g13evCFQvJZ32SPVKadAJ8U=
+			</data>
+			<key>hash2</key>
+			<data>
+			ygT7f5a0YCdZwTi/zAe/nAl7b8cRDYKI7grCFmrY5Yc=
+			</data>
+		</dict>
 		<key>Headers/TOSAutoLayout.h</key>
 		<dict>
 			<key>hash</key>
@@ -194,26 +243,37 @@
 			e87TW0xnD/MbOXGqV2xpQmwO2e7CGHfAFiY7FwEuW0c=
 			</data>
 		</dict>
+		<key>Headers/TOSChatCustomBaseTableViewCell.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			GY9HnJnWSs+yPdBOO3EKpOxY+QU=
+			</data>
+			<key>hash2</key>
+			<data>
+			ChaBv2gY+SCKDUXlTgvPt2tO2oXupMFmZi1DxLx4ct8=
+			</data>
+		</dict>
 		<key>Headers/TOSClientKit.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			mISIr4vS7MtFtMe4zazASk1zqYY=
+			X7LDO55w4phXJLgLE6XqWTIUMp0=
 			</data>
 			<key>hash2</key>
 			<data>
-			XFPuEsmsP8p4/ioNLOHQFI3WNOZG+EvnXxygeSZ82iQ=
+			0eLPQszTuAMwx5nMfGpvqrdOR/xLX2EXb9WeaAirOSY=
 			</data>
 		</dict>
 		<key>Headers/TOSCustomerChatVC.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			O1YJ5KHRXJw3eq/y890GbSbETSg=
+			kysMi2qkxKOHDU7bUBudqwM5EeM=
 			</data>
 			<key>hash2</key>
 			<data>
-			P8k1Wu9vDK0v9lHhXPOnI2eLmhrFb0vob3URRLx2AQE=
+			AG7LK2hxDJjz2Npx1ShcX9EoKaeOT4J1FAZQGowrUjM=
 			</data>
 		</dict>
 		<key>Headers/TOSKit.h</key>
