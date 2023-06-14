@@ -145,6 +145,8 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic, strong) TOSClientKitCommodityCardOption *commodityCardOption;
 
 
+/// 气泡的最大宽度
+@property (nonatomic, assign) CGFloat                bubbleMaxWidth;
 
 /// 头像的大小，图像是正方形只需要设置宽度就可以了  default：40
 @property (nonatomic, assign) CGFloat                headWidth;
@@ -184,6 +186,9 @@ NS_ASSUME_NONNULL_BEGIN
 /// 聊天底部每个item之间的间距 default: 10.0
 @property (nonatomic, assign) CGFloat                chatBox_itemSpacing;
 
+/// 聊天底部的每个item距离底部的间距（去除安全区域）defalut: 14
+@property (nonatomic, assign) CGFloat                chatBox_itemBottomSpacing;
+
 /// 聊天底部的输入框字体 default: [UIFont fontWithName:@"PingFangSC-Regular" size:16.0]
 @property (nonatomic, strong) UIFont                * chatBox_textView_font;
 
@@ -203,12 +208,24 @@ NS_ASSUME_NONNULL_BEGIN
 
 /// 默认提示文字距离输入框左边的距离 default: 10.0
 @property (nonatomic, assign) CGFloat                chatBox_textView_placeholderMargin;
-///// 聊天底部文本框的暗文文字 default: [UIFont fontWithName:@"PingFangSC-Regular" size:16.0]
-//@property (nonatomic, strong) UIFont                * chatBox_textview_placeholderFont;
 
 /// 聊天底部文本框的暗文的字体颜色 default: grayColor
 @property (nonatomic, strong) UIColor                * chatBox_textview_placeholderTextColor;
 
+/// 录制语音的初始文本 default: 按住 说话
+@property (nonatomic, copy) NSString                * chatBox_talkText;
+
+/// 录制语音的按中文本 default: 松开 结束
+@property (nonatomic, copy) NSString                * chatBox_talkHighlightedText;
+
+/// 录制语音的按钮字体 default: [UIFont boldSystemFontOfSize:16.0f]
+@property (nonatomic, strong) UIFont                * chatBox_talkFont;
+
+/// 录制语音的按钮边框 defalut: 0.5
+@property (nonatomic, assign) CGFloat                chatBox_talk_borderWidth;
+
+/// 录制语音的按钮边框颜色 defalut：E8E8E8
+@property (nonatomic, strong) UIColor                * chatBox_talk_borderColor;
 /// 输入框右侧的发送按钮开关 default: NO (发送按钮设置为YES时，chatBox_emotionButton_enable和chatBox_moreButton_enable 值需要为NO，且chatBox_sendButton_enable为YES，才会显示发送按钮)
 @property (nonatomic, assign) BOOL                chatBox_sendButton_enable;
 
@@ -251,6 +268,16 @@ NS_ASSUME_NONNULL_BEGIN
  自定义的cell需要继承于 TOSChatCustomBaseTableViewCell 
  */
 @property (nonatomic, strong) NSMutableDictionary                * customCellRegister;
+
+
+/// 发送侧语音按钮的语音图标距离气泡右侧的X值 default: 22.0
+@property (nonatomic, assign) CGFloat                chat_send_voiceImageToBubbleRightX;
+
+/// 发送语音按钮的语音时长距离气泡左侧的X值 default: 10.0
+@property (nonatomic, assign) CGFloat                chat_send_voiceLabelToBubbleLeftX;
+
+/// 语音消息的最低宽度 default: 60
+@property (nonatomic, assign) CGFloat                chat_voiceMinWidth;
 
 
 @end

@@ -15,6 +15,9 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic, copy,readonly) NSString *content;
 @property (nonatomic, copy,readonly) NSString *locationstr;
 
+/// 放弃是否启用
+@property (nonatomic, assign) BOOL                abandonEnabled;
+
 
 - (instancetype)initMessageWithContent:(NSString *)content;
 

@@ -54,7 +54,7 @@
 		</data>
 		<key>Headers/ChatQueueMessage.h</key>
 		<data>
-		KOZHSRa05L0MyVjlOwFh2lvm+YM=
+		zNXSBVXzaNBsIBDTI1rzG8uLxGM=
 		</data>
 		<key>Headers/CombinationMessage.h</key>
 		<data>
@@ -74,7 +74,7 @@
 		</data>
 		<key>Headers/OctoIMParamDefines.h</key>
 		<data>
-		GSHOmSUu+F2GbQBrZ3ID4Q1ytIg=
+		XYD1eCTYQtJ9LlxXZePkPunSB3g=
 		</data>
 		<key>Headers/OnlineChatRecordModel.h</key>
 		<data>
@@ -262,7 +262,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		fuXH1/s4EpT5f3GzSd002X7Rbyc=
+		hL+kTP8fhchIxeCMiiKaQAFzn0U=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -407,11 +407,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			KOZHSRa05L0MyVjlOwFh2lvm+YM=
+			zNXSBVXzaNBsIBDTI1rzG8uLxGM=
 			</data>
 			<key>hash2</key>
 			<data>
-			FxSD1ymGLrVUjpa3uourvzSEwuiPSHxsAHymAcqaNrk=
+			G3ILeiKswUFBuIpWwD/zcDLysO+HDG55TJ3LaZV2VfA=
 			</data>
 		</dict>
 		<key>Headers/CombinationMessage.h</key>
@@ -462,11 +462,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			GSHOmSUu+F2GbQBrZ3ID4Q1ytIg=
+			XYD1eCTYQtJ9LlxXZePkPunSB3g=
 			</data>
 			<key>hash2</key>
 			<data>
-			N1WQUBT05c5voo9fTeEAZhQpGEQfIUlvS3PXp0VmIqk=
+			3rx+IZWetUk8t+c5xtzmv6rSCysl4HW9cbEubXJbL4o=
 			</data>
 		</dict>
 		<key>Headers/OnlineChatRecordModel.h</key>

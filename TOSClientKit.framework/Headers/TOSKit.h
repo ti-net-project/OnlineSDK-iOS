@@ -70,6 +70,39 @@ static NSString * const KTOSClientLibLastMessageReceivedNotification = @"KTOSCli
 - (void)onChanged:(NSNumber *)totalUnreadCount;
 @end
 
+/// TIMKit排队事件监听
+@protocol TIMOnlineQueueDelegate <NSObject>
+
+@optional
+/**
+ * 接入人工事件
+ * 即排队结束
+ * @param message ChatBridgeMessage
+ */
+- (void)chatBridge:(ChatBridgeMessage *)message;
+
+/**
+* 进入排队事件
+* @param message ChatQueueMessage
+*/
+- (void)chatQueue:(ChatQueueMessage *)message;
+
+/**
+* 排队播报事件
+* @param message ChatLocationMessage
+*/
+- (void)chatQueueLocation:(ChatLocationMessage *)message;
+
+/**
+* 退出排队
+*/
+- (void)exitChatQueue;
+
+
+
+
+@end
+
 /**
 TIMKit核心类
 
@@ -149,6 +182,14 @@ TIMKit核心类
  @warning 如果您使用TIMKit，可以设置并实现此Delegate监听总未读数的改变；
  */
 -(void)setTIMTotalUnreadCountChangedDelegate:(id<TIMTotalUnreadCountChangedDelegate>)delegate;
+
+
+/**
+ TIMKit排队事件监听
+
+ @warning 如果您使用TIMKit，可以设置并实现此Delegate监听排队事件的改变；
+ */
+- (void)setTIMOnlineQueueDelegate:(id<TIMOnlineQueueDelegate>)delegate;
 
 
 #pragma mark 消息发送
@@ -247,6 +288,13 @@ SDK内置的消息类型，如果您将pushOption置为nil，会使用默认的�
 在App整个生命周期中，您只需要执行一次初始化。
 */
 - (void)initSDK:(TOSInitOption *)option;
+
+/**
+ * 获取当前在线状态
+ *
+ * @return 0:不在线（会话结束）  1:机器人   2:人工座席
+ */
+- (TinetChatStatusType)getCurrentOnlineStatus;
 
 /**
 获取会话信息
