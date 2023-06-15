@@ -229,6 +229,15 @@ NS_ASSUME_NONNULL_BEGIN
 /// 输入框右侧的发送按钮开关 default: NO (发送按钮设置为YES时，chatBox_emotionButton_enable和chatBox_moreButton_enable 值需要为NO，且chatBox_sendButton_enable为YES，才会显示发送按钮)
 @property (nonatomic, assign) BOOL                chatBox_sendButton_enable;
 
+/// 录制语音的按钮背景颜色 defalut: clearColor
+@property (nonatomic, strong) UIColor                * chatBox_talk_backgroundColor;
+
+/// 录制语音的按钮按住背景颜色 defalut: B2B2B2
+@property (nonatomic, strong) UIColor                * chatBox_talk_backgroundHighlightedColor;
+
+/// 录制语音的按钮按住字体颜色 defalut: VoiceButton_textColor
+@property (nonatomic, strong) UIColor                * chatBox_talk_fontHighlightedColor;
+
 /// 输入框右侧的发送按钮大小 defatult: 60 : chatBox_textView_height
 @property (nonatomic, assign) CGSize                chatBox_sendButtonSize;
 
