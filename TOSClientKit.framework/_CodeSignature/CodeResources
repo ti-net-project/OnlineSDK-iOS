@@ -12,6 +12,10 @@
 		<data>
 		kQJENnL5G3nPz9xYNGbke0fKM6w=
 		</data>
+		<key>Headers/NSBundle+TIMRefresh.h</key>
+		<data>
+		M7U6cVUtTH+7X0WaknmSo6d1O4s=
+		</data>
 		<key>Headers/TIMICMessage.h</key>
 		<data>
 		pQ07oqA6NVTry/hsgVftpkSROyY=
@@ -19,6 +23,70 @@
 		<key>Headers/TIMMessageModel.h</key>
 		<data>
 		rcD2g13evCFQvJZ32SPVKadAJ8U=
+		</data>
+		<key>Headers/TIMRefresh.h</key>
+		<data>
+		RJC1cFuG5Fe+WCRWDmtdXNwSmNw=
+		</data>
+		<key>Headers/TIMRefreshAutoFooter.h</key>
+		<data>
+		ZmTVu4NedAYR2QcSxOHoJjtM7/8=
+		</data>
+		<key>Headers/TIMRefreshAutoGifFooter.h</key>
+		<data>
+		gzA/S/I9Y2f2uC/65nX1mYll/B0=
+		</data>
+		<key>Headers/TIMRefreshAutoNormalFooter.h</key>
+		<data>
+		KASXBL4/9hXmnpmaaYrk7c7bY3c=
+		</data>
+		<key>Headers/TIMRefreshAutoStateFooter.h</key>
+		<data>
+		NqYkrFPVRehckdfmH/0e2e2KSCo=
+		</data>
+		<key>Headers/TIMRefreshBackFooter.h</key>
+		<data>
+		nUQeHUu23GMzAb/I/XgH7XFTKW8=
+		</data>
+		<key>Headers/TIMRefreshBackGifFooter.h</key>
+		<data>
+		Q1TbYrAeDv4BoQSdCQ7pTW0M/1w=
+		</data>
+		<key>Headers/TIMRefreshBackNormalFooter.h</key>
+		<data>
+		DrxL+udaCgTFLbBEOOr0Xt969P4=
+		</data>
+		<key>Headers/TIMRefreshBackStateFooter.h</key>
+		<data>
+		0Jmqn/oEgDoDfWFJYTR6eH6Gpy0=
+		</data>
+		<key>Headers/TIMRefreshComponent.h</key>
+		<data>
+		KPwvbQ8l1/vvqSM7V/ZUmti+MT8=
+		</data>
+		<key>Headers/TIMRefreshConst.h</key>
+		<data>
+		lG6cMze9DnI6+0bR/p4PoJ0iFgY=
+		</data>
+		<key>Headers/TIMRefreshFooter.h</key>
+		<data>
+		CmWMu0Kp8nJfopb1LY1asnP1cjc=
+		</data>
+		<key>Headers/TIMRefreshGifHeader.h</key>
+		<data>
+		1Vp0k9etpY3bOfg7aZf5uosnCU4=
+		</data>
+		<key>Headers/TIMRefreshHeader.h</key>
+		<data>
+		Axh6cpXz3atukybB2xqq3c/p/uI=
+		</data>
+		<key>Headers/TIMRefreshNormalHeader.h</key>
+		<data>
+		urkCbe0YLXHl6GIUgljR02JHb6U=
+		</data>
+		<key>Headers/TIMRefreshStateHeader.h</key>
+		<data>
+		NxRONWquVSVUYub0Xst+bhkGktk=
 		</data>
 		<key>Headers/TOSAutoLayout.h</key>
 		<data>
@@ -42,11 +110,11 @@
 		</data>
 		<key>Headers/TOSClientKit.h</key>
 		<data>
-		X7LDO55w4phXJLgLE6XqWTIUMp0=
+		rdJK0B5SXYOjOXv9HecFv8vVvtM=
 		</data>
 		<key>Headers/TOSCustomerChatVC.h</key>
 		<data>
-		kysMi2qkxKOHDU7bUBudqwM5EeM=
+		rbPwWq58sFeoB2n7E+Zfw5rsh5w=
 		</data>
 		<key>Headers/TOSKit.h</key>
 		<data>
@@ -58,7 +126,7 @@
 		</data>
 		<key>Headers/TOSKitCustomInfo.h</key>
 		<data>
-		C9AlQk0M3bZ3tCKOl03q8ygM1CY=
+		OpuRU1ch8uGBkCBW9sGvSRwRe8s=
 		</data>
 		<key>Headers/TOSKitExtendBoardItemModel.h</key>
 		<data>
@@ -68,9 +136,21 @@
 		<data>
 		avp6meQQ+t77DQ975caflqL5yEE=
 		</data>
+		<key>Headers/UIScrollView+TIMExtension.h</key>
+		<data>
+		8JWt3n6n9wD9OGXX8U54NnJT/fU=
+		</data>
+		<key>Headers/UIScrollView+TIMRefresh.h</key>
+		<data>
+		scW00vHY96LZT7uz5k+VZ7V/1ZA=
+		</data>
 		<key>Headers/UITableView+TOSAutoTableViewCellHeight.h</key>
 		<data>
 		RIkfbeVTX88DrYS03dXyPn2WyjU=
+		</data>
+		<key>Headers/UIView+TIMExtension.h</key>
+		<data>
+		+TFYsDhcdsEoQcYgK/zovMdBkw8=
 		</data>
 		<key>Headers/UIView+TOSAutoLayout.h</key>
 		<data>
@@ -78,7 +158,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		wLNWzdwsK216q7/gEifCG9LhKP0=
+		UNYKFC/ZgaYg76FsmzXpCL+ULI4=
 		</data>
 		<key>LICENSE</key>
 		<data>
@@ -177,6 +257,17 @@
 			brcHQKGrgjqQ9dnWPGat9D1VxQqHcWJwPfej0fyp5S4=
 			</data>
 		</dict>
+		<key>Headers/NSBundle+TIMRefresh.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			M7U6cVUtTH+7X0WaknmSo6d1O4s=
+			</data>
+			<key>hash2</key>
+			<data>
+			/E5HmAoq/3G3Aq4cjmPk0jdkx0pQwJ0ApYAHxHCo2I4=
+			</data>
+		</dict>
 		<key>Headers/TIMICMessage.h</key>
 		<dict>
 			<key>hash</key>
@@ -197,6 +288,182 @@
 			<key>hash2</key>
 			<data>
 			ygT7f5a0YCdZwTi/zAe/nAl7b8cRDYKI7grCFmrY5Yc=
+			</data>
+		</dict>
+		<key>Headers/TIMRefresh.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			RJC1cFuG5Fe+WCRWDmtdXNwSmNw=
+			</data>
+			<key>hash2</key>
+			<data>
+			tMAhAut3VrR6jwBLJYRH6Qi725nztWAv6aXsmFB1ddI=
+			</data>
+		</dict>
+		<key>Headers/TIMRefreshAutoFooter.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			ZmTVu4NedAYR2QcSxOHoJjtM7/8=
+			</data>
+			<key>hash2</key>
+			<data>
+			eH9DbvBjoasSDNV2XiDWXOg6P27p6cKJ1PGBTDAxvQI=
+			</data>
+		</dict>
+		<key>Headers/TIMRefreshAutoGifFooter.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			gzA/S/I9Y2f2uC/65nX1mYll/B0=
+			</data>
+			<key>hash2</key>
+			<data>
+			qb7PPR8Xd/CsJRU5uI1ysu37DZa4P/boZ60sn0xoZgU=
+			</data>
+		</dict>
+		<key>Headers/TIMRefreshAutoNormalFooter.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			KASXBL4/9hXmnpmaaYrk7c7bY3c=
+			</data>
+			<key>hash2</key>
+			<data>
+			GITIVRt85JmqfhJ1xnvcg6xO3Li4gSOUgz0OSiqxa/g=
+			</data>
+		</dict>
+		<key>Headers/TIMRefreshAutoStateFooter.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			NqYkrFPVRehckdfmH/0e2e2KSCo=
+			</data>
+			<key>hash2</key>
+			<data>
+			Vm6etPx2ofEx2wllTBJQKekAt+5OnDfExGYYiBIsi1Q=
+			</data>
+		</dict>
+		<key>Headers/TIMRefreshBackFooter.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			nUQeHUu23GMzAb/I/XgH7XFTKW8=
+			</data>
+			<key>hash2</key>
+			<data>
+			xZKQfx1wbpNmNBiBH3GkzHhlGJq3WaNjhZcby1P/qQM=
+			</data>
+		</dict>
+		<key>Headers/TIMRefreshBackGifFooter.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			Q1TbYrAeDv4BoQSdCQ7pTW0M/1w=
+			</data>
+			<key>hash2</key>
+			<data>
+			DDA+l22xnmb1jhvB1ybNGtbKrd9XWNt/YmM4PgR6+iY=
+			</data>
+		</dict>
+		<key>Headers/TIMRefreshBackNormalFooter.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			DrxL+udaCgTFLbBEOOr0Xt969P4=
+			</data>
+			<key>hash2</key>
+			<data>
+			DM+6qgRzTFebL4dl+awEHuaK58yFtrWw4qTnFdZM6aM=
+			</data>
+		</dict>
+		<key>Headers/TIMRefreshBackStateFooter.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			0Jmqn/oEgDoDfWFJYTR6eH6Gpy0=
+			</data>
+			<key>hash2</key>
+			<data>
+			tTeW0xbbWRzgnVzWlR2IcbiLJMl1A5jUTCJEFGvu8a0=
+			</data>
+		</dict>
+		<key>Headers/TIMRefreshComponent.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			KPwvbQ8l1/vvqSM7V/ZUmti+MT8=
+			</data>
+			<key>hash2</key>
+			<data>
+			FAEYXH40aig7N5IVlOGkpJ4tHc+Skj4sAirzBE93qp4=
+			</data>
+		</dict>
+		<key>Headers/TIMRefreshConst.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			lG6cMze9DnI6+0bR/p4PoJ0iFgY=
+			</data>
+			<key>hash2</key>
+			<data>
+			E84ViEY8a9gdcK/eUFGieibpCCRz+pcWEmwuNR/TMfQ=
+			</data>
+		</dict>
+		<key>Headers/TIMRefreshFooter.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			CmWMu0Kp8nJfopb1LY1asnP1cjc=
+			</data>
+			<key>hash2</key>
+			<data>
+			JSK6ChNEnFCrlH0doJRX86UYlNzs3LaQWmCPL6z+l3g=
+			</data>
+		</dict>
+		<key>Headers/TIMRefreshGifHeader.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			1Vp0k9etpY3bOfg7aZf5uosnCU4=
+			</data>
+			<key>hash2</key>
+			<data>
+			gYSBcUCdbH9g2256mNbouvM038DB8lRhKZ+r2fKos5M=
+			</data>
+		</dict>
+		<key>Headers/TIMRefreshHeader.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			Axh6cpXz3atukybB2xqq3c/p/uI=
+			</data>
+			<key>hash2</key>
+			<data>
+			E87zeSLh55mKATs/8e0hvJo+1S1955jlPgakpz94GMc=
+			</data>
+		</dict>
+		<key>Headers/TIMRefreshNormalHeader.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			urkCbe0YLXHl6GIUgljR02JHb6U=
+			</data>
+			<key>hash2</key>
+			<data>
+			Sd8bvJRuZVw797flfoUZinOuBhxFnWH4mEb9jfKAETA=
+			</data>
+		</dict>
+		<key>Headers/TIMRefreshStateHeader.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			NxRONWquVSVUYub0Xst+bhkGktk=
+			</data>
+			<key>hash2</key>
+			<data>
+			i+IeymBRFTlLvuN56ImcpwsF4y+NqnTFywRtpnCavLE=
 			</data>
 		</dict>
 		<key>Headers/TOSAutoLayout.h</key>
@@ -258,22 +525,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			X7LDO55w4phXJLgLE6XqWTIUMp0=
+			rdJK0B5SXYOjOXv9HecFv8vVvtM=
 			</data>
 			<key>hash2</key>
 			<data>
-			0eLPQszTuAMwx5nMfGpvqrdOR/xLX2EXb9WeaAirOSY=
+			L56Wujh0MdAIVq3CoOM3JEN1BU6s9US3LizQD/7y6xg=
 			</data>
 		</dict>
 		<key>Headers/TOSCustomerChatVC.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			kysMi2qkxKOHDU7bUBudqwM5EeM=
+			rbPwWq58sFeoB2n7E+Zfw5rsh5w=
 			</data>
 			<key>hash2</key>
 			<data>
-			AG7LK2hxDJjz2Npx1ShcX9EoKaeOT4J1FAZQGowrUjM=
+			oByy01Ddwe9Ia4IEEqmmUZDPMrpEmESdaGRhOfDvi/M=
 			</data>
 		</dict>
 		<key>Headers/TOSKit.h</key>
@@ -302,11 +569,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			C9AlQk0M3bZ3tCKOl03q8ygM1CY=
+			OpuRU1ch8uGBkCBW9sGvSRwRe8s=
 			</data>
 			<key>hash2</key>
 			<data>
-			pJjh3p2RYwSeWT1OYmcaw2bbgTTDfctHNBbntxJfIbk=
+			QKcJPIggbvdIQd2AjtQgJtqIQlLKeyrLSIME71VVcns=
 			</data>
 		</dict>
 		<key>Headers/TOSKitExtendBoardItemModel.h</key>
@@ -331,6 +598,28 @@
 			hQyx7skpPJehm/bqY7TVzH9RNDaMjZ2iqrPQGTf/lFo=
 			</data>
 		</dict>
+		<key>Headers/UIScrollView+TIMExtension.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			8JWt3n6n9wD9OGXX8U54NnJT/fU=
+			</data>
+			<key>hash2</key>
+			<data>
+			rqW8bvr7UhQxObdDiBqNDKr9KKsodlUvh41pNyYZkUA=
+			</data>
+		</dict>
+		<key>Headers/UIScrollView+TIMRefresh.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			scW00vHY96LZT7uz5k+VZ7V/1ZA=
+			</data>
+			<key>hash2</key>
+			<data>
+			hMCj2Hpe3kx5KJvUS6mVaO58NIzmaXGZpK+EI2n5z20=
+			</data>
+		</dict>
 		<key>Headers/UITableView+TOSAutoTableViewCellHeight.h</key>
 		<dict>
 			<key>hash</key>
@@ -340,6 +629,17 @@
 			<key>hash2</key>
 			<data>
 			AiQt/l46KAV/MLU+yVGHQf23y+nPZRvCG8X4Mzkt3Kg=
+			</data>
+		</dict>
+		<key>Headers/UIView+TIMExtension.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			+TFYsDhcdsEoQcYgK/zovMdBkw8=
+			</data>
+			<key>hash2</key>
+			<data>
+			vNdBj2xsgDtLHNa1qEWzcNpu2VRo6zkl4SiOF7w6rro=
 			</data>
 		</dict>
 		<key>Headers/UIView+TOSAutoLayout.h</key>

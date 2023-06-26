@@ -22,7 +22,7 @@ FOUNDATION_EXPORT const unsigned char TIMClientKitVersionString[];
 #import <TOSClientKit/TOSCustomerChatVC.h>
 #import <TOSClientKit/TOSKitChatBoxExtendBoard.h>
 #import <TOSClientKit/TOSKitExtendBoardItemModel.h>
-
+#import <TOSClientKit/TIMRefresh.h>
 
 // Base
 #import <TOSClientKit/TOSBaseView.h>
@@ -46,3 +46,5 @@ FOUNDATION_EXPORT const unsigned char TIMClientKitVersionString[];
 #import <TOSClientKit/TIMMessageModel.h>
 #import <TOSClientKit/TIMICMessage.h>
 #import <TOSClientKit/ICChatServerDefs.h>
+
+#import <TOSClientKit/TOSKitCustomInfo.h>

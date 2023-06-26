@@ -13,6 +13,7 @@
 
 #import <TOSClientKit/TIMMessageModel.h>
 #import <TOSClientKit/TOSChatCustomBaseTableViewCell.h>
+#import <TOSClientKit/TIMRefresh.h>
 
 NS_ASSUME_NONNULL_BEGIN
 
@@ -48,6 +49,9 @@ typedef NS_ENUM(NSUInteger, TinetClickTextMessageEventType) {
 /// 自定义欢迎语
 @property(nonatomic, copy) NSString *welcomsString;
 
+/// 自定义顶部刷新控件, 重写这个组件的回调方法要调用 loadMoreMessage 方法，（block回调需要注意循环引用问题）
+@property (nonatomic, strong) TIMRefreshHeader                * customRefreshHeader;
+
 /// 文本类型消息中关于链接、单号和手机号的相关点击回调
 /// @param eventType 事件类型
 /// @param userInfo 信息
@@ -72,6 +76,15 @@ typedef NS_ENUM(NSUInteger, TinetClickTextMessageEventType) {
 /// 自定义cell要实现这个方法，要在实现该方法前，配置 [TOSKitCustomInfo shareCustomInfo].customCellRegister
 - (TOSChatCustomBaseTableViewCell *)customTableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath withModel:(TIMMessageModel *)model;
 
+
+/// 自定义refresh组件回调需要调用的方法
+- (void)loadMoreMessage;
+
+/// 当前列表的滑动高度，子类重写该方法可以获取当前列表的滑动高度
+/// - Parameters:
+///   - contentOffset: 当前列表的滑动范围
+///   - messageHeight: 消息列表的高度
+- (void)tableViewContentOffset:(CGPoint)contentOffset withMessageHeight:(CGFloat)messageHeight;
 
 @end
 

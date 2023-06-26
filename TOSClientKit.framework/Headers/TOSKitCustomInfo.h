@@ -8,6 +8,44 @@
 
 #import <TOSClientLib/TOSClientLib.h>
 
+
+/**
+ 气泡的圆角类型枚举
+ */
+typedef NS_ENUM(NSInteger, BubbleCornerType) {
+    /// 全切圆角
+    BubbleCornerTypeAll             =   0,
+    /// 左边上面是圆角
+    BubbleCornerTypeLeftTop         =   1,
+    /// 左边下面是圆角
+    BubbleCornerTypeLeftBottom      =   2,
+    /// 左边两个都是圆角
+    BubbleCornerTypeLeft            =   3,
+    /// 右边上面是圆角
+    BubbleCornerTypeRightTop        =   4,
+    /// 右边下面是圆角
+    BubbleCornerTypeRightBottom     =   5,
+    /// 右边两个都是圆角
+    BubbleCornerTypeRight           =   6,
+    /// 上面两个都是圆角
+    BubbleCornerTypeTop             =   7,
+    /// 下面两个都是圆角
+    BubbleCornerTypeBottom          =   8,
+    /// 左上方不是圆角
+    BubbleCornerTypeNoLeftTop       =   9,
+    /// 右上方不是圆角
+    BubbleCornerTypeNoRightTop      =   10,
+    /// 左下方不是圆角
+    BubbleCornerTypeNoLeftBottom    =   11,
+    /// 右下方不是圆角
+    BubbleCornerTypeNoRightBottom   =   12,
+    /// 不切圆角
+    BubbleCornerTypeNormal          =   13,
+};
+
+
+
+
 NS_ASSUME_NONNULL_BEGIN
 
 @interface TOSKitCustomInfo : TIMLibBaseModel
@@ -194,6 +232,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 /// 聊天底部的输入框内边距 default: UIEdgeInsetsMake(10, 10, 10, 10)
 @property (nonatomic, assign) UIEdgeInsets                chatBox_textView_textContainerInset;
+
 /// 聊天底部的输入框字体颜色 default：262626
 @property (nonatomic, strong) UIColor                * chatBox_textView_textColor;
 
@@ -202,6 +241,12 @@ NS_ASSUME_NONNULL_BEGIN
 
 /// 聊天底部文本框的圆角值 default：8.0
 @property (nonatomic, assign) CGFloat                chatBox_textView_cornerRadius;
+
+/// 聊天底部文本框的边框颜色 default: clearColor
+@property (nonatomic, strong) UIColor                * chatBox_textView_borderColor;
+
+/// 聊天底部文本框的边框宽度 default: 0.5
+@property (nonatomic, assign) CGFloat                chatBox_textView_borderWidth;
 
 /// 聊天底部文本框的最多显示行数 default：5
 @property (nonatomic, assign) NSInteger                chatBox_textView_maxRows;
@@ -288,6 +333,90 @@ NS_ASSUME_NONNULL_BEGIN
 /// 语音消息的最低宽度 default: 60
 @property (nonatomic, assign) CGFloat                chat_voiceMinWidth;
 
+/// 语音录制view，需要设置位置及大小
+@property (nonatomic, strong) UIView                * chatBox_voiceRecordView;
+
+/// 语音取消录制view，需要设置位置及大小
+@property (nonatomic, strong) UIView                * chatBox_voiceCancelRecordView;
+
+/// 语音录制时间过短的提示view，需要设置位置及大小
+@property (nonatomic, strong) UIView                * chatBox_voiceRecordSoShortView;
+
+/// 语音录制时间过短的提示view显示时间 default: 2.0
+@property (nonatomic, assign) CGFloat                chatBox_voiceRecordSoShortTime;
+
+
+/// 表情面板的删除按钮的默认图片
+@property (nonatomic, strong) UIImage                * chatBox_emotion_deleteButton_image;
+
+/// 表情面板的删除按钮的高亮图片
+@property (nonatomic, strong) UIImage                * chatBox_emotion_deleteButton_highlightedImage;
+
+/// 表情面板的删除按钮背景色 default：whiteColor
+@property (nonatomic, strong) UIColor                * chatBox_emotion_deleteButtonBackGroundColor;
+
+/// 表情面板的删除按钮大小 default: CGSizeMake(49, 38)
+@property (nonatomic, assign) CGSize                chatBox_emotion_deleteButtonSize;
+
+/// 删除按钮位置的 (x,y) 的偏移，默认为 CGPointZero
+@property (nonatomic, assign) CGPoint                chatBox_emotion_deleteButtonOffset;
+
+/// 表情面板的删除按钮的圆角 default: 4.0
+@property (nonatomic, assign) CGFloat                chatBox_emotion_deleteButton_cornerRadius;
+
+/// 表情面板的删除按钮的calayer
+@property (nonatomic, strong) CALayer                * chatBox_emotion_deleteCALayer;
+
+/// 表情面板的发送按钮文案 default: 发送
+@property (nonatomic, copy) NSString                * chatBox_emotion_sendButton_text;
+
+/// 表情面板的发送按钮文案 default: 发送
+@property (nonatomic, copy) NSString                * chatBox_emotion_sendButton_textHighlighted;
+
+/// 表情面板的发送按钮大小 default: CGSizeMake(49, 38)
+@property (nonatomic, assign) CGSize                chatBox_emotion_sendButtonSize;
+
+/// 表情面板的发送按钮背景色 default: 4385FF
+@property (nonatomic, strong) UIColor                * chatBox_emotion_sendButtonBackGroundColor;
+
+/// 发送按钮布局时的外边距，相对于控件右下角。仅right/bottom有效，默认为{0, 0, 16, 16}
+@property(nonatomic, assign) UIEdgeInsets               chatBox_emotion_sendButtonMargins;
+
+/// 表情面板的发送按钮的圆角 default: 4.0
+@property (nonatomic, assign) CGFloat                chatBox_emotion_sendButton_cornerRadius;
+//
+///// 表情面板的发送按钮字体 default: [UIFont fontWithName:@"PingFangSC-Regular" size:14.f]
+@property (nonatomic, strong) UIFont                * chatBox_emotion_sendButtonFont;
+
+/// 表情面板的发送按钮默认的文字颜色，即输入框有值时发送按钮的文字颜色 default: UIColor.whiteColor
+@property (nonatomic, strong) UIColor                * chatBox_emotion_sendButton_textColor;
+
+/// 表情面板的发送按钮高亮的文字颜色，即输入框有值时发送按钮的文字颜色 default: UIColor.whiteColor
+@property (nonatomic, strong) UIColor                * chatBox_emotion_sendButton_textHighlightedColor;
+
+/// 表情面板的发送按钮的calayer
+@property (nonatomic, strong) CALayer                * chatBox_emotion_sendCALayer;
+
+/// 分页控件距离底部的间距，default: 22.0
+@property(nonatomic, assign) CGFloat                 chatBox_emotion_pageControlMarginBottom;
+
+/// 输入区域上方的线条高度 default: 1
+@property (nonatomic, assign) CGFloat                chatBox_topLineHeight;
+
+/// 是否在删除和发送按钮下方显示表情 default: NO
+@property (nonatomic, assign) BOOL                chatBox_emotion_functionItemDisplayed;
+
+/// 输入区域item的宽度 default: 28
+@property (nonatomic, assign) CGFloat                chatBox_Item_Width;
+
+/// 最后一条消息距离输入区域的间距 default: 0
+@property (nonatomic, assign) CGFloat                lastMessage_spacing;
+
+/// 昵称和气泡之间的间距 default: 0
+@property (nonatomic, assign) CGFloat                nickNameToBubbleSpacing;
+
+/// 气泡的圆角类型以【发送方】为标准，【接收方】自动对称。 defalut: 全切圆角 BubbleCornerTypeAll (BubbleCornerTypeNormal 时 senderBubble_cornerRadius/receiveBubble_cornerRadius无效)
+@property (nonatomic, assign) BubbleCornerType                chatBubble_CornerType;
 
 @end
 
