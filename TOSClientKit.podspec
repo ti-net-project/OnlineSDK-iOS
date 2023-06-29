@@ -23,7 +23,7 @@ TODO: Add long description of the pod here.
 
   s.homepage         = 'https://github.com/ti-net-project/OnlineSDK-iOS'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'gyb1314' => 'gyb_1314@126.com' }
+  s.author           = { 'zhaoyan' => 'a18810583594@163.com' }
   s.source           = { :git => 'https://github.com/ti-net-project/OnlineSDK-iOS', :tag => s.version.to_s }
 
   s.ios.deployment_target = '9.0'
