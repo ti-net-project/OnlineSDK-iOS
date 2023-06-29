@@ -327,8 +327,14 @@ NS_ASSUME_NONNULL_BEGIN
 /// 发送侧语音按钮的语音图标距离气泡右侧的X值 default: 22.0
 @property (nonatomic, assign) CGFloat                chat_send_voiceImageToBubbleRightX;
 
-/// 发送语音按钮的语音时长距离气泡左侧的X值 default: 10.0
+/// 发送侧语音按钮的语音时长距离气泡左侧的X值 default: 10.0
 @property (nonatomic, assign) CGFloat                chat_send_voiceLabelToBubbleLeftX;
+
+/// 发送侧语音按钮的语音图标距离气泡顶部的Y值 default: 10.0
+@property (nonatomic, assign) CGFloat                chat_send_voiceImageToBubbleTop;
+
+/// 发送侧语音按钮的语音时长距离气泡顶部的Y值 default: 10.0
+@property (nonatomic, assign) CGFloat                chat_send_voiceLabelToBubbleTop;
 
 /// 语音消息的最低宽度 default: 60
 @property (nonatomic, assign) CGFloat                chat_voiceMinWidth;
@@ -384,8 +390,8 @@ NS_ASSUME_NONNULL_BEGIN
 
 /// 表情面板的发送按钮的圆角 default: 4.0
 @property (nonatomic, assign) CGFloat                chatBox_emotion_sendButton_cornerRadius;
-//
-///// 表情面板的发送按钮字体 default: [UIFont fontWithName:@"PingFangSC-Regular" size:14.f]
+
+/// 表情面板的发送按钮字体 default: [UIFont fontWithName:@"PingFangSC-Regular" size:14.f]
 @property (nonatomic, strong) UIFont                * chatBox_emotion_sendButtonFont;
 
 /// 表情面板的发送按钮默认的文字颜色，即输入框有值时发送按钮的文字颜色 default: UIColor.whiteColor
@@ -417,6 +423,63 @@ NS_ASSUME_NONNULL_BEGIN
 
 /// 气泡的圆角类型以【发送方】为标准，【接收方】自动对称。 defalut: 全切圆角 BubbleCornerTypeAll (BubbleCornerTypeNormal 时 senderBubble_cornerRadius/receiveBubble_cornerRadius无效)
 @property (nonatomic, assign) BubbleCornerType                chatBubble_CornerType;
+
+/// 系统消息的背景颜色 default: FFFFFF, 0.65
+@property (nonatomic, strong) UIColor                * chatMessage_system_backgroundColor;
+
+/// 系统消息的字体 default: [UIFont systemFontOfSize:11.0]
+@property (nonatomic, strong) UIFont                * chatMessage_system_textFont;
+
+/// 系统消息的字体颜色 default: 595959
+@property (nonatomic, strong) UIColor                * chatMessage_system_textColor;
+
+/// 系统消息的对齐方式 default: NSTextAlignmentCenter
+@property (nonatomic, assign) NSTextAlignment                chatMessage_system_textAlignment;
+
+/// 系统消息的内容背景圆角 default: 4.0
+@property (nonatomic, assign) CGFloat                chatMessage_system_cornerRadius;
+
+/// 系统消息的Label是否居中显示 default: YES （若设置为NO，就根据chatMessage_system_edgeInsets的值进行布局）
+@property (nonatomic, assign) BOOL                chatMessage_system_center;
+
+/// 系统消息的文本控件距离屏幕上下左右间距 default: UIEdgeInsetsMake(5, 20, 5, 20)
+@property (nonatomic, assign) UIEdgeInsets                chatMessage_system_edgeInsets;
+
+/// 系统消息的文本控件上下左右内间距 default: UIEdgeInsetsMake(0, 0, 0, 0)
+@property (nonatomic, assign) UIEdgeInsets                chatMessage_system_labelTextEdgeInsets;
+
+
+/// 表情面板的背景颜色 default: F3F6F9
+@property (nonatomic, strong) UIColor                * chatBox_emotion_backgroundColor;
+
+/// 表情面板顶部的分割线颜色 default: E8E8E8
+@property (nonatomic, strong) UIColor                * chatBox_emotion_topLineColor;
+
+/// 表情面板顶部的分割线高度 default: 1
+@property (nonatomic, assign) CGFloat                chatBox_emotion_topLineHeight;
+
+/// 更多面板的背景颜色 default: 237, 237, 246, 1
+@property (nonatomic, strong) UIColor                * chatBox_more_backgroundColor;
+
+/// 更多面板的item图片圆角配置 default: 12.0f （最大设置28，超过28会造成图片畸形，超过28的数值按28取值）
+@property (nonatomic, assign) CGFloat                chatBox_more_itemCornerRadius;
+
+/// 更多面板的item的背景颜色 default: whiteColor
+@property (nonatomic, strong) UIColor                * chatBox_more_itemBackgroundColor;
+
+/// 更多面板的item的图片UIEdgeInsets  default: UIEdgeInsetsMake(12, 12, 12, 12)
+@property (nonatomic, assign) UIEdgeInsets                chatBox_more_itemImageEdgeInsets;
+
+/// 更多面板的item的文字颜色 default: 595959
+@property (nonatomic, strong) UIColor                * chatBox_more_itemTextColor;
+
+/// 更多面板的顶部分割线颜色 default: E8E8E8
+@property (nonatomic, strong) UIColor                * chatBox_more_topLineColor;
+
+/// 更多面板的顶部分割线高度 default: 1.0
+@property (nonatomic, assign) CGFloat                chatBox_more_topLineHeight;
+
+
 
 @end
 
