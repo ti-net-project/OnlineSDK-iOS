@@ -280,7 +280,7 @@ NS_ASSUME_NONNULL_BEGIN
 /// 录制语音的按钮按住背景颜色 defalut: B2B2B2
 @property (nonatomic, strong) UIColor                * chatBox_talk_backgroundHighlightedColor;
 
-/// 录制语音的按钮按住字体颜色 defalut: VoiceButton_textColor
+/// 录制语音的按钮按住字体颜色 defalut: 434343
 @property (nonatomic, strong) UIColor                * chatBox_talk_fontHighlightedColor;
 
 /// 输入框右侧的发送按钮大小 defatult: 60 : chatBox_textView_height
