@@ -74,7 +74,7 @@
 		</data>
 		<key>Headers/OctoIMParamDefines.h</key>
 		<data>
-		Xb0u0UoQsun1LQ+NiMhRHlbGCQQ=
+		/mLArXzUR3Qqrws5CqHSswQcegM=
 		</data>
 		<key>Headers/OnlineChatRecordModel.h</key>
 		<data>
@@ -132,6 +132,10 @@
 		<data>
 		0Illtk8A4l2FPhS/HC32xiNt89M=
 		</data>
+		<key>Headers/TIMCommodityCardMessage.h</key>
+		<data>
+		M638teV/vcmm7z0kWW6RJ7pmP4o=
+		</data>
 		<key>Headers/TIMConnectOption.h</key>
 		<data>
 		2cBni6f57DVAO7nuMmTEHstqdh8=
@@ -139,6 +143,10 @@
 		<key>Headers/TIMCustomizeMessage.h</key>
 		<data>
 		BWytNT4LPI4WIsw5JWm+TXasu5g=
+		</data>
+		<key>Headers/TIMFileMessage.h</key>
+		<data>
+		cCJQWqkqPKSGwAa1Thk7QlCeUII=
 		</data>
 		<key>Headers/TIMImageMessage.h</key>
 		<data>
@@ -155,6 +163,10 @@
 		<key>Headers/TIMLibUtils.h</key>
 		<data>
 		61XK3OFeFAXHBBYuKDAW2m5H58E=
+		</data>
+		<key>Headers/TIMLogisticsCardMessage.h</key>
+		<data>
+		aZkk+3BQ/jtDbRRKSMuz3mMZ46Y=
 		</data>
 		<key>Headers/TIMMessageContent.h</key>
 		<data>
@@ -220,6 +232,10 @@
 		<data>
 		j0VSy+YsjVKit9MQpUfxgFIq4CM=
 		</data>
+		<key>Headers/TOSGetInvestigationInfoModel.h</key>
+		<data>
+		NdcEbPDfHhq7f6O1/5oVGYKiwCw=
+		</data>
 		<key>Headers/TOSInitOption.h</key>
 		<data>
 		Yqf2x3YjjwAuH9uu+68X/OoS33I=
@@ -227,6 +243,10 @@
 		<key>Headers/TOSMessage.h</key>
 		<data>
 		d9jjwSYS65QSn/L2PAUQtCBE2H0=
+		</data>
+		<key>Headers/TOSMessageKnowledgeBaseModel.h</key>
+		<data>
+		XN1tNDt5Ww5AR1Op90T81uCNMzA=
 		</data>
 		<key>Headers/TOSMessageSmallProgramModel.h</key>
 		<data>
@@ -262,7 +282,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		h8JMYat4bUyhlDqkN4lDQUHv9pQ=
+		C52MXqYKLvwjhrLD5bn8Oy9OPL0=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -462,11 +482,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			Xb0u0UoQsun1LQ+NiMhRHlbGCQQ=
+			/mLArXzUR3Qqrws5CqHSswQcegM=
 			</data>
 			<key>hash2</key>
 			<data>
-			bVAoGxx35eK0raGlGP23J9apOOLcRWQa3eVnwHMigqI=
+			C956clVe4hWSZLqpWYEFeuXvdDOrsGE4X9Pw0Rz3QSk=
 			</data>
 		</dict>
 		<key>Headers/OnlineChatRecordModel.h</key>
@@ -623,6 +643,17 @@
 			3eg90v/tarl+4HDiX5Ovo3jB0Juecg9fjBHb5g2ZJhc=
 			</data>
 		</dict>
+		<key>Headers/TIMCommodityCardMessage.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			M638teV/vcmm7z0kWW6RJ7pmP4o=
+			</data>
+			<key>hash2</key>
+			<data>
+			sHkoeKg98eF8bmnNwS3wpohXaXtMk0KQSrRiE1QCASM=
+			</data>
+		</dict>
 		<key>Headers/TIMConnectOption.h</key>
 		<dict>
 			<key>hash</key>
@@ -643,6 +674,17 @@
 			<key>hash2</key>
 			<data>
 			aI/QJZBL2/3dQ2H0+s4hXHkKe7UtGPrscBdhwVjPICc=
+			</data>
+		</dict>
+		<key>Headers/TIMFileMessage.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			cCJQWqkqPKSGwAa1Thk7QlCeUII=
+			</data>
+			<key>hash2</key>
+			<data>
+			0K4SVANLW7LsjFIPEBGX6+vEjNZuYBdcvThCICWaBrA=
 			</data>
 		</dict>
 		<key>Headers/TIMImageMessage.h</key>
@@ -687,6 +729,17 @@
 			<key>hash2</key>
 			<data>
 			3M3xkHHpISAN99mro2U35mAuKg0nzSN0/d5Clqkhtto=
+			</data>
+		</dict>
+		<key>Headers/TIMLogisticsCardMessage.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			aZkk+3BQ/jtDbRRKSMuz3mMZ46Y=
+			</data>
+			<key>hash2</key>
+			<data>
+			KiwxUrW0+6PS/9C0S87BLtROd+7rpv4mmWS8HAUy5PI=
 			</data>
 		</dict>
 		<key>Headers/TIMMessageContent.h</key>
@@ -865,6 +918,17 @@
 			SjkkErWed4BxtNabGigfVciuA+4ZyQJvxMoDucoCD/w=
 			</data>
 		</dict>
+		<key>Headers/TOSGetInvestigationInfoModel.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			NdcEbPDfHhq7f6O1/5oVGYKiwCw=
+			</data>
+			<key>hash2</key>
+			<data>
+			PTyK0Ap/YXdT9TyfIgy+sam40D4zZHU8UKKWAWgM2ME=
+			</data>
+		</dict>
 		<key>Headers/TOSInitOption.h</key>
 		<dict>
 			<key>hash</key>
@@ -885,6 +949,17 @@
 			<key>hash2</key>
 			<data>
 			KdsvDtgoky9f2xrjnceXR5I94XTYbf4bWVK07iAy7XA=
+			</data>
+		</dict>
+		<key>Headers/TOSMessageKnowledgeBaseModel.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			XN1tNDt5Ww5AR1Op90T81uCNMzA=
+			</data>
+			<key>hash2</key>
+			<data>
+			7iLD+oMEIDCQKcwj9DIaLLbWJnqfrpRGEFblXI/IADE=
 			</data>
 		</dict>
 		<key>Headers/TOSMessageSmallProgramModel.h</key>
