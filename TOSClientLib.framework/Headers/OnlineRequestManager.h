@@ -72,16 +72,6 @@ NS_ASSUME_NONNULL_BEGIN
                          success:(void (^)(OnlineClientInfoModel * model))successBlock
                          error:(void (^)(TIMConnectErrorCode errCode,NSString *errorDes))errorBlock;
 
-#pragma mark  获取评价状态
--(void)getInvestigationStateWithMainUniqueId:(NSString *)mainUniqueId
-                                    uniqueId:(NSString *)uniqueId
-                                     success:(void (^)(OnlineChatRecordModel * model))successBlock
-                                       error:(void (^)(TIMConnectErrorCode errCode,NSString *errorDes))errorBlock;
-
-#pragma mark  获取评价地址
--(void)getInvestigationUrlSuccess:(void (^)(NSString * investigationUrl))successBlock
-                            error:(void (^)(TIMConnectErrorCode errCode,NSString *errorDes))errorBlock;
-
 #pragma mark  获取已提交满意度信息
 -(void)getInvestigationInfoSuccess:(void (^)(void))successBlock
                             error:(void (^)(TIMConnectErrorCode errCode,NSString *errorDes))errorBlock;

@@ -479,7 +479,26 @@ NS_ASSUME_NONNULL_BEGIN
 /// 更多面板的顶部分割线高度 default: 1.0
 @property (nonatomic, assign) CGFloat                chatBox_more_topLineHeight;
 
+/// 访客昵称字体 default: [UIFont systemFontOfSize:12.0]
+@property (nonatomic, strong) UIFont                * chatMessage_visitorName_font;
 
+/// 访客昵称字体颜色 default: 595959
+@property (nonatomic, strong) UIColor                * chatMessage_visitorName_textColor;
+
+/// 机器人/座席字体 default: [UIFont systemFontOfSize:12.0]
+@property (nonatomic, strong) UIFont                * chatMessage_tosRobotName_font;
+
+/// 机器人/座席字体颜色 default: 595959
+@property (nonatomic, strong) UIColor                * chatMessage_tosRobotName_textColor;
+
+/// 访客气泡文本字体 default: [UIFont fontWithName:@"PingFangSC-Regular" size:16.0]
+@property (nonatomic, strong) UIFont                * chatMessage_visitorText_font;
+
+/// 机器人/座席字体 default: [UIFont fontWithName:@"PingFangSC-Regular" size:16.0]
+@property (nonatomic, strong) UIFont                * chatMessage_tosRobotText_font;
+
+/// 输入区域文本框的光标颜色 default: blueColor
+@property (nonatomic, strong) UIColor                * chatBox_textView_tintColor;
 
 @end
 
