@@ -10,7 +10,7 @@
 		</data>
 		<key>Headers/ICChatServerDefs.h</key>
 		<data>
-		kQJENnL5G3nPz9xYNGbke0fKM6w=
+		jkFbovmX5eqrpgTIzfnLxMtgUsg=
 		</data>
 		<key>Headers/NSBundle+TIMRefresh.h</key>
 		<data>
@@ -18,11 +18,11 @@
 		</data>
 		<key>Headers/TIMICMessage.h</key>
 		<data>
-		pQ07oqA6NVTry/hsgVftpkSROyY=
+		fYok1BJWfLS21GLIaV4UnF1QV7o=
 		</data>
 		<key>Headers/TIMMessageModel.h</key>
 		<data>
-		rcD2g13evCFQvJZ32SPVKadAJ8U=
+		4fg4auUqfXKIBzE3CnnQf/8hr7o=
 		</data>
 		<key>Headers/TIMRefresh.h</key>
 		<data>
@@ -158,7 +158,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		fqptT1gcnPAzToTvMh5BdMCcXyI=
+		3kmtzWTBRtAWY2avokO+MpDr5sI=
 		</data>
 		<key>LICENSE</key>
 		<data>
@@ -250,11 +250,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			kQJENnL5G3nPz9xYNGbke0fKM6w=
+			jkFbovmX5eqrpgTIzfnLxMtgUsg=
 			</data>
 			<key>hash2</key>
 			<data>
-			brcHQKGrgjqQ9dnWPGat9D1VxQqHcWJwPfej0fyp5S4=
+			helwghKFHX9nEMX4EwpHGzFZ3fkMQSuNhehIs3+UXe0=
 			</data>
 		</dict>
 		<key>Headers/NSBundle+TIMRefresh.h</key>
@@ -272,22 +272,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			pQ07oqA6NVTry/hsgVftpkSROyY=
+			fYok1BJWfLS21GLIaV4UnF1QV7o=
 			</data>
 			<key>hash2</key>
 			<data>
-			6zqQZCeup7ooufN9MKqLyQoDc51VB7OZiI4Dk6flz8o=
+			yO/LCw1AEMSm9xcNtzQj0cM+3M5CA4ZkvSvPeAl0I78=
 			</data>
 		</dict>
 		<key>Headers/TIMMessageModel.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			rcD2g13evCFQvJZ32SPVKadAJ8U=
+			4fg4auUqfXKIBzE3CnnQf/8hr7o=
 			</data>
 			<key>hash2</key>
 			<data>
-			ygT7f5a0YCdZwTi/zAe/nAl7b8cRDYKI7grCFmrY5Yc=
+			ZdefvHCawyZ6ad2BwNHXDYA6sEPbO98Z8t+uN3u4RAI=
 			</data>
 		</dict>
 		<key>Headers/TIMRefresh.h</key>

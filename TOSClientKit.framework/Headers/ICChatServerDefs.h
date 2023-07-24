@@ -2,7 +2,7 @@
 //  ICChatServerDefs.h
 //  XZ_WeChat
 //
-//  Created by 郭现壮 on 16/4/7.
+//  Created by 赵言 on 16/4/7.
 //  Copyright © 2016年 gxz All rights reserved.
 //
 
