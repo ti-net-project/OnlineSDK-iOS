@@ -86,6 +86,10 @@ typedef NS_ENUM(NSUInteger, TinetClickTextMessageEventType) {
 ///   - messageHeight: 消息列表的高度
 - (void)tableViewContentOffset:(CGPoint)contentOffset withMessageHeight:(CGFloat)messageHeight;
 
+/// 发送商品卡片消息
+- (void)sendCard:(NSDictionary *)userInfo;
+
+
 @end
 
 NS_ASSUME_NONNULL_END

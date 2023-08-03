@@ -500,6 +500,52 @@ NS_ASSUME_NONNULL_BEGIN
 /// 输入区域文本框的光标颜色 default: blueColor
 @property (nonatomic, strong) UIColor                * chatBox_textView_tintColor;
 
+/// 机器人组合消息标题字体 default: [UIFont fontWithName:@"PingFangSC-Regular" size:16.0]
+@property (nonatomic, strong) UIFont                * chatMessage_tosRobotCombination_titleFont;
+
+/// 机器人组合消息副标题字体颜色 default: FAAD14
+@property (nonatomic, strong) UIColor                * chatMessage_tosRobotCombination_titleColor;
+
+/// 机器人组合消息副标题字体 default: [UIFont fontWithName:@"PingFangSC-Regular" size:16.0]
+@property (nonatomic, strong) UIFont                * chatMessage_tosRobotCombination_subTitleFont;
+
+/// 机器人组合消息的字体 default: [UIFont fontWithName:@"PingFangSC-Regular" size:14.f]
+@property (nonatomic, strong) UIFont                * chatMessage_tosRobotCombination_hotSubIssueTitleFont;
+
+/// 机器人组合消息分类选项卡的字体 default: [UIFont fontWithName:@"PingFangSC-Regular" size:14.0f]
+@property (nonatomic, strong) UIFont                * chatMessage_tosRobotCombination_segmentFont;
+
+/// 机器人组合消息分类选项卡的字体颜色 default: 4385FF
+@property (nonatomic, strong) UIColor                * chatMessage_tosRobotCombination_segmentTextColor;
+
+/// 机器人组合消息分类选项卡的下划线颜色 default: 000000, 0.04f
+@property (nonatomic, strong) UIColor                * chatMessage_tosRobotCombination_segmentLineColor;
+
+/// 机器人组合消息的字体颜色 default: 262626
+@property (nonatomic, strong) UIColor                * chatMessage_tosRobotCombination_hotSubIssueTitleColor;
+
+/// 机器人组合消息的间距 default: 10.0f
+@property (nonatomic, assign) CGFloat                chatMessage_tosRobotCombination_hotSubIssusSpacing;
+
+/// 机器人组合消息的换一换按钮是否展示的数量限制 default: 5 (超过5条会显示换一换按钮)
+@property (nonatomic, assign) NSInteger                chatMessage_tosRobotCombination_showRefreshNumber;
+
+/// 机器人组合消息的换一换按钮的图片 default: robotCell_hotIssueRefresh
+@property (nonatomic, strong) UIImage                * chatMessage_tosRobotCombination_showRefreshImage;
+
+/// 机器人组合消息的换一换按钮的文字内容 default: 换一换
+@property (nonatomic, copy) NSString                * chatMessage_tosRobotCombination_showRefreshTitle;
+
+/// 机器人组合消息的换一换按钮的文字颜色 default: 4385FF
+@property (nonatomic, strong) UIColor                * chatMessage_tosRobotCombination_showRefreshTitleColor;
+
+/// 机器人组合消息的换一换按钮的文字字体 default: [UIFont fontWithName:@"PingFangSC-Regular" size:12.f]
+@property (nonatomic, strong) UIFont                * chatMessage_tosRobotCombination_showRefreshTitleFont;
+
+
+
+
+
 @end
 
 NS_ASSUME_NONNULL_END

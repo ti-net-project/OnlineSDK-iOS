@@ -43,6 +43,11 @@ NS_ASSUME_NONNULL_BEGIN
  */
 
 - (instancetype)initWithOption:(NSString *)visitorId nickname:(NSString *)nickname headUrl:(NSString *)headUrl mobile:(NSString *)mobile advanceParams:(NSDictionary *)advanceParams;
+
+/// 重置附加参数
+/// @param advanceParams 附加参数
+- (void)resetAdvanceParams:(NSDictionary *)advanceParams;
+
 @end
 
 NS_ASSUME_NONNULL_END

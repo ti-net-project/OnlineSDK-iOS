@@ -74,7 +74,7 @@
 		</data>
 		<key>Headers/OctoIMParamDefines.h</key>
 		<data>
-		4l9kAMMnZWdJPRBhuizUiLr0BGI=
+		vy9fxSuGqwquvI7vevmP3XiDkdo=
 		</data>
 		<key>Headers/OnlineChatRecordModel.h</key>
 		<data>
@@ -226,7 +226,7 @@
 		</data>
 		<key>Headers/TOSConnectOption.h</key>
 		<data>
-		O9DLqD6QX1ukj+gpJuCMKwziz9Y=
+		gggWg705pkThxxNR63o6goDyFrs=
 		</data>
 		<key>Headers/TOSDisConnectOption.h</key>
 		<data>
@@ -282,7 +282,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		EuSaIfIpxiB6gpGzq5iH6KcBewg=
+		H06Ws/1fp0BvPf175vI7q4FO+WQ=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -482,11 +482,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			4l9kAMMnZWdJPRBhuizUiLr0BGI=
+			vy9fxSuGqwquvI7vevmP3XiDkdo=
 			</data>
 			<key>hash2</key>
 			<data>
-			S7uGGkDLg42vGMaXXImc1dwzWDoAHFpbAzy/7RbQ3Qs=
+			/SZG+5rJINxM/stpE7aNKQHDs/UqAzxPY++rAQZPBtQ=
 			</data>
 		</dict>
 		<key>Headers/OnlineChatRecordModel.h</key>
@@ -900,11 +900,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			O9DLqD6QX1ukj+gpJuCMKwziz9Y=
+			gggWg705pkThxxNR63o6goDyFrs=
 			</data>
 			<key>hash2</key>
 			<data>
-			Iba3wVNdZJWxj82+3IMV36mXvxlQoJQqW1bZglfycyU=
+			9a/baaqGzaiEFi+5DuSIkX5zV5qkCmsgxLY1Qtauj8o=
 			</data>
 		</dict>
 		<key>Headers/TOSDisConnectOption.h</key>

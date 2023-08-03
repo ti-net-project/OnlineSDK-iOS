@@ -133,6 +133,10 @@ TIMKit核心类
 */
 - (void)connect:(TOSConnectOption *)option success:(void (^)(void))successBlock error:(void (^)(TIMConnectErrorCode errCode,NSString *errorDes))errorBlock tokenIncorrect:(void (^)(void))tokenIncorrectBlock;
 
+/// 设置附加参数
+/// @param advanceParams 附加参数
+- (void)setAdvanceParams:(NSDictionary *)advanceParams;
+
 /**
  断开与TIM服务器的链接
  
@@ -145,16 +149,16 @@ TIMKit核心类
 
 - (void)disconnect:(TOSDisConnectOption*)option success:(void (^)(void))successBlock error:(void (^)(TIMConnectErrorCode errCode,NSString *errorDes))errorBlock;
 
-/**
-注册了推送后 会从APNs返回设备ID,
- 设置从APNs返回的deviceToken
-
-@param deviceTokenData 设备id 推送服务回调的id
-
-@discussion
-需要在本地保存,在连接服务器时传送出去。
-*/
-- (void)setDeviceTokenData:(NSData *)deviceTokenData;
+///**
+//注册了推送后 会从APNs返回设备ID,
+// 设置从APNs返回的deviceToken
+//
+//@param deviceTokenData 设备id 推送服务回调的id
+//
+//@discussion
+//需要在本地保存,在连接服务器时传送出去。
+//*/
+//- (void)setDeviceTokenData:(NSData *)deviceTokenData;
 
 #pragma mark 连接状态监听
 
