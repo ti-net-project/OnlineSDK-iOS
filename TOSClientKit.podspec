@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'TOSClientKit'
-  s.version          = '1.8.1'
+  s.version          = '1.8.2'
   s.summary          = 'TOSClientKit 集成UI的在线客服SDK'
 
 # This description is used to generate tags and improve search results.
