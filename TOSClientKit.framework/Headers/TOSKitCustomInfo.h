@@ -542,7 +542,8 @@ NS_ASSUME_NONNULL_BEGIN
 /// 机器人组合消息的换一换按钮的文字字体 default: [UIFont fontWithName:@"PingFangSC-Regular" size:12.f]
 @property (nonatomic, strong) UIFont                * chatMessage_tosRobotCombination_showRefreshTitleFont;
 
-
+/// 会话状态为机器人时是否隐藏语音按钮 default: NO
+@property (nonatomic, assign) BOOL                robotHiddenVoice;
 
 
 

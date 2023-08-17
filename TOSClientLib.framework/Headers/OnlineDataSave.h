@@ -90,6 +90,11 @@ NS_ASSUME_NONNULL_BEGIN
 // 获取配置的上传文件的限制大小
 -(NSNumber *)getAppSettingFileSize;
 
+/// 当前会话是否进行里满意度评价
+- (void)saveAlreadyInvestigation:(NSString *)alreadyInvestigation;
+- (NSString *)getAlreadyInvestigation;
+
+
 @end
 
 NS_ASSUME_NONNULL_END
