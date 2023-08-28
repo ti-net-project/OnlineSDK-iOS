@@ -83,6 +83,10 @@ NS_ASSUME_NONNULL_BEGIN
                            Success:(void (^)(void))successBlock
                             error:(void (^)(TIMConnectErrorCode errCode,NSString *errorDes))errorBlock;
 
+#pragma mark 获取满意度弹窗的uniqueid
+-(void)getInvestigationUniqueIdSuccess:(void (^)(NSString *messageUniqueId))successBlock
+                            error:(void (^)(TIMConnectErrorCode errCode,NSString *errorDes))errorBlock;
+
 /**
  未读消息获取
 @param visitorId          当前用户ID

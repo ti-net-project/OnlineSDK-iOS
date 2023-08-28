@@ -74,7 +74,7 @@
 		</data>
 		<key>Headers/OctoIMParamDefines.h</key>
 		<data>
-		61HqceVI4UUT51oyxKlJGmbZt6s=
+		BplnI11D9RK+JeUlysFmqxCYVh8=
 		</data>
 		<key>Headers/OnlineChatRecordModel.h</key>
 		<data>
@@ -96,6 +96,10 @@
 		<data>
 		4LsOeSCKA13KKj1VqU3ab87nNGs=
 		</data>
+		<key>Headers/OnlineInvestigationUniqueIdRequest.h</key>
+		<data>
+		c6YUNLLkBcCRRHwJi7aEq6LxA1s=
+		</data>
 		<key>Headers/OnlineMessageDefineManager.h</key>
 		<data>
 		CMRQqWS1tBL7DRzt3om3mrEl5rU=
@@ -106,7 +110,7 @@
 		</data>
 		<key>Headers/OnlineRequestManager.h</key>
 		<data>
-		EWp3AB0EYFdVij8E5occMAEa194=
+		kOoQZlIjwzVvEIz7wNLsfFu1CcU=
 		</data>
 		<key>Headers/OnlineTokenModel.h</key>
 		<data>
@@ -222,7 +226,7 @@
 		</data>
 		<key>Headers/TOSClientLib.h</key>
 		<data>
-		a/itgRSgYgaChZo/bvDS0Jtaw+Y=
+		V3AxwSYOYQfPQbAd9D1+qynmgDM=
 		</data>
 		<key>Headers/TOSConnectOption.h</key>
 		<data>
@@ -282,7 +286,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		YE4jua7G7bPknYoKyOO7pOvAxZ0=
+		Pf5SEAGei6qq7b91SwPpkQa9vEk=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -482,11 +486,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			61HqceVI4UUT51oyxKlJGmbZt6s=
+			BplnI11D9RK+JeUlysFmqxCYVh8=
 			</data>
 			<key>hash2</key>
 			<data>
-			lgwZCh9i08W0K/IOPAIy1Z+yIfY2ftJ3pPX25x0DHmU=
+			iwiuXinjGPplVNX/NvdVRjDz3QZeV0F71F+Y2/Vpwcg=
 			</data>
 		</dict>
 		<key>Headers/OnlineChatRecordModel.h</key>
@@ -544,6 +548,17 @@
 			uljoNqRfmoxnePbVL/SUarhYm1Irqbq2FlkIwWxvFk4=
 			</data>
 		</dict>
+		<key>Headers/OnlineInvestigationUniqueIdRequest.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			c6YUNLLkBcCRRHwJi7aEq6LxA1s=
+			</data>
+			<key>hash2</key>
+			<data>
+			gcRhYrmiJ6eHx/7/xOteU+g+rpXbsKPD/igJa0PD9i0=
+			</data>
+		</dict>
 		<key>Headers/OnlineMessageDefineManager.h</key>
 		<dict>
 			<key>hash</key>
@@ -570,11 +585,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			EWp3AB0EYFdVij8E5occMAEa194=
+			kOoQZlIjwzVvEIz7wNLsfFu1CcU=
 			</data>
 			<key>hash2</key>
 			<data>
-			fU3GDqqhr0QpxNdT5ntNvGOqqcXVXJ3KzZamXEd2tkQ=
+			PeeYrctkrjYzHfXsL7ChWvPnaGTJFjCdOyv/AN+lShI=
 			</data>
 		</dict>
 		<key>Headers/OnlineTokenModel.h</key>
@@ -889,11 +904,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			a/itgRSgYgaChZo/bvDS0Jtaw+Y=
+			V3AxwSYOYQfPQbAd9D1+qynmgDM=
 			</data>
 			<key>hash2</key>
 			<data>
-			EN1IaYEiLadRT2HKGH4UuLl5vBUuvzZH6WSZUTwpsQU=
+			R3OaRmPGPMimLwKd3n38KJJmxMsIrXO6LxlW0tKWBWk=
 			</data>
 		</dict>
 		<key>Headers/TOSConnectOption.h</key>

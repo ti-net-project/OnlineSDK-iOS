@@ -88,6 +88,7 @@ typedef NS_ENUM(NSUInteger, TinetChatStatusType) {
 #import <TOSClientLib/OnlineChatRecordModel.h>
 #import <TOSClientLib/OnlineClientInfoModel.h>
 #import <TOSClientLib/TOSSessionInfoModel.h>
+#import <TOSClientLib/TOSMessageKnowledgeBaseModel.h>
 
 
 
