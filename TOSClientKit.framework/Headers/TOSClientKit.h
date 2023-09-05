@@ -48,3 +48,5 @@ FOUNDATION_EXPORT const unsigned char TIMClientKitVersionString[];
 #import <TOSClientKit/ICChatServerDefs.h>
 
 #import <TOSClientKit/TOSKitCustomInfo.h>
+#import <TOSClientKit/TIMMessageFrame.h>
+

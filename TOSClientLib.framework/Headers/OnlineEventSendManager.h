@@ -27,6 +27,18 @@ NS_ASSUME_NONNULL_BEGIN
 - (void)chatCloseEventWithSuccess:(void (^)(void))successBlock
                             error:(void (^)(TIMConnectErrorCode errCode,NSString *errorDes))errorBlock;
 
+/// 关闭上一个会话
+- (void)closeLastSessionWithVisitorId:(NSString *)visitorId
+                              success:(void (^)(void))successBlock
+                                error:(void (^)(TIMConnectErrorCode errCode,NSString *errorDes))errorBlock;
+
+/// http接口关闭会话
+- (void)chatCloseSessionEventWithMainUniqueId:(NSString *)mainUniqueId
+                                withVisitorId:(NSString *)visitorId
+                                      success:(void (^)(void))successBlock
+                                        error:(void (^)(TIMConnectErrorCode errCode,NSString *errorDes))errorBlock;
+
+
 #pragma mark 退出排队
 - (void)leaveQueueEventWithSuccess:(void (^)(void))successBlock
                              error:(void (^)(TIMConnectErrorCode errCode,NSString *errorDes))errorBlock;
