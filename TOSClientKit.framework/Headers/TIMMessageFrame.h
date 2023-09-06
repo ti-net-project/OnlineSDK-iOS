@@ -8,7 +8,7 @@
 
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
-#import "TIMLibBaseModel.h"
+#import <TOSClientLib/TIMLibBaseModel.h>
 
 @interface TOSSatisfactionTabBarFrameModel : TIMLibBaseModel
 
