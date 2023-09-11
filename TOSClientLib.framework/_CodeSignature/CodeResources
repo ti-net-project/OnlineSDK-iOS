@@ -58,7 +58,7 @@
 		</data>
 		<key>Headers/CombinationMessage.h</key>
 		<data>
-		xuf9vofLkvbdKssjZ+bF9B+KFqw=
+		Ih96NzBBDLsXmvO+bUP8/9GYHCo=
 		</data>
 		<key>Headers/FileMessage.h</key>
 		<data>
@@ -74,7 +74,7 @@
 		</data>
 		<key>Headers/OctoIMParamDefines.h</key>
 		<data>
-		/o5NioZNWBJ5kCxfuRnsD1orNOw=
+		OYW/VKuuPby647XOKYnkxQVkB/s=
 		</data>
 		<key>Headers/OnlineChatRecordModel.h</key>
 		<data>
@@ -102,7 +102,7 @@
 		</data>
 		<key>Headers/OnlineMessageDefineManager.h</key>
 		<data>
-		CMRQqWS1tBL7DRzt3om3mrEl5rU=
+		Qv2OdBi1yxZkGUqvR72J9qYAfj8=
 		</data>
 		<key>Headers/OnlineMessageSendManager.h</key>
 		<data>
@@ -246,7 +246,7 @@
 		</data>
 		<key>Headers/TOSMessage.h</key>
 		<data>
-		d9jjwSYS65QSn/L2PAUQtCBE2H0=
+		V4Fa0TeUNQYG0/7jbp5rjdpraoc=
 		</data>
 		<key>Headers/TOSMessageKnowledgeBaseModel.h</key>
 		<data>
@@ -286,7 +286,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		gMKIr088LSz5qM9igGDcPDOGDnQ=
+		0dN0aGrzm9HvkxFf2S8bU+zXhz0=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -442,11 +442,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			xuf9vofLkvbdKssjZ+bF9B+KFqw=
+			Ih96NzBBDLsXmvO+bUP8/9GYHCo=
 			</data>
 			<key>hash2</key>
 			<data>
-			OFe36UAQrGc5PNAEP+ZH8UBKwFH7BacPQONHPukZKrs=
+			F5W75d7CjDYQNzLzsPwKhrpCKAF6UTB7WrH6HPfJ0wk=
 			</data>
 		</dict>
 		<key>Headers/FileMessage.h</key>
@@ -486,11 +486,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			/o5NioZNWBJ5kCxfuRnsD1orNOw=
+			OYW/VKuuPby647XOKYnkxQVkB/s=
 			</data>
 			<key>hash2</key>
 			<data>
-			zS0BcLbbKZNSLxwA3CIjmDAWeJFx0s1Q7oTKsDvjPI8=
+			9/ZbEcIbGCDQofJSIblrIPmSDsDHKzg5wgVTxx3x+rk=
 			</data>
 		</dict>
 		<key>Headers/OnlineChatRecordModel.h</key>
@@ -563,11 +563,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			CMRQqWS1tBL7DRzt3om3mrEl5rU=
+			Qv2OdBi1yxZkGUqvR72J9qYAfj8=
 			</data>
 			<key>hash2</key>
 			<data>
-			YMx1vloCCIIQQ5F7uIVzhEVYOf8Q9QspBy610pey2hw=
+			yi6PPzHl8vqxDYxctpM3drz0f1zo5c+UW4rwneaLkhs=
 			</data>
 		</dict>
 		<key>Headers/OnlineMessageSendManager.h</key>
@@ -959,11 +959,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			d9jjwSYS65QSn/L2PAUQtCBE2H0=
+			V4Fa0TeUNQYG0/7jbp5rjdpraoc=
 			</data>
 			<key>hash2</key>
 			<data>
-			KdsvDtgoky9f2xrjnceXR5I94XTYbf4bWVK07iAy7XA=
+			1+O4ibEHCniRL6AR03/PV447Q8yu7aPmg84O5at9vtU=
 			</data>
 		</dict>
 		<key>Headers/TOSMessageKnowledgeBaseModel.h</key>
