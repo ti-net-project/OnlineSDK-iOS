@@ -545,7 +545,8 @@ NS_ASSUME_NONNULL_BEGIN
 /// 会话状态为机器人时是否隐藏语音按钮 default: NO
 @property (nonatomic, assign) BOOL                robotHiddenVoice;
 
-
+/// 满意度评价的弹出模式 default: NO      NO：中心弹出。YES：底部弹出
+@property (nonatomic, assign) BOOL                satisfactionViewPopupMode;
 
 @end
 

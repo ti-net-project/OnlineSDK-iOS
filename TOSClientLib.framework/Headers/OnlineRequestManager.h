@@ -78,8 +78,11 @@ NS_ASSUME_NONNULL_BEGIN
 
 #pragma mark  提交满意度
 //options: @[@{@"name": @"", @"star": @"", @"label": @[@"", @"",]}]
+//solve: 1满意，2不满意
 -(void)submitInvestigationUniqueId:(NSString *)uniqueId
                            options:(NSArray *)options
+                             solve:(NSString *)solve
+                            remark:(NSString *)remark
                            Success:(void (^)(void))successBlock
                             error:(void (^)(TIMConnectErrorCode errCode,NSString *errorDes))errorBlock;
 
