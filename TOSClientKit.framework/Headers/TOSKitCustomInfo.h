@@ -515,6 +515,9 @@ NS_ASSUME_NONNULL_BEGIN
 /// 机器人组合消息分类选项卡的字体 default: [UIFont fontWithName:@"PingFangSC-Regular" size:14.0f]
 @property (nonatomic, strong) UIFont                * chatMessage_tosRobotCombination_segmentFont;
 
+/// 机器人组合消息分类选项卡未选择的字体颜色 default: 141223
+@property (nonatomic, strong) UIColor                * chatMessage_tosRobotCombination_segmentUnselectedTextColor;
+
 /// 机器人组合消息分类选项卡的字体颜色 default: 4385FF
 @property (nonatomic, strong) UIColor                * chatMessage_tosRobotCombination_segmentTextColor;
 
