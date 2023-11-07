@@ -80,6 +80,7 @@ NS_ASSUME_NONNULL_BEGIN
 //options: @[@{@"name": @"", @"star": @"", @"label": @[@"", @"",]}]
 //solve: 1满意，2不满意
 -(void)submitInvestigationUniqueId:(NSString *)uniqueId
+                      mainUniqueId:(NSString *)mainUniqueId
                            options:(NSArray *)options
                              solve:(NSString *)solve
                             remark:(NSString *)remark

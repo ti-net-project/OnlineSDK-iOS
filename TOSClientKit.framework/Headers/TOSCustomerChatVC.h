@@ -58,7 +58,7 @@ typedef NS_ENUM(NSUInteger, TinetClickTextMessageEventType) {
 - (void)tinet_textMessageClickAction:(TinetClickTextMessageEventType)eventType userInfo:(NSDictionary *)userInfo;
 
 //此方法获取文件保存得到的文件路径
--(NSString*)saveFileMethed;
+//-(NSString*)saveFileMethed;
 
 
 /// 快捷入口的点击事件    index    点击索引从0开始 （需要在子类实现这个方法）

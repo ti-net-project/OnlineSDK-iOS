@@ -36,6 +36,8 @@ NS_ASSUME_NONNULL_BEGIN
 /// 文本类型标签存在子标签嵌套数据
 @property (nonatomic, strong) NSMutableArray <RichTextMessage *>*subElements;
 
+@property (nonatomic, strong) NSMutableAttributedString *attributedString;
+
 
 - (instancetype)initMessageWithContent:(NSString *)content;
 

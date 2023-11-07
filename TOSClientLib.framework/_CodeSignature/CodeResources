@@ -58,7 +58,7 @@
 		</data>
 		<key>Headers/CombinationMessage.h</key>
 		<data>
-		Ih96NzBBDLsXmvO+bUP8/9GYHCo=
+		ZOQjYw62YPtOkeL1cocR7mg5+mE=
 		</data>
 		<key>Headers/FileMessage.h</key>
 		<data>
@@ -74,7 +74,7 @@
 		</data>
 		<key>Headers/OctoIMParamDefines.h</key>
 		<data>
-		c/R3Qw82rbRaKepLA1oWD6YB8J8=
+		lD/Kg00RlNK4u2ORFHQGcf8u4/o=
 		</data>
 		<key>Headers/OnlineChatRecordModel.h</key>
 		<data>
@@ -110,7 +110,7 @@
 		</data>
 		<key>Headers/OnlineRequestManager.h</key>
 		<data>
-		rh/r2+HMqJXmXyAVfUxmH0SVr04=
+		/AbKahJ3VyGrPL9TTUvQBvmwZp8=
 		</data>
 		<key>Headers/OnlineTokenModel.h</key>
 		<data>
@@ -118,7 +118,7 @@
 		</data>
 		<key>Headers/RichTextMessage.h</key>
 		<data>
-		tprsszOMIRnEMRvBRIPfwSth57s=
+		x4FV7F41C3BkOcmx1+yirEfDhoM=
 		</data>
 		<key>Headers/RobotBridgeMessage.h</key>
 		<data>
@@ -286,7 +286,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		hkccLlbDlUkTGugZbbZ5J/VJ3Bo=
+		mXA/Mnp531tB6heRg8CDi53YH9o=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -442,11 +442,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			Ih96NzBBDLsXmvO+bUP8/9GYHCo=
+			ZOQjYw62YPtOkeL1cocR7mg5+mE=
 			</data>
 			<key>hash2</key>
 			<data>
-			F5W75d7CjDYQNzLzsPwKhrpCKAF6UTB7WrH6HPfJ0wk=
+			qJdpe7MkHNAsjHpV8SPa9yvFU7rjgdF0KrRuXrd4Z8k=
 			</data>
 		</dict>
 		<key>Headers/FileMessage.h</key>
@@ -486,11 +486,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			c/R3Qw82rbRaKepLA1oWD6YB8J8=
+			lD/Kg00RlNK4u2ORFHQGcf8u4/o=
 			</data>
 			<key>hash2</key>
 			<data>
-			XwQHgZJbXhrVyhYu2WCAUO6Arq1z2n0H+ZWNGBubQfQ=
+			b1g867ZrpJkHzrg0ZECgVksZ6HoZOCC68qaeckPHRRg=
 			</data>
 		</dict>
 		<key>Headers/OnlineChatRecordModel.h</key>
@@ -585,11 +585,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			rh/r2+HMqJXmXyAVfUxmH0SVr04=
+			/AbKahJ3VyGrPL9TTUvQBvmwZp8=
 			</data>
 			<key>hash2</key>
 			<data>
-			1XKi6NGOKjCnYtGb3MiLND6CuyYC4WaFQz4Ulbw07YU=
+			/GYM9ty6GCAOLHQcls4ZpFIu1IwSUtlSkRzQxot7Xtc=
 			</data>
 		</dict>
 		<key>Headers/OnlineTokenModel.h</key>
@@ -607,11 +607,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			tprsszOMIRnEMRvBRIPfwSth57s=
+			x4FV7F41C3BkOcmx1+yirEfDhoM=
 			</data>
 			<key>hash2</key>
 			<data>
-			zgQMk4TNwWvD0VTjtv0gwxqZkHeWMnIG087BseMdtM8=
+			BcHWl5Ar8VrooFVUzj36gLITzesPQS6Pj0VGRXhZYoo=
 			</data>
 		</dict>
 		<key>Headers/RobotBridgeMessage.h</key>
