@@ -10,7 +10,7 @@
 		</data>
 		<key>Headers/ChatBridgeMessage.h</key>
 		<data>
-		35OMJ45lzGrUYtBA2HD/DLRk2uU=
+		qceHsb6FC7V8F+qzHT62X/6wTgA=
 		</data>
 		<key>Headers/ChatCloseMessage.h</key>
 		<data>
@@ -74,7 +74,7 @@
 		</data>
 		<key>Headers/OctoIMParamDefines.h</key>
 		<data>
-		gcQVhQQkrsvleAGVONvChQ63/yw=
+		otsigiu8WBGLNGawdoWKm4OLXxw=
 		</data>
 		<key>Headers/OnlineChatRecordModel.h</key>
 		<data>
@@ -286,7 +286,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		x9Wb0BZRRuAgQZx8CfdzcYZuiWA=
+		L5IO4kyGjEtAqBM4D+00o6yWHhM=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -310,11 +310,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			35OMJ45lzGrUYtBA2HD/DLRk2uU=
+			qceHsb6FC7V8F+qzHT62X/6wTgA=
 			</data>
 			<key>hash2</key>
 			<data>
-			gI4X80mij1ugh7aBSNAiIMQBvgSvcPsSPXvly+uZbFs=
+			TzXU2KyMnGmS8UdMxoqf76wHffHBvKy/Ixu0vDpCtIQ=
 			</data>
 		</dict>
 		<key>Headers/ChatCloseMessage.h</key>
@@ -486,11 +486,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			gcQVhQQkrsvleAGVONvChQ63/yw=
+			otsigiu8WBGLNGawdoWKm4OLXxw=
 			</data>
 			<key>hash2</key>
 			<data>
-			8y2ZIp/CoANHNjoLDSyrAqFwd9rkV4w/77GTRH7aKTU=
+			Ft7IFyY3DjHyJz9Z6JvPuunOWcfy5OxDBmLK1N4cy5k=
 			</data>
 		</dict>
 		<key>Headers/OnlineChatRecordModel.h</key>

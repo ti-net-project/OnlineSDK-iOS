@@ -19,7 +19,10 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic, copy,readonly) NSString *sender;
 @property (nonatomic, copy,readonly) NSString *clientIntroduce;
 @property (nonatomic, copy,readonly) NSString *welcomStr;
-
+/// 客户简介唯一ID
+@property (nonatomic, copy, readonly) NSString                * clientIntroduceMessageUniqueId;
+/// 欢迎语唯一ID数组！！！
+@property (nonatomic, strong, readonly) NSArray                * welcomeMessageUniqueId;
 /**
  初始化文本消息
 
