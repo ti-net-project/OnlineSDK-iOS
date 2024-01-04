@@ -83,16 +83,8 @@ NS_ASSUME_NONNULL_BEGIN
 
 @property (nonatomic, assign) CGFloat tableViewH;
 
-//[TOSKitCustomInfo.shareCustomInfo.chatMessage_tosRobotCombination_showRefreshTitle sizeWithMaxWidth:self.tos_width andFont:TOSKitCustomInfo.shareCustomInfo.chatMessage_tosRobotCombination_showRefreshTitleFont];
 @property (nonatomic, assign) CGSize refreshBtnSize;
 
-// __block CGFloat segmentHeight = 29.0f;
-//[model.data enumerateObjectsUsingBlock:^(CombinationDataModel * _Nonnull obj, NSUInteger idx, BOOL * _Nonnull stop) {
-//    [array addObject:[NSString stringWithFormat:@"%@",obj.name?:@""]];
-//    if (idx == 0) {
-//        segmentHeight = [obj.name sizeWithMaxWidth:self.tos_width andFont:TOSKitCustomInfo.shareCustomInfo.chatMessage_tosRobotCombination_segmentFont].height;
-//    }
-//}];
 @property (nonatomic, assign) CGFloat segmentHeight;
 
 @end
