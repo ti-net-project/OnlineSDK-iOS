@@ -13,10 +13,10 @@
 // 此处头文件包含内部参数的设置等
 
 #ifdef DEBUG
-#define strSDKVersion @"1.10.4"
+#define strSDKVersion @"1.10.5"
 #else
 
-#define strSDKVersion @"1.10.4"//todo  // 防止打包遗忘
+#define strSDKVersion @"1.10.5"//todo  // 防止打包遗忘
 #endif
 
 /**
