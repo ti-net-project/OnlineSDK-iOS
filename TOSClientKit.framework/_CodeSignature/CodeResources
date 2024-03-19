@@ -118,7 +118,7 @@
 		</data>
 		<key>Headers/TOSCustomerChatVC.h</key>
 		<data>
-		uNrihym9L8YG/TVVJf1mySMhn2k=
+		HGrodpYaTNI0TOmN5gDqs9pJUO8=
 		</data>
 		<key>Headers/TOSKit.h</key>
 		<data>
@@ -130,7 +130,7 @@
 		</data>
 		<key>Headers/TOSKitCustomInfo.h</key>
 		<data>
-		zJdPyJbjNk6i0C5ayE+dU2o7LEg=
+		NUdPZcBwJ3qoa8odUdi+1rwA2lE=
 		</data>
 		<key>Headers/TOSKitExtendBoardItemModel.h</key>
 		<data>
@@ -162,7 +162,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		E0WhFdjHb5hlaMCgLjqSZ6K0gdo=
+		LT2gmGkaXNTxE1CmiYM93BP1WEg=
 		</data>
 		<key>LICENSE</key>
 		<data>
@@ -171,6 +171,10 @@
 		<key>Modules/module.modulemap</key>
 		<data>
 		xEfMQ+Ku701VhU0/YDX8pjNnuwE=
+		</data>
+		<key>PrivacyInfo.xcprivacy</key>
+		<data>
+		+trWbg38aaOIjVEiEVMmUCVIr/M=
 		</data>
 		<key>YBImageBrowser.bundle/ybib_loading@2x.png</key>
 		<data>
@@ -551,11 +555,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			uNrihym9L8YG/TVVJf1mySMhn2k=
+			HGrodpYaTNI0TOmN5gDqs9pJUO8=
 			</data>
 			<key>hash2</key>
 			<data>
-			GCW5V0HLUcM+Nm9HlG0TS/Z3NP9kC/cNedSfN+sI8r8=
+			T6bDs0z4EfPB2xC/qOcKsfQBgJ/Y6+4fMA48vss0aMY=
 			</data>
 		</dict>
 		<key>Headers/TOSKit.h</key>
@@ -584,11 +588,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			zJdPyJbjNk6i0C5ayE+dU2o7LEg=
+			NUdPZcBwJ3qoa8odUdi+1rwA2lE=
 			</data>
 			<key>hash2</key>
 			<data>
-			KK/6nUnyYy42O898RpwIdclriCGUKMWqQHUV/oNwQf0=
+			Vmugwe1iVppKjCVMFGzgsbcOIgpXrQjEXE17FH5sGiw=
 			</data>
 		</dict>
 		<key>Headers/TOSKitExtendBoardItemModel.h</key>
@@ -688,6 +692,17 @@
 			<key>hash2</key>
 			<data>
 			m8dvx+JQmLFKM0AafcuWUP37rSxJaBVjud6O4fTs7Ho=
+			</data>
+		</dict>
+		<key>PrivacyInfo.xcprivacy</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			+trWbg38aaOIjVEiEVMmUCVIr/M=
+			</data>
+			<key>hash2</key>
+			<data>
+			COt5wPdN2WojQZqwOMWglyd8b/lkdUrFGQERl/gAbyw=
 			</data>
 		</dict>
 		<key>YBImageBrowser.bundle/ybib_loading@2x.png</key>

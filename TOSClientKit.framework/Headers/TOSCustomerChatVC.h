@@ -32,6 +32,8 @@ typedef NS_ENUM(NSUInteger, TinetClickTextMessageEventType) {
 //    TinetChatStatusTypeOnline,    // 客服在线
 //};
 
+@class TIMChatBoxViewController;
+
 @interface TOSCustomerChatVC : TOSBaseViewController
 
 /// 标题名字
@@ -94,6 +96,15 @@ typedef NS_ENUM(NSUInteger, TinetClickTextMessageEventType) {
 
 /// 重写返回事件，是否弹出满意度弹窗
 - (void)investigationAlert;
+
+- (void)chatBoxViewController:(TIMChatBoxViewController *)chatboxViewController
+             sendImageMessage:(UIImage *)image
+                    imagePath:(NSString *)imgPath;
+
+- (void)chatBoxViewController:(TIMChatBoxViewController *)chatboxViewController
+             sendVideoMessage:(NSString *)videoPath
+                     duration:(CGFloat)videoTimeLength
+           thumbnailImagePath:(NSString *)thumbnailImagePath;
 
 @end
 

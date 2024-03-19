@@ -74,7 +74,7 @@
 		</data>
 		<key>Headers/OctoIMParamDefines.h</key>
 		<data>
-		sgRW20oz655luJqKfN1zHx48L5M=
+		dCwVPVM+lz4Jr15uyGudxLAlSq8=
 		</data>
 		<key>Headers/OnlineChatRecordModel.h</key>
 		<data>
@@ -286,11 +286,15 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		MHf3GiGQRYWYvzyYBwL/Wp92HgI=
+		kh0lYS9ZyAwBHHi16UAA/TD9SNs=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
 		COq7yZIe3wlo8osNHju4vTvoRLg=
+		</data>
+		<key>PrivacyInfo.xcprivacy</key>
+		<data>
+		KH3vtSpkwXmGbm+uMK7KDeOOad0=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -486,11 +490,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			sgRW20oz655luJqKfN1zHx48L5M=
+			dCwVPVM+lz4Jr15uyGudxLAlSq8=
 			</data>
 			<key>hash2</key>
 			<data>
-			Q9YaZnAkacmGDx65Ur8Csmwx2ex9XNU3xu6s0+gHAi4=
+			rF5AkAO+iTmKUW/oz2CQFIRdzkHgN0gs0Zn7SsNbZjI=
 			</data>
 		</dict>
 		<key>Headers/OnlineChatRecordModel.h</key>
@@ -1074,6 +1078,17 @@
 			<key>hash2</key>
 			<data>
 			5RVCVG/9GYB7DYfiXnFzFuYijkisf2GfCq7xML+RjGc=
+			</data>
+		</dict>
+		<key>PrivacyInfo.xcprivacy</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			KH3vtSpkwXmGbm+uMK7KDeOOad0=
+			</data>
+			<key>hash2</key>
+			<data>
+			kSS608b2fVimlhuVjxnaR8mlynTAHMVMJ1PZqOaGdGo=
 			</data>
 		</dict>
 	</dict>
