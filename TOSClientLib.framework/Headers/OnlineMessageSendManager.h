@@ -23,8 +23,16 @@ NS_ASSUME_NONNULL_BEGIN
 
 
 #pragma mark  发送文字消息
+/// 发送文字消息
+/// @param messageStr 文本
+/// @param knowledge 知识库字段
+/// @param sysTransfer 转人工事件
+/// @param messageUUID messageUUID
+/// @param successBlock successBlock
+/// @param errorBlock errorBlock
 - (void)sendTextMessageWithMessageStr:(NSString *)messageStr
                             knowledge:(NSString *)knowledge
+                          sysTransfer:(BOOL)sysTransfer
                           messageUUID:(NSString *)messageUUID
                               success:(void (^)(TOSMessage * timMessage))successBlock
                                 error:(void (^)(TIMConnectErrorCode errCode,NSString *errorDes))errorBlock;

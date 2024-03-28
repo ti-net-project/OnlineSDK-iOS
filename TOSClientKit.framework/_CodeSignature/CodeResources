@@ -18,7 +18,7 @@
 		</data>
 		<key>Headers/TIMICMessage.h</key>
 		<data>
-		fYok1BJWfLS21GLIaV4UnF1QV7o=
+		tWLivTnMsssmyLJy8fKR7YfWs4Y=
 		</data>
 		<key>Headers/TIMMessageFrame.h</key>
 		<data>
@@ -118,7 +118,7 @@
 		</data>
 		<key>Headers/TOSCustomerChatVC.h</key>
 		<data>
-		HGrodpYaTNI0TOmN5gDqs9pJUO8=
+		6AySDzbtpsR6i2y0FCVrihGGsc8=
 		</data>
 		<key>Headers/TOSKit.h</key>
 		<data>
@@ -162,7 +162,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		LT2gmGkaXNTxE1CmiYM93BP1WEg=
+		PZ8mBRHX1rtiSycgOR8NGeNsDYM=
 		</data>
 		<key>LICENSE</key>
 		<data>
@@ -280,11 +280,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			fYok1BJWfLS21GLIaV4UnF1QV7o=
+			tWLivTnMsssmyLJy8fKR7YfWs4Y=
 			</data>
 			<key>hash2</key>
 			<data>
-			yO/LCw1AEMSm9xcNtzQj0cM+3M5CA4ZkvSvPeAl0I78=
+			oCoIN91m6fAOPASnnFCKa5FE0aTFUjU4uvCF87CRg/w=
 			</data>
 		</dict>
 		<key>Headers/TIMMessageFrame.h</key>
@@ -555,11 +555,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			HGrodpYaTNI0TOmN5gDqs9pJUO8=
+			6AySDzbtpsR6i2y0FCVrihGGsc8=
 			</data>
 			<key>hash2</key>
 			<data>
-			T6bDs0z4EfPB2xC/qOcKsfQBgJ/Y6+4fMA48vss0aMY=
+			xIG8ZiSJq5513LJn1ua1w023YvEgnT+SMG4GUIqpjxc=
 			</data>
 		</dict>
 		<key>Headers/TOSKit.h</key>

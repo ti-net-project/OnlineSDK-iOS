@@ -54,6 +54,7 @@
 
 @property (nonatomic, copy) NSString *knowledge;
 
-
+/// 转人工数据
+@property (nonatomic, assign) BOOL sysTransfer;
 
 @end

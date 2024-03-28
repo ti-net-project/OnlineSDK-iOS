@@ -94,6 +94,10 @@ typedef NS_ENUM(NSUInteger, TinetClickTextMessageEventType) {
 /// 发送文本消息
 - (void)sendText:(NSString *)text;
 
+/// 发送转人工事件
+/// @param messageStr 自定义文本消息
+- (void)sendTransferToHumanMessage:(NSString *)messageStr;
+
 /// 重写返回事件，是否弹出满意度弹窗
 - (void)investigationAlert;
 
