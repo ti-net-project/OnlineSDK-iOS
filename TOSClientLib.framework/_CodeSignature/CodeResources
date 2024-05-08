@@ -74,7 +74,7 @@
 		</data>
 		<key>Headers/OctoIMParamDefines.h</key>
 		<data>
-		t5hVbOQ2ewKhAvMfLCTs8LPYM0s=
+		3tIfT3DkeMmThciFjZ88t4ghF64=
 		</data>
 		<key>Headers/OnlineChatRecordModel.h</key>
 		<data>
@@ -86,7 +86,7 @@
 		</data>
 		<key>Headers/OnlineDataSave.h</key>
 		<data>
-		QGc1xRNMEDuC4aY9EM24WsoAtDg=
+		r7/I7cqUh8mXVpnneCc+M+H1xf8=
 		</data>
 		<key>Headers/OnlineEventSendManager.h</key>
 		<data>
@@ -286,11 +286,11 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		bgc4d8zSAjR/BW93NB+xl0mOyh4=
+		IgL+zfcX9HBfGagF8lTppEtSdMg=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
-		COq7yZIe3wlo8osNHju4vTvoRLg=
+		/p9eLvDwE65HlljQJGkq5fgRuOc=
 		</data>
 		<key>PrivacyInfo.xcprivacy</key>
 		<data>
@@ -490,11 +490,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			t5hVbOQ2ewKhAvMfLCTs8LPYM0s=
+			3tIfT3DkeMmThciFjZ88t4ghF64=
 			</data>
 			<key>hash2</key>
 			<data>
-			BpJgg6osPcqt6B6aAPiMGirDrmcRq5f2tkVDvgu3lZE=
+			TVUv/d9YUcT5MFBvTfhpc9J/opYr6M8xrC8SxCjtQK0=
 			</data>
 		</dict>
 		<key>Headers/OnlineChatRecordModel.h</key>
@@ -523,11 +523,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			QGc1xRNMEDuC4aY9EM24WsoAtDg=
+			r7/I7cqUh8mXVpnneCc+M+H1xf8=
 			</data>
 			<key>hash2</key>
 			<data>
-			jEjtItViE80NTKdXnYC1TgnJEyXe0zZxzOZURFZmicI=
+			Q+J3S3+FuUOMc4yRgLxYNuXJArBdiSpKU69M3jTOqmw=
 			</data>
 		</dict>
 		<key>Headers/OnlineEventSendManager.h</key>
@@ -1073,11 +1073,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			COq7yZIe3wlo8osNHju4vTvoRLg=
+			/p9eLvDwE65HlljQJGkq5fgRuOc=
 			</data>
 			<key>hash2</key>
 			<data>
-			5RVCVG/9GYB7DYfiXnFzFuYijkisf2GfCq7xML+RjGc=
+			882o9wEQFjNwi69X4+LV71IgIly4TemtHwt9G05fIUQ=
 			</data>
 		</dict>
 		<key>PrivacyInfo.xcprivacy</key>

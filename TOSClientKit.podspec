@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'TOSClientKit'
-  s.version          = '1.10.10'
+  s.version          = '1.11.0'
   s.summary          = 'TOSClientKit 集成UI的在线客服SDK'
 
 # This description is used to generate tags and improve search results.
@@ -30,6 +30,6 @@ TODO: Add long description of the pod here.
 
   s.resource      = 'TOSClient.bundle'
   s.vendored_frameworks  = "TOSClientLib.framework",  "TOSClientKit.framework"
-  s.pod_target_xcconfig = {'VALID_ARCHS'=>'armv7 x86_64 arm64 armv7s'}
+  s.pod_target_xcconfig = {'VALID_ARCHS'=>'x86_64 arm64'}
 
 end
