@@ -74,7 +74,7 @@
 		</data>
 		<key>Headers/OctoIMParamDefines.h</key>
 		<data>
-		Djf9uG9uQCGkp3s99m9hZlGVAGw=
+		ktw4mRGEdRivQGRTAZ545yKEaj0=
 		</data>
 		<key>Headers/OnlineChatRecordModel.h</key>
 		<data>
@@ -134,7 +134,7 @@
 		</data>
 		<key>Headers/TIMClient.h</key>
 		<data>
-		zJskKnVObs5TUdM/sMx7LCZ0FYA=
+		0Illtk8A4l2FPhS/HC32xiNt89M=
 		</data>
 		<key>Headers/TIMCommodityCardMessage.h</key>
 		<data>
@@ -286,7 +286,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		CgRb3VHX3revO54GbDm26BBNjG0=
+		mm2bDJPgzkPWc/HV0KK9W+yRqu4=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -490,11 +490,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			Djf9uG9uQCGkp3s99m9hZlGVAGw=
+			ktw4mRGEdRivQGRTAZ545yKEaj0=
 			</data>
 			<key>hash2</key>
 			<data>
-			7CZso47A1t1OeSNpdvJK3NniKKP/RJl8rRJtnJ14xpo=
+			qc7auTGKYhWTEyl/JF/so9N1UsutdUTnuzppPn+CLRw=
 			</data>
 		</dict>
 		<key>Headers/OnlineChatRecordModel.h</key>
@@ -655,11 +655,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			zJskKnVObs5TUdM/sMx7LCZ0FYA=
+			0Illtk8A4l2FPhS/HC32xiNt89M=
 			</data>
 			<key>hash2</key>
 			<data>
-			H0tP3TqGuI/IE33bHS4dtvGtP37eC1j2+KacwwpsNEs=
+			3eg90v/tarl+4HDiX5Ovo3jB0Juecg9fjBHb5g2ZJhc=
 			</data>
 		</dict>
 		<key>Headers/TIMCommodityCardMessage.h</key>

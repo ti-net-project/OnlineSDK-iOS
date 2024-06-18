@@ -309,12 +309,12 @@ SDK内置的消息类型，如果您将pushOption置为nil，会使用默认的�
 + (NSString *)getSDKVersion;
 
 /**
-初始化TOSSDK
+初始化天润TOSSDK
 
 @param option 初始化参数对象实例
 
 @discussion
-您在使用TOSSDK所有功能之前，您必须先调用此方法初始化SDK。
+您在使用天润TOSSDK所有功能之前，您必须先调用此方法初始化SDK。
 在App整个生命周期中，您只需要执行一次初始化。
 */
 - (void)initSDK:(TOSInitOption *)option;

@@ -133,13 +133,13 @@ NS_ASSUME_NONNULL_BEGIN
 #pragma mark - TIMClientLib核心类
 
 /**
- TIMClientLib核心类
+ 天润TIMClientLib核心类
  @discussion 您需要通过sharedTIMClient方法，获取单例对象
  */
 @interface TIMClient : NSObject
 
 /**
- 获取通讯能力库TIMLib的核心类单例
+ 获取天润通讯能力库TIMLib的核心类单例
 
  @return 融云通讯能力库TIMLib的核心类单例
 
@@ -150,12 +150,12 @@ NS_ASSUME_NONNULL_BEGIN
 #pragma mark - SDK初始化
 
 /**
-初始化IMSDK
+初始化天润IMSDK
 
 @param option 初始化参数对象实例
 
 @discussion
-您在使用IMSDK所有功能之前，您必须先调用此方法初始化SDK。
+您在使用天润IMSDK所有功能之前，您必须先调用此方法初始化SDK。
 在App整个生命周期中，您只需要执行一次初始化。
 */
 - (void)initWithOption:(TIMInitOption *)option;
