@@ -180,7 +180,7 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic, strong) NSArray *quickEntryAllItems;
 
 /// 商品卡片配置数据
-@property (nonatomic, strong) TOSClientKitCommodityCardOption *commodityCardOption;
+@property (nonatomic, strong, nullable) TOSClientKitCommodityCardOption *commodityCardOption;
 
 
 /// 气泡的最大宽度

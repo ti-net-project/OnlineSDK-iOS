@@ -20,6 +20,7 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic, strong) NSString *descriptions;
 
 /// 价格
+/// 注:1.11.4版本及之后 不再默认前缀增加￥,请将带符号的价格赋值
 @property (nonatomic, strong) NSString *price;
 
 /// 时间
