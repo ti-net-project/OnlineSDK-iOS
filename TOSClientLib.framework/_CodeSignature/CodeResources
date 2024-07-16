@@ -26,7 +26,7 @@
 		</data>
 		<key>Headers/ChatLeaveMessage.h</key>
 		<data>
-		d+8yna/j+eJ3L2CtOgNMbIOZy1E=
+		IPvDCyxt6db8Sfpcq0NM6A45Z3s=
 		</data>
 		<key>Headers/ChatLeaveQueueMessage.h</key>
 		<data>
@@ -74,7 +74,7 @@
 		</data>
 		<key>Headers/OctoIMParamDefines.h</key>
 		<data>
-		RwrotbVm1Iug/VrMMnrhLQd2ofw=
+		ZRnRoXBsfV6b/YN/hXyF1SAmwsM=
 		</data>
 		<key>Headers/OnlineChatRecordModel.h</key>
 		<data>
@@ -286,7 +286,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		nilIATWPH0HmhhHGOgtDUaoQm+w=
+		1zyLh2GzC/TyO2OBnfbBydisV4s=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -358,11 +358,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			d+8yna/j+eJ3L2CtOgNMbIOZy1E=
+			IPvDCyxt6db8Sfpcq0NM6A45Z3s=
 			</data>
 			<key>hash2</key>
 			<data>
-			TR19PnRuhJGIazgplkR+gKq3Nu+zY3hHT2yW63BdUSY=
+			brM6QJlP/uSP750fycf38V4R6f0oZQ0S523XrJXErHI=
 			</data>
 		</dict>
 		<key>Headers/ChatLeaveQueueMessage.h</key>
@@ -490,11 +490,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			RwrotbVm1Iug/VrMMnrhLQd2ofw=
+			ZRnRoXBsfV6b/YN/hXyF1SAmwsM=
 			</data>
 			<key>hash2</key>
 			<data>
-			gM93DAqNBtVvTtqIWQX699FSUJqivCm2skZFhynVnNQ=
+			TA8/6YDTWJa1lT6cwla5OLlsMfopFjc9l65dbHG0IxE=
 			</data>
 		</dict>
 		<key>Headers/OnlineChatRecordModel.h</key>

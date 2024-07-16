@@ -43,7 +43,15 @@ typedef NS_ENUM(NSInteger, BubbleCornerType) {
     BubbleCornerTypeNormal          =   13,
 };
 
-
+/**
+ 在点击退出页面按钮时，满意度的弹出模式
+ */
+typedef NS_ENUM(NSInteger, SatisfactionShowModel) {
+    /// 只在首次弹出
+    SatisfactionShowModelFirstTimePopup          =   0,
+    /// 每次都弹出
+    SatisfactionShowModelEveryTimePopup          =   1
+};
 
 
 NS_ASSUME_NONNULL_BEGIN
@@ -546,10 +554,32 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic, strong) UIFont                * chatMessage_tosRobotCombination_showRefreshTitleFont;
 
 /// 会话状态为机器人时是否隐藏语音按钮 default: NO
-@property (nonatomic, assign) BOOL                robotHiddenVoice;
+@property (nonatomic, assign) BOOL                  robotHiddenVoice;
 
-/// 满意度评价的弹出模式 : 固定底部弹出 
-@property (nonatomic, assign) BOOL                satisfactionViewPopupMode;
+/// 满意度评价的弹出样式 : 固定底部弹出
+@property (nonatomic, assign, readonly) BOOL        satisfactionViewPopupMode;
+
+/// 在点击退出页面按钮时，满意度的弹出模式
+@property (nonatomic, assign) SatisfactionShowModel satisfactionViewShowModel;
+
+/// 列表消息中的满意度评价按钮颜色-未选中 default: 0x4385FF
+@property (nonatomic, strong) UIColor                *satisfaction_evaluate_normal;
+
+/// 列表消息中的满意度评价按钮颜色-选中 default: 0xF0F0F0
+@property (nonatomic, strong) UIColor                *satisfaction_evaluate_selected;
+
+/// 列表消息中的满意度评价按钮标题颜色-未选中 default: 0xFFFFFF
+@property (nonatomic, strong) UIColor                *satisfaction_evaluate_titleColor_normal;
+
+/// 列表消息中的满意度评价按钮标题颜色-选中 default: 0xBFBFBF
+@property (nonatomic, strong) UIColor                *satisfaction_evaluate_titleColor_selected;
+
+
+/// 满意度弹窗的评价提交按钮颜色-未选中 default: 0x4385FF
+@property (nonatomic, strong) UIColor                *satisfaction_evaluate_submit;
+
+/// 满意度弹窗的评价提交按钮标题颜色-未选中 default: 0xFFFFFF
+@property (nonatomic, strong) UIColor                *satisfaction_evaluate_submit_titleColor;
 
 @end
 
