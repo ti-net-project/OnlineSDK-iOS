@@ -58,7 +58,7 @@
 		</data>
 		<key>Headers/CombinationMessage.h</key>
 		<data>
-		uKYoJQ0gRWbrfXyvfZysbIDOxsI=
+		aMmrFBCDBfWQS+t2ZjrzfYRWtAM=
 		</data>
 		<key>Headers/FileMessage.h</key>
 		<data>
@@ -74,7 +74,7 @@
 		</data>
 		<key>Headers/OctoIMParamDefines.h</key>
 		<data>
-		NvqexuKnpOrdEk/+X9WaSHOWMGo=
+		cZ3iSIvstuHuDY7oIdr7qXpGLbo=
 		</data>
 		<key>Headers/OnlineChatRecordModel.h</key>
 		<data>
@@ -86,7 +86,7 @@
 		</data>
 		<key>Headers/OnlineDataSave.h</key>
 		<data>
-		r7/I7cqUh8mXVpnneCc+M+H1xf8=
+		6aGJmde3m+NQ+wx3CRHhmxcabqY=
 		</data>
 		<key>Headers/OnlineEventSendManager.h</key>
 		<data>
@@ -106,11 +106,11 @@
 		</data>
 		<key>Headers/OnlineMessageSendManager.h</key>
 		<data>
-		S6WLU1IRD6VVpd0jNx9Xqw3pDd0=
+		gPC/85uvy2uc0va92ot/Z5a+GYI=
 		</data>
 		<key>Headers/OnlineRequestManager.h</key>
 		<data>
-		/AbKahJ3VyGrPL9TTUvQBvmwZp8=
+		nmsUO8uQOa8XY+uSojYRWjiL694=
 		</data>
 		<key>Headers/OnlineTokenModel.h</key>
 		<data>
@@ -134,7 +134,7 @@
 		</data>
 		<key>Headers/TIMClient.h</key>
 		<data>
-		0Illtk8A4l2FPhS/HC32xiNt89M=
+		6L0aNsxYNGdBTK3O+VdUq1E8V34=
 		</data>
 		<key>Headers/TIMCommodityCardMessage.h</key>
 		<data>
@@ -226,11 +226,11 @@
 		</data>
 		<key>Headers/TOSClientLib.h</key>
 		<data>
-		V3AxwSYOYQfPQbAd9D1+qynmgDM=
+		vzdoJtm/cZ7U9GEesKu2UeIj7ds=
 		</data>
 		<key>Headers/TOSConnectOption.h</key>
 		<data>
-		gggWg705pkThxxNR63o6goDyFrs=
+		xD73Yb5/kU8zLCTUdqiJg9SGNXg=
 		</data>
 		<key>Headers/TOSDisConnectOption.h</key>
 		<data>
@@ -286,7 +286,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		jTI8qfOA6YxCgpIHf2XtlkF2DwY=
+		JB3+KJkV9Dnt6nQL8I3mK+OoY78=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -446,11 +446,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			uKYoJQ0gRWbrfXyvfZysbIDOxsI=
+			aMmrFBCDBfWQS+t2ZjrzfYRWtAM=
 			</data>
 			<key>hash2</key>
 			<data>
-			IiYa1W1nAeQ2Qb7nfudT2P6ePjcD0JCwNeyjbuJaldM=
+			8OVLw7DlVgGC/KPk4KYN/EaJprm5B4Yn8/rMTxSHb14=
 			</data>
 		</dict>
 		<key>Headers/FileMessage.h</key>
@@ -490,11 +490,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			NvqexuKnpOrdEk/+X9WaSHOWMGo=
+			cZ3iSIvstuHuDY7oIdr7qXpGLbo=
 			</data>
 			<key>hash2</key>
 			<data>
-			+SoJkRYvUHgWhQE17gPH7zC7S+sMd1kiOvjfr8RRjTo=
+			1wdCef7ptZrHlUKC2R7NxAWW7+FlaZZCi+1HDQPJ37o=
 			</data>
 		</dict>
 		<key>Headers/OnlineChatRecordModel.h</key>
@@ -523,11 +523,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			r7/I7cqUh8mXVpnneCc+M+H1xf8=
+			6aGJmde3m+NQ+wx3CRHhmxcabqY=
 			</data>
 			<key>hash2</key>
 			<data>
-			Q+J3S3+FuUOMc4yRgLxYNuXJArBdiSpKU69M3jTOqmw=
+			3xt40BSTgKCYWFVb09NpM6WK6DlTSNx0iFUEo0Bj7l0=
 			</data>
 		</dict>
 		<key>Headers/OnlineEventSendManager.h</key>
@@ -578,22 +578,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			S6WLU1IRD6VVpd0jNx9Xqw3pDd0=
+			gPC/85uvy2uc0va92ot/Z5a+GYI=
 			</data>
 			<key>hash2</key>
 			<data>
-			tZlZiLWc82BacaV4n1ZOShXULE8QiIsrvtyMQQobAAA=
+			4EehVTnJeT9I8k+yVHW+2uOrITyS5rn+nZG06eRiSX8=
 			</data>
 		</dict>
 		<key>Headers/OnlineRequestManager.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			/AbKahJ3VyGrPL9TTUvQBvmwZp8=
+			nmsUO8uQOa8XY+uSojYRWjiL694=
 			</data>
 			<key>hash2</key>
 			<data>
-			/GYM9ty6GCAOLHQcls4ZpFIu1IwSUtlSkRzQxot7Xtc=
+			Jju++pWGa6Tor3bUd7Ekp//3+MjfkKq2IQGG5C7Z/Hc=
 			</data>
 		</dict>
 		<key>Headers/OnlineTokenModel.h</key>
@@ -655,11 +655,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			0Illtk8A4l2FPhS/HC32xiNt89M=
+			6L0aNsxYNGdBTK3O+VdUq1E8V34=
 			</data>
 			<key>hash2</key>
 			<data>
-			3eg90v/tarl+4HDiX5Ovo3jB0Juecg9fjBHb5g2ZJhc=
+			urAc92RIwEVaKe+M/JwOvbL50hGKdHKWhBUnKQMZRMs=
 			</data>
 		</dict>
 		<key>Headers/TIMCommodityCardMessage.h</key>
@@ -908,22 +908,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			V3AxwSYOYQfPQbAd9D1+qynmgDM=
+			vzdoJtm/cZ7U9GEesKu2UeIj7ds=
 			</data>
 			<key>hash2</key>
 			<data>
-			R3OaRmPGPMimLwKd3n38KJJmxMsIrXO6LxlW0tKWBWk=
+			m2Y3hivImpY8kwxF/B2xMTov6FwAkCR8b2pTbct3lag=
 			</data>
 		</dict>
 		<key>Headers/TOSConnectOption.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			gggWg705pkThxxNR63o6goDyFrs=
+			xD73Yb5/kU8zLCTUdqiJg9SGNXg=
 			</data>
 			<key>hash2</key>
 			<data>
-			9a/baaqGzaiEFi+5DuSIkX5zV5qkCmsgxLY1Qtauj8o=
+			Hg6yh95UiKUnoiIT7TPXrvsyX+aUrCrlJ8rk9PnluVU=
 			</data>
 		</dict>
 		<key>Headers/TOSDisConnectOption.h</key>

@@ -53,6 +53,7 @@
 @property (nonatomic, assign) ICMessageStatus status;
 
 @property (nonatomic, copy) NSString *knowledge;
+@property (nonatomic, copy) NSString *intent;
 
 /// 转人工数据
 @property (nonatomic, assign) BOOL sysTransfer;

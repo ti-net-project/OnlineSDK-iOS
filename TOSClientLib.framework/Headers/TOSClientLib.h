@@ -14,12 +14,6 @@ FOUNDATION_EXPORT double TIMClientVersionNumber;
 //! Project version string for TIMClient.
 FOUNDATION_EXPORT const unsigned char TIMClientVersionString[];
 
-typedef NS_ENUM(NSUInteger, TinetChatStatusType) {
-    TinetChatStatusTypeOutline,   // 不在线或结束会话
-    TinetChatStatusTypeRobot,     // 机器人在线
-    TinetChatStatusTypeOnline,    // 客服在线
-};
-
 // In this header, you should import all the public headers of your framework using statements like #import <TIMClient/PublicHeader.h>
 
 // TOS核心类

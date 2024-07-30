@@ -33,6 +33,11 @@ NS_ASSUME_NONNULL_BEGIN
 @property(nonatomic, readonly) NSString *mobile;
 
 /**
+ 外部id
+ */
+@property(nonatomic, copy) NSString *externalId;
+
+/**
  附加参数
  */
 @property(nonatomic, readonly) NSDictionary *advanceParams;

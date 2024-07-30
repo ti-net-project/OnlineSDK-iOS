@@ -130,6 +130,12 @@ NS_ASSUME_NONNULL_BEGIN
 
 @end
 
+typedef NS_ENUM(NSUInteger, TinetChatStatusType) {
+    TinetChatStatusTypeOutline,   // 不在线或结束会话
+    TinetChatStatusTypeRobot,     // 机器人在线
+    TinetChatStatusTypeOnline,    // 客服在线
+};
+
 #pragma mark - TIMClientLib核心类
 
 /**
@@ -292,6 +298,17 @@ SDK内置的消息类型，如果您将pushOption置为nil，会使用默认的�
 
 */
 @property (nonatomic, strong) NSNumber *isApiVersion2;
+
+/**
+ * 获取当前在线状态
+ *
+ * @return 0:不在线（会话结束）  1:机器人   2:人工座席
+ */
+- (TinetChatStatusType)getLibOnlineStatus;
+
+/// 获取访客是否接入过座席
+- (BOOL)getLibInsertOnline;
+
 
 @end
 

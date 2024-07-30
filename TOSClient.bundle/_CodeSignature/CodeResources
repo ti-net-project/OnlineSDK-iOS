@@ -1120,6 +1120,14 @@
 		<data>
 		ILXkcNfrgLxwrZSuXG+JqvtZRA4=
 		</data>
+		<key>videoClose@2x.png</key>
+		<data>
+		vjgQ5XJlb11vvlXcdwbrCUZZ3Sc=
+		</data>
+		<key>videoClose@3x.png</key>
+		<data>
+		llv9v+ev1zmH3wv8HOd4fBOLwnE=
+		</data>
 		<key>videoPause@2x.png</key>
 		<data>
 		+3g/4nkW2c1aFJe+dLl4CC7Pgjk=
@@ -4314,6 +4322,28 @@
 			<key>hash2</key>
 			<data>
 			mX690M71ktW1PcCqbwBn7bGxR14fVZwmgTSmlM8UkCs=
+			</data>
+		</dict>
+		<key>videoClose@2x.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			vjgQ5XJlb11vvlXcdwbrCUZZ3Sc=
+			</data>
+			<key>hash2</key>
+			<data>
+			VvkIFd6JaL76AXGpvkHca4uLc9jfMuxqVpUFEwHqEmM=
+			</data>
+		</dict>
+		<key>videoClose@3x.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			llv9v+ev1zmH3wv8HOd4fBOLwnE=
+			</data>
+			<key>hash2</key>
+			<data>
+			AmaCnmKu6EvyLFrM8sG+QClsibqhC4ldr6ORFI71yak=
 			</data>
 		</dict>
 		<key>videoPause@2x.png</key>

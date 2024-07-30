@@ -54,6 +54,20 @@ typedef NS_ENUM(NSInteger, SatisfactionShowModel) {
 };
 
 
+/// 正则model
+@interface TOSRegularModel : NSObject
+
+/// 正则表达式
+@property (nonatomic, copy, nullable) NSString                * regular;
+
+/// 高亮颜色
+@property (nonatomic, strong, nullable) UIColor                * highlightColor;
+
+
+@end
+
+
+
 NS_ASSUME_NONNULL_BEGIN
 
 @interface TOSKitCustomInfo : TIMLibBaseModel
@@ -580,6 +594,26 @@ NS_ASSUME_NONNULL_BEGIN
 
 /// 满意度弹窗的评价提交按钮标题颜色-未选中 default: 0xFFFFFF
 @property (nonatomic, strong) UIColor                *satisfaction_evaluate_submit_titleColor;
+
+/**
+ * 电话正则
+ * urlRegualr的highlightColor默认为：4385FF
+ * telRegular的regular默认为：
+ * @"(0\\d{2,3}-?\\d{7,8})|(\\(0\\d{2,3}\\)\\d{7,8})|1[34578]\\d{9}|400-?\\d{3}-?\\d{4}|\\+?\\d{2}1[34578]\\d{9}"
+ */
+@property (nonatomic, strong, nullable) TOSRegularModel                * telRegular;
+
+/// 订单号正则默认为null
+@property (nonatomic, strong, nullable) TOSRegularModel                * orderNumberRegular;
+
+/**
+ * 链接正则
+ * urlRegualr的highlightColor默认为：4385FF
+ * urlRegular的regular默认为：
+ * @"(((http[s]{0,1}|ftp)://[a-zA-Z0-9\\.\\-]+\\.([a-zA-Z]{2,4})(:\\d+)?(/[a-zA-Z0-9\\.\\-~!@#$%^&*+?:_/=<>]*)?)|(www.[a-zA-Z0-9\\.\\-]+\\.([a-zA-Z]{2,4})(:\\d+)?(/[a-zA-Z0-9\\.\\-~!@#$%^&*+?:_/=<>]*)?)|(((http[s]{0,1}|ftp)://|)((?:(?:25[0-5]|2[0-4]\\d|((1\\d{2})|([1-9]?\\d)))\\.){3}(?:25[0-5]|2[0-4]\\d|((1\\d{2})|([1-9]?\\d))))(:\\d+)?(/[a-zA-Z0-9\\.\\-~!@#$%^&*+?:_/=<>]*)?))"
+ */
+@property (nonatomic, strong, nullable) TOSRegularModel                * urlRegular;
+
 
 @end
 

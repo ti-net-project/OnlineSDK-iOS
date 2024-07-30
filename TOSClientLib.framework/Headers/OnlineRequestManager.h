@@ -22,6 +22,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 #pragma mark 获取token
 -(void)getUserInfoWithUserId:(NSString*)userId
+                  externalId:(NSString *)externalId
                     nickname:(NSString*)nickname
                     phoneNum:(NSString*)phoneNum
                    headerUrl:(NSString*)headerUrl

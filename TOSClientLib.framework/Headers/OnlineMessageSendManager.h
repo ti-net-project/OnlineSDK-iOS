@@ -27,12 +27,14 @@ NS_ASSUME_NONNULL_BEGIN
 /// @param messageStr 文本
 /// @param knowledge 知识库字段
 /// @param sysTransfer 转人工事件
+/// @param intent 机器人表单意图
 /// @param messageUUID messageUUID
 /// @param successBlock successBlock
 /// @param errorBlock errorBlock
 - (void)sendTextMessageWithMessageStr:(NSString *)messageStr
                             knowledge:(NSString *)knowledge
                           sysTransfer:(BOOL)sysTransfer
+                               intent:(NSString *)intent
                           messageUUID:(NSString *)messageUUID
                               success:(void (^)(TOSMessage * timMessage))successBlock
                                 error:(void (^)(TIMConnectErrorCode errCode,NSString *errorDes))errorBlock;

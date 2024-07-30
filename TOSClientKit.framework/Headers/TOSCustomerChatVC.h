@@ -62,6 +62,8 @@ typedef NS_ENUM(NSUInteger, TinetClickTextMessageEventType) {
 //此方法获取文件保存得到的文件路径
 //-(NSString*)saveFileMethed;
 
+/// 快接入口数据更新方法
+- (void)updateSessionWindowQuickEntrys:(NSArray <NSString *>*)quickEntryAllItems;
 
 /// 快捷入口的点击事件    index    点击索引从0开始 （需要在子类实现这个方法）
 - (void)quickEntryItemDidTouchIndex:(NSInteger)index;

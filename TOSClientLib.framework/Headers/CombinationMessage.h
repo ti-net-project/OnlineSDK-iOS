@@ -10,6 +10,23 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
+@interface CombinationRobotFormDataIntentsModel : TIMMessageContent
+
+@property (nonatomic, strong) NSNumber *type;
+@property (nonatomic, copy) NSString *intent;
+@property (nonatomic, copy) NSString *desc;
+
+@end
+
+@interface CombinationRobotFormDataModel : TIMMessageContent
+
+@property (nonatomic, copy) NSArray <CombinationRobotFormDataIntentsModel *>*intents;
+@property (nonatomic, copy) NSString *name;
+@property (nonatomic, copy) NSString *link;
+@property (nonatomic, strong) NSNumber *type;
+
+@end
+
 @interface KnowledgeDataModel : TIMMessageContent
 
 @property (nonatomic, copy) NSString *content;
@@ -40,13 +57,14 @@ NS_ASSUME_NONNULL_BEGIN
 @interface CombinationMessage : TIMMessageContent
 
 /// 6、15~20：热点问题   21~25：京东智能系列
-/// 1：文本消息，2：图片，3：文件，4：视频，5：富文本消息，6：机器人选项消息，7：语音，8：知识库文件，9：套电（废弃），10：商品卡片，物流卡片，11：订单卡片，12：留言消息，13：小程序卡片，14：机器人组合消息，15：机器人相关问题，16：机器人猜你想问(热门问题)，17：机器人常见问题，18：机器人近似问题，19：机器人选项消息(推荐问)，20：机器人相关问题（常见问），21~25：fold、link、select、flow from、gus card，26 知识库的问答库和文档库，30：机器人快捷回复，31：机器人热门问题（竖版），32：图文消息
+/// 1：文本消息，2：图片，3：文件，4：视频，5：富文本消息，6：机器人选项消息，7：语音，8：知识库文件，9：套电（废弃），10：商品卡片，物流卡片，11：订单卡片，12：留言消息，13：小程序卡片，14：机器人组合消息，15：机器人相关问题，16：机器人猜你想问(热门问题)，17：机器人常见问题，18：机器人近似问题，19：机器人选项消息(推荐问)，20：机器人相关问题（常见问），21~25：fold、link、select、flow from、gus card，26 知识库的问答库和文档库，30：机器人快捷回复，31：机器人热门问题（竖版），32：图文消息，36：机器人阶段表单收集
 @property (nonatomic, copy) NSString *type;
 @property (nonatomic, copy) NSString *text;
 @property (nonatomic, copy) NSString *name;
 @property (nonatomic, copy) NSString *subType;
 @property (nonatomic, strong) NSArray <NSString *>*cards;
 @property (nonatomic, strong) NSArray <CombinationDataModel *>*data;
+@property (nonatomic, strong) CombinationRobotFormDataModel *robotFormData;
 @property (nonatomic, strong) NSArray <KnowledgeDataModel *>*knowledge;
 
 @property (nonatomic, strong) RichTextMessage *richTextMessage;

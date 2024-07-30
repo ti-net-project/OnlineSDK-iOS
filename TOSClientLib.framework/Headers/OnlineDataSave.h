@@ -40,6 +40,10 @@ NS_ASSUME_NONNULL_BEGIN
 - (void)saveVisitorId:(NSString*)saveStr;
 -(NSString*)getVisitorId;
 
+//外部Id
+- (void)saveVisitorExternalId:(NSString*)saveStr;
+-(NSString*)getVisitorExternalId;
+
 //用户名称
 - (void)saveVisitorName:(NSString*)saveStr;
 -(NSString*)getVisitorName;
