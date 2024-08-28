@@ -73,7 +73,9 @@ NS_ASSUME_NONNULL_BEGIN
  4:  机器人
  5:  系统通知
 */
-@property (nonatomic, assign, readonly) int                senderType;
+@property (nonatomic, copy) NSString        *senderType;
+
+@property (nonatomic, copy) NSString  *cno;
 
 /**
  创建时间
@@ -101,8 +103,6 @@ NS_ASSUME_NONNULL_BEGIN
  @return               参数对象
  */
 - (instancetype)initWithOption:(NSString *)messageUUID msg_id:(NSString *)msg_id type:(NSString *)type senderId:(NSString *)senderId receiverId:(NSString *)receiverId content:(TIMMessageContent *)content msg_from:(TIMSessionType)msg_from status:(TIMMessageStatus)status timestamp:(NSTimeInterval)timestamp;
-
-- (void)updateMessageType:(int)messageType;
 
 @end
 

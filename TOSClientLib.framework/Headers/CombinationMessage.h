@@ -10,6 +10,12 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
+typedef NS_ENUM(NSInteger, HelpfulAndUnHelpfulSelectType) {
+    HelpfulAndUnHelpfulSelectType_Unknown   = 0,
+    HelpfulAndUnHelpfulSelectType_Helpful   = 1,
+    HelpfulAndUnHelpfulSelectType_UnHelpful = 2,
+};
+
 @interface CombinationRobotFormDataIntentsModel : TIMMessageContent
 
 @property (nonatomic, strong) NSNumber *type;
@@ -104,6 +110,59 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic, assign) CGSize refreshBtnSize;
 
 @property (nonatomic, assign) CGFloat segmentHeight;
+
+#pragma mark - 点赞点踩相关数据
+
+@property (nonatomic, copy) NSString *mainUniqueId;
+
+/// 机器人回答id
+@property (nonatomic, copy) NSString *botAnswerUniqueId;
+
+/// 机器人id
+@property (nonatomic, copy) NSString *sender;
+
+/// 是否处于历史回显状态
+@property (nonatomic, assign) BOOL closeClick;
+
+/// 是否有点赞点踩功能
+@property (nonatomic, assign) BOOL clickLikeFeature;
+
+/// 是否显示必填提示
+@property (nonatomic, assign) BOOL showRequiredWarning;
+
+/// 是否展示来源
+@property (nonatomic, assign) BOOL showAnswerSource;
+
+/// 是否选中点赞或点踩
+@property (nonatomic, assign) HelpfulAndUnHelpfulSelectType helpfulSelectType;
+
+/// 选中的点踩标签
+@property (nonatomic, strong) NSMutableArray <NSString *>*unHelpfulSelectTags;
+
+@property (nonatomic, assign) CGRect requiredWarningF;
+
+/// 参考来源数据
+@property (nonatomic, copy) NSString *answerSource;
+
+/// 来源数据 富文本
+@property (nonatomic, strong) NSMutableAttributedString *answerSourceAtt;
+
+/// 来源数据 虚线
+@property (nonatomic, strong) CAShapeLayer *answerSourceDashedLine;
+@property (nonatomic, assign) CGRect answerSourceDashedLineF;
+
+/// 参考来源UI
+@property (nonatomic, assign) CGRect answerSourceF;
+
+@property (nonatomic, assign) CGRect helpfulAndUnHelpfulContentF;
+@property (nonatomic, assign) CGRect helpfulBtnF;
+@property (nonatomic, assign) CGRect helpfulAndUnHelpfulLineF;
+@property (nonatomic, assign) CGRect unHelpfulBtnF;
+
+@property (nonatomic, assign) CGRect unHelpfulTagAndTextViewContentF;
+@property (nonatomic, strong) NSMutableArray <NSValue *>*unHelpfulTagsF;
+@property (nonatomic, assign) CGRect unHelpfulTextViewF;
+@property (nonatomic, assign) CGRect unHelpfulSubmitF;
 
 @end
 

@@ -614,6 +614,32 @@ NS_ASSUME_NONNULL_BEGIN
  */
 @property (nonatomic, strong, nullable) TOSRegularModel                * urlRegular;
 
+/// 只使用本地上传头像
+@property (nonatomic, assign) BOOL enableLocalAvatar;
+
+/// 访客默认头像
+@property (nonatomic, strong) UIImage                *visitorDefaultAvatar;
+
+/// 机器人默认头像
+@property (nonatomic, strong) UIImage                *robotDefaultAvatar;
+
+/// 客服默认头像
+@property (nonatomic, strong) UIImage                *customerServiceDefaultAvatar;
+
+/// 系统默认头像
+@property (nonatomic, strong) UIImage                *systemDefaultAvatar;
+
+/// 是否展示点踩内容输入框
+@property (nonatomic, assign) BOOL isShowUnHelpfulContent;
+
+/// 是否必填点踩内容
+@property (nonatomic, assign) BOOL isRequiredUnHelpfulContent;
+
+/// 设置点踩输入框提示安暗文
+@property (nonatomic, copy)   NSString               *setUnHelpfulContentHint;
+
+/// 设置点踩标签
+@property (nonatomic, strong) NSArray    <NSString *>*setUnHelpfulTagList;
 
 @end
 

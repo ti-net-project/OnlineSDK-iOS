@@ -732,6 +732,38 @@
 		<data>
 		T0AAai4adGuRNm1BQrVBZbt92H0=
 		</data>
+		<key>defaultAvatar_customerService@2x.png</key>
+		<data>
+		4Y27rxS/+h/QAI+8SCx2tg03UDA=
+		</data>
+		<key>defaultAvatar_customerService@3x.png</key>
+		<data>
+		zThPd3kUuTD+RubbupZT8Q5NKEQ=
+		</data>
+		<key>defaultAvatar_robot@2x.png</key>
+		<data>
+		53oKH25rekfn5FbguQfOiTBHLMI=
+		</data>
+		<key>defaultAvatar_robot@3x.png</key>
+		<data>
+		Qxb0Ys08KbgV9A4gvlKCjiHfopg=
+		</data>
+		<key>defaultAvatar_transparent@2x.png</key>
+		<data>
+		Fd5NdpWGfJz24hrNg2ZEHMu5vqs=
+		</data>
+		<key>defaultAvatar_transparent@3x.png</key>
+		<data>
+		Y4Zh+Wt8Db/ghmcQaANkWn26oqY=
+		</data>
+		<key>defaultAvatar_visitor@2x.png</key>
+		<data>
+		RYNuU2pOdvLHdHnxNvgyU20HDzY=
+		</data>
+		<key>defaultAvatar_visitor@3x.png</key>
+		<data>
+		jsOjezpydK2ZNRdBAhApiHu5Aas=
+		</data>
 		<key>default_avatar@2x.png</key>
 		<data>
 		9ZlLVCdN/iYZSpT9F05h3cZMqSk=
@@ -783,6 +815,18 @@
 		<key>folder_cacheFile@3x.png</key>
 		<data>
 		gSPQJKGTDHrfG9j8yNVf4D1nN0w=
+		</data>
+		<key>helpful.png</key>
+		<data>
+		fpbpvJbqHvpXIifbm3q3No9U5mQ=
+		</data>
+		<key>helpful@2x.png</key>
+		<data>
+		9aN9aZhns17P7hbuMmjjxB3hsdU=
+		</data>
+		<key>helpful@3x.png</key>
+		<data>
+		0cxHv5M9dNnn2wzmvJjj4Ia8AE0=
 		</data>
 		<key>iCloudError@2x.png</key>
 		<data>
@@ -1119,6 +1163,18 @@
 		<key>topArrow@3x.png</key>
 		<data>
 		ILXkcNfrgLxwrZSuXG+JqvtZRA4=
+		</data>
+		<key>unHelpful.png</key>
+		<data>
+		S7AxZzIqaWmjCKj6F24bxC2iLv4=
+		</data>
+		<key>unHelpful@2x.png</key>
+		<data>
+		/KB91AzPUocMMSj7TVVQBHbsCss=
+		</data>
+		<key>unHelpful@3x.png</key>
+		<data>
+		7++mA+Y5Vdmwm3Gtk05E/PCqCmU=
 		</data>
 		<key>videoClose@2x.png</key>
 		<data>
@@ -3257,6 +3313,94 @@
 			Rj+Ye3jiQmIvFd+UzLvCKeNgXHcoBPlqjMWeu7gm6Bc=
 			</data>
 		</dict>
+		<key>defaultAvatar_customerService@2x.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			4Y27rxS/+h/QAI+8SCx2tg03UDA=
+			</data>
+			<key>hash2</key>
+			<data>
+			ikCn4zM54JXmQ0aBLNgPWIND+o8BO+sR5qztglg4F0E=
+			</data>
+		</dict>
+		<key>defaultAvatar_customerService@3x.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			zThPd3kUuTD+RubbupZT8Q5NKEQ=
+			</data>
+			<key>hash2</key>
+			<data>
+			ZFFwd+ecsG/w5ok/qVj0BE1HAm2zIf1WCIOW9yvdsfk=
+			</data>
+		</dict>
+		<key>defaultAvatar_robot@2x.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			53oKH25rekfn5FbguQfOiTBHLMI=
+			</data>
+			<key>hash2</key>
+			<data>
+			vfhUXmeJZvo/Nv2YA7jBlJA0pNpJ+r2BW9CPywYkW9w=
+			</data>
+		</dict>
+		<key>defaultAvatar_robot@3x.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			Qxb0Ys08KbgV9A4gvlKCjiHfopg=
+			</data>
+			<key>hash2</key>
+			<data>
+			M/FLydaRmXM3h7HIlhTtsnpMVebHK2rvaDhyn0BneZE=
+			</data>
+		</dict>
+		<key>defaultAvatar_transparent@2x.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			Fd5NdpWGfJz24hrNg2ZEHMu5vqs=
+			</data>
+			<key>hash2</key>
+			<data>
+			HiBc7fZo09TBH5IACoRw4XwL9IvlGaiOo4uIv6KbVPY=
+			</data>
+		</dict>
+		<key>defaultAvatar_transparent@3x.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			Y4Zh+Wt8Db/ghmcQaANkWn26oqY=
+			</data>
+			<key>hash2</key>
+			<data>
+			qIP5vNW9TIEzvtMv5VELUYf6BJAitsJPIHkEh7B1Uro=
+			</data>
+		</dict>
+		<key>defaultAvatar_visitor@2x.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			RYNuU2pOdvLHdHnxNvgyU20HDzY=
+			</data>
+			<key>hash2</key>
+			<data>
+			7lse4Dl0bzl7tfng3+rzFO6Vav/EW3lJnr0Nrj/lgYI=
+			</data>
+		</dict>
+		<key>defaultAvatar_visitor@3x.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			jsOjezpydK2ZNRdBAhApiHu5Aas=
+			</data>
+			<key>hash2</key>
+			<data>
+			WlBCazah3PyuDbHGPM70pRa5bzxc7S5GHx+tbSouCQs=
+			</data>
+		</dict>
 		<key>default_avatar@2x.png</key>
 		<dict>
 			<key>hash</key>
@@ -3398,6 +3542,39 @@
 			<key>hash2</key>
 			<data>
 			PwinMKHQQij3VOCbp6Q/yhvLL91My+Gk1ZqD85tCO7g=
+			</data>
+		</dict>
+		<key>helpful.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			fpbpvJbqHvpXIifbm3q3No9U5mQ=
+			</data>
+			<key>hash2</key>
+			<data>
+			xDhd/J7iJtCl0wqutDGqFglOIvofCI/UC67LoeprjQ4=
+			</data>
+		</dict>
+		<key>helpful@2x.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			9aN9aZhns17P7hbuMmjjxB3hsdU=
+			</data>
+			<key>hash2</key>
+			<data>
+			4ZtgCsvOadAqZBne/FWuivJixuxCzp4ClgW/bkrEJyA=
+			</data>
+		</dict>
+		<key>helpful@3x.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			0cxHv5M9dNnn2wzmvJjj4Ia8AE0=
+			</data>
+			<key>hash2</key>
+			<data>
+			m805xulzXgNrYoytyxIBoJSkzqz+VKoxD27CXubFjq0=
 			</data>
 		</dict>
 		<key>iCloudError@2x.png</key>
@@ -4322,6 +4499,39 @@
 			<key>hash2</key>
 			<data>
 			mX690M71ktW1PcCqbwBn7bGxR14fVZwmgTSmlM8UkCs=
+			</data>
+		</dict>
+		<key>unHelpful.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			S7AxZzIqaWmjCKj6F24bxC2iLv4=
+			</data>
+			<key>hash2</key>
+			<data>
+			BBM0GoLISBluAM7ZsTYCRVnwCzkjneC3BBcf3esVG4A=
+			</data>
+		</dict>
+		<key>unHelpful@2x.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			/KB91AzPUocMMSj7TVVQBHbsCss=
+			</data>
+			<key>hash2</key>
+			<data>
+			JTmIuJAPxZzeOfleog8qsFPWdf1cj124xUsoPkNY6lQ=
+			</data>
+		</dict>
+		<key>unHelpful@3x.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			7++mA+Y5Vdmwm3Gtk05E/PCqCmU=
+			</data>
+			<key>hash2</key>
+			<data>
+			3kiTLFSxbD6Jr4pGVMG94wKwSklMBPHFyZV3Di0zxFo=
 			</data>
 		</dict>
 		<key>videoClose@2x.png</key>

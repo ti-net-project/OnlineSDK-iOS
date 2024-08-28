@@ -12,6 +12,8 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface OnlineInvestigationUniqueIdRequest : TIYTKRequest
 
+@property (nonatomic, assign) BOOL investigationInviteType;
+
 @end
 
 NS_ASSUME_NONNULL_END

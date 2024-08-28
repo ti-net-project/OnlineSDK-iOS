@@ -73,6 +73,16 @@ NS_ASSUME_NONNULL_BEGIN
                          success:(void (^)(OnlineClientInfoModel * model))successBlock
                          error:(void (^)(TIMConnectErrorCode errCode,NSString *errorDes))errorBlock;
 
+#pragma mark - 提交机器人回答点赞点踩
+-(void)submitBotAnswerFeedbackWithAnswerUniqueId:(NSString *)answerUniqueId
+                                    mainUniqueId:(NSString *)mainUniqueId
+                                           botId:(NSString *)botId
+                                         content:(NSString *)content
+                               botAnswerFeedback:(NSString *)botAnswerFeedback
+                            robotNotHelpfulItems:(NSMutableSet <NSString *>*)robotNotHelpfulItems
+                                         success:(void (^)(NSString *result))successBlock
+                                           error:(void (^)(TIMConnectErrorCode errCode,NSString *errorDes))errorBlock;
+
 #pragma mark  获取已提交满意度信息
 -(void)getInvestigationInfoSuccess:(void (^)(void))successBlock
                             error:(void (^)(TIMConnectErrorCode errCode,NSString *errorDes))errorBlock;
@@ -89,8 +99,9 @@ NS_ASSUME_NONNULL_BEGIN
                             error:(void (^)(TIMConnectErrorCode errCode,NSString *errorDes))errorBlock;
 
 #pragma mark 获取满意度弹窗的uniqueid
--(void)getInvestigationUniqueIdSuccess:(void (^)(NSString *messageUniqueId))successBlock
-                            error:(void (^)(TIMConnectErrorCode errCode,NSString *errorDes))errorBlock;
+-(void)getInvestigationUniqueIdWithType:(BOOL)investigationInviteType
+                                success:(void (^)(NSString *messageUniqueId))successBlock
+                                 error:(void (^)(TIMConnectErrorCode errCode,NSString *errorDes))errorBlock;
 
 /**
  未读消息获取
@@ -104,6 +115,12 @@ NS_ASSUME_NONNULL_BEGIN
 @param mainUniqueId    会话ID     (内部 OnlineRequestManager 类调用)
  **/
 - (void)sessionInfoReadWithMainUniqueId:(NSString *)mainUniqueId;
+
+/*
+ 获取会话状态
+ **/
+- (void)sessionInfoGet:(void (^)(TOSSessionInfoModel * sessModel))successBlock
+                              error:(void (^)(TIMConnectErrorCode errCode,NSString *errorDes))errorBlock;
 
 
 @end

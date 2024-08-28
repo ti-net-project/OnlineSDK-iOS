@@ -10,6 +10,13 @@
 #import "TIMLibBaseModel.h"
 
 NS_ASSUME_NONNULL_BEGIN
+@interface BotAnswerMessageModel : TIMLibBaseModel
+
+@property (nonatomic, copy) NSString *feedback;
+@property (nonatomic, copy) NSString *feedbackContent;
+@property (nonatomic, strong) NSArray *robotNotHelpfulItems;
+
+@end
 
 @interface RepliedMessageModel : TIMLibBaseModel
 
@@ -54,7 +61,7 @@ NS_ASSUME_NONNULL_BEGIN
 /**
  senderType
  */
-@property (nonatomic, strong) NSString *senderType;
+@property (nonatomic, strong) NSNumber *senderType;
 /**
  messageType
  */
@@ -91,6 +98,8 @@ NS_ASSUME_NONNULL_BEGIN
  content
  */
 @property (nonatomic, strong) NSString *content;
+
+@property (nonatomic, strong) NSString *robotMessageModule;
 /**
  fileKey
  */
@@ -155,7 +164,7 @@ NS_ASSUME_NONNULL_BEGIN
 /**
  botAnswer
  */
-@property (nonatomic, strong) NSString *botAnswer;
+@property (nonatomic, strong) BotAnswerMessageModel *botAnswer;
 
 /// 判断是否评价 1已评价 0或null未评价
 @property (nonatomic, strong) NSString *alreadyInvestigation;

@@ -17,6 +17,7 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic, copy,readonly) NSNumber *isClose;
 @property (nonatomic, copy,readonly) NSString *endMessage;
 @property (nonatomic, copy,readonly) NSString *webUrl;
+@property (nonatomic, copy,readonly) NSNumber *investigationInviteType;
 
 - (instancetype)initMessageWithContent:(NSString *)content;
 
