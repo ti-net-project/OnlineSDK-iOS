@@ -357,10 +357,10 @@ relocations:
   - { offsetInCU: 0x153, offset: 0xFB5EF, size: 0x8, addend: 0x0, symName: _MYHGCDAsyncSocketSSLALPN, symObjAddr: 0x10B60, symBinAddr: 0x10DDE0, symSize: 0x0 }
   - { offsetInCU: 0x16B, offset: 0xFB607, size: 0x8, addend: 0x0, symName: '-[MYHGCDAsyncSocket doWriteData]', symObjAddr: 0xAB30, symBinAddr: 0x2173C, symSize: 0x4F0 }
   - { offsetInCU: 0x48C, offset: 0xFB928, size: 0x8, addend: 0x0, symName: '+[MYHGCDAsyncSocket startCFStreamThreadIfNeeded]', symObjAddr: 0xCD48, symBinAddr: 0x23954, symSize: 0x8C }
-  - { offsetInCU: 0x4B4, offset: 0xFB950, size: 0x8, addend: 0x0, symName: _startCFStreamThreadIfNeeded.predicate, symObjAddr: 0x569F0, symBinAddr: 0x17CC40, symSize: 0x0 }
-  - { offsetInCU: 0x51C, offset: 0xFB9B8, size: 0x8, addend: 0x0, symName: _cfstreamThread, symObjAddr: 0x56A08, symBinAddr: 0x17CC58, symSize: 0x0 }
-  - { offsetInCU: 0x537, offset: 0xFB9D3, size: 0x8, addend: 0x0, symName: _cfstreamThreadRetainCount, symObjAddr: 0x569F8, symBinAddr: 0x17CC48, symSize: 0x0 }
-  - { offsetInCU: 0x554, offset: 0xFB9F0, size: 0x8, addend: 0x0, symName: _cfstreamThreadSetupQueue, symObjAddr: 0x56A00, symBinAddr: 0x17CC50, symSize: 0x0 }
+  - { offsetInCU: 0x4B4, offset: 0xFB950, size: 0x8, addend: 0x0, symName: _startCFStreamThreadIfNeeded.predicate, symObjAddr: 0x569F8, symBinAddr: 0x17CC40, symSize: 0x0 }
+  - { offsetInCU: 0x51C, offset: 0xFB9B8, size: 0x8, addend: 0x0, symName: _cfstreamThread, symObjAddr: 0x56A10, symBinAddr: 0x17CC58, symSize: 0x0 }
+  - { offsetInCU: 0x537, offset: 0xFB9D3, size: 0x8, addend: 0x0, symName: _cfstreamThreadRetainCount, symObjAddr: 0x56A00, symBinAddr: 0x17CC48, symSize: 0x0 }
+  - { offsetInCU: 0x554, offset: 0xFB9F0, size: 0x8, addend: 0x0, symName: _cfstreamThreadSetupQueue, symObjAddr: 0x56A08, symBinAddr: 0x17CC50, symSize: 0x0 }
   - { offsetInCU: 0xB89, offset: 0xFC025, size: 0x8, addend: 0x0, symName: '-[MYHGCDAsyncSocketPreBuffer init]', symObjAddr: 0x0, symBinAddr: 0x16C58, symSize: 0x18 }
   - { offsetInCU: 0xBC0, offset: 0xFC05C, size: 0x8, addend: 0x0, symName: '-[MYHGCDAsyncSocketPreBuffer initWithCapacity:]', symObjAddr: 0x18, symBinAddr: 0x16C70, symSize: 0x60 }
   - { offsetInCU: 0xC07, offset: 0xFC0A3, size: 0x8, addend: 0x0, symName: '-[MYHGCDAsyncSocketPreBuffer dealloc]', symObjAddr: 0x78, symBinAddr: 0x16CD0, symSize: 0x4C }
@@ -952,9 +952,9 @@ relocations:
   - { offsetInCU: 0x128D, offset: 0x11279D, size: 0x8, addend: 0x0, symName: '-[NetAssociation roundtrip]', symObjAddr: 0x11D0, symBinAddr: 0x2B720, symSize: 0x8 }
   - { offsetInCU: 0x12C2, offset: 0x1127D2, size: 0x8, addend: 0x0, symName: '-[NetAssociation .cxx_destruct]', symObjAddr: 0x11D8, symBinAddr: 0x2B728, symSize: 0x44 }
   - { offsetInCU: 0x27, offset: 0x112AEB, size: 0x8, addend: 0x0, symName: '+[OnlineDataSave shareOnlineDataSave]', symObjAddr: 0x0, symBinAddr: 0x2B76C, symSize: 0x18 }
-  - { offsetInCU: 0x41, offset: 0x112B05, size: 0x8, addend: 0x0, symName: _onlineDataSave, symObjAddr: 0x7A68, symBinAddr: 0x17CC68, symSize: 0x0 }
+  - { offsetInCU: 0x41, offset: 0x112B05, size: 0x8, addend: 0x0, symName: _onlineDataSave, symObjAddr: 0x7A70, symBinAddr: 0x17CC68, symSize: 0x0 }
   - { offsetInCU: 0x61, offset: 0x112B25, size: 0x8, addend: 0x0, symName: '-[OnlineDataSave init]', symObjAddr: 0x18, symBinAddr: 0x2B784, symSize: 0xA0 }
-  - { offsetInCU: 0x8B, offset: 0x112B4F, size: 0x8, addend: 0x0, symName: _init.onceToken, symObjAddr: 0x7A70, symBinAddr: 0x17CC70, symSize: 0x0 }
+  - { offsetInCU: 0x8B, offset: 0x112B4F, size: 0x8, addend: 0x0, symName: _init.onceToken, symObjAddr: 0x7A78, symBinAddr: 0x17CC70, symSize: 0x0 }
   - { offsetInCU: 0x108, offset: 0x112BCC, size: 0x8, addend: 0x0, symName: '+[OnlineDataSave shareOnlineDataSave]', symObjAddr: 0x0, symBinAddr: 0x2B76C, symSize: 0x18 }
   - { offsetInCU: 0x18D, offset: 0x112C51, size: 0x8, addend: 0x0, symName: '___22-[OnlineDataSave init]_block_invoke', symObjAddr: 0xB8, symBinAddr: 0x2B824, symSize: 0x50 }
   - { offsetInCU: 0x1CC, offset: 0x112C90, size: 0x8, addend: 0x0, symName: '-[OnlineDataSave copyWithZone:]', symObjAddr: 0x118, symBinAddr: 0x2B874, symSize: 0xC }
@@ -1027,8 +1027,8 @@ relocations:
   - { offsetInCU: 0x9B, offset: 0x1142FC, size: 0x8, addend: 0x0, symName: _TikAFUploadStream3GSuggestedDelay, symObjAddr: 0xAE08, symBinAddr: 0xCADC0, symSize: 0x0 }
   - { offsetInCU: 0xB1, offset: 0x114312, size: 0x8, addend: 0x0, symName: _AFPercentEscapedQueryStringKeyFromStringWithEncoding, symObjAddr: 0x27C, symBinAddr: 0x2D2E8, symSize: 0x70 }
   - { offsetInCU: 0x12B, offset: 0x11438C, size: 0x8, addend: 0x0, symName: _TiAFHTTPRequestSerializerObservedKeyPaths, symObjAddr: 0x5B7C, symBinAddr: 0x32AD4, symSize: 0x40 }
-  - { offsetInCU: 0x151, offset: 0x1143B2, size: 0x8, addend: 0x0, symName: _TiAFHTTPRequestSerializerObservedKeyPaths._TiAFHTTPRequestSerializerObservedKeyPaths, symObjAddr: 0x215A0, symBinAddr: 0x17CC78, symSize: 0x0 }
-  - { offsetInCU: 0x167, offset: 0x1143C8, size: 0x8, addend: 0x0, symName: _TiAFHTTPRequestSerializerObservedKeyPaths.onceToken, symObjAddr: 0x215A8, symBinAddr: 0x17CC80, symSize: 0x0 }
+  - { offsetInCU: 0x151, offset: 0x1143B2, size: 0x8, addend: 0x0, symName: _TiAFHTTPRequestSerializerObservedKeyPaths._TiAFHTTPRequestSerializerObservedKeyPaths, symObjAddr: 0x215A8, symBinAddr: 0x17CC78, symSize: 0x0 }
+  - { offsetInCU: 0x167, offset: 0x1143C8, size: 0x8, addend: 0x0, symName: _TiAFHTTPRequestSerializerObservedKeyPaths.onceToken, symObjAddr: 0x215B0, symBinAddr: 0x17CC80, symSize: 0x0 }
   - { offsetInCU: 0x1A5, offset: 0x114406, size: 0x8, addend: 0x0, symName: _TiAFHTTPRequestSerializerObserverContext, symObjAddr: 0xAB20, symBinAddr: 0x17C3D0, symSize: 0x0 }
   - { offsetInCU: 0x894, offset: 0x114AF5, size: 0x8, addend: 0x0, symName: '-[TiAFQueryStringPair initWithField:value:]', symObjAddr: 0x0, symBinAddr: 0x2D06C, symSize: 0xA8 }
   - { offsetInCU: 0x911, offset: 0x114B72, size: 0x8, addend: 0x0, symName: '-[TiAFQueryStringPair URLEncodedStringValueWithEncoding:]', symObjAddr: 0xA8, symBinAddr: 0x2D114, symSize: 0x1D4 }
@@ -1210,10 +1210,10 @@ relocations:
   - { offsetInCU: 0x149, offset: 0x118FCA, size: 0x8, addend: 0x0, symName: '-[ChatOnlineMessage .cxx_destruct]', symObjAddr: 0x40, symBinAddr: 0x32CB8, symSize: 0x14 }
   - { offsetInCU: 0x27, offset: 0x119073, size: 0x8, addend: 0x0, symName: '+[TIYTKNetworkAgent sharedAgent]', symObjAddr: 0x0, symBinAddr: 0x32CCC, symSize: 0x74 }
   - { offsetInCU: 0x35, offset: 0x119081, size: 0x8, addend: 0x0, symName: '+[TIYTKNetworkAgent sharedAgent]', symObjAddr: 0x0, symBinAddr: 0x32CCC, symSize: 0x74 }
-  - { offsetInCU: 0x5F, offset: 0x1190AB, size: 0x8, addend: 0x0, symName: _sharedAgent.sharedInstance, symObjAddr: 0xD1B8, symBinAddr: 0x17CC88, symSize: 0x0 }
-  - { offsetInCU: 0x75, offset: 0x1190C1, size: 0x8, addend: 0x0, symName: _sharedAgent.onceToken, symObjAddr: 0xD1C0, symBinAddr: 0x17CC90, symSize: 0x0 }
+  - { offsetInCU: 0x5F, offset: 0x1190AB, size: 0x8, addend: 0x0, symName: _sharedAgent.sharedInstance, symObjAddr: 0xD1C0, symBinAddr: 0x17CC88, symSize: 0x0 }
+  - { offsetInCU: 0x75, offset: 0x1190C1, size: 0x8, addend: 0x0, symName: _sharedAgent.onceToken, symObjAddr: 0xD1C8, symBinAddr: 0x17CC90, symSize: 0x0 }
   - { offsetInCU: 0x104, offset: 0x119150, size: 0x8, addend: 0x0, symName: '-[TIYTKNetworkAgent incompleteDownloadTempCacheFolder]', symObjAddr: 0x228C, symBinAddr: 0x34E98, symSize: 0xF0 }
-  - { offsetInCU: 0x130, offset: 0x11917C, size: 0x8, addend: 0x0, symName: _incompleteDownloadTempCacheFolder.cacheFolder, symObjAddr: 0xD1C8, symBinAddr: 0x17CC98, symSize: 0x0 }
+  - { offsetInCU: 0x130, offset: 0x11917C, size: 0x8, addend: 0x0, symName: _incompleteDownloadTempCacheFolder.cacheFolder, symObjAddr: 0xD1D0, symBinAddr: 0x17CC98, symSize: 0x0 }
   - { offsetInCU: 0x6BD, offset: 0x119709, size: 0x8, addend: 0x0, symName: '___32+[TIYTKNetworkAgent sharedAgent]_block_invoke', symObjAddr: 0x74, symBinAddr: 0x32D40, symSize: 0x2C }
   - { offsetInCU: 0x6FC, offset: 0x119748, size: 0x8, addend: 0x0, symName: '-[TIYTKNetworkAgent init]', symObjAddr: 0xA0, symBinAddr: 0x32D6C, symSize: 0x1C4 }
   - { offsetInCU: 0x7B2, offset: 0x1197FE, size: 0x8, addend: 0x0, symName: '-[TIYTKNetworkAgent jsonResponseSerializer]', symObjAddr: 0x264, symBinAddr: 0x32F30, symSize: 0x58 }
@@ -1427,11 +1427,11 @@ relocations:
   - { offsetInCU: 0x1EF, offset: 0x11FEE0, size: 0x8, addend: 0x0, symName: _md5_init, symObjAddr: 0x0, symBinAddr: 0x3A38C, symSize: 0x1C }
   - { offsetInCU: 0x216, offset: 0x11FF07, size: 0x8, addend: 0x0, symName: _md5_append, symObjAddr: 0x1C, symBinAddr: 0x3A3A8, symSize: 0xFC }
   - { offsetInCU: 0x27, offset: 0x120095, size: 0x8, addend: 0x0, symName: '+[TOSGetInvestigationOptionsModel modelContainerPropertyGenericClass]', symObjAddr: 0x0, symBinAddr: 0x3AFC4, symSize: 0x80 }
-  - { offsetInCU: 0x46, offset: 0x1200B4, size: 0x8, addend: 0x0, symName: _investigationInfoModel, symObjAddr: 0xA250, symBinAddr: 0x17CCA8, symSize: 0x0 }
+  - { offsetInCU: 0x46, offset: 0x1200B4, size: 0x8, addend: 0x0, symName: _investigationInfoModel, symObjAddr: 0xA258, symBinAddr: 0x17CCA8, symSize: 0x0 }
   - { offsetInCU: 0x337, offset: 0x1203A5, size: 0x8, addend: 0x0, symName: '-[TOSGetInvestigationInfoModel init]', symObjAddr: 0x230, symBinAddr: 0x3B1F4, symSize: 0xA0 }
-  - { offsetInCU: 0x361, offset: 0x1203CF, size: 0x8, addend: 0x0, symName: _init.onceToken, symObjAddr: 0xA258, symBinAddr: 0x17CCB0, symSize: 0x0 }
+  - { offsetInCU: 0x361, offset: 0x1203CF, size: 0x8, addend: 0x0, symName: _init.onceToken, symObjAddr: 0xA260, symBinAddr: 0x17CCB0, symSize: 0x0 }
   - { offsetInCU: 0x3B9, offset: 0x120427, size: 0x8, addend: 0x0, symName: '+[TOSGetInvestigationInfoModel allocWithZone:]', symObjAddr: 0x330, symBinAddr: 0x3B2E4, symSize: 0x74 }
-  - { offsetInCU: 0x3E3, offset: 0x120451, size: 0x8, addend: 0x0, symName: '_allocWithZone:.onceToken', symObjAddr: 0xA260, symBinAddr: 0x17CCB8, symSize: 0x0 }
+  - { offsetInCU: 0x3E3, offset: 0x120451, size: 0x8, addend: 0x0, symName: '_allocWithZone:.onceToken', symObjAddr: 0xA268, symBinAddr: 0x17CCB8, symSize: 0x0 }
   - { offsetInCU: 0x677, offset: 0x1206E5, size: 0x8, addend: 0x0, symName: '+[TOSGetInvestigationOptionsModel modelContainerPropertyGenericClass]', symObjAddr: 0x0, symBinAddr: 0x3AFC4, symSize: 0x80 }
   - { offsetInCU: 0x6AA, offset: 0x120718, size: 0x8, addend: 0x0, symName: '-[TOSGetInvestigationOptionsModel invitationInitiator]', symObjAddr: 0x80, symBinAddr: 0x3B044, symSize: 0x10 }
   - { offsetInCU: 0x6E1, offset: 0x12074F, size: 0x8, addend: 0x0, symName: '-[TOSGetInvestigationOptionsModel setInvitationInitiator:]', symObjAddr: 0x90, symBinAddr: 0x3B054, symSize: 0xC }
@@ -1653,8 +1653,8 @@ relocations:
   - { offsetInCU: 0x277, offset: 0x1269CF, size: 0x8, addend: 0x0, symName: '-[ChatLeaveReceiveMessage .cxx_destruct]', symObjAddr: 0x3A4, symBinAddr: 0x3F12C, symSize: 0x40 }
   - { offsetInCU: 0x27, offset: 0x126A91, size: 0x8, addend: 0x0, symName: '+[TIYTKBatchRequestAgent sharedAgent]', symObjAddr: 0x0, symBinAddr: 0x3F16C, symSize: 0x74 }
   - { offsetInCU: 0x35, offset: 0x126A9F, size: 0x8, addend: 0x0, symName: '+[TIYTKBatchRequestAgent sharedAgent]', symObjAddr: 0x0, symBinAddr: 0x3F16C, symSize: 0x74 }
-  - { offsetInCU: 0x5F, offset: 0x126AC9, size: 0x8, addend: 0x0, symName: _sharedAgent.sharedInstance, symObjAddr: 0x2848, symBinAddr: 0x17CCE8, symSize: 0x0 }
-  - { offsetInCU: 0x75, offset: 0x126ADF, size: 0x8, addend: 0x0, symName: _sharedAgent.onceToken, symObjAddr: 0x2850, symBinAddr: 0x17CCF0, symSize: 0x0 }
+  - { offsetInCU: 0x5F, offset: 0x126AC9, size: 0x8, addend: 0x0, symName: _sharedAgent.sharedInstance, symObjAddr: 0x2850, symBinAddr: 0x17CCE8, symSize: 0x0 }
+  - { offsetInCU: 0x75, offset: 0x126ADF, size: 0x8, addend: 0x0, symName: _sharedAgent.onceToken, symObjAddr: 0x2858, symBinAddr: 0x17CCF0, symSize: 0x0 }
   - { offsetInCU: 0x17C, offset: 0x126BE6, size: 0x8, addend: 0x0, symName: '___37+[TIYTKBatchRequestAgent sharedAgent]_block_invoke', symObjAddr: 0x74, symBinAddr: 0x3F1E0, symSize: 0x2C }
   - { offsetInCU: 0x1BB, offset: 0x126C25, size: 0x8, addend: 0x0, symName: '-[TIYTKBatchRequestAgent init]', symObjAddr: 0xA0, symBinAddr: 0x3F20C, symSize: 0x6C }
   - { offsetInCU: 0x1F2, offset: 0x126C5C, size: 0x8, addend: 0x0, symName: '-[TIYTKBatchRequestAgent addBatchRequest:]', symObjAddr: 0x10C, symBinAddr: 0x3F278, symSize: 0x6C }
@@ -1664,10 +1664,10 @@ relocations:
   - { offsetInCU: 0x2F0, offset: 0x126D5A, size: 0x8, addend: 0x0, symName: '-[TIYTKBatchRequestAgent .cxx_destruct]', symObjAddr: 0x1F8, symBinAddr: 0x3F364, symSize: 0xC }
   - { offsetInCU: 0x27, offset: 0x126F55, size: 0x8, addend: 0x0, symName: _TIMEncodingGetType, symObjAddr: 0x0, symBinAddr: 0x3F370, symSize: 0x230 }
   - { offsetInCU: 0x35, offset: 0x126F63, size: 0x8, addend: 0x0, symName: '+[TIMClassInfo classInfoWithClass:]', symObjAddr: 0xF00, symBinAddr: 0x40270, symSize: 0x11C }
-  - { offsetInCU: 0x61, offset: 0x126F8F, size: 0x8, addend: 0x0, symName: '_classInfoWithClass:.classCache', symObjAddr: 0xA0A0, symBinAddr: 0x17CCF8, symSize: 0x0 }
-  - { offsetInCU: 0x78, offset: 0x126FA6, size: 0x8, addend: 0x0, symName: '_classInfoWithClass:.metaCache', symObjAddr: 0xA0A8, symBinAddr: 0x17CD00, symSize: 0x0 }
-  - { offsetInCU: 0x8F, offset: 0x126FBD, size: 0x8, addend: 0x0, symName: '_classInfoWithClass:.onceToken', symObjAddr: 0xA0B0, symBinAddr: 0x17CD08, symSize: 0x0 }
-  - { offsetInCU: 0xA6, offset: 0x126FD4, size: 0x8, addend: 0x0, symName: '_classInfoWithClass:.lock', symObjAddr: 0xA0B8, symBinAddr: 0x17CD10, symSize: 0x0 }
+  - { offsetInCU: 0x61, offset: 0x126F8F, size: 0x8, addend: 0x0, symName: '_classInfoWithClass:.classCache', symObjAddr: 0xA0A8, symBinAddr: 0x17CCF8, symSize: 0x0 }
+  - { offsetInCU: 0x78, offset: 0x126FA6, size: 0x8, addend: 0x0, symName: '_classInfoWithClass:.metaCache', symObjAddr: 0xA0B0, symBinAddr: 0x17CD00, symSize: 0x0 }
+  - { offsetInCU: 0x8F, offset: 0x126FBD, size: 0x8, addend: 0x0, symName: '_classInfoWithClass:.onceToken', symObjAddr: 0xA0B8, symBinAddr: 0x17CD08, symSize: 0x0 }
+  - { offsetInCU: 0xA6, offset: 0x126FD4, size: 0x8, addend: 0x0, symName: '_classInfoWithClass:.lock', symObjAddr: 0xA0C0, symBinAddr: 0x17CD10, symSize: 0x0 }
   - { offsetInCU: 0x691, offset: 0x1275BF, size: 0x8, addend: 0x0, symName: _TIMEncodingGetType, symObjAddr: 0x0, symBinAddr: 0x3F370, symSize: 0x230 }
   - { offsetInCU: 0x6F8, offset: 0x127626, size: 0x8, addend: 0x0, symName: '-[TIMClassIvarInfo initWithIvar:]', symObjAddr: 0x230, symBinAddr: 0x3F5A0, symSize: 0xF0 }
   - { offsetInCU: 0x7FA, offset: 0x127728, size: 0x8, addend: 0x0, symName: '-[TIMClassIvarInfo ivar]', symObjAddr: 0x320, symBinAddr: 0x3F690, symSize: 0x8 }
@@ -1742,7 +1742,7 @@ relocations:
   - { offsetInCU: 0x365, offset: 0x1291DD, size: 0x8, addend: 0x0, symName: '-[TIMMessageReadOption .cxx_destruct]', symObjAddr: 0x150, symBinAddr: 0x40948, symSize: 0x48 }
   - { offsetInCU: 0x27, offset: 0x129286, size: 0x8, addend: 0x0, symName: '+[NSAttributedString(TOSAvoidCrash) load]', symObjAddr: 0x0, symBinAddr: 0x40990, symSize: 0x28 }
   - { offsetInCU: 0x35, offset: 0x129294, size: 0x8, addend: 0x0, symName: '+[NSAttributedString(TOSAvoidCrash) load]', symObjAddr: 0x0, symBinAddr: 0x40990, symSize: 0x28 }
-  - { offsetInCU: 0x5B, offset: 0x1292BA, size: 0x8, addend: 0x0, symName: _load.onceToken, symObjAddr: 0x2840, symBinAddr: 0x17CD18, symSize: 0x0 }
+  - { offsetInCU: 0x5B, offset: 0x1292BA, size: 0x8, addend: 0x0, symName: _load.onceToken, symObjAddr: 0x2848, symBinAddr: 0x17CD18, symSize: 0x0 }
   - { offsetInCU: 0x100, offset: 0x12935F, size: 0x8, addend: 0x0, symName: '___41+[NSAttributedString(TOSAvoidCrash) load]_block_invoke', symObjAddr: 0x28, symBinAddr: 0x409B8, symSize: 0x7C }
   - { offsetInCU: 0x17F, offset: 0x1293DE, size: 0x8, addend: 0x0, symName: '-[NSAttributedString(TOSAvoidCrash) tinet_avoidCrashInitWithString:]', symObjAddr: 0xA4, symBinAddr: 0x40A34, symSize: 0xAC }
   - { offsetInCU: 0x20D, offset: 0x12946C, size: 0x8, addend: 0x0, symName: '-[NSAttributedString(TOSAvoidCrash) tinet_avoidCrashInitWithAttributedString:]', symObjAddr: 0x150, symBinAddr: 0x40AE0, symSize: 0xAC }
@@ -1761,8 +1761,8 @@ relocations:
   - { offsetInCU: 0x41, offset: 0x129CBE, size: 0x8, addend: 0x0, symName: _MYHddLogLevel, symObjAddr: 0x10, symBinAddr: 0x17C678, symSize: 0x0 }
   - { offsetInCU: 0xA4, offset: 0x129D21, size: 0x8, addend: 0x0, symName: '+[MYHMQTTLog setLogLevel:]', symObjAddr: 0x0, symBinAddr: 0x40E78, symSize: 0xC }
   - { offsetInCU: 0x27, offset: 0x129DB0, size: 0x8, addend: 0x0, symName: '-[NSNull(HDNullSafe) methodSignatureForSelector:]', symObjAddr: 0x0, symBinAddr: 0x40E84, symSize: 0x2AC }
-  - { offsetInCU: 0x41, offset: 0x129DCA, size: 0x8, addend: 0x0, symName: _classList, symObjAddr: 0x21D0, symBinAddr: 0x17CD20, symSize: 0x0 }
-  - { offsetInCU: 0x5C, offset: 0x129DE5, size: 0x8, addend: 0x0, symName: _signatureCache, symObjAddr: 0x21D8, symBinAddr: 0x17CD28, symSize: 0x0 }
+  - { offsetInCU: 0x41, offset: 0x129DCA, size: 0x8, addend: 0x0, symName: _classList, symObjAddr: 0x21D8, symBinAddr: 0x17CD20, symSize: 0x0 }
+  - { offsetInCU: 0x5C, offset: 0x129DE5, size: 0x8, addend: 0x0, symName: _signatureCache, symObjAddr: 0x21E0, symBinAddr: 0x17CD28, symSize: 0x0 }
   - { offsetInCU: 0x99, offset: 0x129E22, size: 0x8, addend: 0x0, symName: '-[NSNull(HDNullSafe) methodSignatureForSelector:]', symObjAddr: 0x0, symBinAddr: 0x40E84, symSize: 0x2AC }
   - { offsetInCU: 0x17B, offset: 0x129F04, size: 0x8, addend: 0x0, symName: _cacheSignatures, symObjAddr: 0x2E8, symBinAddr: 0x4116C, symSize: 0x11C }
   - { offsetInCU: 0x27E, offset: 0x12A007, size: 0x8, addend: 0x0, symName: '___49-[NSNull(HDNullSafe) methodSignatureForSelector:]_block_invoke', symObjAddr: 0x2AC, symBinAddr: 0x41130, symSize: 0x4 }
@@ -1871,8 +1871,8 @@ relocations:
   - { offsetInCU: 0x75F, offset: 0x12E31A, size: 0x8, addend: 0x0, symName: _rbtree_mid_travel, symObjAddr: 0x6F4, symBinAddr: 0x46558, symSize: 0x64 }
   - { offsetInCU: 0x27, offset: 0x12E44E, size: 0x8, addend: 0x0, symName: '+[MYHMQTTSSLSecurityPolicy defaultPinnedCertificates]', symObjAddr: 0x0, symBinAddr: 0x46664, symSize: 0x74 }
   - { offsetInCU: 0x35, offset: 0x12E45C, size: 0x8, addend: 0x0, symName: '+[MYHMQTTSSLSecurityPolicy defaultPinnedCertificates]', symObjAddr: 0x0, symBinAddr: 0x46664, symSize: 0x74 }
-  - { offsetInCU: 0x5F, offset: 0x12E486, size: 0x8, addend: 0x0, symName: _defaultPinnedCertificates._defaultPinnedCertificates, symObjAddr: 0x74D0, symBinAddr: 0x17CD60, symSize: 0x0 }
-  - { offsetInCU: 0x75, offset: 0x12E49C, size: 0x8, addend: 0x0, symName: _defaultPinnedCertificates.onceToken, symObjAddr: 0x74D8, symBinAddr: 0x17CD68, symSize: 0x0 }
+  - { offsetInCU: 0x5F, offset: 0x12E486, size: 0x8, addend: 0x0, symName: _defaultPinnedCertificates._defaultPinnedCertificates, symObjAddr: 0x74D8, symBinAddr: 0x17CD60, symSize: 0x0 }
+  - { offsetInCU: 0x75, offset: 0x12E49C, size: 0x8, addend: 0x0, symName: _defaultPinnedCertificates.onceToken, symObjAddr: 0x74E0, symBinAddr: 0x17CD68, symSize: 0x0 }
   - { offsetInCU: 0x253, offset: 0x12E67A, size: 0x8, addend: 0x0, symName: '___53+[MYHMQTTSSLSecurityPolicy defaultPinnedCertificates]_block_invoke', symObjAddr: 0x74, symBinAddr: 0x466D8, symSize: 0x1D0 }
   - { offsetInCU: 0x307, offset: 0x12E72E, size: 0x8, addend: 0x0, symName: '+[MYHMQTTSSLSecurityPolicy defaultPolicy]', symObjAddr: 0x244, symBinAddr: 0x468A8, symSize: 0x30 }
   - { offsetInCU: 0x34E, offset: 0x12E775, size: 0x8, addend: 0x0, symName: '+[MYHMQTTSSLSecurityPolicy policyWithPinningMode:]', symObjAddr: 0x274, symBinAddr: 0x468D8, symSize: 0x68 }
@@ -1902,7 +1902,7 @@ relocations:
   - { offsetInCU: 0x46, offset: 0x12FB3F, size: 0x8, addend: 0x0, symName: _kEVN_Config, symObjAddr: 0x4F70, symBinAddr: 0x17C680, symSize: 0x0 }
   - { offsetInCU: 0x5C, offset: 0x12FB55, size: 0x8, addend: 0x0, symName: _globalDeviceUDID, symObjAddr: 0x4F78, symBinAddr: 0x17C688, symSize: 0x0 }
   - { offsetInCU: 0x79, offset: 0x12FB72, size: 0x8, addend: 0x0, symName: '+[TIMLibUtils RandomString]', symObjAddr: 0x1850, symBinAddr: 0x491D0, symSize: 0x90 }
-  - { offsetInCU: 0x10F, offset: 0x12FC08, size: 0x8, addend: 0x0, symName: _kLogEnable, symObjAddr: 0xDD30, symBinAddr: 0x17CD70, symSize: 0x0 }
+  - { offsetInCU: 0x10F, offset: 0x12FC08, size: 0x8, addend: 0x0, symName: _kLogEnable, symObjAddr: 0xDD38, symBinAddr: 0x17CD70, symSize: 0x0 }
   - { offsetInCU: 0x1BD, offset: 0x12FCB6, size: 0x8, addend: 0x0, symName: '+[TIMLibUtils setLogEnable:]', symObjAddr: 0x0, symBinAddr: 0x47980, symSize: 0xC }
   - { offsetInCU: 0x1F8, offset: 0x12FCF1, size: 0x8, addend: 0x0, symName: '+[TIMLibUtils getLogEnable]', symObjAddr: 0xC, symBinAddr: 0x4798C, symSize: 0xC }
   - { offsetInCU: 0x22B, offset: 0x12FD24, size: 0x8, addend: 0x0, symName: '+[TIMLibUtils setEnvConfig:]', symObjAddr: 0x18, symBinAddr: 0x47998, symSize: 0x10 }
@@ -2036,8 +2036,8 @@ relocations:
   - { offsetInCU: 0x77, offset: 0x133A34, size: 0x8, addend: 0x0, symName: _MYHGCDAsyncUdpSocketQueueName, symObjAddr: 0xD4F0, symBinAddr: 0x10EDB0, symSize: 0x0 }
   - { offsetInCU: 0x8D, offset: 0x133A4A, size: 0x8, addend: 0x0, symName: _MYHGCDAsyncUdpSocketThreadName, symObjAddr: 0xD4F8, symBinAddr: 0x10EDB8, symSize: 0x0 }
   - { offsetInCU: 0x97, offset: 0x133A54, size: 0x8, addend: 0x0, symName: '+[MYHGCDAsyncUdpSocket startListenerThreadIfNeeded]', symObjAddr: 0xA7F0, symBinAddr: 0x55AD0, symSize: 0x6C }
-  - { offsetInCU: 0xBF, offset: 0x133A7C, size: 0x8, addend: 0x0, symName: _startListenerThreadIfNeeded.predicate, symObjAddr: 0x40AA0, symBinAddr: 0x17CD98, symSize: 0x0 }
-  - { offsetInCU: 0x125, offset: 0x133AE2, size: 0x8, addend: 0x0, symName: _listenerThread, symObjAddr: 0x40AA8, symBinAddr: 0x17CDA0, symSize: 0x0 }
+  - { offsetInCU: 0xBF, offset: 0x133A7C, size: 0x8, addend: 0x0, symName: _startListenerThreadIfNeeded.predicate, symObjAddr: 0x40AA8, symBinAddr: 0x17CD98, symSize: 0x0 }
+  - { offsetInCU: 0x125, offset: 0x133AE2, size: 0x8, addend: 0x0, symName: _listenerThread, symObjAddr: 0x40AB0, symBinAddr: 0x17CDA0, symSize: 0x0 }
   - { offsetInCU: 0x65E, offset: 0x13401B, size: 0x8, addend: 0x0, symName: '-[MYHGCDAsyncUdpSendPacket init]', symObjAddr: 0x0, symBinAddr: 0x4B5D0, symSize: 0x18 }
   - { offsetInCU: 0x696, offset: 0x134053, size: 0x8, addend: 0x0, symName: '-[MYHGCDAsyncUdpSendPacket initWithData:timeout:tag:]', symObjAddr: 0x18, symBinAddr: 0x4B5E8, symSize: 0x94 }
   - { offsetInCU: 0x701, offset: 0x1340BE, size: 0x8, addend: 0x0, symName: '-[MYHGCDAsyncUdpSendPacket .cxx_destruct]', symObjAddr: 0xAC, symBinAddr: 0x4B67C, symSize: 0x48 }
@@ -2359,8 +2359,8 @@ relocations:
   - { offsetInCU: 0x41, offset: 0x14219A, size: 0x8, addend: 0x0, symName: _TiAFNetworkingReachabilityDidChangeNotification, symObjAddr: 0xE10, symBinAddr: 0x10F080, symSize: 0x0 }
   - { offsetInCU: 0x61, offset: 0x1421BA, size: 0x8, addend: 0x0, symName: _TiAFNetworkingReachabilityNotificationStatusItem, symObjAddr: 0xE18, symBinAddr: 0x10F088, symSize: 0x0 }
   - { offsetInCU: 0x6B, offset: 0x1421C4, size: 0x8, addend: 0x0, symName: '+[TiAFNetworkReachabilityManager sharedManager]', symObjAddr: 0xD8, symBinAddr: 0x577E0, symSize: 0x74 }
-  - { offsetInCU: 0x95, offset: 0x1421EE, size: 0x8, addend: 0x0, symName: _sharedManager._sharedManager, symObjAddr: 0x7C08, symBinAddr: 0x17CDA8, symSize: 0x0 }
-  - { offsetInCU: 0xAB, offset: 0x142204, size: 0x8, addend: 0x0, symName: _sharedManager.onceToken, symObjAddr: 0x7C10, symBinAddr: 0x17CDB0, symSize: 0x0 }
+  - { offsetInCU: 0x95, offset: 0x1421EE, size: 0x8, addend: 0x0, symName: _sharedManager._sharedManager, symObjAddr: 0x7C10, symBinAddr: 0x17CDA8, symSize: 0x0 }
+  - { offsetInCU: 0xAB, offset: 0x142204, size: 0x8, addend: 0x0, symName: _sharedManager.onceToken, symObjAddr: 0x7C18, symBinAddr: 0x17CDB0, symSize: 0x0 }
   - { offsetInCU: 0x2D5, offset: 0x14242E, size: 0x8, addend: 0x0, symName: _TiAFStringFromNetworkReachabilityStatus, symObjAddr: 0x0, symBinAddr: 0x57708, symSize: 0xD8 }
   - { offsetInCU: 0x340, offset: 0x142499, size: 0x8, addend: 0x0, symName: '___47+[TiAFNetworkReachabilityManager sharedManager]_block_invoke', symObjAddr: 0x14C, symBinAddr: 0x57854, symSize: 0x78 }
   - { offsetInCU: 0x39D, offset: 0x1424F6, size: 0x8, addend: 0x0, symName: '+[TiAFNetworkReachabilityManager managerForDomain:]', symObjAddr: 0x1C4, symBinAddr: 0x578CC, symSize: 0x64 }
@@ -2496,8 +2496,8 @@ relocations:
   - { offsetInCU: 0x325, offset: 0x146063, size: 0x8, addend: 0x0, symName: '-[ImageMessage .cxx_destruct]', symObjAddr: 0x518, symBinAddr: 0x5B40C, symSize: 0x54 }
   - { offsetInCU: 0x27, offset: 0x14611B, size: 0x8, addend: 0x0, symName: '+[NetworkClock sharedNetworkClock]', symObjAddr: 0x0, symBinAddr: 0x5B460, symSize: 0x74 }
   - { offsetInCU: 0x35, offset: 0x146129, size: 0x8, addend: 0x0, symName: '+[NetworkClock sharedNetworkClock]', symObjAddr: 0x0, symBinAddr: 0x5B460, symSize: 0x74 }
-  - { offsetInCU: 0x5F, offset: 0x146153, size: 0x8, addend: 0x0, symName: _sharedNetworkClock.sharedNetworkClockInstance, symObjAddr: 0x5000, symBinAddr: 0x17CDB8, symSize: 0x0 }
-  - { offsetInCU: 0x75, offset: 0x146169, size: 0x8, addend: 0x0, symName: _sharedNetworkClock.onceToken, symObjAddr: 0x5008, symBinAddr: 0x17CDC0, symSize: 0x0 }
+  - { offsetInCU: 0x5F, offset: 0x146153, size: 0x8, addend: 0x0, symName: _sharedNetworkClock.sharedNetworkClockInstance, symObjAddr: 0x5008, symBinAddr: 0x17CDB8, symSize: 0x0 }
+  - { offsetInCU: 0x75, offset: 0x146169, size: 0x8, addend: 0x0, symName: _sharedNetworkClock.onceToken, symObjAddr: 0x5010, symBinAddr: 0x17CDC0, symSize: 0x0 }
   - { offsetInCU: 0x1EA, offset: 0x1462DE, size: 0x8, addend: 0x0, symName: '___34+[NetworkClock sharedNetworkClock]_block_invoke', symObjAddr: 0x74, symBinAddr: 0x5B4D4, symSize: 0x2C }
   - { offsetInCU: 0x229, offset: 0x14631D, size: 0x8, addend: 0x0, symName: '-[NetworkClock init]', symObjAddr: 0xA0, symBinAddr: 0x5B500, symSize: 0x150 }
   - { offsetInCU: 0x260, offset: 0x146354, size: 0x8, addend: 0x0, symName: '-[NetworkClock networkOffset]', symObjAddr: 0x1F0, symBinAddr: 0x5B650, symSize: 0x1FC }
@@ -2610,11 +2610,11 @@ relocations:
   - { offsetInCU: 0x195, offset: 0x14B3BB, size: 0x8, addend: 0x0, symName: _TiAFNetworkingTaskDidFinishErrorKey, symObjAddr: 0x59B8, symBinAddr: 0x10F558, symSize: 0x0 }
   - { offsetInCU: 0x1AB, offset: 0x14B3D1, size: 0x8, addend: 0x0, symName: _TiAFNetworkingTaskDidFinishAssetPathKey, symObjAddr: 0x59C0, symBinAddr: 0x10F560, symSize: 0x0 }
   - { offsetInCU: 0x1CE, offset: 0x14B3F4, size: 0x8, addend: 0x0, symName: _url_session_manager_completion_group, symObjAddr: 0x503C, symBinAddr: 0x68308, symSize: 0x40 }
-  - { offsetInCU: 0x1F4, offset: 0x14B41A, size: 0x8, addend: 0x0, symName: _url_session_manager_completion_group.af_url_session_manager_completion_group, symObjAddr: 0x23480, symBinAddr: 0x17CF48, symSize: 0x0 }
-  - { offsetInCU: 0x20A, offset: 0x14B430, size: 0x8, addend: 0x0, symName: _url_session_manager_completion_group.onceToken, symObjAddr: 0x23488, symBinAddr: 0x17CF50, symSize: 0x0 }
+  - { offsetInCU: 0x1F4, offset: 0x14B41A, size: 0x8, addend: 0x0, symName: _url_session_manager_completion_group.af_url_session_manager_completion_group, symObjAddr: 0x23488, symBinAddr: 0x17CF48, symSize: 0x0 }
+  - { offsetInCU: 0x20A, offset: 0x14B430, size: 0x8, addend: 0x0, symName: _url_session_manager_completion_group.onceToken, symObjAddr: 0x23490, symBinAddr: 0x17CF50, symSize: 0x0 }
   - { offsetInCU: 0x245, offset: 0x14B46B, size: 0x8, addend: 0x0, symName: _url_session_manager_creation_queue, symObjAddr: 0x50D4, symBinAddr: 0x683A0, symSize: 0x40 }
-  - { offsetInCU: 0x26B, offset: 0x14B491, size: 0x8, addend: 0x0, symName: _url_session_manager_creation_queue.af_url_session_manager_creation_queue, symObjAddr: 0x234A0, symBinAddr: 0x17CF68, symSize: 0x0 }
-  - { offsetInCU: 0x281, offset: 0x14B4A7, size: 0x8, addend: 0x0, symName: _url_session_manager_creation_queue.onceToken, symObjAddr: 0x234A8, symBinAddr: 0x17CF70, symSize: 0x0 }
+  - { offsetInCU: 0x26B, offset: 0x14B491, size: 0x8, addend: 0x0, symName: _url_session_manager_creation_queue.af_url_session_manager_creation_queue, symObjAddr: 0x234A8, symBinAddr: 0x17CF68, symSize: 0x0 }
+  - { offsetInCU: 0x281, offset: 0x14B4A7, size: 0x8, addend: 0x0, symName: _url_session_manager_creation_queue.onceToken, symObjAddr: 0x234B0, symBinAddr: 0x17CF70, symSize: 0x0 }
   - { offsetInCU: 0xE91, offset: 0x14C0B7, size: 0x8, addend: 0x0, symName: '-[TiAFURLSessionManagerTaskDelegate init]', symObjAddr: 0x0, symBinAddr: 0x634B8, symSize: 0xB4 }
   - { offsetInCU: 0xEC8, offset: 0x14C0EE, size: 0x8, addend: 0x0, symName: '-[TiAFURLSessionManagerTaskDelegate URLSession:task:didSendBodyData:totalBytesSent:totalBytesExpectedToSend:]', symObjAddr: 0xB4, symBinAddr: 0x6356C, symSize: 0x6C }
   - { offsetInCU: 0xF87, offset: 0x14C1AD, size: 0x8, addend: 0x0, symName: '-[TiAFURLSessionManagerTaskDelegate URLSession:task:didCompleteWithError:]', symObjAddr: 0x120, symBinAddr: 0x635D8, symSize: 0x3FC }
@@ -2785,7 +2785,7 @@ relocations:
   - { offsetInCU: 0x4EFB, offset: 0x150121, size: 0x8, addend: 0x0, symName: ___url_session_manager_creation_queue_block_invoke, symObjAddr: 0x5114, symBinAddr: 0x683E0, symSize: 0x30 }
   - { offsetInCU: 0x27, offset: 0x1510D0, size: 0x8, addend: 0x0, symName: '+[NSDictionary(TOSAvoidCrash) load]', symObjAddr: 0x0, symBinAddr: 0x68410, symSize: 0x6C }
   - { offsetInCU: 0x35, offset: 0x1510DE, size: 0x8, addend: 0x0, symName: '+[NSDictionary(TOSAvoidCrash) load]', symObjAddr: 0x0, symBinAddr: 0x68410, symSize: 0x6C }
-  - { offsetInCU: 0x5B, offset: 0x151104, size: 0x8, addend: 0x0, symName: _load.onceToken, symObjAddr: 0x2F48, symBinAddr: 0x17CF78, symSize: 0x0 }
+  - { offsetInCU: 0x5B, offset: 0x151104, size: 0x8, addend: 0x0, symName: _load.onceToken, symObjAddr: 0x2F50, symBinAddr: 0x17CF78, symSize: 0x0 }
   - { offsetInCU: 0x140, offset: 0x1511E9, size: 0x8, addend: 0x0, symName: '___35+[NSDictionary(TOSAvoidCrash) load]_block_invoke', symObjAddr: 0x6C, symBinAddr: 0x6847C, symSize: 0x68 }
   - { offsetInCU: 0x1A8, offset: 0x151251, size: 0x8, addend: 0x0, symName: '+[NSDictionary(TOSAvoidCrash) tinet_avoidCrashDictionaryWithObjects:forKeys:count:]', symObjAddr: 0xD4, symBinAddr: 0x684E4, symSize: 0x18C }
   - { offsetInCU: 0x2B4, offset: 0x15135D, size: 0x8, addend: 0x0, symName: '-[NSDictionary(TOSAvoidCrash) tinet_initWithObjects:forKeys:count:]', symObjAddr: 0x260, symBinAddr: 0x68670, symSize: 0x1CC }
@@ -3031,13 +3031,13 @@ relocations:
   - { offsetInCU: 0x79, offset: 0x157464, size: 0x8, addend: 0x0, symName: _MYHTRSRWebSocketErrorDomain, symObjAddr: 0x95A8, symBinAddr: 0x10F6E8, symSize: 0x0 }
   - { offsetInCU: 0x8F, offset: 0x15747A, size: 0x8, addend: 0x0, symName: _SRHTTPResponseErrorKey, symObjAddr: 0x95B0, symBinAddr: 0x10F6F0, symSize: 0x0 }
   - { offsetInCU: 0xB8, offset: 0x1574A3, size: 0x8, addend: 0x0, symName: '-[MYHTRSRWebSocket setupNetworkServiceType:]', symObjAddr: 0x162C, symBinAddr: 0x6CA04, symSize: 0x164 }
-  - { offsetInCU: 0xE0, offset: 0x1574CB, size: 0x8, addend: 0x0, symName: '_setupNetworkServiceType:.predicate', symObjAddr: 0x21908, symBinAddr: 0x17CF88, symSize: 0x0 }
+  - { offsetInCU: 0xE0, offset: 0x1574CB, size: 0x8, addend: 0x0, symName: '_setupNetworkServiceType:.predicate', symObjAddr: 0x21910, symBinAddr: 0x17CF88, symSize: 0x0 }
   - { offsetInCU: 0x1C2, offset: 0x1575AD, size: 0x8, addend: 0x0, symName: '-[MYHTRSRWebSocket safeHandleEvent:stream:]', symObjAddr: 0x4568, symBinAddr: 0x6F868, symSize: 0x290 }
-  - { offsetInCU: 0x2B4, offset: 0x15769F, size: 0x8, addend: 0x0, symName: _networkThread, symObjAddr: 0x21910, symBinAddr: 0x17CF90, symSize: 0x0 }
-  - { offsetInCU: 0x311, offset: 0x1576FC, size: 0x8, addend: 0x0, symName: _networkRunLoop, symObjAddr: 0x21918, symBinAddr: 0x17CF98, symSize: 0x0 }
+  - { offsetInCU: 0x2B4, offset: 0x15769F, size: 0x8, addend: 0x0, symName: _networkThread, symObjAddr: 0x21918, symBinAddr: 0x17CF90, symSize: 0x0 }
+  - { offsetInCU: 0x311, offset: 0x1576FC, size: 0x8, addend: 0x0, symName: _networkRunLoop, symObjAddr: 0x21920, symBinAddr: 0x17CF98, symSize: 0x0 }
   - { offsetInCU: 0x31B, offset: 0x157706, size: 0x8, addend: 0x0, symName: '+[NSRunLoop(MYHTRSRWebSocket) SR_networkRunLoop]', symObjAddr: 0x4FF4, symBinAddr: 0x702F4, symSize: 0x40 }
-  - { offsetInCU: 0x347, offset: 0x157732, size: 0x8, addend: 0x0, symName: _SR_networkRunLoop.onceToken, symObjAddr: 0x21920, symBinAddr: 0x17CFA0, symSize: 0x0 }
-  - { offsetInCU: 0x38F, offset: 0x15777A, size: 0x8, addend: 0x0, symName: _CRLFCRLF, symObjAddr: 0x21900, symBinAddr: 0x17CF80, symSize: 0x0 }
+  - { offsetInCU: 0x347, offset: 0x157732, size: 0x8, addend: 0x0, symName: _SR_networkRunLoop.onceToken, symObjAddr: 0x21928, symBinAddr: 0x17CFA0, symSize: 0x0 }
+  - { offsetInCU: 0x38F, offset: 0x15777A, size: 0x8, addend: 0x0, symName: _CRLFCRLF, symObjAddr: 0x21908, symBinAddr: 0x17CF80, symSize: 0x0 }
   - { offsetInCU: 0x3AB, offset: 0x157796, size: 0x8, addend: 0x0, symName: _CRLFCRLFBytes, symObjAddr: 0x576A, symBinAddr: 0xCAF62, symSize: 0x0 }
   - { offsetInCU: 0x95B, offset: 0x157D46, size: 0x8, addend: 0x0, symName: '-[NSData(MYHTRSRWebSocket) stringBySHA1ThenBase64Encoding]', symObjAddr: 0x0, symBinAddr: 0x6B3E8, symSize: 0x38 }
   - { offsetInCU: 0x9A8, offset: 0x157D93, size: 0x8, addend: 0x0, symName: _newSHA1String, symObjAddr: 0x38, symBinAddr: 0x6B420, symSize: 0xC8 }
@@ -3216,8 +3216,8 @@ relocations:
   - { offsetInCU: 0xF9, offset: 0x15C9C6, size: 0x8, addend: 0x0, symName: '+[NSDate(NetworkClock) threadsafeNetworkDate]', symObjAddr: 0xE8, symBinAddr: 0x7087C, symSize: 0x7C }
   - { offsetInCU: 0x27, offset: 0x15CA9B, size: 0x8, addend: 0x0, symName: '+[OnlineMessageSendManager sharedOnlineMessageSendManager]', symObjAddr: 0x0, symBinAddr: 0x708F8, symSize: 0x40 }
   - { offsetInCU: 0x3A, offset: 0x15CAAE, size: 0x8, addend: 0x0, symName: '+[OnlineMessageSendManager sharedOnlineMessageSendManager]', symObjAddr: 0x0, symBinAddr: 0x708F8, symSize: 0x40 }
-  - { offsetInCU: 0x64, offset: 0x15CAD8, size: 0x8, addend: 0x0, symName: _sharedOnlineMessageSendManager.oneToken, symObjAddr: 0x8CA8, symBinAddr: 0x17CFA8, symSize: 0x0 }
-  - { offsetInCU: 0xB1, offset: 0x15CB25, size: 0x8, addend: 0x0, symName: ___onetimeClass, symObjAddr: 0x8CB0, symBinAddr: 0x17CFB0, symSize: 0x0 }
+  - { offsetInCU: 0x64, offset: 0x15CAD8, size: 0x8, addend: 0x0, symName: _sharedOnlineMessageSendManager.oneToken, symObjAddr: 0x8CB0, symBinAddr: 0x17CFA8, symSize: 0x0 }
+  - { offsetInCU: 0xB1, offset: 0x15CB25, size: 0x8, addend: 0x0, symName: ___onetimeClass, symObjAddr: 0x8CB8, symBinAddr: 0x17CFB0, symSize: 0x0 }
   - { offsetInCU: 0x344, offset: 0x15CDB8, size: 0x8, addend: 0x0, symName: '___58+[OnlineMessageSendManager sharedOnlineMessageSendManager]_block_invoke', symObjAddr: 0x40, symBinAddr: 0x70938, symSize: 0x30 }
   - { offsetInCU: 0x36B, offset: 0x15CDDF, size: 0x8, addend: 0x0, symName: '-[OnlineMessageSendManager sendCommodityCardMessageWithMessageStr:success:error:]', symObjAddr: 0x70, symBinAddr: 0x70968, symSize: 0x708 }
   - { offsetInCU: 0x45E, offset: 0x15CED2, size: 0x8, addend: 0x0, symName: '___81-[OnlineMessageSendManager sendCommodityCardMessageWithMessageStr:success:error:]_block_invoke', symObjAddr: 0x778, symBinAddr: 0x71070, symSize: 0x4 }
@@ -3687,7 +3687,7 @@ relocations:
   - { offsetInCU: 0x125, offset: 0x16A893, size: 0x8, addend: 0x0, symName: '-[TOSDisConnectOption setIsReceivePush:]', symObjAddr: 0x48, symBinAddr: 0x804F0, symSize: 0x8 }
   - { offsetInCU: 0x27, offset: 0x16A944, size: 0x8, addend: 0x0, symName: '+[NSMutableArray(TOSAvoidCrash) load]', symObjAddr: 0x0, symBinAddr: 0x804F8, symSize: 0x28 }
   - { offsetInCU: 0x35, offset: 0x16A952, size: 0x8, addend: 0x0, symName: '+[NSMutableArray(TOSAvoidCrash) load]', symObjAddr: 0x0, symBinAddr: 0x804F8, symSize: 0x28 }
-  - { offsetInCU: 0x5B, offset: 0x16A978, size: 0x8, addend: 0x0, symName: _load.onceToken, symObjAddr: 0x3440, symBinAddr: 0x17CFB8, symSize: 0x0 }
+  - { offsetInCU: 0x5B, offset: 0x16A978, size: 0x8, addend: 0x0, symName: _load.onceToken, symObjAddr: 0x3448, symBinAddr: 0x17CFB8, symSize: 0x0 }
   - { offsetInCU: 0x100, offset: 0x16AA1D, size: 0x8, addend: 0x0, symName: '___37+[NSMutableArray(TOSAvoidCrash) load]_block_invoke', symObjAddr: 0x28, symBinAddr: 0x80520, symSize: 0x12C }
   - { offsetInCU: 0x17F, offset: 0x16AA9C, size: 0x8, addend: 0x0, symName: '-[NSMutableArray(TOSAvoidCrash) tinet_avoidCrashSetObject:atIndexedSubscript:]', symObjAddr: 0x154, symBinAddr: 0x8064C, symSize: 0xBC }
   - { offsetInCU: 0x1ED, offset: 0x16AB0A, size: 0x8, addend: 0x0, symName: '-[NSMutableArray(TOSAvoidCrash) tinet_avoidCrashRemoveObjectAtIndex:]', symObjAddr: 0x210, symBinAddr: 0x80708, symSize: 0x94 }
@@ -3925,7 +3925,7 @@ relocations:
   - { offsetInCU: 0x129, offset: 0x172E8C, size: 0x8, addend: 0x0, symName: '-[TIMMessageReCallOption .cxx_destruct]', symObjAddr: 0x34, symBinAddr: 0x8F9B4, symSize: 0xC }
   - { offsetInCU: 0x27, offset: 0x172F35, size: 0x8, addend: 0x0, symName: '+[NSMutableDictionary(TOSAvoidCrash) load]', symObjAddr: 0x0, symBinAddr: 0x8F9C0, symSize: 0x28 }
   - { offsetInCU: 0x35, offset: 0x172F43, size: 0x8, addend: 0x0, symName: '+[NSMutableDictionary(TOSAvoidCrash) load]', symObjAddr: 0x0, symBinAddr: 0x8F9C0, symSize: 0x28 }
-  - { offsetInCU: 0x5B, offset: 0x172F69, size: 0x8, addend: 0x0, symName: _load.onceToken, symObjAddr: 0x2AE8, symBinAddr: 0x17CFC8, symSize: 0x0 }
+  - { offsetInCU: 0x5B, offset: 0x172F69, size: 0x8, addend: 0x0, symName: _load.onceToken, symObjAddr: 0x2AF0, symBinAddr: 0x17CFC8, symSize: 0x0 }
   - { offsetInCU: 0x100, offset: 0x17300E, size: 0x8, addend: 0x0, symName: '___42+[NSMutableDictionary(TOSAvoidCrash) load]_block_invoke', symObjAddr: 0x28, symBinAddr: 0x8F9E8, symSize: 0xEC }
   - { offsetInCU: 0x220, offset: 0x17312E, size: 0x8, addend: 0x0, symName: '-[NSMutableDictionary(TOSAvoidCrash) tinet_avoidCrashSetObject:forKey:]', symObjAddr: 0x114, symBinAddr: 0x8FAD4, symSize: 0xD0 }
   - { offsetInCU: 0x28E, offset: 0x17319C, size: 0x8, addend: 0x0, symName: '-[NSMutableDictionary(TOSAvoidCrash) tinet_avoidCrashSetObject:forKeyedSubscript:]', symObjAddr: 0x1E4, symBinAddr: 0x8FBA4, symSize: 0xD0 }
@@ -4109,7 +4109,7 @@ relocations:
   - { offsetInCU: 0x43DF, offset: 0x1781CA, size: 0x8, addend: 0x0, symName: '-[MYHMQTTSession .cxx_destruct]', symObjAddr: 0x7514, symBinAddr: 0x975F4, symSize: 0x1AC }
   - { offsetInCU: 0x27, offset: 0x17840C, size: 0x8, addend: 0x0, symName: '+[NSArray(TOSAvoidCrash) load]', symObjAddr: 0x0, symBinAddr: 0x977A0, symSize: 0x6C }
   - { offsetInCU: 0x35, offset: 0x17841A, size: 0x8, addend: 0x0, symName: '+[NSArray(TOSAvoidCrash) load]', symObjAddr: 0x0, symBinAddr: 0x977A0, symSize: 0x6C }
-  - { offsetInCU: 0x5B, offset: 0x178440, size: 0x8, addend: 0x0, symName: _load.onceToken, symObjAddr: 0x4590, symBinAddr: 0x17CFD0, symSize: 0x0 }
+  - { offsetInCU: 0x5B, offset: 0x178440, size: 0x8, addend: 0x0, symName: _load.onceToken, symObjAddr: 0x4598, symBinAddr: 0x17CFD0, symSize: 0x0 }
   - { offsetInCU: 0x140, offset: 0x178525, size: 0x8, addend: 0x0, symName: '___30+[NSArray(TOSAvoidCrash) load]_block_invoke', symObjAddr: 0x6C, symBinAddr: 0x9780C, symSize: 0x1BC }
   - { offsetInCU: 0x247, offset: 0x17862C, size: 0x8, addend: 0x0, symName: '+[NSArray(TOSAvoidCrash) tinet_avoidCrashArrayWithObjects:count:]', symObjAddr: 0x228, symBinAddr: 0x979C8, symSize: 0x148 }
   - { offsetInCU: 0x325, offset: 0x17870A, size: 0x8, addend: 0x0, symName: '-[NSArray(TOSAvoidCrash) tinet_avoidCrashObjectAtIndexedSubscript:]', symObjAddr: 0x370, symBinAddr: 0x97B10, symSize: 0x84 }
@@ -4122,7 +4122,7 @@ relocations:
   - { offsetInCU: 0x6FD, offset: 0x178AE2, size: 0x8, addend: 0x0, symName: '-[NSArray(TOSAvoidCrash) __NSArrayIAvoidCrashGetObjects:range:]', symObjAddr: 0x754, symBinAddr: 0x97EF4, symSize: 0x94 }
   - { offsetInCU: 0x27, offset: 0x178C69, size: 0x8, addend: 0x0, symName: '+[NSMutableString(TOSAvoidCrash) load]', symObjAddr: 0x0, symBinAddr: 0x97F88, symSize: 0x28 }
   - { offsetInCU: 0x35, offset: 0x178C77, size: 0x8, addend: 0x0, symName: '+[NSMutableString(TOSAvoidCrash) load]', symObjAddr: 0x0, symBinAddr: 0x97F88, symSize: 0x28 }
-  - { offsetInCU: 0x5B, offset: 0x178C9D, size: 0x8, addend: 0x0, symName: _load.onceToken, symObjAddr: 0x28E0, symBinAddr: 0x17CFD8, symSize: 0x0 }
+  - { offsetInCU: 0x5B, offset: 0x178C9D, size: 0x8, addend: 0x0, symName: _load.onceToken, symObjAddr: 0x28E8, symBinAddr: 0x17CFD8, symSize: 0x0 }
   - { offsetInCU: 0x100, offset: 0x178D42, size: 0x8, addend: 0x0, symName: '___38+[NSMutableString(TOSAvoidCrash) load]_block_invoke', symObjAddr: 0x28, symBinAddr: 0x97FB0, symSize: 0x7C }
   - { offsetInCU: 0x17F, offset: 0x178DC1, size: 0x8, addend: 0x0, symName: '-[NSMutableString(TOSAvoidCrash) tinet_avoidCrashReplaceCharactersInRange:withString:]', symObjAddr: 0xA4, symBinAddr: 0x9802C, symSize: 0xC0 }
   - { offsetInCU: 0x208, offset: 0x178E4A, size: 0x8, addend: 0x0, symName: '-[NSMutableString(TOSAvoidCrash) tinet_avoidCrashInsertString:atIndex:]', symObjAddr: 0x164, symBinAddr: 0x980EC, symSize: 0xB8 }
@@ -4261,8 +4261,8 @@ relocations:
   - { offsetInCU: 0x622, offset: 0x17C798, size: 0x8, addend: 0x0, symName: '-[TFHpple .cxx_destruct]', symObjAddr: 0x570, symBinAddr: 0x9ABE4, symSize: 0x30 }
   - { offsetInCU: 0x27, offset: 0x17C8C5, size: 0x8, addend: 0x0, symName: '-[TiAFHTTPRequestOperation initWithRequest:]', symObjAddr: 0x0, symBinAddr: 0x9AC14, symSize: 0x84 }
   - { offsetInCU: 0x4A, offset: 0x17C8E8, size: 0x8, addend: 0x0, symName: _http_request_operation_completion_group, symObjAddr: 0xF84, symBinAddr: 0x9BAD0, symSize: 0x40 }
-  - { offsetInCU: 0x70, offset: 0x17C90E, size: 0x8, addend: 0x0, symName: _http_request_operation_completion_group.af_http_request_operation_completion_group, symObjAddr: 0x7320, symBinAddr: 0x17CFF0, symSize: 0x0 }
-  - { offsetInCU: 0x86, offset: 0x17C924, size: 0x8, addend: 0x0, symName: _http_request_operation_completion_group.onceToken, symObjAddr: 0x7328, symBinAddr: 0x17CFF8, symSize: 0x0 }
+  - { offsetInCU: 0x70, offset: 0x17C90E, size: 0x8, addend: 0x0, symName: _http_request_operation_completion_group.af_http_request_operation_completion_group, symObjAddr: 0x7328, symBinAddr: 0x17CFF0, symSize: 0x0 }
+  - { offsetInCU: 0x86, offset: 0x17C924, size: 0x8, addend: 0x0, symName: _http_request_operation_completion_group.onceToken, symObjAddr: 0x7330, symBinAddr: 0x17CFF8, symSize: 0x0 }
   - { offsetInCU: 0x35D, offset: 0x17CBFB, size: 0x8, addend: 0x0, symName: '-[TiAFHTTPRequestOperation initWithRequest:]', symObjAddr: 0x0, symBinAddr: 0x9AC14, symSize: 0x84 }
   - { offsetInCU: 0x3A4, offset: 0x17CC42, size: 0x8, addend: 0x0, symName: '-[TiAFHTTPRequestOperation setResponseSerializer:]', symObjAddr: 0x84, symBinAddr: 0x9AC98, symSize: 0x98 }
   - { offsetInCU: 0x3E7, offset: 0x17CC85, size: 0x8, addend: 0x0, symName: '-[TiAFHTTPRequestOperation responseObject]', symObjAddr: 0x11C, symBinAddr: 0x9AD30, symSize: 0x164 }
@@ -4461,8 +4461,8 @@ relocations:
   - { offsetInCU: 0x15DC, offset: 0x1817A5, size: 0x8, addend: 0x0, symName: ___TIYTKrequest_cache_writing_queue_block_invoke, symObjAddr: 0x1B98, symBinAddr: 0x9E79C, symSize: 0x80 }
   - { offsetInCU: 0x27, offset: 0x181A3F, size: 0x8, addend: 0x0, symName: '+[OnlineRequestManager sharedCustomerManager]', symObjAddr: 0x0, symBinAddr: 0x9E81C, symSize: 0x40 }
   - { offsetInCU: 0x3A, offset: 0x181A52, size: 0x8, addend: 0x0, symName: '+[OnlineRequestManager sharedCustomerManager]', symObjAddr: 0x0, symBinAddr: 0x9E81C, symSize: 0x40 }
-  - { offsetInCU: 0x64, offset: 0x181A7C, size: 0x8, addend: 0x0, symName: _sharedCustomerManager.oneToken, symObjAddr: 0x1ABE8, symBinAddr: 0x17D010, symSize: 0x0 }
-  - { offsetInCU: 0xB1, offset: 0x181AC9, size: 0x8, addend: 0x0, symName: ___onetimeClass, symObjAddr: 0x1ABF0, symBinAddr: 0x17D018, symSize: 0x0 }
+  - { offsetInCU: 0x64, offset: 0x181A7C, size: 0x8, addend: 0x0, symName: _sharedCustomerManager.oneToken, symObjAddr: 0x1ABF0, symBinAddr: 0x17D010, symSize: 0x0 }
+  - { offsetInCU: 0xB1, offset: 0x181AC9, size: 0x8, addend: 0x0, symName: ___onetimeClass, symObjAddr: 0x1ABF8, symBinAddr: 0x17D018, symSize: 0x0 }
   - { offsetInCU: 0x3C0, offset: 0x181DD8, size: 0x8, addend: 0x0, symName: '___45+[OnlineRequestManager sharedCustomerManager]_block_invoke', symObjAddr: 0x40, symBinAddr: 0x9E85C, symSize: 0x30 }
   - { offsetInCU: 0x3E7, offset: 0x181DFF, size: 0x8, addend: 0x0, symName: '-[OnlineRequestManager getUserInfoWithUserId:externalId:nickname:phoneNum:headerUrl:connectSuccess:error:tokenIncorrect:]', symObjAddr: 0x70, symBinAddr: 0x9E88C, symSize: 0x4D0 }
   - { offsetInCU: 0x4D6, offset: 0x181EEE, size: 0x8, addend: 0x0, symName: '___121-[OnlineRequestManager getUserInfoWithUserId:externalId:nickname:phoneNum:headerUrl:connectSuccess:error:tokenIncorrect:]_block_invoke', symObjAddr: 0x540, symBinAddr: 0x9ED5C, symSize: 0x424 }
@@ -4652,8 +4652,8 @@ relocations:
   - { offsetInCU: 0x4B, offset: 0x18A0E6, size: 0x8, addend: 0x0, symName: _MYHAFNetworkingOperationDidStartNotification, symObjAddr: 0x3CA0, symBinAddr: 0x110CD8, symSize: 0x0 }
   - { offsetInCU: 0x61, offset: 0x18A0FC, size: 0x8, addend: 0x0, symName: _MYHAFNetworkingOperationDidFinishNotification, symObjAddr: 0x3CA8, symBinAddr: 0x110CE0, symSize: 0x0 }
   - { offsetInCU: 0x6B, offset: 0x18A106, size: 0x8, addend: 0x0, symName: '+[TiAFURLConnectionOperation networkRequestThread]', symObjAddr: 0xCC, symBinAddr: 0xAAC08, symSize: 0x74 }
-  - { offsetInCU: 0x95, offset: 0x18A130, size: 0x8, addend: 0x0, symName: _networkRequestThread._networkRequestThread, symObjAddr: 0x16C88, symBinAddr: 0x17D020, symSize: 0x0 }
-  - { offsetInCU: 0xAB, offset: 0x18A146, size: 0x8, addend: 0x0, symName: _networkRequestThread.oncePredicate, symObjAddr: 0x16C90, symBinAddr: 0x17D028, symSize: 0x0 }
+  - { offsetInCU: 0x95, offset: 0x18A130, size: 0x8, addend: 0x0, symName: _networkRequestThread._networkRequestThread, symObjAddr: 0x16C90, symBinAddr: 0x17D020, symSize: 0x0 }
+  - { offsetInCU: 0xAB, offset: 0x18A146, size: 0x8, addend: 0x0, symName: _networkRequestThread.oncePredicate, symObjAddr: 0x16C98, symBinAddr: 0x17D028, symSize: 0x0 }
   - { offsetInCU: 0x685, offset: 0x18A720, size: 0x8, addend: 0x0, symName: '+[TiAFURLConnectionOperation networkRequestThreadEntryPoint:]', symObjAddr: 0x0, symBinAddr: 0xAAB3C, symSize: 0xCC }
   - { offsetInCU: 0x75E, offset: 0x18A7F9, size: 0x8, addend: 0x0, symName: '___50+[TiAFURLConnectionOperation networkRequestThread]_block_invoke', symObjAddr: 0x140, symBinAddr: 0xAAC7C, symSize: 0x54 }
   - { offsetInCU: 0x79D, offset: 0x18A838, size: 0x8, addend: 0x0, symName: '-[TiAFURLConnectionOperation initWithRequest:]', symObjAddr: 0x194, symBinAddr: 0xAACD0, symSize: 0x154 }
@@ -5164,7 +5164,7 @@ relocations:
   - { offsetInCU: 0x1D8, offset: 0x198792, size: 0x8, addend: 0x0, symName: '-[ChatCloseMessage setEndMessage:]', symObjAddr: 0x184, symBinAddr: 0xB57F0, symSize: 0xC }
   - { offsetInCU: 0x217, offset: 0x1987D1, size: 0x8, addend: 0x0, symName: '-[ChatCloseMessage .cxx_destruct]', symObjAddr: 0x190, symBinAddr: 0xB57FC, symSize: 0x40 }
   - { offsetInCU: 0x27, offset: 0x198889, size: 0x8, addend: 0x0, symName: '+[MYHMQTTStrict strict]', symObjAddr: 0x0, symBinAddr: 0xB583C, symSize: 0xC }
-  - { offsetInCU: 0x41, offset: 0x1988A3, size: 0x8, addend: 0x0, symName: _internalStrict, symObjAddr: 0xD77, symBinAddr: 0x17D070, symSize: 0x0 }
+  - { offsetInCU: 0x41, offset: 0x1988A3, size: 0x8, addend: 0x0, symName: _internalStrict, symObjAddr: 0xD7F, symBinAddr: 0x17D070, symSize: 0x0 }
   - { offsetInCU: 0x59, offset: 0x1988BB, size: 0x8, addend: 0x0, symName: '+[MYHMQTTStrict strict]', symObjAddr: 0x0, symBinAddr: 0xB583C, symSize: 0xC }
   - { offsetInCU: 0x8C, offset: 0x1988EE, size: 0x8, addend: 0x0, symName: '+[MYHMQTTStrict setStrict:]', symObjAddr: 0xC, symBinAddr: 0xB5848, symSize: 0xC }
   - { offsetInCU: 0x27, offset: 0x19897B, size: 0x8, addend: 0x0, symName: '-[OnlineGetInvestigationInfoRequest initWithDict:]', symObjAddr: 0x0, symBinAddr: 0xB5854, symSize: 0x80 }
