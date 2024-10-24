@@ -14,11 +14,17 @@
 #import "OnlineClientInfoModel.h"
 #import "TOSSessionInfoModel.h"
 
+typedef void (^RequestClientInfoComplete)(OnlineClientInfoModel *model, TIMConnectErrorCode errCode, NSString *errorDes);
+
 NS_ASSUME_NONNULL_BEGIN
 @class ChatInvestigationMessage;
+
 @interface OnlineRequestManager : NSObject
 
 + (instancetype)sharedCustomerManager;
+
+/// 用户信息存储
+@property (atomic, strong) NSMutableDictionary <NSString *, OnlineClientInfoModel *>*clientInfoDic;
 
 #pragma mark 获取token
 -(void)getUserInfoWithUserId:(NSString*)userId
@@ -68,10 +74,9 @@ NS_ASSUME_NONNULL_BEGIN
                                error:(void (^)(TIMConnectErrorCode errCode,NSString *errorDes))errorBlock;
 
 #pragma mark  获取客服信息
--(void)getClientInfoWithSender:(NSString *)sender
-                    senderType:(NSString *)senderType
-                         success:(void (^)(OnlineClientInfoModel * model))successBlock
-                         error:(void (^)(TIMConnectErrorCode errCode,NSString *errorDes))errorBlock;
+- (void)getClientInfoWithSender:(NSString *)sender
+                     senderType:(NSString *)senderType
+                       complete:(RequestClientInfoComplete)completeBlock;
 
 #pragma mark - 提交机器人回答点赞点踩
 -(void)submitBotAnswerFeedbackWithAnswerUniqueId:(NSString *)answerUniqueId
@@ -99,6 +104,10 @@ NS_ASSUME_NONNULL_BEGIN
                             error:(void (^)(TIMConnectErrorCode errCode,NSString *errorDes))errorBlock;
 
 #pragma mark 获取满意度弹窗的uniqueid
+// 获取满意度弹窗的uniqueid
+-(void)getInvestigationUniqueIdSuccess:(void (^)(NSString *messageUniqueId))successBlock
+                                 error:(void (^)(TIMConnectErrorCode errCode,NSString *errorDes))errorBlock;
+
 -(void)getInvestigationUniqueIdWithType:(BOOL)investigationInviteType
                                 success:(void (^)(NSString *messageUniqueId))successBlock
                                  error:(void (^)(TIMConnectErrorCode errCode,NSString *errorDes))errorBlock;
@@ -122,6 +131,25 @@ NS_ASSUME_NONNULL_BEGIN
 - (void)sessionInfoGet:(void (^)(TOSSessionInfoModel * sessModel))successBlock
                               error:(void (^)(TIMConnectErrorCode errCode,NSString *errorDes))errorBlock;
 
+/*
+ 获取留言数据接口请求
+ **/
+- (void)getTicketCommentStatistics:(NSNumber *)commentCountEnable
+              visitorCreatedTicket:(NSNumber *)visitorCreatedTicket
+                   ticketPluginUrl:(NSString *)ticketPluginUrl
+                           success:(void (^)(NSNumber *staffCommentTotalCount,
+                                             NSString *ticketPluginUrl))successBlock
+                             error:(void (^)(TIMConnectErrorCode errCode,NSString *errorDes))errorBlock;
+
+/*
+ 拼接链接参数
+ **/
+- (void)jointUrlParam:(NSString *)url
+                 type:(NSString *)type
+   commentCountEnable:(NSNumber *)commentCountEnable
+ visitorCreatedTicket:(NSNumber *)visitorCreatedTicket
+              success:(void (^)(NSString *url))successBlock
+                error:(void (^)(TIMConnectErrorCode errCode,NSString *errorDes))errorBlock;
 
 @end
 

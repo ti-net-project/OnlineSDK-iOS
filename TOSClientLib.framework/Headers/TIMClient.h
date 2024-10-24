@@ -131,9 +131,10 @@ NS_ASSUME_NONNULL_BEGIN
 @end
 
 typedef NS_ENUM(NSUInteger, TinetChatStatusType) {
-    TinetChatStatusTypeOutline,   // 不在线或结束会话
+    TinetChatStatusTypeOutline,   // 客服或机器人未接入（默认状态）
     TinetChatStatusTypeRobot,     // 机器人在线
     TinetChatStatusTypeOnline,    // 客服在线
+    TinetChatStatusTypeCloseChat,   /// 结束会话
 };
 
 #pragma mark - TIMClientLib核心类

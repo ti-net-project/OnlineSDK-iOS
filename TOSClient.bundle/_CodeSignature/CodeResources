@@ -54,7 +54,7 @@
 		</data>
 		<key>ICChatMessageCommodityCardCell.nib</key>
 		<data>
-		ZhwOIm3jfiNMx2IVG0hhcCStvms=
+		6jOmJEvc+Xi4JFc4pRbL7F+/0S8=
 		</data>
 		<key>ICTransportDetailsTableCell.nib</key>
 		<data>
@@ -720,9 +720,17 @@
 		<data>
 		I2Zc6rZ6XmR9piOJ5hbNEeMIeIg=
 		</data>
+		<key>commodityCard-close@2x.png</key>
+		<data>
+		NxlUrjlRJoWvYAO8oCKb5K6NYD4=
+		</data>
+		<key>commodityCard-close@3x.png</key>
+		<data>
+		d16kPgfLOVBqKjGQ8mXnyOeGuwM=
+		</data>
 		<key>customInfo.plist</key>
 		<data>
-		Nl+QFj6nJYx6inCzVIQD9oNwYGU=
+		v5UzBJWRUbiZvEsoXQUoSX6b4Qw=
 		</data>
 		<key>custombeijing1.png</key>
 		<data>
@@ -895,6 +903,14 @@
 		<key>image_cacheFile@3x.png</key>
 		<data>
 		cFOOz3P7WtqQ1iUkXds9WhwiysA=
+		</data>
+		<key>leaveMessageSuccess@2x.png</key>
+		<data>
+		MXjow2kPWeRPE90dU1KTrL2PCPI=
+		</data>
+		<key>leaveMessageSuccess@3x.png</key>
+		<data>
+		uqCMozYXvVd3HOqM4HF2ZWzaOgk=
 		</data>
 		<key>left-1@2x.png</key>
 		<data>
@@ -1184,6 +1200,30 @@
 		<data>
 		llv9v+ev1zmH3wv8HOd4fBOLwnE=
 		</data>
+		<key>videoDownload_fail.png</key>
+		<data>
+		lKqevqOgTErE+Ygk3GvR5NEOLuM=
+		</data>
+		<key>videoDownload_fail@2x.png</key>
+		<data>
+		j7LO+aiyQZxg+6Zmvs2OG96I6+c=
+		</data>
+		<key>videoDownload_fail@3x.png</key>
+		<data>
+		+2FdDoDjDfJYzh+oe/Oyk+gG6Hk=
+		</data>
+		<key>videoDownload_successful.png</key>
+		<data>
+		IRRA1vjH2o9f+pEkxeE33V2nllU=
+		</data>
+		<key>videoDownload_successful@2x.png</key>
+		<data>
+		gwICHKAeW2gAF7FUDSCJo5+l8Mc=
+		</data>
+		<key>videoDownload_successful@3x.png</key>
+		<data>
+		c9xyffIWRVcIwvS208tXbSP+Z1Q=
+		</data>
 		<key>videoPause@2x.png</key>
 		<data>
 		+3g/4nkW2c1aFJe+dLl4CC7Pgjk=
@@ -1267,6 +1307,18 @@
 		<key>voice_6@3x.png</key>
 		<data>
 		f0QsXjsdtH8H/kGkZHWjVWO3g04=
+		</data>
+		<key>workOrderWebView_close.png</key>
+		<data>
+		ZwJOj8Xwywa+4fBeHHAx+wfgtPA=
+		</data>
+		<key>workOrderWebView_close@2x.png</key>
+		<data>
+		04Al5beOuw2W4QCZm/r+ugbLeYE=
+		</data>
+		<key>workOrderWebView_close@3x.png</key>
+		<data>
+		wklsAjoVKlCci91b4m7uOzxZELg=
 		</data>
 		<key>xiugaiqunming@2x.png</key>
 		<data>
@@ -1447,11 +1499,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			ZhwOIm3jfiNMx2IVG0hhcCStvms=
+			6jOmJEvc+Xi4JFc4pRbL7F+/0S8=
 			</data>
 			<key>hash2</key>
 			<data>
-			V45tRjJ+TVguZxnwbgNknmq1Bv/AnGl0OLwi2ZXeOT0=
+			nLG0XNDRzTr0x3iHl08RcbhIXbISwGQ3yYTZ5ps3R1w=
 			</data>
 		</dict>
 		<key>ICTransportDetailsTableCell.nib</key>
@@ -3280,15 +3332,37 @@
 			jF2sYgeFVDAo2lpKQRjnrLcAr2zh8P11cX7HmCtV/nw=
 			</data>
 		</dict>
+		<key>commodityCard-close@2x.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			NxlUrjlRJoWvYAO8oCKb5K6NYD4=
+			</data>
+			<key>hash2</key>
+			<data>
+			9B/Y5mK9fa7De8c2KIAQ+PMrUFZkWQ39oz1BM2XriLg=
+			</data>
+		</dict>
+		<key>commodityCard-close@3x.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			d16kPgfLOVBqKjGQ8mXnyOeGuwM=
+			</data>
+			<key>hash2</key>
+			<data>
+			9Lx4/ZKCyYz1+6MMGJjyEYnnd40wWFDf24TrFfvRZVc=
+			</data>
+		</dict>
 		<key>customInfo.plist</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			Nl+QFj6nJYx6inCzVIQD9oNwYGU=
+			v5UzBJWRUbiZvEsoXQUoSX6b4Qw=
 			</data>
 			<key>hash2</key>
 			<data>
-			83ggJykAjzpyYNJuMvizaTEqtryIYpnlIRQaepFixYk=
+			cofSPRf71dcZNfmPHfHaudwBxeDQrPvXuBWwo0OQwRQ=
 			</data>
 		</dict>
 		<key>custombeijing1.png</key>
@@ -3762,6 +3836,28 @@
 			<key>hash2</key>
 			<data>
 			hdp6eTAqcMt5b1u1Kq5x3O4KR9dd4nBfZ74cA4CWVeA=
+			</data>
+		</dict>
+		<key>leaveMessageSuccess@2x.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			MXjow2kPWeRPE90dU1KTrL2PCPI=
+			</data>
+			<key>hash2</key>
+			<data>
+			g1sWVSiNiCFqfez21y1jZwgi4MIcXsgWqF2//9cL1Uw=
+			</data>
+		</dict>
+		<key>leaveMessageSuccess@3x.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			uqCMozYXvVd3HOqM4HF2ZWzaOgk=
+			</data>
+			<key>hash2</key>
+			<data>
+			2ZsprHJRBR6DsmcjpYnvfEl3AHs2TauxPHB50bn3N0s=
 			</data>
 		</dict>
 		<key>left-1@2x.png</key>
@@ -4556,6 +4652,72 @@
 			AmaCnmKu6EvyLFrM8sG+QClsibqhC4ldr6ORFI71yak=
 			</data>
 		</dict>
+		<key>videoDownload_fail.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			lKqevqOgTErE+Ygk3GvR5NEOLuM=
+			</data>
+			<key>hash2</key>
+			<data>
+			WeERjXRUdiboI/C/8E3i65MSjMgbFyP4Peb2Ud3IZbA=
+			</data>
+		</dict>
+		<key>videoDownload_fail@2x.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			j7LO+aiyQZxg+6Zmvs2OG96I6+c=
+			</data>
+			<key>hash2</key>
+			<data>
+			4xR9CQKaFmSraHcDXYXInj2PaA1UFpsatUMyqszPjBw=
+			</data>
+		</dict>
+		<key>videoDownload_fail@3x.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			+2FdDoDjDfJYzh+oe/Oyk+gG6Hk=
+			</data>
+			<key>hash2</key>
+			<data>
+			xH9rQwx+0uYTcjUNjzZz8eHSUwb0mVBS3NsRB2NGu2s=
+			</data>
+		</dict>
+		<key>videoDownload_successful.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			IRRA1vjH2o9f+pEkxeE33V2nllU=
+			</data>
+			<key>hash2</key>
+			<data>
+			P4S/J0ImsCiRlcSmlYt7m516FCjWP5Xj35tyW91gm3A=
+			</data>
+		</dict>
+		<key>videoDownload_successful@2x.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			gwICHKAeW2gAF7FUDSCJo5+l8Mc=
+			</data>
+			<key>hash2</key>
+			<data>
+			QoZ4/sib4Tqd2o/K6XbRjBl3nCgZHG4qwTckCxh3EH8=
+			</data>
+		</dict>
+		<key>videoDownload_successful@3x.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			c9xyffIWRVcIwvS208tXbSP+Z1Q=
+			</data>
+			<key>hash2</key>
+			<data>
+			dKe8EbiPGVG9U/QTt2s09qH+otcPLZQ2MF0cUDEMh6E=
+			</data>
+		</dict>
 		<key>videoPause@2x.png</key>
 		<dict>
 			<key>hash</key>
@@ -4785,6 +4947,39 @@
 			<key>hash2</key>
 			<data>
 			FwWlpad+2g89JpjZchc57A8Ji3Y6yC8wkbkIUXqQzC4=
+			</data>
+		</dict>
+		<key>workOrderWebView_close.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			ZwJOj8Xwywa+4fBeHHAx+wfgtPA=
+			</data>
+			<key>hash2</key>
+			<data>
+			qi1q2hTG6wsdPePSZFhNQKaZ9UhTv7NkovujqcPHWUc=
+			</data>
+		</dict>
+		<key>workOrderWebView_close@2x.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			04Al5beOuw2W4QCZm/r+ugbLeYE=
+			</data>
+			<key>hash2</key>
+			<data>
+			fmNbbjLhiYCFLoT6Vl3seqEZLnt+rJFm2lvY/n63EZw=
+			</data>
+		</dict>
+		<key>workOrderWebView_close@3x.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			wklsAjoVKlCci91b4m7uOzxZELg=
+			</data>
+			<key>hash2</key>
+			<data>
+			mMZb557esLCgLfJU3Zkq3VrzCD5xo46gUWJ4YvyAOTg=
 			</data>
 		</dict>
 		<key>xiugaiqunming@2x.png</key>

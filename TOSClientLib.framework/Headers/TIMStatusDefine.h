@@ -12,6 +12,12 @@
 #pragma mark - lib层发送消息成功的UI刷新事件
 static NSString * kTIMMessageUpdateChatUIFromLibNotification=@"TIMMessageUpdateChatUIFromLibNotification";
 
+/// 发送消息事件通知
+static NSString * kTIMMessageSendChatUIFromLibNotification = @"TIMMessageSendChatUIFromLibNotification";
+
+/// 发送消息事件通知(非UI层面的，例如：快捷入口的)
+static NSString * kTIMMessageSendChatMessageUIFromLibNotification = @"kTIMMessageSendChatMessageUIFromLibNotification";
+
 //更新群聊已读/未读 刷新
 //static NSString * const kTIMUpdateUnreadMessageNotification = @"kTIMUpdateUnreadMessageNotification";
 
@@ -203,6 +209,12 @@ NSString *TIMUserTypeString(TIMUserType timUserType);
 #pragma mark TIMConnectErrorCode - 建立连接返回的错误码
 
 typedef NS_ENUM(NSInteger, TIMConnectErrorCode) {
+    /**
+     api请求HTTP发送失败
+
+     @discussion 如果是偶尔出现此错误，SDK会做好自动重连，开发者无须处理。如果一直是这个错误，应该是您没有设置好ATS。
+     */
+    TIM_API_REQUEST_SUCCESSFUL = 2000,
     /**
      api请求HTTP发送失败
 

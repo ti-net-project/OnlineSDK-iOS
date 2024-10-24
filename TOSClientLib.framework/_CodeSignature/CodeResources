@@ -74,7 +74,7 @@
 		</data>
 		<key>Headers/OctoIMParamDefines.h</key>
 		<data>
-		lv7MEXwimxW8RsnylX1DLvtGhSY=
+		qjFzIdKphEWWDWg7J7wcqpyyPEI=
 		</data>
 		<key>Headers/OnlineChatRecordModel.h</key>
 		<data>
@@ -110,7 +110,7 @@
 		</data>
 		<key>Headers/OnlineRequestManager.h</key>
 		<data>
-		Tkevr0QdJQ1M5zkC5XB3FKgpubc=
+		CpsYGHtqSWPZ4fTrqV76UMK88Yk=
 		</data>
 		<key>Headers/OnlineTokenModel.h</key>
 		<data>
@@ -134,7 +134,7 @@
 		</data>
 		<key>Headers/TIMClient.h</key>
 		<data>
-		6L0aNsxYNGdBTK3O+VdUq1E8V34=
+		9r6PAZyAMJejenjstQUzVsiRZwE=
 		</data>
 		<key>Headers/TIMCommodityCardMessage.h</key>
 		<data>
@@ -206,7 +206,7 @@
 		</data>
 		<key>Headers/TIMStatusDefine.h</key>
 		<data>
-		GuG65sfHJ1VboLVx+WR5q6SVNWU=
+		oCnXDAf94ChYzR937oz8gdfMCSs=
 		</data>
 		<key>Headers/TIMTextMessage.h</key>
 		<data>
@@ -286,7 +286,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		5fytZWPttKGcpgW5VPOX0erMKtM=
+		pqIpQWF6+7VAYQC4OoY1H+LCm1Q=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -490,11 +490,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			lv7MEXwimxW8RsnylX1DLvtGhSY=
+			qjFzIdKphEWWDWg7J7wcqpyyPEI=
 			</data>
 			<key>hash2</key>
 			<data>
-			k66S6064291tJaekvR+vPMLt7j15Syp3cgA6sIJzcM8=
+			WA/lnt1qofzEdhLmHOcL6Rq558bziDthZDpnGmoy/mo=
 			</data>
 		</dict>
 		<key>Headers/OnlineChatRecordModel.h</key>
@@ -589,11 +589,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			Tkevr0QdJQ1M5zkC5XB3FKgpubc=
+			CpsYGHtqSWPZ4fTrqV76UMK88Yk=
 			</data>
 			<key>hash2</key>
 			<data>
-			kuMsTNW+aqrOdKA3MLdMHZFAvS02VV8e+PC0oNj7Ukk=
+			/qQ1zkUHNN02usPEhFexf+8ZrOrgJq+UTvSq++qsk9s=
 			</data>
 		</dict>
 		<key>Headers/OnlineTokenModel.h</key>
@@ -655,11 +655,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			6L0aNsxYNGdBTK3O+VdUq1E8V34=
+			9r6PAZyAMJejenjstQUzVsiRZwE=
 			</data>
 			<key>hash2</key>
 			<data>
-			urAc92RIwEVaKe+M/JwOvbL50hGKdHKWhBUnKQMZRMs=
+			cIJpGllhkKR9/CNi7RWq9rGExjQa9qIMmTnQ34WXGjk=
 			</data>
 		</dict>
 		<key>Headers/TIMCommodityCardMessage.h</key>
@@ -853,11 +853,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			GuG65sfHJ1VboLVx+WR5q6SVNWU=
+			oCnXDAf94ChYzR937oz8gdfMCSs=
 			</data>
 			<key>hash2</key>
 			<data>
-			fQATmBB9BDDVzTxRfr4NTwOkPA+ThEtMG7795MOaBl0=
+			okkuA35ixUW9snoeTJuoYTU5vL9GiCMPBPe60JjM3Ws=
 			</data>
 		</dict>
 		<key>Headers/TIMTextMessage.h</key>

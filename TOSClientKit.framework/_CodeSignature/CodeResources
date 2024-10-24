@@ -12,6 +12,10 @@
 		<data>
 		jkFbovmX5eqrpgTIzfnLxMtgUsg=
 		</data>
+		<key>Headers/ICMessageTopTimeView.h</key>
+		<data>
+		Vs277sVOuGktdunepEulD7oAql8=
+		</data>
 		<key>Headers/NSBundle+TIMRefresh.h</key>
 		<data>
 		M7U6cVUtTH+7X0WaknmSo6d1O4s=
@@ -118,7 +122,7 @@
 		</data>
 		<key>Headers/TOSCustomerChatVC.h</key>
 		<data>
-		DPnpucdmgQEIiWhcwnaL4uMb0tA=
+		qSXXB4NTzhSh+dZiiu2JbJ0Y1HY=
 		</data>
 		<key>Headers/TOSKit.h</key>
 		<data>
@@ -130,7 +134,7 @@
 		</data>
 		<key>Headers/TOSKitCustomInfo.h</key>
 		<data>
-		h8wBx2vvXQZRAbVR8TvhHtXGTKA=
+		+XVLef0s4n303j2Htms4uUQ1vY4=
 		</data>
 		<key>Headers/TOSKitExtendBoardItemModel.h</key>
 		<data>
@@ -162,7 +166,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		hDHUnjiXyP/MbM8nfXPNLA4N8C8=
+		c2Z/tNsJ7iEajDRSPSOum1XDyvs=
 		</data>
 		<key>LICENSE</key>
 		<data>
@@ -263,6 +267,17 @@
 			<key>hash2</key>
 			<data>
 			helwghKFHX9nEMX4EwpHGzFZ3fkMQSuNhehIs3+UXe0=
+			</data>
+		</dict>
+		<key>Headers/ICMessageTopTimeView.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			Vs277sVOuGktdunepEulD7oAql8=
+			</data>
+			<key>hash2</key>
+			<data>
+			Z3eDe9eUfTy63JBPJLr/3YPajD1bR+nc8griGKA+W8w=
 			</data>
 		</dict>
 		<key>Headers/NSBundle+TIMRefresh.h</key>
@@ -555,11 +570,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			DPnpucdmgQEIiWhcwnaL4uMb0tA=
+			qSXXB4NTzhSh+dZiiu2JbJ0Y1HY=
 			</data>
 			<key>hash2</key>
 			<data>
-			8h+7Uxq+ZioJmMJSpW4vxqXogBgD330Nx/Dcp4B89mk=
+			ilWI0OC5V2Q2q4TSuaM1D6Dppb9umA6MkZZj2yxhOcw=
 			</data>
 		</dict>
 		<key>Headers/TOSKit.h</key>
@@ -588,11 +603,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			h8wBx2vvXQZRAbVR8TvhHtXGTKA=
+			+XVLef0s4n303j2Htms4uUQ1vY4=
 			</data>
 			<key>hash2</key>
 			<data>
-			1zIjgFWW2d1ueDZM3Ozaclp9DZ//kTymbuPdYa5pr/I=
+			hnpGNz+iDq//YI/3OXBz/ionex1qhmkrOIqji1G2Zlg=
 			</data>
 		</dict>
 		<key>Headers/TOSKitExtendBoardItemModel.h</key>

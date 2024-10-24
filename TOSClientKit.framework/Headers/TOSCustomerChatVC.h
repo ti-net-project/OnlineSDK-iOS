@@ -16,6 +16,7 @@
 #import <TOSClientKit/TIMRefresh.h>
 
 NS_ASSUME_NONNULL_BEGIN
+@class TOSQuickEntryModel;
 
 typedef NS_ENUM(NSUInteger, TinetClickTextMessageEventType) {
     TinetClickEventTypeUrl,
@@ -43,7 +44,7 @@ typedef NS_ENUM(NSUInteger, TinetClickTextMessageEventType) {
 @property(nonatomic, copy) NSString *appName;
 
 /// 快捷入口的数据
-@property (nonatomic, strong) NSArray *quickEntryAllItems;
+@property (nonatomic, strong) NSArray <TOSQuickEntryModel *>*quickEntryAllItems;
 
 /// 商品卡片配置数据
 @property (nonatomic, strong) TOSClientKitCommodityCardOption *commodityCardOption;
@@ -63,10 +64,10 @@ typedef NS_ENUM(NSUInteger, TinetClickTextMessageEventType) {
 //-(NSString*)saveFileMethed;
 
 /// 快接入口数据更新方法
-- (void)updateSessionWindowQuickEntrys:(NSArray <NSString *>*)quickEntryAllItems;
+- (void)updateSessionWindowQuickEntrys:(NSArray <TOSQuickEntryModel *>*)quickEntryAllItems;
 
-/// 快捷入口的点击事件    index    点击索引从0开始 （需要在子类实现这个方法）
-- (void)quickEntryItemDidTouchIndex:(NSInteger)index;
+/// 快捷入口的点击事件（需要在子类实现这个方法）
+- (void)quickEntryItemDidTouchModel:(TOSQuickEntryModel *)model;
 
 /// 当前会话状态监听
 - (void)chatStatusChanged:(TinetChatStatusType)status;
