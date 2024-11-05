@@ -42,12 +42,25 @@ NS_ASSUME_NONNULL_BEGIN
  */
 @property(nonatomic, readonly) NSDictionary *advanceParams;
 
+/// 自动创建客户资料
+@property (nonatomic, strong) NSDictionary                * customerFields;
+
 /**
  参数对象初始化方法
  @return                参数对象
  */
 
 - (instancetype)initWithOption:(NSString *)visitorId nickname:(NSString *)nickname headUrl:(NSString *)headUrl mobile:(NSString *)mobile advanceParams:(NSDictionary *)advanceParams;
+
+
+/// 初始化方法（需要更新客户资料使用该方法，前置条件为在配置中开启了【自动创建客户资料】）
+/// @param visitorId 访客ID
+/// @param nickname 昵称
+/// @param headUrl 头像地址
+/// @param mobile 手机号
+/// @param advanceParams 自定义参数
+/// @param customerFields 自定义更新客户资料
+- (instancetype)initWithOption:(NSString *)visitorId nickname:(NSString *)nickname headUrl:(NSString *)headUrl mobile:(NSString *)mobile advanceParams:(NSDictionary *)advanceParams customerFields:(NSDictionary *)customerFields;
 
 /// 重置附加参数
 /// @param advanceParams 附加参数

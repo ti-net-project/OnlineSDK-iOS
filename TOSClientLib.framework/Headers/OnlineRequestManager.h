@@ -26,6 +26,10 @@ NS_ASSUME_NONNULL_BEGIN
 /// 用户信息存储
 @property (atomic, strong) NSMutableDictionary <NSString *, OnlineClientInfoModel *>*clientInfoDic;
 
+/// 更新客户资料数据
+@property (nonatomic, strong, nullable) NSDictionary                * customerFields;
+
+
 #pragma mark 获取token
 -(void)getUserInfoWithUserId:(NSString*)userId
                   externalId:(NSString *)externalId

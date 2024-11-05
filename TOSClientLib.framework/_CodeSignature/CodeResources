@@ -74,7 +74,7 @@
 		</data>
 		<key>Headers/OctoIMParamDefines.h</key>
 		<data>
-		pw05ta1O/m8c9EZqGQILJS5JLe0=
+		JNHXNfhqknIC91TiYyQ8LCV6NEw=
 		</data>
 		<key>Headers/OnlineChatRecordModel.h</key>
 		<data>
@@ -110,7 +110,7 @@
 		</data>
 		<key>Headers/OnlineRequestManager.h</key>
 		<data>
-		CpsYGHtqSWPZ4fTrqV76UMK88Yk=
+		zxmG9tGgdBCmPMHfj4XHCKtMjlo=
 		</data>
 		<key>Headers/OnlineTokenModel.h</key>
 		<data>
@@ -230,7 +230,7 @@
 		</data>
 		<key>Headers/TOSConnectOption.h</key>
 		<data>
-		xD73Yb5/kU8zLCTUdqiJg9SGNXg=
+		xZgSICQF9I3ej2XEjr5NBojDOm4=
 		</data>
 		<key>Headers/TOSDisConnectOption.h</key>
 		<data>
@@ -286,7 +286,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		5U+H9MBzyp8N581P06A0NY7WSV4=
+		2nhr+x8fjQ5TlLo/kMBg9nnpE94=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -490,11 +490,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			pw05ta1O/m8c9EZqGQILJS5JLe0=
+			JNHXNfhqknIC91TiYyQ8LCV6NEw=
 			</data>
 			<key>hash2</key>
 			<data>
-			oIEKm/gL20Cyp/Ck6+ZxEeiKf9jCWEO8ct/J0rdmPDk=
+			hmS5A4yqQIxywbRgdC4U/ScUB3PX1k2Ut7w1rOvTWVM=
 			</data>
 		</dict>
 		<key>Headers/OnlineChatRecordModel.h</key>
@@ -589,11 +589,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			CpsYGHtqSWPZ4fTrqV76UMK88Yk=
+			zxmG9tGgdBCmPMHfj4XHCKtMjlo=
 			</data>
 			<key>hash2</key>
 			<data>
-			/qQ1zkUHNN02usPEhFexf+8ZrOrgJq+UTvSq++qsk9s=
+			8tNZwhJPi3IKOeCXBxgNznyHWnmXU0UknPbmrYwnk4E=
 			</data>
 		</dict>
 		<key>Headers/OnlineTokenModel.h</key>
@@ -919,11 +919,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			xD73Yb5/kU8zLCTUdqiJg9SGNXg=
+			xZgSICQF9I3ej2XEjr5NBojDOm4=
 			</data>
 			<key>hash2</key>
 			<data>
-			Hg6yh95UiKUnoiIT7TPXrvsyX+aUrCrlJ8rk9PnluVU=
+			gonhNW+G+qpbq24uikMIq9kAvxYMQIFVAdbB+kGAGKM=
 			</data>
 		</dict>
 		<key>Headers/TOSDisConnectOption.h</key>
