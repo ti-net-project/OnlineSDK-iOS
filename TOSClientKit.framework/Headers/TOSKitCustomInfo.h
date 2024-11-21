@@ -687,8 +687,8 @@ typedef NS_ENUM(NSInteger, SatisfactionShowModel) {
  */
 @property (nonatomic, strong, nullable) TOSRegularModel     *urlRegular;
 
-/// 只使用本地上传头像
-@property (nonatomic, assign) BOOL                   enableLocalAvatar;
+/// 只使用本地上传头像(v2.0.5+开始废弃)
+@property (nonatomic, assign) BOOL                   enableLocalAvatar NS_UNAVAILABLE;
 
 /// 访客默认头像
 @property (nonatomic, strong) UIImage                *visitorDefaultAvatar;

@@ -139,6 +139,9 @@ typedef NS_ENUM(NSInteger, HelpfulAndUnHelpfulSelectType) {
 /// 选中的点踩标签
 @property (nonatomic, strong) NSMutableArray <NSString *>*unHelpfulSelectTags;
 
+/// 保存点踩输入的评价
+@property (nonatomic, copy) NSString *unHelpfulText;
+
 @property (nonatomic, assign) CGRect requiredWarningF;
 
 /// 参考来源数据
