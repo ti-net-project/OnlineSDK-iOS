@@ -276,7 +276,7 @@ typedef NS_ENUM(NSInteger, SatisfactionShowModel) {
 @property(nonatomic, copy) NSString                 *appName;
 
 /// 快捷入口的数据
-@property (nonatomic, strong) NSArray            <TOSQuickEntryModel *> *quickEntryAllItems;
+@property (nonatomic, strong) NSArray            <TOSQuickEntryModel *> *quickEntryAllItems NS_UNAVAILABLE;
 
 /// 商品卡片配置数据
 @property (nonatomic, strong, nullable) TOSClientKitCommodityCardOption *commodityCardOption;
