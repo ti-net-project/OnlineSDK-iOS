@@ -276,7 +276,7 @@ typedef NS_ENUM(NSInteger, SatisfactionShowModel) {
 @property(nonatomic, copy) NSString                 *appName;
 
 /// 快捷入口的数据
-@property (nonatomic, strong) NSArray            <TOSQuickEntryModel *> *quickEntryAllItems NS_UNAVAILABLE;
+@property (nonatomic, strong) NSArray            <TOSQuickEntryModel *> *quickEntryAllItems;
 
 /// 商品卡片配置数据
 @property (nonatomic, strong, nullable) TOSClientKitCommodityCardOption *commodityCardOption;
@@ -716,6 +716,12 @@ typedef NS_ENUM(NSInteger, SatisfactionShowModel) {
 
 /// 设置点踩标签
 @property (nonatomic, strong) NSArray    <NSString *>*setUnHelpfulTagList;
+
+/// 访客发起会话设置
+@property (nonatomic, assign) BOOL enableVisitorInitiateSession;
+
+/// 模拟会话的状态下，欢迎语文案设置，开启访客发起会话的设置为true时生效
+@property (nonatomic, copy) NSString *mockWelcomeText;
 
 @end
 

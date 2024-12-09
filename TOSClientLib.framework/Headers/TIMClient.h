@@ -139,6 +139,8 @@ typedef NS_ENUM(NSUInteger, TinetChatStatusType) {
 
 #pragma mark - TIMClientLib核心类
 
+typedef void(^VisitorReadyCompletionBlock)(void);
+
 /**
  天润TIMClientLib核心类
  @discussion 您需要通过sharedTIMClient方法，获取单例对象
@@ -153,6 +155,8 @@ typedef NS_ENUM(NSUInteger, TinetChatStatusType) {
  @discussion 您可以通过此方法，获取TIMLib的单例，访问对象中的属性和方法.
  */
 + (instancetype)sharedTIMClient;
+
+- (void)setVisitorReadyCompletionBlock:(VisitorReadyCompletionBlock)completion;
 
 #pragma mark - SDK初始化
 

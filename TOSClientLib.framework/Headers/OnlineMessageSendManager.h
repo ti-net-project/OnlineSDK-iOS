@@ -16,6 +16,9 @@ NS_ASSUME_NONNULL_BEGIN
 
 + (instancetype)sharedOnlineMessageSendManager;
 
+/// 访客发起会话设置
+@property (nonatomic, assign) BOOL enableVisitorInitiateSession;
+
 #pragma mark  发送商品卡片消息
 - (void)sendCommodityCardMessageWithMessageStr:(NSDictionary *)messageStr
                                        success:(void (^)(TOSMessage * timMessage))successBlock

@@ -43,6 +43,9 @@ typedef NS_ENUM(NSUInteger, TinetClickTextMessageEventType) {
 /// 接入号名称
 @property(nonatomic, copy) NSString *appName;
 
+/// 快捷入口的数据
+@property (nonatomic, strong) NSArray <TOSQuickEntryModel *>*quickEntryAllItems;
+
 /// 商品卡片配置数据
 @property (nonatomic, strong) TOSClientKitCommodityCardOption *commodityCardOption;
 

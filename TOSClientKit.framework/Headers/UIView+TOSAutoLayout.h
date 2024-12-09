@@ -318,7 +318,7 @@ typedef void (^TOSSpaceToSuperView)(UIEdgeInsets insets);
 - (NSMutableArray *)autoLayoutModelsArray;
 - (void)addAutoLayoutModel:(TOSAutoLayoutModel *)model;
 @property (nonatomic) TOSAutoLayoutModel *ownLayoutModel;
-@property (nonatomic, strong) NSNumber *sd_maxWidth;
+@property (nonatomic, strong) NSNumber *tos_maxWidth;
 @property (nonatomic, strong) NSNumber *autoHeightRatioValue;
 
 @end
