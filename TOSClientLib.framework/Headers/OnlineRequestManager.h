@@ -49,6 +49,16 @@ NS_ASSUME_NONNULL_BEGIN
 -(void)getAppSettings:(void (^)(void))successBlock
                       error:(void (^)(TIMConnectErrorCode errCode,NSString *errorDes))errorBlock;
 
+
+/// 获取icon的资源图标
+/// - Parameters:
+///   - iconUrl: icon的地址。（用来获取真实的资源地址）
+///   - success: 成功回调
+///   - failure: 失败回调
+- (void)getIconUrl:(NSString *)iconUrl
+       withSuccess:(void (^)(NSString * url))success
+       withFailure:(void (^)(TIMConnectErrorCode errCode, NSString *errorDes))failure;
+
 #pragma mark  获取历史消息
 -(void)getChatRecordListLastTime:(NSString *)lastTime
                            limit:(NSString *)limit
@@ -81,6 +91,21 @@ NS_ASSUME_NONNULL_BEGIN
 - (void)getClientInfoWithSender:(NSString *)sender
                      senderType:(NSString *)senderType
                        complete:(RequestClientInfoComplete)completeBlock;
+
+/// 获取订单抽屉的列表数据
+/// - Parameters:
+///   - mainUniqueId: 会话ID
+///   - params: 请求携带的参数
+///   - pageIndex: 列表页码，默认从1开始
+///   - pageSize: 每页获取数量，默认每页获取数量为10。
+///   - success: 成功回调
+///   - failure: 错误回调
+- (void)getOrderDrawerListWithMainUniqueId:(NSString *)mainUniqueId
+                                withParams:(NSDictionary *)params
+                             withPageIndex:(NSInteger)pageIndex
+                              withPageSize:(NSInteger)pageSize
+                               withSuccess:(void (^)(NSArray * orderList))success
+                               withFailure:(void (^)(TIMConnectErrorCode errCode, NSString *errorDes))failure;
 
 #pragma mark - 提交机器人回答点赞点踩
 -(void)submitBotAnswerFeedbackWithAnswerUniqueId:(NSString *)answerUniqueId

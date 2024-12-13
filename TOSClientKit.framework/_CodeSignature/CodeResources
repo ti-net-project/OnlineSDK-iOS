@@ -118,15 +118,15 @@
 		</data>
 		<key>Headers/TOSClientKit.h</key>
 		<data>
-		wzOoY6i4TJqBMDRqBAznuEN97pU=
+		VSLOzZwsBIrX29PXN5QXIKYgrHY=
 		</data>
 		<key>Headers/TOSCustomerChatVC.h</key>
 		<data>
-		VDhznU0QUWorT4fj0XM5zBWyV8U=
+		l8fLLXI4XQ9tPyGvU0sW2jiTa8o=
 		</data>
 		<key>Headers/TOSKit.h</key>
 		<data>
-		M44tBiPDX5vs+DsbAOndUCgMaMU=
+		aiYJzIRXb7P7z1o4ZToiaJrBgs4=
 		</data>
 		<key>Headers/TOSKitChatBoxExtendBoard.h</key>
 		<data>
@@ -134,11 +134,15 @@
 		</data>
 		<key>Headers/TOSKitCustomInfo.h</key>
 		<data>
-		oBjnowjBJ5N2GLlBmGfFaAZ9U/0=
+		eFC4OTfAxkSkGetg4BwGGNW0P5I=
 		</data>
 		<key>Headers/TOSKitExtendBoardItemModel.h</key>
 		<data>
-		laNhS7jiu4B4M0ymuMFJTYs/5Xw=
+		MNsbxPLE+zUdTNsEz1yXVegXs1Y=
+		</data>
+		<key>Headers/TOSKitOrderDrawerHelper.h</key>
+		<data>
+		7WQT8U+OBwXyxp+icP/3Y4LGOdk=
 		</data>
 		<key>Headers/TOSSendMultiMedia.h</key>
 		<data>
@@ -166,7 +170,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		gMtc98NN2i8M74kVCasn4gRVs+w=
+		k4PvKpeLk5KNJZzTUpvSQfJa+xw=
 		</data>
 		<key>LICENSE</key>
 		<data>
@@ -559,33 +563,33 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			wzOoY6i4TJqBMDRqBAznuEN97pU=
+			VSLOzZwsBIrX29PXN5QXIKYgrHY=
 			</data>
 			<key>hash2</key>
 			<data>
-			PtzE1o4r4aZeaQnxPVvm8Z4iOp2PpXxTynWpdTnkkvI=
+			1JjbkyvbCspscjnKDI3aHcrzK9JcOwt9USW2ljAr/SQ=
 			</data>
 		</dict>
 		<key>Headers/TOSCustomerChatVC.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			VDhznU0QUWorT4fj0XM5zBWyV8U=
+			l8fLLXI4XQ9tPyGvU0sW2jiTa8o=
 			</data>
 			<key>hash2</key>
 			<data>
-			JGIwZCWXGlcZPZQt3hOJujqii3cNQRufOI67AAfjDAM=
+			Bp4coa2no2WEr6pib8etg3PXzM00B0cWFEBTGQnf4xk=
 			</data>
 		</dict>
 		<key>Headers/TOSKit.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			M44tBiPDX5vs+DsbAOndUCgMaMU=
+			aiYJzIRXb7P7z1o4ZToiaJrBgs4=
 			</data>
 			<key>hash2</key>
 			<data>
-			mHMmsOzvZDy/dmtMM9ulcMu2Px5u74xScfX8mV188J0=
+			Y/Fcu/WWvGSP622AHLQZwSnwOOjG4EmDfqYaVZDaszw=
 			</data>
 		</dict>
 		<key>Headers/TOSKitChatBoxExtendBoard.h</key>
@@ -603,22 +607,33 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			oBjnowjBJ5N2GLlBmGfFaAZ9U/0=
+			eFC4OTfAxkSkGetg4BwGGNW0P5I=
 			</data>
 			<key>hash2</key>
 			<data>
-			PFcg0ERGEkHVRdLk+PkpS9B44oBxtj7BCSJTAgEE554=
+			9To3QKWNf2hrJGYdRH7BdRF+LgZfCZpF3ENen7HrF5I=
 			</data>
 		</dict>
 		<key>Headers/TOSKitExtendBoardItemModel.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			laNhS7jiu4B4M0ymuMFJTYs/5Xw=
+			MNsbxPLE+zUdTNsEz1yXVegXs1Y=
 			</data>
 			<key>hash2</key>
 			<data>
-			J95lSa4/lr4FpbFMtYoIFb6vNhmYoUojRoGFkW0wkpE=
+			7Dp2L4n8XBkwTUN8aGfeK0hpayrw/JqiUSadvlgC74Q=
+			</data>
+		</dict>
+		<key>Headers/TOSKitOrderDrawerHelper.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			7WQT8U+OBwXyxp+icP/3Y4LGOdk=
+			</data>
+			<key>hash2</key>
+			<data>
+			z8Lj6Wt46vBospGwAAelEjjoR0OuZfkYxmnrSkdsWSM=
 			</data>
 		</dict>
 		<key>Headers/TOSSendMultiMedia.h</key>

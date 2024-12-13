@@ -42,8 +42,8 @@ NS_ASSUME_NONNULL_BEGIN
 /// 按钮文本内容
 @property (nonatomic, strong) NSString *buttonText;
 
-/// 附加字段
-@property (nonatomic, strong) NSString *extraData;
+/// 附加字段 Tips：2.3.1版本修改了字段类型(从NSString改成了id类型)
+@property (nonatomic, strong, nullable) id extraData;
 
 /// 2 = 访客
 @property (nonatomic, copy) NSString *senderType;

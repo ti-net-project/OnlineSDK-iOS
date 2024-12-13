@@ -984,6 +984,22 @@
 		<data>
 		8Uo8C/Z7oCEDw7fgF5eeh8wSuSQ=
 		</data>
+		<key>message_order_placeholder@2x.png</key>
+		<data>
+		ALWzHLDB91vHx4awkujXCvKUc1E=
+		</data>
+		<key>message_order_placeholder@3x.png</key>
+		<data>
+		YtlINWtMQap6NhxPy0U0iWMBbGI=
+		</data>
+		<key>more_order@2x.png</key>
+		<data>
+		lJMWqaRuLZdeMXmZfXHac0cHHYc=
+		</data>
+		<key>more_order@3x.png</key>
+		<data>
+		B3MkvSL/xwutCzRDb3XuBNOBuDc=
+		</data>
 		<key>navi_back@2x.png</key>
 		<data>
 		863b6MnhfvgLjLaWeI6f849Jg0M=
@@ -1012,6 +1028,22 @@
 		<data>
 		gNxKYMeFU61n3AXJwCSK6DCsApk=
 		</data>
+		<key>onlineCustom@2x.png</key>
+		<data>
+		OJpahuEJnU0dH0j21e8qnhS3coQ=
+		</data>
+		<key>onlineCustom@3x.png</key>
+		<data>
+		Wl4fB6rO+eoll8FMwCmnPIgmfns=
+		</data>
+		<key>onlineLink@2x.png</key>
+		<data>
+		DWw1ZaLaRzqChluEhE+lKoLxLE0=
+		</data>
+		<key>onlineLink@3x.png</key>
+		<data>
+		DqvWjDaLi9cA46RTvQ65VocMlqA=
+		</data>
 		<key>onlinePic@2x.png</key>
 		<data>
 		JOoCdvSh43C0G9K4gHPzo0gdtzc=
@@ -1027,6 +1059,54 @@
 		<key>onlineRengong@3x.png</key>
 		<data>
 		qZX0cniIedy3BDCixoAupEkcd2I=
+		</data>
+		<key>onlineSatisfaction@2x.png</key>
+		<data>
+		LWzBkK+QmIJonrVeeVa5hW7fQHI=
+		</data>
+		<key>onlineSatisfaction@3x.png</key>
+		<data>
+		/Kw1aTPEOiLO3u2B6WiTzdt3Tv8=
+		</data>
+		<key>orderDrawer_rightArrow@2x.png</key>
+		<data>
+		eYioGDNbr0vz6oli8dk1KOB+JNA=
+		</data>
+		<key>orderDrawer_rightArrow@3x.png</key>
+		<data>
+		furmCk43JhtuEeC1INU+THw1yk8=
+		</data>
+		<key>order_downArrow@2x.png</key>
+		<data>
+		DJDZRsM08Ms2LcskPlAO3ipJK2A=
+		</data>
+		<key>order_downArrow@3x.png</key>
+		<data>
+		EQ9LcNwoQctEBYGwbps255m0Tdo=
+		</data>
+		<key>order_noData@2x.png</key>
+		<data>
+		YZXPW/t2+cwo/Oo12iWCLCXmDX8=
+		</data>
+		<key>order_noData@3x.png</key>
+		<data>
+		WgP1j1kjHzfqrbrOcfEz2026GuM=
+		</data>
+		<key>order_search@2x.png</key>
+		<data>
+		Zp8Cywc8/Y1ZzS6zWWKaSo3KlL0=
+		</data>
+		<key>order_search@3x.png</key>
+		<data>
+		r9YiL6/qVAbVWzawcXD7JIU75Ms=
+		</data>
+		<key>order_upArrow@2x.png</key>
+		<data>
+		kGAEtu/5bCs2sLA+pNhMTK9egq0=
+		</data>
+		<key>order_upArrow@3x.png</key>
+		<data>
+		SwAkQYhMdOouQbq1vq6DiQj4rOI=
 		</data>
 		<key>osNormal_face.plist</key>
 		<data>
@@ -1071,6 +1151,14 @@
 		<key>preview_original_def@2x.png</key>
 		<data>
 		+tdCQmJ/LK+ZRX7Zu14+JtwLFgI=
+		</data>
+		<key>reSend_tipIcon@2x.png</key>
+		<data>
+		30nR4JIOs0KGKw+KktXjxsn4FAs=
+		</data>
+		<key>reSend_tipIcon@3x.png</key>
+		<data>
+		9Vn/ZMngqNr43Kht2fYHQijneO8=
 		</data>
 		<key>resendMessage@2x.png</key>
 		<data>
@@ -4058,6 +4146,50 @@
 			3cw4tuIKwBjqMdza2Q5YiEN5BTzJGdY7YkZcKjTzjGA=
 			</data>
 		</dict>
+		<key>message_order_placeholder@2x.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			ALWzHLDB91vHx4awkujXCvKUc1E=
+			</data>
+			<key>hash2</key>
+			<data>
+			klbsCmm03yIbcbcOH1mG9ldNzeXHtHEkUv6JR5hNbzE=
+			</data>
+		</dict>
+		<key>message_order_placeholder@3x.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			YtlINWtMQap6NhxPy0U0iWMBbGI=
+			</data>
+			<key>hash2</key>
+			<data>
+			UtWxuf/80R1HwiSWG1bz+yB35M/WrUatcihsWdY6Dis=
+			</data>
+		</dict>
+		<key>more_order@2x.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			lJMWqaRuLZdeMXmZfXHac0cHHYc=
+			</data>
+			<key>hash2</key>
+			<data>
+			S8Z5Sn9mgFmXJvKejR6eXGUybzMxprD1JQ/OtGnSODQ=
+			</data>
+		</dict>
+		<key>more_order@3x.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			B3MkvSL/xwutCzRDb3XuBNOBuDc=
+			</data>
+			<key>hash2</key>
+			<data>
+			CEtgFZZHEbnlONZ/MF+lXRVcSig/Tw4lUQZw/MzXTjk=
+			</data>
+		</dict>
 		<key>navi_back@2x.png</key>
 		<dict>
 			<key>hash</key>
@@ -4135,6 +4267,50 @@
 			UKnTm5R/+an4IlMqF0H8bVrk4H7ncUAkiC44/t7+PG8=
 			</data>
 		</dict>
+		<key>onlineCustom@2x.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			OJpahuEJnU0dH0j21e8qnhS3coQ=
+			</data>
+			<key>hash2</key>
+			<data>
+			HnA4d++6IFVOnFAvSzhhZF/9KAuKuAYh9VDPCocM5YA=
+			</data>
+		</dict>
+		<key>onlineCustom@3x.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			Wl4fB6rO+eoll8FMwCmnPIgmfns=
+			</data>
+			<key>hash2</key>
+			<data>
+			i7rwO1B4N15WPjZEl6/MGG841qrsI/fuCw7D7cC1mSw=
+			</data>
+		</dict>
+		<key>onlineLink@2x.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			DWw1ZaLaRzqChluEhE+lKoLxLE0=
+			</data>
+			<key>hash2</key>
+			<data>
+			4qSDWOnDeqJ8EBUDAwbdigHxeqcnSUy4lBr2ipp7uPQ=
+			</data>
+		</dict>
+		<key>onlineLink@3x.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			DqvWjDaLi9cA46RTvQ65VocMlqA=
+			</data>
+			<key>hash2</key>
+			<data>
+			FL/bpMEi2mmDgjINpNUGb+tsxyXP3HUpD9UfUFg8RrI=
+			</data>
+		</dict>
 		<key>onlinePic@2x.png</key>
 		<dict>
 			<key>hash</key>
@@ -4177,6 +4353,138 @@
 			<key>hash2</key>
 			<data>
 			bPkL7XzqquVzTpwxMtoITdy9U7WlKhjQAKbEnHcrQR0=
+			</data>
+		</dict>
+		<key>onlineSatisfaction@2x.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			LWzBkK+QmIJonrVeeVa5hW7fQHI=
+			</data>
+			<key>hash2</key>
+			<data>
+			K0wder0N6hEJvRv93YjFuuBZk18dqxgOuIxnFXDfcF0=
+			</data>
+		</dict>
+		<key>onlineSatisfaction@3x.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			/Kw1aTPEOiLO3u2B6WiTzdt3Tv8=
+			</data>
+			<key>hash2</key>
+			<data>
+			1OM7OvYFMgt/YjMsuhpqvy3P0pJXeOyjLkPWgNR6LYQ=
+			</data>
+		</dict>
+		<key>orderDrawer_rightArrow@2x.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			eYioGDNbr0vz6oli8dk1KOB+JNA=
+			</data>
+			<key>hash2</key>
+			<data>
+			6GX1cDA6eonTWP7u5FKlSsyatImKQBqhNQCegszuvm0=
+			</data>
+		</dict>
+		<key>orderDrawer_rightArrow@3x.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			furmCk43JhtuEeC1INU+THw1yk8=
+			</data>
+			<key>hash2</key>
+			<data>
+			/iMeUT9ql5wz2qI5abpX+EnRQKhjHVKolpBdn7ZhrzQ=
+			</data>
+		</dict>
+		<key>order_downArrow@2x.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			DJDZRsM08Ms2LcskPlAO3ipJK2A=
+			</data>
+			<key>hash2</key>
+			<data>
+			Ye6dPG1C5HOHeg/bIORpkdaalCRj4wYos9OqW7lAPjs=
+			</data>
+		</dict>
+		<key>order_downArrow@3x.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			EQ9LcNwoQctEBYGwbps255m0Tdo=
+			</data>
+			<key>hash2</key>
+			<data>
+			W6HhY+wyoq2yGHt9tmY6rKADCS5wvYieSUdpPQ4G6BI=
+			</data>
+		</dict>
+		<key>order_noData@2x.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			YZXPW/t2+cwo/Oo12iWCLCXmDX8=
+			</data>
+			<key>hash2</key>
+			<data>
+			3igbrfX03TlDirF3LLFNBOO6vpUclucK+TvmVG4MbiE=
+			</data>
+		</dict>
+		<key>order_noData@3x.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			WgP1j1kjHzfqrbrOcfEz2026GuM=
+			</data>
+			<key>hash2</key>
+			<data>
+			hk7BLy+CZdZfHrQOhfo7X/B04+zWoW9LyDKvvUJmzeM=
+			</data>
+		</dict>
+		<key>order_search@2x.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			Zp8Cywc8/Y1ZzS6zWWKaSo3KlL0=
+			</data>
+			<key>hash2</key>
+			<data>
+			4VdQ62+KTVAIHONcdLb3NkhKBgAf7rc8syNOF60CHD8=
+			</data>
+		</dict>
+		<key>order_search@3x.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			r9YiL6/qVAbVWzawcXD7JIU75Ms=
+			</data>
+			<key>hash2</key>
+			<data>
+			o6imXUjcJTmHiRlbunFLXq4MXn7CqdL1oNlxGo2cRRs=
+			</data>
+		</dict>
+		<key>order_upArrow@2x.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			kGAEtu/5bCs2sLA+pNhMTK9egq0=
+			</data>
+			<key>hash2</key>
+			<data>
+			/xYeD44iJTRBsecZCvQhUOrfKq+g0P2igiCYfYAGNko=
+			</data>
+		</dict>
+		<key>order_upArrow@3x.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			SwAkQYhMdOouQbq1vq6DiQj4rOI=
+			</data>
+			<key>hash2</key>
+			<data>
+			781afS9HWVMXS6HIZjKZ/lBz9UEdpXWsIWiu4I54WD4=
 			</data>
 		</dict>
 		<key>osNormal_face.plist</key>
@@ -4298,6 +4606,28 @@
 			<key>hash2</key>
 			<data>
 			t2/8/F+6NvLlBhPvbDMNgjz7qNsWJkTFQAdq1ij4ypU=
+			</data>
+		</dict>
+		<key>reSend_tipIcon@2x.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			30nR4JIOs0KGKw+KktXjxsn4FAs=
+			</data>
+			<key>hash2</key>
+			<data>
+			Q0RUAj6lWTiFyBtyDtgl4tuqYlOgekGm/QarIJ6AvJ4=
+			</data>
+		</dict>
+		<key>reSend_tipIcon@3x.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			9Vn/ZMngqNr43Kht2fYHQijneO8=
+			</data>
+			<key>hash2</key>
+			<data>
+			4JMa5R4I3Bvx7IXyWyW+fGVsecEItZO9cXdFxYekZq8=
 			</data>
 		</dict>
 		<key>resendMessage@2x.png</key>

@@ -54,6 +54,12 @@ static NSString * const KTOSClientLibLastMessageReceivedNotification = @"KTOSCli
  */
 - (void)getCurrentOnlineStatus:(TinetChatStatusType)statusType;
 
+
+/// 收到event事件
+/// @param event event事件名称
+/// @param message 对应消息
+- (void)onTIMEvent:(NSString *)event withMessage:(TOSMessage *)message;
+
 @end
 
 #pragma mark -总未读数变化监听器

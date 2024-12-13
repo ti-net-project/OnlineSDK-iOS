@@ -44,8 +44,8 @@ NS_ASSUME_NONNULL_BEGIN
 /// 发送按钮文本内容
 @property (nonatomic, strong) NSString *buttonText;
 
-/// 附加字段
-@property (nonatomic, strong) NSString *extraData;
+/// 附加字段 Tips：2.3.1版本修改了字段类型(从NSString改成了id类型)
+@property (nonatomic, strong, nullable) id  extraData;
 
 /// 附加字段，例：[{"name":"订单号","value":"1234567890"},{"name":"产品类型","value":"电子产品"},{"name":"师傅","value":"金师傅"},{"name":"服务地区","value":"北京市"},{"name":"服务","value":"满意"},{"name":"师傅电话","value":"12345678900"},{"name":"订单状态","value":"已完成"}]
 @property (nonatomic, strong) NSArray <NSDictionary <NSString *, NSString *>*>*extraInfo;

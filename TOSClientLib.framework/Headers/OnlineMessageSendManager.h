@@ -21,7 +21,15 @@ NS_ASSUME_NONNULL_BEGIN
                                        success:(void (^)(TOSMessage * timMessage))successBlock
                                          error:(void (^)(TIMConnectErrorCode errCode,NSString *errorDes))errorBlock;
 
-
+#pragma mark - 发送订单卡片消息
+/// 发送订单卡片
+/// - Parameters:
+///   - messageStr: 订单的参数
+///   - successBlock: 成功回调
+///   - errorBlock: 失败回调
+- (void)sendOrderCardMessageWithMessageStr:(NSDictionary *)messageStr
+                              success:(void (^)(TOSMessage * timMessage))successBlock
+                                     error:(void (^)(TIMConnectErrorCode errCode,NSString *errorDes))errorBlock;
 #pragma mark  发送文字消息
 /// 发送文字消息
 /// @param messageStr 文本
@@ -38,6 +46,16 @@ NS_ASSUME_NONNULL_BEGIN
                           messageUUID:(NSString *)messageUUID
                               success:(void (^)(TOSMessage * timMessage))successBlock
                                 error:(void (^)(TIMConnectErrorCode errCode,NSString *errorDes))errorBlock;
+
+/// 发送事件消息
+/// @param event 事件名称
+/// @param messageUUID messageUUID
+/// @param successBlock successBlock
+/// @param errorBlock errorBlock
+- (void)sendEventMessageWithEvent:(NSString*)event
+                      messageUUID:(NSString *)messageUUID
+                          success:(void (^)(TOSMessage * timMessage))successBlock
+                            error:(void (^)(TIMConnectErrorCode errCode,NSString *errorDes))errorBlock;
 
 #pragma mark  发送图片消息
 - (void)sendImageMessageWithImageData:(NSData *)imageData

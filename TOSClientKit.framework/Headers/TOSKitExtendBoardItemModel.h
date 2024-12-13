@@ -18,6 +18,12 @@ typedef NS_ENUM(NSInteger, TOSChatBoxExtendBoardType) {
     TOSChatBoxExtendBoardTypeCloseChat,     //结束会话
     TOSChatBoxExtendBoardTypeCustom,        //自定义
     TOSChatBoxExtendBoardTypeCustomFileApp, //手机系统的文件App
+    /// 订单
+    TOSChatBoxExtendBoardTypeOrder,
+    /// 链接
+    TOSChatBoxExtendBoardTypeLink,
+    /// 满意度
+    TOSChatBoxExtendBoardTypeSatisfaction,
 };
 
 @interface TOSKitExtendBoardItemModel : TIMLibBaseModel
@@ -31,8 +37,14 @@ typedef NS_ENUM(NSInteger, TOSChatBoxExtendBoardType) {
 /// 扩展项的唯一标示符
 @property (nonatomic, assign) NSInteger index;
 
+/// 网络图片名
+@property (nonatomic, copy) NSString                * imageURL;
+
 /// 类型，除自定义类型外，其他类型不填即为默认UI
 @property (nonatomic, assign) TOSChatBoxExtendBoardType type;
+
+/// 自定义参数
+@property (nonatomic, strong) NSMutableDictionary                * dynamicConfigParameters;
 
 @end
 

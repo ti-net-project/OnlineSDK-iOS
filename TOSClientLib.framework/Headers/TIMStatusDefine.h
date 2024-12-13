@@ -18,6 +18,9 @@ static NSString * kTIMMessageSendChatUIFromLibNotification = @"TIMMessageSendCha
 /// 发送消息事件通知(非UI层面的，例如：快捷入口的)
 static NSString * kTIMMessageSendChatMessageUIFromLibNotification = @"kTIMMessageSendChatMessageUIFromLibNotification";
 
+/// 获取配置信息成功的通知(用来配置输入区域的快捷入口和更多面板的数据)
+static NSString * kTIMGetAppSettingNotification = @"kTIMGetAppSettingNotification";
+
 //更新群聊已读/未读 刷新
 //static NSString * const kTIMUpdateUnreadMessageNotification = @"kTIMUpdateUnreadMessageNotification";
 

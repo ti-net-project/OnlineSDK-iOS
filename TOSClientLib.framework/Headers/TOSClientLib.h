@@ -59,7 +59,8 @@ FOUNDATION_EXPORT const unsigned char TIMClientVersionString[];
 #import <TOSClientLib/ChatLeaveMessage.h>
 #import <TOSClientLib/ChatLeaveReceiveMessage.h>
 #import <TOSClientLib/ChatInvestigationMessage.h>
-
+#import <TOSClientLib/TIMOrderEventMessage.h>
+#import <TOSClientLib/TOSOrderMessage.h>
 
 #import <TOSClientLib/OnlineEventSendManager.h>
 #import <TOSClientLib/OnlineMessageSendManager.h>

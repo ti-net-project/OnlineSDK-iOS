@@ -7,6 +7,8 @@
 //
 
 #import <TOSClientLib/TOSClientLib.h>
+#import <TOSClientKit/TOSKitOrderDrawerHelper.h>
+
 
 NS_ASSUME_NONNULL_BEGIN
 
@@ -14,6 +16,7 @@ NS_ASSUME_NONNULL_BEGIN
  * 快捷入口-工单留言的eventName
  */
 static NSString * const TOS_EVENT_NAME_TICKET_MESSAGE_STATUS = @"kTOSTicketMessageStatus";
+
 
 /**
  * 工单插件地址
@@ -111,6 +114,29 @@ typedef NS_ENUM(NSInteger, SatisfactionShowModel) {
     SatisfactionShowModelEveryTimePopup          =   1
 };
 
+/// 快捷输入model的事件枚举类型
+typedef NS_ENUM(NSInteger, TOSQuickEntryEventType) {
+    /// 不做任何操作
+    TOSQuickEntryEventTypeNormal            =   0,
+    /// 链接外跳
+    TOSQuickEntryEventTypeLink              =   1,
+    /// 满意度评价
+    TOSQuickEntryEventTypeSatisfaction      =   2,
+    /// 结束会话
+    TOSQuickEntryEventTypeCloseChat         =   3,
+    /// 消息发送
+    TOSQuickEntryEventTypeSendText          =   4,
+    /// 订单卡片
+    TOSQuickEntryEventTypeOrderCard         =   5,
+    /// 工单插件
+    TOSQuickEntryEventTypeTicketPlugin      =   6,
+    /// 转人工事件
+    TOSQuickEntryEventTypeArtificial        =   7,
+    /// 自定义事件
+    TOSQuickEntryEventTypeCustom            =   8,
+    
+};
+
 
 /// 正则model
 @interface TOSRegularModel : NSObject
@@ -133,13 +159,19 @@ typedef NS_ENUM(NSInteger, SatisfactionShowModel) {
 /// 快捷入口值
 @property (nonatomic, copy) NSString                *value;
 
-/// 快捷事件名称
+/// 快捷入口的事件类型
+@property (nonatomic, assign) TOSQuickEntryEventType                type;
+
+/// 快捷事件名称(该属性在24-12-12日后弃用)
 @property (nonatomic, copy, nonnull) NSString       *eventName;
 
 /// 快捷入口事件动态配置参数集合
 @property (nonatomic, strong) NSMutableDictionary          *dynamicConfigParameters;
 
-+ (TOSQuickEntryModel *)getChatLeaveMessageStatusWithTicketPluginUrl:(NSString *)ticketPluginUrl;
+/// 快捷入口拉起页面的数据参数集合
+@property (nonatomic, strong) NSMutableDictionary                * params;
+
+//+ (TOSQuickEntryModel *)getChatLeaveMessageStatusWithTicketPluginUrl:(NSString *)ticketPluginUrl;
 
 @end
 
@@ -716,6 +748,10 @@ typedef NS_ENUM(NSInteger, SatisfactionShowModel) {
 
 /// 设置点踩标签
 @property (nonatomic, strong) NSArray    <NSString *>*setUnHelpfulTagList;
+
+/// 订单的配置model
+@property (nonatomic, strong) TOSKitOrderDrawerHelper                * orderDrawer;
+
 
 @end
 

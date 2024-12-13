@@ -26,6 +26,8 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic, copy, readonly) NSNumber *webLeaveMessageType;
 @property (nonatomic, strong,readonly) NSMutableArray *leaveMessageFields;
 
+/// 判断是否需要展示返回按钮，不为空字符就展示返回按钮
+@property (nonatomic, copy, readonly) NSString *leaveReturnNext;
 
 - (instancetype)initMessageWithContent:(NSString *)content;
 

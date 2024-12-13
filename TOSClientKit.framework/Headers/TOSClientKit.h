@@ -49,4 +49,5 @@ FOUNDATION_EXPORT const unsigned char TIMClientKitVersionString[];
 
 #import <TOSClientKit/TOSKitCustomInfo.h>
 #import <TOSClientKit/TIMMessageFrame.h>
+#import <TOSClientKit/TOSKitOrderDrawerHelper.h>
 

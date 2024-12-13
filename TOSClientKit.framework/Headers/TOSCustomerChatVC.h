@@ -25,6 +25,7 @@ typedef NS_ENUM(NSUInteger, TinetClickTextMessageEventType) {
     TinetClickCommodityCard,
     TinetClickMiniProgramCard,
     TinetClickLogisticsCard,
+    TinetClickOrderCard,
 };
 
 //typedef NS_ENUM(NSUInteger, TinetChatStatusType) {
