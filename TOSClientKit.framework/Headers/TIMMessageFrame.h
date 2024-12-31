@@ -124,6 +124,9 @@
 /// 机器人组合消息整体高度 14类型
 @property (nonatomic, assign) CGRect robotCombinationF;
 
+/// 机器人组合消息热点问专题的专题tabList的布局
+@property (nonatomic, assign) CGRect specialSubjectF;
+
 /// 自定义消息的shareTitle
 @property (nonatomic, assign) CGRect custShareTitleF;
 

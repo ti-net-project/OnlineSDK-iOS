@@ -58,12 +58,16 @@ typedef NS_ENUM(NSInteger, HelpfulAndUnHelpfulSelectType) {
 
 @property (nonatomic, strong) NSArray <KnowledgeDataModel *>*knowledge;
 
+@property (nonatomic, strong) NSArray <CombinationDataModel *>*tabList;
+@property (nonatomic, copy) NSString *cardName;
+@property (nonatomic, copy) NSString *cardUrl;
+
 @end
 
 @interface CombinationMessage : TIMMessageContent
 
 /// 6、15~20：热点问题   21~25：京东智能系列
-/// 1：文本消息，2：图片，3：文件，4：视频，5：富文本消息，6：机器人选项消息，7：语音，8：知识库文件，9：套电（废弃），10：商品卡片，物流卡片，11：订单卡片，12：留言消息，13：小程序卡片，14：机器人组合消息，15：机器人相关问题，16：机器人猜你想问(热门问题)，17：机器人常见问题，18：机器人近似问题，19：机器人选项消息(推荐问)，20：机器人相关问题（常见问），21~25：fold、link、select、flow from、gus card，26 知识库的问答库和文档库，30：机器人快捷回复，31：机器人热门问题（竖版），32：图文消息，36：机器人阶段表单收集
+/// 1：文本消息，2：图片，3：文件，4：视频，5：富文本消息，6：机器人选项消息，7：语音，8：知识库文件，9：套电（废弃），10：商品卡片，物流卡片，11：订单卡片，12：留言消息，13：小程序卡片，14：机器人组合消息，15：机器人相关问题，16：机器人猜你想问(热门问题)，17：机器人常见问题，18：机器人近似问题，19：机器人选项消息(推荐问)，20：机器人相关问题（常见问），21~25：fold、link、select、flow from、gus card，26 知识库的问答库和文档库，30：机器人快捷回复，31：机器人热门问题（竖版），32：图文消息，34：专题模式热点问题，36：机器人阶段表单收集
 @property (nonatomic, copy) NSString *type;
 @property (nonatomic, copy) NSString *text;
 @property (nonatomic, copy) NSString *name;
@@ -84,6 +88,10 @@ typedef NS_ENUM(NSInteger, HelpfulAndUnHelpfulSelectType) {
 
 /// 选择的问题类型
 @property (nonatomic, assign) NSInteger selectData;
+
+/// 选择的专题类型
+@property (nonatomic, assign) NSInteger specialSubjectSelect;
+@property (nonatomic, assign) CGPoint contentOffset;
 
 /// 当前展示在哪页
 @property (nonatomic, assign) NSInteger selectPageData;
