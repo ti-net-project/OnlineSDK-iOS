@@ -26,6 +26,9 @@ NS_ASSUME_NONNULL_BEGIN
 /// 订单编号（示例: 1234**2457000）
 @property (nonatomic, copy) NSString                * number;
 
+/// 订单标签
+@property (nonatomic, strong) NSDictionary                * tag;
+
 /// 订单状态（示例: 待收货）
 @property (nonatomic, copy) NSString                * status;
 

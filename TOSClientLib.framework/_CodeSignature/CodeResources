@@ -74,7 +74,7 @@
 		</data>
 		<key>Headers/OctoIMParamDefines.h</key>
 		<data>
-		byizE91NrB9HXj6hbgjuTg8TeEg=
+		duQBW1JGP+kcxhKdwiq0aCY7y+o=
 		</data>
 		<key>Headers/OnlineChatRecordModel.h</key>
 		<data>
@@ -266,7 +266,7 @@
 		</data>
 		<key>Headers/TOSOrderMessage.h</key>
 		<data>
-		Ap4A7O8VTJwKYfeTeXtWNht9F9E=
+		qZLYKDKgiEXZW/K5HBw+vcTxfhg=
 		</data>
 		<key>Headers/TOSSensitiveWordEventModel.h</key>
 		<data>
@@ -294,7 +294,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		P45nnHAmJf1TDHHJO8RLPlfdKF4=
+		phmGGnfGlpTFFtWDf020egyyP9w=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -498,11 +498,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			byizE91NrB9HXj6hbgjuTg8TeEg=
+			duQBW1JGP+kcxhKdwiq0aCY7y+o=
 			</data>
 			<key>hash2</key>
 			<data>
-			YYkhCIf1XCyLvofRaytKHXO6p0O1iAKEzx0ZD75wwp8=
+			QO8F4wHvcV3kiCuPyMnH1L3A9rsVvMfwDFgEuMdOlTc=
 			</data>
 		</dict>
 		<key>Headers/OnlineChatRecordModel.h</key>
@@ -1026,11 +1026,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			Ap4A7O8VTJwKYfeTeXtWNht9F9E=
+			qZLYKDKgiEXZW/K5HBw+vcTxfhg=
 			</data>
 			<key>hash2</key>
 			<data>
-			6oVnmemKDl8CzhhMwc/eluCu6H//g/qfrl/KmzN0/cQ=
+			j11qDiudP3zQvtjbINaP/XcfwPH8bPMbIgyr/tDw6+A=
 			</data>
 		</dict>
 		<key>Headers/TOSSensitiveWordEventModel.h</key>
