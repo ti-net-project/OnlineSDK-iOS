@@ -61,4 +61,7 @@
 /// 转人工数据
 @property (nonatomic, assign) BOOL sysTransfer;
 
+/// 隐藏放弃排队按钮    NO：展示   YES：隐藏
+@property (nonatomic, assign) BOOL hideLeaveQueueBtn;
+
 @end

@@ -185,9 +185,9 @@ relocations:
   - { offset: 0xE6245, size: 0x8, addend: 0x0, symName: '-[FileDownloadRequest requestUrl]', symObjAddr: 0xA0, symBinAddr: 0xBF80, symSize: 0xC }
   - { offset: 0xE6278, size: 0x8, addend: 0x0, symName: '-[FileDownloadRequest .cxx_destruct]', symObjAddr: 0xAC, symBinAddr: 0xBF8C, symSize: 0x14 }
   - { offset: 0xE6315, size: 0x8, addend: 0x0, symName: '+[TIMClient sharedTIMClient]', symObjAddr: 0x0, symBinAddr: 0xBFA0, symSize: 0x40 }
-  - { offset: 0xE638E, size: 0x8, addend: 0x0, symName: __ZL14__onetimeClass, symObjAddr: 0x40818, symBinAddr: 0x18AF88, symSize: 0x0 }
+  - { offset: 0xE638E, size: 0x8, addend: 0x0, symName: __ZL14__onetimeClass, symObjAddr: 0x40820, symBinAddr: 0x18AF88, symSize: 0x0 }
   - { offset: 0xE70E6, size: 0x8, addend: 0x0, symName: '+[TIMClient sharedTIMClient]', symObjAddr: 0x0, symBinAddr: 0xBFA0, symSize: 0x40 }
-  - { offset: 0xE7110, size: 0x8, addend: 0x0, symName: '__ZZ28+[TIMClient sharedTIMClient]E8oneToken', symObjAddr: 0x40820, symBinAddr: 0x18AF90, symSize: 0x0 }
+  - { offset: 0xE7110, size: 0x8, addend: 0x0, symName: '__ZZ28+[TIMClient sharedTIMClient]E8oneToken', symObjAddr: 0x40828, symBinAddr: 0x18AF90, symSize: 0x0 }
   - { offset: 0xE74B7, size: 0x8, addend: 0x0, symName: '___28+[TIMClient sharedTIMClient]_block_invoke', symObjAddr: 0x40, symBinAddr: 0xBFE0, symSize: 0xB4 }
   - { offset: 0xE74FC, size: 0x8, addend: 0x0, symName: '-[TIMClient initWithOption:]', symObjAddr: 0xF4, symBinAddr: 0xC094, symSize: 0x204 }
   - { offset: 0xE754F, size: 0x8, addend: 0x0, symName: '-[TIMClient getLibOnlineStatus]', symObjAddr: 0x2F8, symBinAddr: 0xC298, symSize: 0x4 }
@@ -1936,10 +1936,10 @@ relocations:
   - { offset: 0x124E54, size: 0x8, addend: 0x0, symName: _is_whitespace, symObjAddr: 0x2DC, symBinAddr: 0x4D454, symSize: 0x1C }
   - { offset: 0x124E7F, size: 0x8, addend: 0x0, symName: _is_undefined_or_disallowed, symObjAddr: 0x2F8, symBinAddr: 0x4D470, symSize: 0x1B4 }
   - { offset: 0x124F71, size: 0x8, addend: 0x0, symName: '+[TIMLibUtils setLogEnable:]', symObjAddr: 0x0, symBinAddr: 0x4D624, symSize: 0xC }
-  - { offset: 0x124F90, size: 0x8, addend: 0x0, symName: _kEVN_Config, symObjAddr: 0x4F68, symBinAddr: 0x18A9D8, symSize: 0x0 }
-  - { offset: 0x124FA6, size: 0x8, addend: 0x0, symName: _globalDeviceUDID, symObjAddr: 0x4F70, symBinAddr: 0x18A9E0, symSize: 0x0 }
+  - { offset: 0x124F90, size: 0x8, addend: 0x0, symName: _kEVN_Config, symObjAddr: 0x4F70, symBinAddr: 0x18A9D8, symSize: 0x0 }
+  - { offset: 0x124FA6, size: 0x8, addend: 0x0, symName: _globalDeviceUDID, symObjAddr: 0x4F78, symBinAddr: 0x18A9E0, symSize: 0x0 }
   - { offset: 0x124FC3, size: 0x8, addend: 0x0, symName: '+[TIMLibUtils RandomString]', symObjAddr: 0x1850, symBinAddr: 0x4EE74, symSize: 0x90 }
-  - { offset: 0x125059, size: 0x8, addend: 0x0, symName: _kLogEnable, symObjAddr: 0xDFE1, symBinAddr: 0x18B0C8, symSize: 0x0 }
+  - { offset: 0x125059, size: 0x8, addend: 0x0, symName: _kLogEnable, symObjAddr: 0xDFE9, symBinAddr: 0x18B0C8, symSize: 0x0 }
   - { offset: 0x125080, size: 0x8, addend: 0x0, symName: '+[TIMLibUtils setLogEnable:]', symObjAddr: 0x0, symBinAddr: 0x4D624, symSize: 0xC }
   - { offset: 0x1250BB, size: 0x8, addend: 0x0, symName: '+[TIMLibUtils getLogEnable]', symObjAddr: 0xC, symBinAddr: 0x4D630, symSize: 0xC }
   - { offset: 0x1250EE, size: 0x8, addend: 0x0, symName: '+[TIMLibUtils setEnvConfig:]', symObjAddr: 0x18, symBinAddr: 0x4D63C, symSize: 0x10 }
@@ -4532,8 +4532,8 @@ relocations:
   - { offset: 0x177BCD, size: 0x8, addend: 0x0, symName: ___TIYTKrequest_cache_writing_queue_block_invoke, symObjAddr: 0x1B98, symBinAddr: 0xA59AC, symSize: 0x80 }
   - { offset: 0x177E6E, size: 0x8, addend: 0x0, symName: '+[OnlineRequestManager sharedCustomerManager]', symObjAddr: 0x0, symBinAddr: 0xA5A2C, symSize: 0x40 }
   - { offset: 0x177E81, size: 0x8, addend: 0x0, symName: '+[OnlineRequestManager sharedCustomerManager]', symObjAddr: 0x0, symBinAddr: 0xA5A2C, symSize: 0x40 }
-  - { offset: 0x177EAB, size: 0x8, addend: 0x0, symName: _sharedCustomerManager.oneToken, symObjAddr: 0x234C8, symBinAddr: 0x18B368, symSize: 0x0 }
-  - { offset: 0x177EF8, size: 0x8, addend: 0x0, symName: ___onetimeClass, symObjAddr: 0x234D0, symBinAddr: 0x18B370, symSize: 0x0 }
+  - { offset: 0x177EAB, size: 0x8, addend: 0x0, symName: _sharedCustomerManager.oneToken, symObjAddr: 0x234D0, symBinAddr: 0x18B368, symSize: 0x0 }
+  - { offset: 0x177EF8, size: 0x8, addend: 0x0, symName: ___onetimeClass, symObjAddr: 0x234D8, symBinAddr: 0x18B370, symSize: 0x0 }
   - { offset: 0x178087, size: 0x8, addend: 0x0, symName: '___45+[OnlineRequestManager sharedCustomerManager]_block_invoke', symObjAddr: 0x40, symBinAddr: 0xA5A6C, symSize: 0x94 }
   - { offset: 0x1780AE, size: 0x8, addend: 0x0, symName: '-[OnlineRequestManager getUserInfoWithUserId:externalId:nickname:phoneNum:headerUrl:connectSuccess:error:tokenIncorrect:]', symObjAddr: 0xD4, symBinAddr: 0xA5B00, symSize: 0x4D0 }
   - { offset: 0x1781BB, size: 0x8, addend: 0x0, symName: '___121-[OnlineRequestManager getUserInfoWithUserId:externalId:nickname:phoneNum:headerUrl:connectSuccess:error:tokenIncorrect:]_block_invoke', symObjAddr: 0x5A4, symBinAddr: 0xA5FD0, symSize: 0x424 }
