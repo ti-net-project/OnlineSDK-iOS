@@ -96,9 +96,7 @@
 //    if (self.rewriteBack) {
         self.navigationItem.leftBarButtonItem = [[UIBarButtonItem alloc] initWithTitle:@"返回" style:(UIBarButtonItemStylePlain) target:self action:@selector(backTouch)];
 //    }
-    
-    self.navigationItem.rightBarButtonItem = [[UIBarButtonItem alloc] initWithTitle:@"跳转" style:(UIBarButtonItemStylePlain) target:self action:@selector(justNext)];
-    
+        
     self.view.backgroundColor = TOSHexColor(0xEFF0F3);
 }
 
@@ -130,12 +128,6 @@
             }
         }
     }
-}
-
-- (void)justNext {
-    NextViewController * nextVC = [[NextViewController alloc] init];
-    [self.navigationController pushViewController:nextVC animated:YES];
-    
 }
 
 - (void)didClinkCustomExtendBoardItemAction:(TOSKitExtendBoardItemModel *)item {
@@ -255,7 +247,6 @@
         if ([userInfo objectForKey:@"content"]) {
             NSDictionary * content = userInfo[@"content"];
             if ([content objectForKey:@"productModel"]) {
-//                [self justNext];
                 UIViewController *topViewController = [self getTopViewController];
                 
                 NSLog(@"rootNavController ： %@", [topViewController class]);
@@ -289,25 +280,6 @@
             [UIApplication.sharedApplication openURL:url];
         }
     }
-    
-//    /// 超链接点击事例
-//    if (eventType == TinetClickEventTypeUrl) {
-//        STBaseWebViewController * webView = [[STBaseWebViewController alloc] init];
-//        webView.urlString = [NSString stringWithFormat:@"%@", userInfo[@"content"]];
-//        [self.navigationController pushViewController:webView animated:YES];
-//    }
-    
-//    if (eventType == TinetClickMiniProgramCard) {
-//        STBaseWebViewController * webView = [[STBaseWebViewController alloc] init];
-//        webView.urlString = [NSString stringWithFormat:@"%@", userInfo[@"content"][@"pagepath"]?:@""];
-//        [self.navigationController pushViewController:webView animated:YES];
-//    }
-//
-//    if (eventType == TinetClickLogisticsCard) {
-//        STBaseWebViewController * webView = [[STBaseWebViewController alloc] init];
-//        webView.urlString = [NSString stringWithFormat:@"%@", userInfo[@"content"][@"orderLink"]?:@""];
-//        [self.navigationController pushViewController:webView animated:YES];
-//    }
     
     [self showMBErrorView:[NSString stringWithFormat:@"%ld ========= %@",eventType,userInfo]];
 }

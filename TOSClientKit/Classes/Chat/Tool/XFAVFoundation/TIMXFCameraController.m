@@ -28,7 +28,7 @@ typedef void(^PropertyChangeBlock)(AVCaptureDevice *captureDevice);
 
 @interface TIMXFCameraController() <AVCaptureVideoDataOutputSampleBufferDelegate, AVCaptureAudioDataOutputSampleBufferDelegate, UIGestureRecognizerDelegate>
 
-@property (nonatomic, assign) dispatch_queue_t videoQueue;
+@property (nonatomic, strong) dispatch_queue_t videoQueue;
 
 @property (strong, nonatomic) AVCaptureSession *captureSession;                          //负责输入和输出设备之间的数据传递
 

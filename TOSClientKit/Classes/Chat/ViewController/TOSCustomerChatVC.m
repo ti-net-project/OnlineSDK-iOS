@@ -125,7 +125,7 @@ TIMClientReceiveMessageDelegate,UITableViewDelegate,UITableViewDataSource,BaseCe
     NSInteger   _firstHasGetHistoryListFinish; //第一次拉取历史消息是否结束
 }
 
-@property (nonatomic, assign) dispatch_queue_t propertyQueue;
+@property (nonatomic, strong) dispatch_queue_t propertyQueue;
 
 @property (nonatomic, strong) TOSReloadTaskManager *reloadTaskManager;
 @property (nonatomic, strong) dispatch_block_t delayedSendHintEndBlock;
@@ -3922,7 +3922,6 @@ static const NSInteger kMaxImageDataRequest = 50;
                 });
             }
             
-            
         }
         else {
             __weak typeof(self) weakSelf = self;
@@ -4081,14 +4080,14 @@ static const NSInteger kMaxImageDataRequest = 50;
                     [self addObject:messageF isSender:NO isHeaderInsert:NO];
                     [self messageReceiveSucced:messageF];
                 }
-    //            self.chatBoxVC.view.hidden = YES;
-    //            self.chatCloseView.hidden = NO;
-    //            [self.chatBoxVC.chatBox.textView resignFirstResponder];
-    //            self.chatBoxVC.chatBox.textView.text = @"";
-    //            [[OnlineDataSave shareOnlineDataSave] saveUserInputText:@""];
-    //            [self.chatBoxVC.chatBox switchTextEditing];
-    //
-    //            self.tableView.height = self.chatCloseView.top;
+//            self.chatBoxVC.view.hidden = YES;
+//            self.chatCloseView.hidden = NO;
+//            [self.chatBoxVC.chatBox.textView resignFirstResponder];
+//            self.chatBoxVC.chatBox.textView.text = @"";
+//            [[OnlineDataSave shareOnlineDataSave] saveUserInputText:@""];
+//            [self.chatBoxVC.chatBox switchTextEditing];
+//
+//            self.tableView.height = self.chatCloseView.top;
                 [self chatStatusChanged:(TinetChatStatusTypeCloseChat)];
                 [self appSettingChatBox];
                 [self closeViewEvent];
@@ -6491,7 +6490,7 @@ static NSTimeInterval lastDateInterval = 0;
                 return;
             }
             TIMMessageFrame *messageF = [ICMessageHelper createMessageFrame:TypeText originalType:@"text" content:messageStr extra:@"" auditExtra:@"" path:nil urlPath:nil from:model.sender to:model.visitorId fileKey:model.fileKey bigImgFileId:@"" voiceDuration:[NSNumber numberWithInt:0] msgId:model.uniqueId sendTime:[model.createTime  doubleValue] showTime:[self p_needShowTimeStamp:(NSTimeInterval)[model.createTime  doubleValue]] picSize:CGSizeMake(0, 0) picType:@"" isSender:YES receivedSenderByYourself:NO status:1 senderType:model.senderType];
-                [self addObject:messageF isSender:YES];
+            [self addObject:messageF isSender:YES];
             if (reload == NO) {
                 return;
             }
@@ -7204,12 +7203,12 @@ static NSTimeInterval lastDateInterval = 0;
 
 /// 被踢的弹窗
 - (void)kickoutAlert{
-    // 创建UIAlertController对象，标题为“Alert”，信息为“这是一个弹窗”
+    // 创建UIAlertController对象，标题为"Alert"，信息为"这是一个弹窗"
     UIAlertController *alertController = [UIAlertController alertControllerWithTitle:@"提示"
                                                                         message:@"您的咨询账号已在其他设备上登录，请重新登录"
                                                                         preferredStyle:UIAlertControllerStyleAlert];
         
-    // 添加一个“确定”按钮，点击时只关闭弹窗
+    // 添加一个"确定"按钮，点击时只关闭弹窗
     UIAlertAction *okAction = [UIAlertAction actionWithTitle:@"关闭"
                                                        style:UIAlertActionStyleDefault
                                                      handler:^(UIAlertAction * _Nonnull action) {
