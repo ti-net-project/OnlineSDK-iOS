@@ -1,0 +1,65 @@
+{
+  "name": "TOSClientKit",
+  "version": "2.4.4",
+  "summary": "TOSClientKit 自定义UI的在线客服SDK",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/ti-net-project/OnlineSDK-iOS",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "gyb1314": "gyb_1314@126.com"
+  },
+  "source": {
+    "git": "https://github.com/ti-net-project/OnlineSDK-iOS",
+    "branch": "feature/CustomKit"
+  },
+  "platforms": {
+    "ios": "13.0"
+  },
+  "xcconfig": {
+    "CLANG_ENABLE_OBJC_WEAK": "YES"
+  },
+  "source_files": "TOSClientKit/Classes/**/*",
+  "requires_arc": true,
+  "resource_bundles": {
+    "TOSKitClient": [
+      "TOSClientKit/Resources/**/*.{png,jpg,svg,bundle,json,strings,xib,nib}"
+    ]
+  },
+  "vendored_frameworks": "TOSClientKit.framework",
+  "dependencies": {
+    "TOSClientLib": [
+      "2.4.3"
+    ]
+  },
+  "frameworks": [
+    "UIKit",
+    "AudioToolbox",
+    "Foundation",
+    "AVFoundation",
+    "CoreAudio"
+  ],
+  "vendored_libraries": [
+    "TOSClientKit/Classes/ThirdLibs/VoiceConvert/lib/libopencore-amrnb.a",
+    "TOSClientKit/Classes/ThirdLibs/VoiceConvert/lib/libopencore-amrwb.a"
+  ],
+  "pod_target_xcconfig": {
+    "VALID_ARCHS": "x86_64 arm64",
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+    "LIBRARY_SEARCH_PATHS": "${PODS_ROOT}/TOSClientKit/Libraries ${PODS_TARGET_SRCROOT}/TOSClientKit/Libraries",
+    "HEADER_SEARCH_PATHS": "${PODS_ROOT}/TOSClientKit/Libraries/include ${PODS_TARGET_SRCROOT}/TOSClientKit/Libraries/include",
+    "OTHER_LDFLAGS": "-lopencore-amrnb -lopencore-amrwb"
+  },
+  "subspecs": [
+    {
+      "name": "no-arc",
+      "source_files": [
+        "TOSClientKit/Classes/ThirdLibs/YYKit/YYKit/Base/**/*.{h,m}",
+        "TOSClientKit/Classes/ThirdLibs/YYKit/YYKit/**/YYDispatchQueuePool.{h,m}"
+      ],
+      "requires_arc": false
+    }
+  ]
+}
