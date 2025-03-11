@@ -48,7 +48,6 @@
 - (void)setModel:(TIMMessageModel *)model
 {
     _model = model;
-    NSLog(@"model ====== %@",[model yy_modelToJSONObject]);
     /// 头像距离屏幕边缘的距离
     CGFloat headToView    = [TOSKitCustomInfo shareCustomInfo].headMargin > APP_WIDTH/4 ? APP_WIDTH/4 : [TOSKitCustomInfo shareCustomInfo].headMargin;
     /// 头像距离气泡的距离
