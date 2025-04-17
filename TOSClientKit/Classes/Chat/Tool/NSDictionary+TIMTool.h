@@ -14,6 +14,8 @@ NS_ASSUME_NONNULL_BEGIN
 
 - (id)tim_ObjectForKey:(NSString *)key;
 
+- (id)by_ObjectForKey:(NSString *)key;
+
 @end
 
 NS_ASSUME_NONNULL_END

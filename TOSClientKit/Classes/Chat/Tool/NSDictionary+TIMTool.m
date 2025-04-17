@@ -18,4 +18,12 @@
     }
 }
 
+- (id)by_ObjectForKey:(NSString *)key {
+    if (self && [self isKindOfClass:[NSDictionary class]] && [[self allKeys] containsObject:key]) {
+        return [self objectForKey:key];
+    } else {
+        return nil;
+    }
+}
+
 @end
