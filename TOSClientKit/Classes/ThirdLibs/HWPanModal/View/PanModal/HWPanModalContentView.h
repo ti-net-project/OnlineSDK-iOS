@@ -6,9 +6,9 @@
 //
 
 #import <UIKit/UIKit.h>
-#import <HWPanModalPresentable.h>
-#import <HWPanModalPresentationUpdateProtocol.h>
-#import <UIViewController+LayoutHelper.h>
+#import "HWPanModalPresentable.h"
+#import "HWPanModalPresentationUpdateProtocol.h"
+#import "UIViewController+LayoutHelper.h"
 
 @class HWPanModalContainerView;
 

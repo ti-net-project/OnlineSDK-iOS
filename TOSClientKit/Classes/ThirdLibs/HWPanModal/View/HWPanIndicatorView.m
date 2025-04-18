@@ -6,7 +6,7 @@
 //
 
 #import "UIView+HW_Frame.h"
-#import <HWPanIndicatorView.h>
+#import "HWPanIndicatorView.h"
 
 @interface HWPanIndicatorView ()
 

@@ -29,7 +29,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 - (UIButton *)buttonWithType:(UIButtonType)type bgImage:(UIImage *)normalBgImage bgImageSelected:(UIImage *)selectedBgImage;
 
-- (UIScrollView *)scrollView;
+- (UIScrollView *)tosCustomScrollView;
 
 @end
 

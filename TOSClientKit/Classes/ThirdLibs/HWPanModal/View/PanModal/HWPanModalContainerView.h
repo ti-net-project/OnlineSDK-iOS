@@ -6,7 +6,7 @@
 //
 
 #import <UIKit/UIKit.h>
-#import <HWPanModalPresentable.h>
+#import "HWPanModalPresentable.h"
 
 @class HWPanModalContentView;
 @class HWDimmedView;

@@ -6,7 +6,7 @@
 //
 
 #import <UIKit/UIKit.h>
-#import <HWPanModalIndicatorProtocol.h>
+#import "HWPanModalIndicatorProtocol.h"
 
 NS_ASSUME_NONNULL_BEGIN
 

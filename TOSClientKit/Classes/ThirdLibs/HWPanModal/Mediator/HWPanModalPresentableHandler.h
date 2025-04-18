@@ -7,7 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
-#import <HWPanModalPresentable.h>
+#import "HWPanModalPresentable.h"
 #import "HWPanModalPresentationDelegate.h"
 
 typedef NS_ENUM(NSUInteger, HWPanModalPresentableHandlerMode) {

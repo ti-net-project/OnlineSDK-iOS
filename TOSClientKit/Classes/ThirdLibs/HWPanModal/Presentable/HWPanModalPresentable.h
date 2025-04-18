@@ -7,10 +7,10 @@
 
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
-#import <HWPanModalHeight.h>
-#import <HWPresentingVCAnimatedTransitioning.h>
-#import <HWPanModalIndicatorProtocol.h>
-#import <HWBackgroundConfig.h>
+#import "HWPanModalHeight.h"
+#import "HWPresentingVCAnimatedTransitioning.h"
+#import "HWPanModalIndicatorProtocol.h"
+#import "HWBackgroundConfig.h"
 
 NS_ASSUME_NONNULL_BEGIN
 

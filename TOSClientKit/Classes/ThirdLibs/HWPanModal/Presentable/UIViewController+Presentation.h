@@ -6,8 +6,8 @@
 //
 
 #import <UIKit/UIKit.h>
-#import <HWPanModalPresentable.h>
-#import <HWPanModalPresentationUpdateProtocol.h>
+#import "HWPanModalPresentable.h"
+#import "HWPanModalPresentationUpdateProtocol.h"
 
 NS_ASSUME_NONNULL_BEGIN
 

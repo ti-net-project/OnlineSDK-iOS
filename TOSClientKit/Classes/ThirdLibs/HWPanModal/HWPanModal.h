@@ -13,23 +13,23 @@ FOUNDATION_EXPORT double HWPanModalVersionNumber;
 FOUNDATION_EXPORT const unsigned char HWPanModalVersionString[];
 
 // protocol
-#import <HWPanModalPresentable.h>
-#import <HWPanModalHeight.h>
+#import "HWPanModalPresentable.h"
+#import "HWPanModalHeight.h"
 
-#import <HWPanModalPresenterProtocol.h>
+#import "HWPanModalPresenterProtocol.h"
 
 // category
-#import <UIViewController+PanModalDefault.h>
-#import <UIViewController+Presentation.h>
-#import <UIViewController+PanModalPresenter.h>
+#import "UIViewController+PanModalDefault.h"
+#import "UIViewController+Presentation.h"
+#import "UIViewController+PanModalPresenter.h"
 
 // custom animation
-#import <HWPresentingVCAnimatedTransitioning.h>
+#import "HWPresentingVCAnimatedTransitioning.h"
 
 // view
-#import <HWPanModalIndicatorProtocol.h>
-#import <HWPanIndicatorView.h>
-#import <HWDimmedView.h>
+#import "HWPanModalIndicatorProtocol.h"
+#import "HWPanIndicatorView.h"
+#import "HWDimmedView.h"
 
 // panModal view
-#import <HWPanModalContentView.h>
+#import "HWPanModalContentView.h"

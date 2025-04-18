@@ -77,7 +77,7 @@
     return button;
 }
 
-- (UIScrollView *)scrollView {
+- (UIScrollView *)tosCustomScrollView {
     UIScrollView *scrollView = [[UIScrollView alloc] init];
     scrollView.showsVerticalScrollIndicator = NO;
     scrollView.showsHorizontalScrollIndicator = NO;
