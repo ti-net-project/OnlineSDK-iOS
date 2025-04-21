@@ -1,0 +1,36 @@
+PODS:
+  - MBProgressHUD (1.2.0)
+  - SDWebImage (5.21.0):
+    - SDWebImage/Core (= 5.21.0)
+  - SDWebImage/Core (5.21.0)
+  - TOSClientKit (2.4.8):
+    - TOSClientKit/no-arc (= 2.4.8)
+    - TOSClientLib (= 2.4.3)
+  - TOSClientKit/no-arc (2.4.8):
+    - TOSClientLib (= 2.4.3)
+  - TOSClientLib (2.4.3)
+
+DEPENDENCIES:
+  - MBProgressHUD
+  - SDWebImage (= 5.21.0)
+  - TOSClientKit (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - MBProgressHUD
+    - SDWebImage
+    - TOSClientLib
+
+EXTERNAL SOURCES:
+  TOSClientKit:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  MBProgressHUD: 3ee5efcc380f6a79a7cc9b363dd669c5e1ae7406
+  SDWebImage: f84b0feeb08d2d11e6a9b843cb06d75ebf5b8868
+  TOSClientKit: 98516a55e74dc1092701bb97634e336566d5ceb1
+  TOSClientLib: 87afd75e4b8390f3dedf7f56c23fc1ee9a2c292e
+
+PODFILE CHECKSUM: 97383e492401846138ed04f8389473f7c4ceb021
+
+COCOAPODS: 1.15.2

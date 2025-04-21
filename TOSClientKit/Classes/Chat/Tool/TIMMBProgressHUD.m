@@ -290,9 +290,9 @@ static const CGFloat MBDefaultDetailsLabelFontSize = 12.f;
     if (completionBlock) {
         completionBlock();
     }
-    id<MBProgressHUDDelegate> delegate = self.delegate;
-    if ([delegate respondsToSelector:@selector(hudWasHidden:)]) {
-        [delegate performSelector:@selector(hudWasHidden:) withObject:self];
+    id<TIMMBProgressHUDDelegate> delegate = self.delegate;
+    if ([delegate respondsToSelector:@selector(timHudWasHidden:)]) {
+        [delegate performSelector:@selector(timHudWasHidden:) withObject:self];
     }
 }
 

@@ -7,11 +7,15 @@ PODS:
   - AFNetworking/Security (4.0.1)
   - AFNetworking/Serialization (4.0.1)
   - Masonry (1.1.0)
+  - MBProgressHUD (1.2.0)
   - ReactiveObjC (3.1.1)
-  - TOSClientKit (2.4.6):
-    - TOSClientKit/no-arc (= 2.4.6)
+  - SDWebImage (5.21.0):
+    - SDWebImage/Core (= 5.21.0)
+  - SDWebImage/Core (5.21.0)
+  - TOSClientKit (2.4.8):
+    - TOSClientKit/no-arc (= 2.4.8)
     - TOSClientLib (= 2.4.3)
-  - TOSClientKit/no-arc (2.4.6):
+  - TOSClientKit/no-arc (2.4.8):
     - TOSClientLib (= 2.4.3)
   - TOSClientLib (2.4.3)
   - YBPopupMenu (1.3.1)
@@ -20,7 +24,9 @@ PODS:
 
 DEPENDENCIES:
   - Masonry
+  - MBProgressHUD
   - ReactiveObjC
+  - SDWebImage
   - TOSClientKit (from `../`)
   - YBPopupMenu
   - YTKNetwork
@@ -29,7 +35,9 @@ SPEC REPOS:
   trunk:
     - AFNetworking
     - Masonry
+    - MBProgressHUD
     - ReactiveObjC
+    - SDWebImage
     - TOSClientLib
     - YBPopupMenu
     - YTKNetwork
@@ -41,12 +49,14 @@ EXTERNAL SOURCES:
 SPEC CHECKSUMS:
   AFNetworking: 3bd23d814e976cd148d7d44c3ab78017b744cd58
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  MBProgressHUD: 3ee5efcc380f6a79a7cc9b363dd669c5e1ae7406
   ReactiveObjC: 011caa393aa0383245f2dcf9bf02e86b80b36040
-  TOSClientKit: a77f3effb2a723bcc8974fcf71b6fea65a3538a5
+  SDWebImage: f84b0feeb08d2d11e6a9b843cb06d75ebf5b8868
+  TOSClientKit: 98516a55e74dc1092701bb97634e336566d5ceb1
   TOSClientLib: 87afd75e4b8390f3dedf7f56c23fc1ee9a2c292e
   YBPopupMenu: e67e5af42cf242cee89a6dd0c38cb814a1e91c17
   YTKNetwork: c16be90b06be003de9e9cd0d3b187cc8eaf35c04
 
-PODFILE CHECKSUM: 020dfba14fe0d28cd5a75d7de84c57acd0fb3c6b
+PODFILE CHECKSUM: 7d2ceb0e41c3ac9fc8f92e2e4a72ce6d48458983
 
 COCOAPODS: 1.15.2

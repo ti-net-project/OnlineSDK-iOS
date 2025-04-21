@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2CADAA838F3ECE88DA5F41B7 /* Pods_TOSClientKit_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE63BB981AD54B683AF054A3 /* Pods_TOSClientKit_Example.framework */; };
 		3CCE26D42D6F08970013A5CA /* TRLocalizeHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CCE26D32D6F08970013A5CA /* TRLocalizeHelper.m */; };
 		3CCE275A2D6F08C20013A5CA /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3CCE27192D6F08C20013A5CA /* LoginViewController.xib */; };
 		3CCE275B2D6F08C20013A5CA /* Testhtml.html in Resources */ = {isa = PBXBuildFile; fileRef = 3CCE27552D6F08C20013A5CA /* Testhtml.html */; };
@@ -58,6 +57,7 @@
 		3CCE278A2D6F08C20013A5CA /* NSObject+TIMImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CCE27102D6F08C20013A5CA /* NSObject+TIMImage.m */; };
 		3CCE278B2D6F08C20013A5CA /* NSString+TimeFormatting.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CCE26F62D6F08C20013A5CA /* NSString+TimeFormatting.m */; };
 		3CCE278C2D6F08C20013A5CA /* ZYAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CCE274F2D6F08C20013A5CA /* ZYAlertView.m */; };
+		508361BA80E9BE4658714430 /* Pods_TOSClientKit_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78A6E7AE30E8E6B95D2DAFEB /* Pods_TOSClientKit_Tests.framework */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -70,9 +70,9 @@
 		6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
 		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
+		6693916D37B9D13CCCB187AC /* Pods_TOSClientKit_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00462E91B5B6E87990100F1D /* Pods_TOSClientKit_Example.framework */; };
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
-		BA7C11ECD61FBB02BBC4EB54 /* Pods_TOSClientKit_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 736900EAA15A7E57B39629B5 /* Pods_TOSClientKit_Tests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -86,6 +86,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		00462E91B5B6E87990100F1D /* Pods_TOSClientKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TOSClientKit_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		02B7E54574AF1D1DB31EAACE /* Pods-TOSClientKit_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TOSClientKit_Tests.debug.xcconfig"; path = "Target Support Files/Pods-TOSClientKit_Tests/Pods-TOSClientKit_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		3CCE26D22D6F08970013A5CA /* TRLocalizeHelper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TRLocalizeHelper.h; sourceTree = "<group>"; };
 		3CCE26D32D6F08970013A5CA /* TRLocalizeHelper.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TRLocalizeHelper.m; sourceTree = "<group>"; };
 		3CCE26D52D6F08C20013A5CA /* AvoidCrash.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AvoidCrash.h; sourceTree = "<group>"; };
@@ -190,7 +192,7 @@
 		3CCE27542D6F08C20013A5CA /* PrintBeautifulLog.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PrintBeautifulLog.m; sourceTree = "<group>"; };
 		3CCE27552D6F08C20013A5CA /* Testhtml.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = Testhtml.html; sourceTree = "<group>"; };
 		3CFD17C22D6F2C9C00924061 /* CoreAudioTypes.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreAudioTypes.framework; path = System/Library/Frameworks/CoreAudioTypes.framework; sourceTree = SDKROOT; };
-		5F6D2BFC8A12FFB61C11C20D /* Pods-TOSClientKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TOSClientKit_Example.release.xcconfig"; path = "Target Support Files/Pods-TOSClientKit_Example/Pods-TOSClientKit_Example.release.xcconfig"; sourceTree = "<group>"; };
+		5B6B44A7C5DE0A636488D3B4 /* Pods-TOSClientKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TOSClientKit_Tests.release.xcconfig"; path = "Target Support Files/Pods-TOSClientKit_Tests/Pods-TOSClientKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* TOSClientKit_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TOSClientKit_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -208,16 +210,14 @@
 		6003F5B9195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
-		65653C91024BE86419A4403A /* Pods-TOSClientKit_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TOSClientKit_Tests.debug.xcconfig"; path = "Target Support Files/Pods-TOSClientKit_Tests/Pods-TOSClientKit_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		6A907C3631BE5DF3418E5D5F /* TOSClientKit.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = TOSClientKit.podspec; path = ../TOSClientKit.podspec; sourceTree = "<group>"; };
+		6A907C3631BE5DF3418E5D5F /* TOSClientKit.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = TOSClientKit.podspec; path = ../TOSClientKit.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		736900EAA15A7E57B39629B5 /* Pods_TOSClientKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TOSClientKit_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		78A6E7AE30E8E6B95D2DAFEB /* Pods_TOSClientKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TOSClientKit_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		A1B9F93FC61B14E5F66E07F7 /* Pods-TOSClientKit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TOSClientKit_Example.debug.xcconfig"; path = "Target Support Files/Pods-TOSClientKit_Example/Pods-TOSClientKit_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		A4C365FAF1C9F76714A6310A /* Pods-TOSClientKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TOSClientKit_Example.release.xcconfig"; path = "Target Support Files/Pods-TOSClientKit_Example/Pods-TOSClientKit_Example.release.xcconfig"; sourceTree = "<group>"; };
 		AFCEEB9F0462D37F667C7ECA /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		BD6261E301A8C677E1A87F0D /* Pods-TOSClientKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TOSClientKit_Tests.release.xcconfig"; path = "Target Support Files/Pods-TOSClientKit_Tests/Pods-TOSClientKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		CE63BB981AD54B683AF054A3 /* Pods_TOSClientKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TOSClientKit_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D94E2180A16844843D072EBD /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		DC37283B5DEECC70778647A2 /* Pods-TOSClientKit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TOSClientKit_Example.debug.xcconfig"; path = "Target Support Files/Pods-TOSClientKit_Example/Pods-TOSClientKit_Example.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -228,7 +228,7 @@
 				6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */,
 				6003F592195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F58E195388D20070C39A /* Foundation.framework in Frameworks */,
-				2CADAA838F3ECE88DA5F41B7 /* Pods_TOSClientKit_Example.framework in Frameworks */,
+				6693916D37B9D13CCCB187AC /* Pods_TOSClientKit_Example.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -239,7 +239,7 @@
 				6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */,
 				6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */,
-				BA7C11ECD61FBB02BBC4EB54 /* Pods_TOSClientKit_Tests.framework in Frameworks */,
+				508361BA80E9BE4658714430 /* Pods_TOSClientKit_Tests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -249,10 +249,10 @@
 		073D2A0255EC70744D2010E7 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				A1B9F93FC61B14E5F66E07F7 /* Pods-TOSClientKit_Example.debug.xcconfig */,
-				5F6D2BFC8A12FFB61C11C20D /* Pods-TOSClientKit_Example.release.xcconfig */,
-				65653C91024BE86419A4403A /* Pods-TOSClientKit_Tests.debug.xcconfig */,
-				BD6261E301A8C677E1A87F0D /* Pods-TOSClientKit_Tests.release.xcconfig */,
+				DC37283B5DEECC70778647A2 /* Pods-TOSClientKit_Example.debug.xcconfig */,
+				A4C365FAF1C9F76714A6310A /* Pods-TOSClientKit_Example.release.xcconfig */,
+				02B7E54574AF1D1DB31EAACE /* Pods-TOSClientKit_Tests.debug.xcconfig */,
+				5B6B44A7C5DE0A636488D3B4 /* Pods-TOSClientKit_Tests.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -604,8 +604,8 @@
 				6003F58F195388D20070C39A /* CoreGraphics.framework */,
 				6003F591195388D20070C39A /* UIKit.framework */,
 				6003F5AF195388D20070C39A /* XCTest.framework */,
-				CE63BB981AD54B683AF054A3 /* Pods_TOSClientKit_Example.framework */,
-				736900EAA15A7E57B39629B5 /* Pods_TOSClientKit_Tests.framework */,
+				00462E91B5B6E87990100F1D /* Pods_TOSClientKit_Example.framework */,
+				78A6E7AE30E8E6B95D2DAFEB /* Pods_TOSClientKit_Tests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -680,12 +680,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6003F5BF195388D20070C39A /* Build configuration list for PBXNativeTarget "TOSClientKit_Example" */;
 			buildPhases = (
-				569FD845295A44D000657497 /* [CP] Check Pods Manifest.lock */,
+				DAC8D3644B86E1D15D290004 /* [CP] Check Pods Manifest.lock */,
 				6003F586195388D20070C39A /* Sources */,
 				6003F587195388D20070C39A /* Frameworks */,
 				6003F588195388D20070C39A /* Resources */,
-				FE08FBDA0FF9994D01A69082 /* [CP] Embed Pods Frameworks */,
-				3A4803A7FA49CC174ECFBD99 /* [CP] Copy Pods Resources */,
+				FBAD3C40E0718DA0801F3BA9 /* [CP] Embed Pods Frameworks */,
+				43018C33C05011584153803A /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -700,7 +700,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6003F5C2195388D20070C39A /* Build configuration list for PBXNativeTarget "TOSClientKit_Tests" */;
 			buildPhases = (
-				48929680547B01B8DA2B7CA8 /* [CP] Check Pods Manifest.lock */,
+				55E6D4F61FBF78135575942F /* [CP] Check Pods Manifest.lock */,
 				6003F5AA195388D20070C39A /* Sources */,
 				6003F5AB195388D20070C39A /* Frameworks */,
 				6003F5AC195388D20070C39A /* Resources */,
@@ -778,7 +778,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		3A4803A7FA49CC174ECFBD99 /* [CP] Copy Pods Resources */ = {
+		43018C33C05011584153803A /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -796,7 +796,7 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TOSClientKit_Example/Pods-TOSClientKit_Example-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		48929680547B01B8DA2B7CA8 /* [CP] Check Pods Manifest.lock */ = {
+		55E6D4F61FBF78135575942F /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -818,7 +818,7 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		569FD845295A44D000657497 /* [CP] Check Pods Manifest.lock */ = {
+		DAC8D3644B86E1D15D290004 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -840,7 +840,7 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		FE08FBDA0FF9994D01A69082 /* [CP] Embed Pods Frameworks */ = {
+		FBAD3C40E0718DA0801F3BA9 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -848,8 +848,10 @@
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-TOSClientKit_Example/Pods-TOSClientKit_Example-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework",
+				"${BUILT_PRODUCTS_DIR}/MBProgressHUD/MBProgressHUD.framework",
 				"${BUILT_PRODUCTS_DIR}/Masonry/Masonry.framework",
 				"${BUILT_PRODUCTS_DIR}/ReactiveObjC/ReactiveObjC.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
 				"${BUILT_PRODUCTS_DIR}/TOSClientKit/TOSClientKit.framework",
 				"${PODS_ROOT}/TOSClientLib/TOSClientLib.framework",
 				"${BUILT_PRODUCTS_DIR}/YBPopupMenu/YBPopupMenu.framework",
@@ -858,8 +860,10 @@
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AFNetworking.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MBProgressHUD.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Masonry.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ReactiveObjC.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TOSClientKit.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TOSClientLib.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/YBPopupMenu.framework",
@@ -1051,7 +1055,7 @@
 		};
 		6003F5C0195388D20070C39A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A1B9F93FC61B14E5F66E07F7 /* Pods-TOSClientKit_Example.debug.xcconfig */;
+			baseConfigurationReference = DC37283B5DEECC70778647A2 /* Pods-TOSClientKit_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -1073,7 +1077,7 @@
 		};
 		6003F5C1195388D20070C39A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5F6D2BFC8A12FFB61C11C20D /* Pods-TOSClientKit_Example.release.xcconfig */;
+			baseConfigurationReference = A4C365FAF1C9F76714A6310A /* Pods-TOSClientKit_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -1096,7 +1100,7 @@
 		};
 		6003F5C3195388D20070C39A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 65653C91024BE86419A4403A /* Pods-TOSClientKit_Tests.debug.xcconfig */;
+			baseConfigurationReference = 02B7E54574AF1D1DB31EAACE /* Pods-TOSClientKit_Tests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -1121,7 +1125,7 @@
 		};
 		6003F5C4195388D20070C39A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = BD6261E301A8C677E1A87F0D /* Pods-TOSClientKit_Tests.release.xcconfig */;
+			baseConfigurationReference = 5B6B44A7C5DE0A636488D3B4 /* Pods-TOSClientKit_Tests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (

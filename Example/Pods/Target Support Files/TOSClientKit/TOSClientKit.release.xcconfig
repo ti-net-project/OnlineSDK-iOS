@@ -2,11 +2,11 @@ CLANG_ENABLE_OBJC_WEAK = YES
 CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = NO
 CONFIGURATION_BUILD_DIR = ${PODS_CONFIGURATION_BUILD_DIR}/TOSClientKit
 EXCLUDED_ARCHS[sdk=iphonesimulator*] = arm64
-FRAMEWORK_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/../.." "${PODS_ROOT}/TOSClientLib"
+FRAMEWORK_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/TOSClientLib"
 GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
 HEADER_SEARCH_PATHS = $(inherited) ${PODS_ROOT}/TOSClientKit/Libraries/include ${PODS_TARGET_SRCROOT}/TOSClientKit/Libraries/include
 LIBRARY_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/../../TOSClientKit/Classes/ThirdLibs/VoiceConvert/lib" ${PODS_ROOT}/TOSClientKit/Libraries ${PODS_TARGET_SRCROOT}/TOSClientKit/Libraries
-OTHER_LDFLAGS = $(inherited) -l"opencore-amrnb" -l"opencore-amrwb" -framework "AVFoundation" -framework "AudioToolbox" -framework "CoreAudio" -framework "Foundation" -framework "TOSClientKit" -framework "TOSClientLib" -framework "UIKit"
+OTHER_LDFLAGS = $(inherited) -l"opencore-amrnb" -l"opencore-amrwb" -framework "AVFoundation" -framework "AudioToolbox" -framework "CoreAudio" -framework "Foundation" -framework "TOSClientLib" -framework "UIKit"
 PODS_BUILD_DIR = ${BUILD_DIR}
 PODS_CONFIGURATION_BUILD_DIR = ${PODS_BUILD_DIR}/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)
 PODS_DEVELOPMENT_LANGUAGE = ${DEVELOPMENT_LANGUAGE}

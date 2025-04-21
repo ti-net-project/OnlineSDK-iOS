@@ -31,7 +31,7 @@
 #import <CoreGraphics/CoreGraphics.h>
 
 @class TIMMBBackgroundView;
-@protocol MBProgressHUDDelegate;
+@protocol TIMMBProgressHUDDelegate;
 
 
 extern CGFloat const TIMMBProgressMaxOffset;
@@ -151,7 +151,7 @@ NS_ASSUME_NONNULL_BEGIN
 - (void)showAnimated:(BOOL)animated;
 
 /**
- * Hides the HUD. This still calls the hudWasHidden: delegate. This is the counterpart of the show: method. Use it to
+ * Hides the HUD. This still calls the timHudWasHidden: delegate. This is the counterpart of the show: method. Use it to
  * hide the HUD when your task completes.
  *
  * @param animated If set to YES the HUD will disappear using the current animationType. If set to NO the HUD will not use
@@ -162,7 +162,7 @@ NS_ASSUME_NONNULL_BEGIN
 - (void)hideAnimated:(BOOL)animated;
 
 /**
- * Hides the HUD after a delay. This still calls the hudWasHidden: delegate. This is the counterpart of the show: method. Use it to
+ * Hides the HUD after a delay. This still calls the timHudWasHidden: delegate. This is the counterpart of the show: method. Use it to
  * hide the HUD when your task completes.
  *
  * @param animated If set to YES the HUD will disappear using the current animationType. If set to NO the HUD will not use
@@ -176,7 +176,7 @@ NS_ASSUME_NONNULL_BEGIN
 /**
  * The HUD delegate object. Receives HUD state notifications.
  */
-@property (weak, nonatomic) id<MBProgressHUDDelegate> delegate;
+@property (weak, nonatomic) id<TIMMBProgressHUDDelegate> delegate;
 
 /**
  * Called after the HUD is hidden.
@@ -309,14 +309,14 @@ NS_ASSUME_NONNULL_BEGIN
 @end
 
 
-@protocol MBProgressHUDDelegate <NSObject>
+@protocol TIMMBProgressHUDDelegate <NSObject>
 
 @optional
 
 /**
  * Called after the HUD was fully hidden from the screen.
  */
-- (void)hudWasHidden:(TIMMBProgressHUD *)hud;
+- (void)timHudWasHidden:(TIMMBProgressHUD *)hud;
 
 @end
 

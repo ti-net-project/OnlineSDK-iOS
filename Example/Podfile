@@ -10,6 +10,9 @@ target 'TOSClientKit_Example' do
   pod 'YBPopupMenu'
 #  pod 'YYKit'
   pod 'Masonry'
+  
+  pod 'MBProgressHUD'
+  pod 'SDWebImage'
 
   target 'TOSClientKit_Tests' do
     inherit! :search_paths

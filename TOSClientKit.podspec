@@ -1,7 +1,6 @@
-
 Pod::Spec.new do |s|
   s.name             = 'TOSClientKit'
-  s.version          = '2.4.7'
+  s.version          = '2.4.8'
   s.summary          = 'TOSClientKit 自定义UI的在线客服SDK'
 
   s.description      = <<-DESC
@@ -38,7 +37,7 @@ TODO: Add long description of the pod here.
     'TOSClientKit/Resources/**/*.{png,jpg,svg,bundle,json,strings,xib,nib}']
   }
 
-  s.vendored_frameworks  = "TOSClientKit.framework"
+  #s.vendored_frameworks  = "TOSClientKit.framework"
   #s.pod_target_xcconfig = {'VALID_ARCHS'=>'x86_64 arm64'}
   #s.pod_target_xcconfig = {'VALID_ARCHS'=>'x86_64 arm64','EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64'}
   #s.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }

@@ -93,7 +93,7 @@ typedef NSString *(^SDWebImageCacheKeyFilterBlock)(NSURL *url);
 
 @class TIMSDWebImageManager;
 
-@protocol SDWebImageManagerDelegate <NSObject>
+@protocol TIMSDWebImageManagerDelegate <NSObject>
 
 @optional
 
@@ -105,7 +105,7 @@ typedef NSString *(^SDWebImageCacheKeyFilterBlock)(NSURL *url);
  *
  * @return Return NO to prevent the downloading of the image on cache misses. If not implemented, YES is implied.
  */
-- (BOOL)imageManager:(TIMSDWebImageManager *)imageManager shouldDownloadImageForURL:(NSURL *)imageURL;
+- (BOOL)timImageManager:(TIMSDWebImageManager *)imageManager shouldDownloadImageForURL:(NSURL *)imageURL;
 
 /**
  * Allows to transform the image immediately after it has been downloaded and just before to cache it on disk and memory.
@@ -117,7 +117,7 @@ typedef NSString *(^SDWebImageCacheKeyFilterBlock)(NSURL *url);
  *
  * @return The transformed image object.
  */
-- (UIImage *)imageManager:(TIMSDWebImageManager *)imageManager transformDownloadedImage:(UIImage *)image withURL:(NSURL *)imageURL;
+- (UIImage *)timImageManager:(TIMSDWebImageManager *)imageManager transformDownloadedImage:(UIImage *)image withURL:(NSURL *)imageURL;
 
 @end
 
@@ -145,7 +145,7 @@ TIMSDWebImageManager *manager = [TIMSDWebImageManager sharedManager];
  */
 @interface TIMSDWebImageManager : NSObject
 
-@property (weak, nonatomic) id <SDWebImageManagerDelegate> delegate;
+@property (weak, nonatomic) id <TIMSDWebImageManagerDelegate> delegate;
 
 @property (strong, nonatomic, readonly) TIMSDImageCache *imageCache;
 @property (strong, nonatomic, readonly) TIMSDWebImageDownloader *imageDownloader;
