@@ -26,7 +26,7 @@ static char imageURLKey;
     [self sd_setImageWithURL:url placeholderImage:placeholder options:0 completed:nil];
 }
 
-- (void)sd_setImageWithURL:(NSURL *)url placeholderImage:(UIImage *)placeholder options:(SDWebImageOptions)options {
+- (void)sd_setImageWithURL:(NSURL *)url placeholderImage:(UIImage *)placeholder options:(TIMSDWebImageOptions)options {
     [self sd_setImageWithURL:url placeholderImage:placeholder options:options completed:nil];
 }
 
@@ -38,7 +38,7 @@ static char imageURLKey;
     [self sd_setImageWithURL:url placeholderImage:placeholder options:0 completed:completedBlock];
 }
 
-- (void)sd_setImageWithURL:(NSURL *)url placeholderImage:(UIImage *)placeholder options:(SDWebImageOptions)options completed:(SDWebImageCompletionBlock)completedBlock {
+- (void)sd_setImageWithURL:(NSURL *)url placeholderImage:(UIImage *)placeholder options:(TIMSDWebImageOptions)options completed:(SDWebImageCompletionBlock)completedBlock {
     [self sd_cancelCurrentImageLoad];
 
     objc_setAssociatedObject(self, &imageURLKey, url, OBJC_ASSOCIATION_RETAIN_NONATOMIC);

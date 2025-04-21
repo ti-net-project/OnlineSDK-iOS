@@ -108,7 +108,7 @@
 }
 
 - (id <TIMSDWebImageOperation>)downloadImageWithURL:(NSURL *)url
-                                         options:(SDWebImageOptions)options
+                                         options:(TIMSDWebImageOptions)options
                                         progress:(SDWebImageDownloaderProgressBlock)progressBlock
                                        completed:(SDWebImageCompletionWithFinishedBlock)completedBlock {
     // Invoking this method without a completedBlock is pointless

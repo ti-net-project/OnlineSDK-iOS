@@ -19,7 +19,7 @@
     return NO;
 }
 
-- (NSString *)stringValue {
+- (NSString *)tosStringValue {
     NSString *finalString = @"";
     NSString *_string = [NSString stringWithFormat:@"%@", self];
     if (_string &&

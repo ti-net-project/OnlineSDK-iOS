@@ -26,7 +26,7 @@ NS_ASSUME_NONNULL_BEGIN
 
  @return 字符串
  */
-- (NSString *)stringValue;
+- (NSString *)tosStringValue;
 
 /**
  对象转JSON字符串

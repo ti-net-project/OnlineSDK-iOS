@@ -33,7 +33,7 @@
  * @param url     The url for the image.
  * @param options The options to use when downloading the image. @see SDWebImageOptions for the possible values.
  */
-- (void)sd_setHighlightedImageWithURL:(NSURL *)url options:(SDWebImageOptions)options;
+- (void)sd_setHighlightedImageWithURL:(NSURL *)url options:(TIMSDWebImageOptions)options;
 
 /**
  * Set the imageView `highlightedImage` with an `url`.
@@ -62,7 +62,7 @@
  *                       indicating if the image was retrived from the local cache or from the network.
  *                       The fourth parameter is the original image url.
  */
-- (void)sd_setHighlightedImageWithURL:(NSURL *)url options:(SDWebImageOptions)options completed:(SDWebImageCompletionBlock)completedBlock;
+- (void)sd_setHighlightedImageWithURL:(NSURL *)url options:(TIMSDWebImageOptions)options completed:(SDWebImageCompletionBlock)completedBlock;
 
 /**
  * Set the imageView `highlightedImage` with an `url` and custom options.
@@ -78,7 +78,7 @@
  *                       indicating if the image was retrived from the local cache or from the network.
  *                       The fourth parameter is the original image url.
  */
-- (void)sd_setHighlightedImageWithURL:(NSURL *)url options:(SDWebImageOptions)options progress:(SDWebImageDownloaderProgressBlock)progressBlock completed:(SDWebImageCompletionBlock)completedBlock;
+- (void)sd_setHighlightedImageWithURL:(NSURL *)url options:(TIMSDWebImageOptions)options progress:(SDWebImageDownloaderProgressBlock)progressBlock completed:(SDWebImageCompletionBlock)completedBlock;
 
 /**
  * Cancel the current download

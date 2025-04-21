@@ -11,7 +11,7 @@
 #import "TIMSDWebImageDownloader.h"
 #import "TIMSDImageCache.h"
 
-typedef NS_OPTIONS(NSUInteger, SDWebImageOptions) {
+typedef NS_OPTIONS(NSUInteger, TIMSDWebImageOptions) {
     /**
      * By default, when a URL fail to be downloaded, the URL is blacklisted so the library won't keep trying.
      * This flag disable this blacklisting.
@@ -198,7 +198,7 @@ TIMSDWebImageManager *manager = [TIMSDWebImageManager sharedManager];
  * @return Returns an NSObject conforming to SDWebImageOperation. Should be an instance of SDWebImageDownloaderOperation
  */
 - (id <TIMSDWebImageOperation>)downloadImageWithURL:(NSURL *)url
-                                         options:(SDWebImageOptions)options
+                                         options:(TIMSDWebImageOptions)options
                                         progress:(SDWebImageDownloaderProgressBlock)progressBlock
                                        completed:(SDWebImageCompletionWithFinishedBlock)completedBlock;
 
