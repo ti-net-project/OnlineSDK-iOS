@@ -92,6 +92,19 @@ NS_ASSUME_NONNULL_BEGIN
                      senderType:(NSString *)senderType
                        complete:(RequestClientInfoComplete)completeBlock;
 
+#pragma mark - 链接外跳
+/// 获取订单抽屉的列表数据
+/// - Parameters:
+///   - mainUniqueId: 会话ID
+///   - params: 请求携带的参数
+///   - success: 成功回调
+///   - failure: 错误回调
+- (void)getQuickEntryLinkWithMainUniqueId:(NSString *)mainUniqueId
+                                      url:(NSString *)url
+                               withParams:(NSDictionary *)params
+                              withSuccess:(void (^)(NSString * result))success
+                              withFailure:(void (^)(TIMConnectErrorCode errCode, NSString *errorDes))failure;
+
 /// 获取订单抽屉的列表数据
 /// - Parameters:
 ///   - mainUniqueId: 会话ID
