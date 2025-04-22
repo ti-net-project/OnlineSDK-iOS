@@ -32,9 +32,9 @@
 @property (nonatomic, strong) NSURLCredential *credential;
 
 /**
- * The SDWebImageDownloaderOptions for the receiver.
+ * The TIMSDWebImageDownloaderOptions for the receiver.
  */
-@property (assign, nonatomic, readonly) SDWebImageDownloaderOptions options;
+@property (assign, nonatomic, readonly) TIMSDWebImageDownloaderOptions options;
 
 /**
  *  Initializes a `SDWebImageDownloaderOperation` object
@@ -52,7 +52,7 @@
  *  @return the initialized instance
  */
 - (id)initWithRequest:(NSURLRequest *)request
-              options:(SDWebImageDownloaderOptions)options
+              options:(TIMSDWebImageDownloaderOptions)options
              progress:(SDWebImageDownloaderProgressBlock)progressBlock
             completed:(SDWebImageDownloaderCompletedBlock)completedBlock
             cancelled:(SDWebImageNoParamsBlock)cancelBlock;

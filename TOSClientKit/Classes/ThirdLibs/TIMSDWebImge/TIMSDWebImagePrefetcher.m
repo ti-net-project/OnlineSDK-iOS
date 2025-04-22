@@ -75,11 +75,11 @@
             // Add last failed
             self.skippedCount++;
         }
-        if ([self.delegate respondsToSelector:@selector(imagePrefetcher:didPrefetchURL:finishedCount:totalCount:)]) {
-            [self.delegate imagePrefetcher:self
-                            didPrefetchURL:self.prefetchURLs[index]
-                             finishedCount:self.finishedCount
-                                totalCount:self.prefetchURLs.count
+        if ([self.delegate respondsToSelector:@selector(timImagePrefetcher:didPrefetchURL:finishedCount:totalCount:)]) {
+            [self.delegate timImagePrefetcher:self
+                               didPrefetchURL:self.prefetchURLs[index]
+                                finishedCount:self.finishedCount
+                                   totalCount:self.prefetchURLs.count
             ];
         }
 
@@ -101,10 +101,10 @@
 - (void)reportStatus {
     NSUInteger total = [self.prefetchURLs count];
     NSLog(@"Finished prefetching (%@ successful, %@ skipped, timeElasped %.2f)", @(total - self.skippedCount), @(self.skippedCount), CFAbsoluteTimeGetCurrent() - self.startedTime);
-    if ([self.delegate respondsToSelector:@selector(imagePrefetcher:didFinishWithTotalCount:skippedCount:)]) {
-        [self.delegate imagePrefetcher:self
-               didFinishWithTotalCount:(total - self.skippedCount)
-                          skippedCount:self.skippedCount
+    if ([self.delegate respondsToSelector:@selector(timImagePrefetcher:didFinishWithTotalCount:skippedCount:)]) {
+        [self.delegate timImagePrefetcher:self
+                  didFinishWithTotalCount:(total - self.skippedCount)
+                             skippedCount:self.skippedCount
         ];
     }
 }

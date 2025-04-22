@@ -10,7 +10,7 @@
 #import "TIMSDWebImageCompat.h"
 #import "TIMSDWebImageOperation.h"
 
-typedef NS_OPTIONS(NSUInteger, SDWebImageDownloaderOptions) {
+typedef NS_OPTIONS(NSUInteger, TIMSDWebImageDownloaderOptions) {
     SDWebImageDownloaderLowPriority = 1 << 0,
     SDWebImageDownloaderProgressiveDownload = 1 << 1,
 
@@ -171,7 +171,7 @@ typedef NSDictionary *(^SDWebImageDownloaderHeadersFilterBlock)(NSURL *url, NSDi
  * @return A cancellable SDWebImageOperation
  */
 - (id <TIMSDWebImageOperation>)downloadImageWithURL:(NSURL *)url
-                                         options:(SDWebImageDownloaderOptions)options
+                                         options:(TIMSDWebImageDownloaderOptions)options
                                         progress:(SDWebImageDownloaderProgressBlock)progressBlock
                                        completed:(SDWebImageDownloaderCompletedBlock)completedBlock;
 

@@ -110,7 +110,7 @@ static NSString *const kCompletedCallbackKey = @"completed";
     _operationClass = operationClass ?: [TIMSDWebImageDownloaderOperation class];
 }
 
-- (id <TIMSDWebImageOperation>)downloadImageWithURL:(NSURL *)url options:(SDWebImageDownloaderOptions)options progress:(SDWebImageDownloaderProgressBlock)progressBlock completed:(SDWebImageDownloaderCompletedBlock)completedBlock {
+- (id <TIMSDWebImageOperation>)downloadImageWithURL:(NSURL *)url options:(TIMSDWebImageDownloaderOptions)options progress:(SDWebImageDownloaderProgressBlock)progressBlock completed:(SDWebImageDownloaderCompletedBlock)completedBlock {
     __block TIMSDWebImageDownloaderOperation *operation;
     __weak TIMSDWebImageDownloader *wself = self;
 
