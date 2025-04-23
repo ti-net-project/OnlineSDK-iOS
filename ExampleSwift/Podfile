@@ -6,7 +6,7 @@ target 'TOSClientKitSwiftDemo_Example' do
   pod 'TOSClientKit', :path => '../'
   pod 'MBProgressHUD'
   pod 'SDWebImage', '5.21.0'
-#  pod 'YYText'
+  pod 'YYText'
 end
 
 

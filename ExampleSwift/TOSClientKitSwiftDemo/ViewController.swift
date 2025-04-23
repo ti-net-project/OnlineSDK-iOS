@@ -11,7 +11,7 @@ import TOSClientKit
 import TOSClientLib
 import MBProgressHUD
 import SDWebImage
-//import YYText
+import YYText
 
 class ViewController: UIViewController {
 

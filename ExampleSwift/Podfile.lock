@@ -9,17 +9,20 @@ PODS:
   - TOSClientKit/no-arc (2.4.10):
     - TOSClientLib (= 2.4.3)
   - TOSClientLib (2.4.3)
+  - YYText (1.0.7)
 
 DEPENDENCIES:
   - MBProgressHUD
   - SDWebImage (= 5.21.0)
   - TOSClientKit (from `../`)
+  - YYText
 
 SPEC REPOS:
   trunk:
     - MBProgressHUD
     - SDWebImage
     - TOSClientLib
+    - YYText
 
 EXTERNAL SOURCES:
   TOSClientKit:
@@ -30,7 +33,8 @@ SPEC CHECKSUMS:
   SDWebImage: f84b0feeb08d2d11e6a9b843cb06d75ebf5b8868
   TOSClientKit: 83b1ae57f78fe5e2112fea408c1f1ac6b483f427
   TOSClientLib: 87afd75e4b8390f3dedf7f56c23fc1ee9a2c292e
+  YYText: 5c461d709e24d55a182d1441c41dc639a18a4849
 
-PODFILE CHECKSUM: df009147658559f2a83e41ded8b7ba0a975f1574
+PODFILE CHECKSUM: bfb489f935c4b8ce9925162d940b8b9fc05dd366
 
 COCOAPODS: 1.15.2
