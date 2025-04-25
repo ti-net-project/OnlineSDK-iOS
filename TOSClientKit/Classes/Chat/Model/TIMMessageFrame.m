@@ -23,7 +23,7 @@
 #import <TOSClientLib/CombinationMessage.h>
 #import "TOSSatisfactionModel.h"
 #import "TOSSatisfactionStatusModel.h"
-#import "YYKit.h"
+#import "TIMYYKit.h"
 #import "XZEmotion.h"
 #import "ICFaceManager.h"
 #import <TOSClientLib/TOSGetInvestigationInfoModel.h>

@@ -9,7 +9,7 @@
 #import "OSEventQueueCell.h"
 #import "TIMMessageModel.h"
 #import "TIMConstants.h"
-#import <YYKit.h>
+#import <TIMYYKit.h>
 #import "TOSKitCustomInfo.h"
 
 @interface OSEventQueueCell()
@@ -17,7 +17,7 @@
 //    TIMMessageFrame *_modelFrame;
 //}
 
-@property (nonatomic, strong) YYLabel *titleLbl;
+@property (nonatomic, strong) TIMYYLabel *titleLbl;
 @property (nonatomic, strong) UIButton *leaveQueueBtn;
 
 @end
@@ -120,10 +120,10 @@
 
 
 #pragma mark lazy
-- (YYLabel *)titleLbl
+- (TIMYYLabel *)titleLbl
 {
     if (nil == _titleLbl) {
-        _titleLbl = [[YYLabel alloc] init];
+        _titleLbl = [[TIMYYLabel alloc] init];
         _titleLbl.numberOfLines = 0;
         _titleLbl.font = MessageFont12;
         _titleLbl.textColor = [UIColor whiteColor];

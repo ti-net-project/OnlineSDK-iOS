@@ -11,7 +11,7 @@
 
 #import "NSBundle+TIMYYAdd.h"
 #import "NSString+TIMYYAdd.h"
-#import "YYKitMacro.h"
+#import "TIMYYKitMacro.h"
 
 YYSYNTH_DUMMY_CLASS(NSBundle_TIMYYAdd)
 

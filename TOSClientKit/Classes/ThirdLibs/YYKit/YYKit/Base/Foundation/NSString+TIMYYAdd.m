@@ -13,7 +13,7 @@
 #import "NSData+YYAdd.h"
 #import "NSNumber+TIMYYAdd.h"
 #import "UIDevice+TIMYYAdd.h"
-#import "YYKitMacro.h"
+#import "TIMYYKitMacro.h"
 
 YYSYNTH_DUMMY_CLASS(NSString_TIMYYAdd)
 

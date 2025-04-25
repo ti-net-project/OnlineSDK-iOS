@@ -17,14 +17,14 @@
 #import "ICFaceManager.h"
 #import "ICChatMessageBaseCell+CustomerUnread.h"
 #import "NSDictionary+TIMTool.h"
-#import "YYKit.h"
+#import "TIMYYKit.h"
 #import "XZEmotion.h"
 #import "TOSCustomerChatVC.h"
 #import "STBaseWebViewController.h"
 #import <TOSClientLib/TOSClientLib.h>
 #import <TOSClientKit/TOSClientKit.h>
 
-#import "YYKit.h"
+#import "TIMYYKit.h"
 
 #import "ICChatMessageRichTextCell.h"
 #import "ICChatMessageRichImageCell.h"

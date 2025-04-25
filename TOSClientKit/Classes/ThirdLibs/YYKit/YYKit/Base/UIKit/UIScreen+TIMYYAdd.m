@@ -10,7 +10,7 @@
 //
 
 #import "UIScreen+TIMYYAdd.h"
-#import "YYKitMacro.h"
+#import "TIMYYKitMacro.h"
 #import "UIDevice+TIMYYAdd.h"
 
 YYSYNTH_DUMMY_CLASS(UIScreen_TIMYYAdd);

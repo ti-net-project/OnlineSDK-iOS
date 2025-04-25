@@ -1,0 +1,64 @@
+# YY前缀重命名计划
+
+## 文件重命名
+- YYKit.h -> TIMYYKit.h (已完成)
+- YYKitMacro.h -> TIMYYKitMacro.h
+- YYCGUtilities.h -> TIMYYCGUtilities.h
+
+### 基础类
+- YYImage.h/m -> TIMYYImage.h/m
+- YYFrameImage.h/m -> TIMYYFrameImage.h/m
+- YYSpriteSheetImage.h/m -> TIMYYSpriteSheetImage.h/m
+- YYAnimatedImageView.h/m -> TIMYYAnimatedImageView.h/m
+- YYImageCoder.h/m -> TIMYYImageCoder.h/m
+- YYImageCache.h/m -> TIMYYImageCache.h/m
+- YYWebImageOperation.h/m -> TIMYYWebImageOperation.h/m
+- YYWebImageManager.h/m -> TIMYYWebImageManager.h/m
+
+### 文本相关
+- YYLabel.h/m -> TIMYYLabel.h/m
+- YYTextView.h/m -> TIMYYTextView.h/m
+- YYTextAttribute.h/m -> TIMYYTextAttribute.h/m
+- YYTextArchiver.h/m -> TIMYYTextArchiver.h/m
+- YYTextParser.h/m -> TIMYYTextParser.h/m
+- YYTextUtilities.h/m -> TIMYYTextUtilities.h/m
+- YYTextRunDelegate.h/m -> TIMYYTextRunDelegate.h/m
+- YYTextRubyAnnotation.h/m -> TIMYYTextRubyAnnotation.h/m
+- YYTextLayout.h/m -> TIMYYTextLayout.h/m
+- YYTextLine.h/m -> TIMYYTextLine.h/m
+- YYTextInput.h/m -> TIMYYTextInput.h/m
+- YYTextDebugOption.h/m -> TIMYYTextDebugOption.h/m
+- YYTextContainerView.h/m -> TIMYYTextContainerView.h/m
+- YYTextSelectionView.h/m -> TIMYYTextSelectionView.h/m
+- YYTextMagnifier.h/m -> TIMYYTextMagnifier.h/m
+- YYTextEffectWindow.h/m -> TIMYYTextEffectWindow.h/m
+- YYTextKeyboardManager.h/m -> TIMYYTextKeyboardManager.h/m
+
+### 工具类
+- YYReachability.h/m -> TIMYYReachability.h/m
+- YYGestureRecognizer.h/m -> TIMYYGestureRecognizer.h/m
+- YYFileHash.h/m -> TIMYYFileHash.h/m
+- YYKeychain.h/m -> TIMYYKeychain.h/m
+- YYWeakProxy.h/m -> TIMYYWeakProxy.h/m
+- YYTimer.h/m -> TIMYYTimer.h/m
+- YYTransaction.h/m -> TIMYYTransaction.h/m
+- YYAsyncLayer.h/m -> TIMYYAsyncLayer.h/m
+- YYSentinel.h/m -> TIMYYSentinel.h/m
+- YYDispatchQueuePool.h/m -> TIMYYDispatchQueuePool.h/m
+- YYThreadSafeArray.h/m -> TIMYYThreadSafeArray.h/m
+- YYThreadSafeDictionary.h/m -> TIMYYThreadSafeDictionary.h/m
+
+## 类别文件
+- NSAttributedString+YYText.h/m -> NSAttributedString+TIMYYText.h/m
+- NSParagraphStyle+YYText.h/m -> NSParagraphStyle+TIMYYText.h/m
+- UIPasteboard+YYText.h/m -> UIPasteboard+TIMYYText.h/m
+- UIImageView+YYWebImage.h/m -> UIImageView+TIMYYWebImage.h/m
+- UIButton+YYWebImage.h/m -> UIButton+TIMYYWebImage.h/m
+- MKAnnotationView+YYWebImage.h/m -> MKAnnotationView+TIMYYWebImage.h/m
+- CALayer+YYWebImage.h/m -> CALayer+TIMYYWebImage.h/m
+
+## 需要检查和更新的引用
+1. 所有import语句
+2. 所有类名使用的地方
+3. 所有方法调用的地方
+4. 类别方法 

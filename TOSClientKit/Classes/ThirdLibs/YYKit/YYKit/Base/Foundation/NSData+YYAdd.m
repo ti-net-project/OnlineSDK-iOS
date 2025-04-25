@@ -10,7 +10,7 @@
 //
 
 #import "NSData+YYAdd.h"
-#import "YYKitMacro.h"
+#import "TIMYYKitMacro.h"
 #include <CommonCrypto/CommonCrypto.h>
 #include <zlib.h>
 

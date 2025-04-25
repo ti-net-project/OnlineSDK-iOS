@@ -12,13 +12,13 @@
 #import "UIImage+TIMYYAdd.h"
 #import "UIDevice+TIMYYAdd.h"
 #import "NSString+TIMYYAdd.h"
-#import "YYKitMacro.h"
-#import "YYCGUtilities.h"
+#import "TIMYYKitMacro.h"
+#import "TIMYYCGUtilities.h"
 #import <ImageIO/ImageIO.h>
 #import <Accelerate/Accelerate.h>
 #import <CoreText/CoreText.h>
 #import <objc/runtime.h>
-#import "YYCGUtilities.h"
+#import "TIMYYCGUtilities.h"
 
 YYSYNTH_DUMMY_CLASS(UIImage_TIMYYAdd)
 

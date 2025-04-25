@@ -45,7 +45,7 @@
 #import "ICChatMessageCommodityCardDetailsCell.h"
 #import "ICChatMessageRichCell.h"
 #import <TOSClientLib/TIMFileMessage.h>
-#import "YYKit.h"
+#import "TIMYYKit.h"
 #import <TOSClientLib/TIMCommodityCardMessage.h>
 
 #import "HWPanModal.h"

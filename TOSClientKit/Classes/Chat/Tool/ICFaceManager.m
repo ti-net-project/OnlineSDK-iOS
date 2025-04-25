@@ -13,7 +13,7 @@
 #import <UIKit/UIKit.h>
 #import "TIMConstants.h"
 #import "kitUtils.h"
-#import "NSAttributedString+YYText.h"
+#import "NSAttributedString+TIMYYText.h"
 
 #define ICBundle [NSBundle mainBundle]
 

@@ -12,7 +12,7 @@
 #import "TIMConstants.h"
 #import <TOSClientLib/OnlineChatRecordModel.h>
 
-#import "YYKit.h"
+#import "TIMYYKit.h"
 
 #import "ICChatMessageRichTextCell.h"
 #import "ICChatMessageRichImageCell.h"

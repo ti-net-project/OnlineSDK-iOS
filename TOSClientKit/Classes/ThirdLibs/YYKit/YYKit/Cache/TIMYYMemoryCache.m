@@ -16,7 +16,7 @@
 #import <pthread.h>
 
 #if __has_include("YYDispatchQueuePool.h")
-#import "YYDispatchQueuePool.h"
+#import "TIMYYDispatchQueuePool.h"
 #endif
 
 #ifdef YYDispatchQueuePool_h

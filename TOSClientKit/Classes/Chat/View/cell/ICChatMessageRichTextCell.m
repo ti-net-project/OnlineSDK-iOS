@@ -15,7 +15,7 @@
 #import "TIMConstants.h"
 #import "ICChatMessageBaseCell+CustomerUnread.h"
 #import "NSDictionary+TIMTool.h"
-#import "YYKit.h"
+#import "TIMYYKit.h"
 #import "XZEmotion.h"
 #import "TOSCustomerChatVC.h"
 #import "STBaseWebViewController.h"
@@ -149,7 +149,7 @@
             } else if ([obj.type isEqualToString:@"span"]) {
                 
                 if ([obj.style isEqualToString:@"text-decoration: underline;"]) {
-                    [attStr setTextUnderline:[YYTextDecoration decorationWithStyle:(YYTextLineStyleSingle)] range:range];
+                    [attStr setTextUnderline:[TIMYYTextDecoration decorationWithStyle:(YYTextLineStyleSingle)] range:range];
                 } else if ([obj.style containsString:@"background-color"]) {
                     
 //                    NSString *style = [obj.style stringByReplacingOccurrencesOfString:@"background-color: #" withString:@""];
@@ -189,13 +189,13 @@
     
     
     // Create text container
-    YYTextContainer *container = [[YYTextContainer alloc] init];
+    TIMYYTextContainer *container = [[TIMYYTextContainer alloc] init];
     container.size = CGSizeMake(model.contentF.size.width, model.contentF.size.height);
     container.maximumNumberOfRows = 0;
     container.truncationType = YYTextTruncationTypeEnd;
     
     // Generate a text layout.
-    YYTextLayout *layout = [YYTextLayout layoutWithContainer:container text:attStr];
+    TIMYYTextLayout *layout = [TIMYYTextLayout layoutWithContainer:container text:attStr];
     
     self.chatLabel.text = @"";
     
@@ -208,10 +208,10 @@
     self.chatLabel.lineBreakMode = NSLineBreakByWordWrapping;
 }
 
-- (YYLabel *)chatLabel
+- (TIMYYLabel *)chatLabel
 {
     if (nil == _chatLabel) {
-        _chatLabel = [[YYLabel alloc] init];
+        _chatLabel = [[TIMYYLabel alloc] init];
         _chatLabel.numberOfLines = 0;
         _chatLabel.font = MessageFont;
         _chatLabel.textColor = TOSHexAColor(0x282724,1.0);

@@ -7,7 +7,7 @@
 //
 
 #import "TOSSatisfactionEvaluationDetailsView.h"
-#import "YYKit.h"
+#import "TIMYYKit.h"
 #import "TIMConstants.h"
 #import "TOSSatisfactionModel.h"
 #import "TOSSatisfactionPopupView.h"

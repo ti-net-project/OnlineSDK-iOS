@@ -10,7 +10,7 @@
 //
 
 #import "NSArray+TIMYYAdd.h"
-#import "YYKitMacro.h"
+#import "TIMYYKitMacro.h"
 #import "NSData+YYAdd.h"
 
 YYSYNTH_DUMMY_CLASS(NSArray_TIMYYAdd)

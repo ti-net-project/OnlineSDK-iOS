@@ -7,7 +7,7 @@
 //
 
 #import "OSRobotCombinationCell.h"
-#import "YYKit.h"
+#import "TIMYYKit.h"
 #import "WHToast.h"
 #import "kitUtils.h"
 #import "TIMMessageModel.h"
@@ -29,7 +29,7 @@
 @property (nonatomic, strong) UIView *subContentView;
 
 @property (nonatomic, strong) UIView *answerSourceDashedLine;
-@property (nonatomic, strong) YYLabel *answerSourceLabel;
+@property (nonatomic, strong) TIMYYLabel *answerSourceLabel;
 
 @property (nonatomic, strong) UIView *helpfulAndUnHelpfulContent;
 @property (nonatomic, strong) UIView *topSegmentationLine;
@@ -41,7 +41,7 @@
 @property (nonatomic, strong) UIView *unHelpfulTagAndTextViewContent;
 @property (nonatomic, strong) UIView *bottomSegmentationLine;
 @property (nonatomic, strong) NSMutableArray <UIButton *>*unHelpfulTags;
-@property (nonatomic, strong) YYTextView *unHelpfulTextView;
+@property (nonatomic, strong) TIMYYTextView *unHelpfulTextView;
 /// 必填警告
 @property (nonatomic, strong) UILabel *requiredWarning;
 @property (nonatomic, strong) UIButton *unHelpfulSubmit;
@@ -474,10 +474,10 @@
     return (UITableView *)view;
 }
 
-- (void)textViewDidBeginEditing:(YYTextView *)textView {
+- (void)textViewDidBeginEditing:(TIMYYTextView *)textView {
 }
 
-- (void)textViewDidChange:(YYTextView *)textView {
+- (void)textViewDidChange:(TIMYYTextView *)textView {
     if ([textView isEqual:self.unHelpfulTextView]) {
         
         NSMutableArray <CombinationMessage *>*richModels = (NSMutableArray <CombinationMessage *>*)self.tempModelFrame.model.message.content;
@@ -503,7 +503,7 @@
     }
 }
 
-- (void)textViewDidEndEditing:(YYTextView *)textView {
+- (void)textViewDidEndEditing:(TIMYYTextView *)textView {
     
     if ([textView isEqual:self.unHelpfulTextView] &&
         textView.text.length > 0) {
@@ -556,9 +556,9 @@
     return _answerSourceDashedLine;
 }
 
-- (YYLabel *)answerSourceLabel {
+- (TIMYYLabel *)answerSourceLabel {
     if (!_answerSourceLabel) {
-        _answerSourceLabel = [[YYLabel alloc] initWithFrame:CGRectZero];
+        _answerSourceLabel = [[TIMYYLabel alloc] initWithFrame:CGRectZero];
         _answerSourceLabel.numberOfLines = 0;
     }
     return _answerSourceLabel;
@@ -684,9 +684,9 @@
     return _unHelpfulTags;
 }
 
-- (YYTextView *)unHelpfulTextView {
+- (TIMYYTextView *)unHelpfulTextView {
     if (!_unHelpfulTextView) {
-        _unHelpfulTextView = [[YYTextView alloc] initWithFrame:CGRectZero];
+        _unHelpfulTextView = [[TIMYYTextView alloc] initWithFrame:CGRectZero];
         _unHelpfulTextView.placeholderText = [TOSKitCustomInfo shareCustomInfo].setUnHelpfulContentHint;
         _unHelpfulTextView.textContainerInset = UIEdgeInsetsMake(12.f, 12.f, 12.f, 12.f);
         _unHelpfulTextView.placeholderTextColor = TOSHexColor(0xBFBFBF);

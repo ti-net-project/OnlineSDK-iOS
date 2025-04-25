@@ -12,7 +12,7 @@
 #import "XZEmotion.h"
 #import "TIMConstants.h"
 #import "ICMessageConst.h"
-#import "YYKit.h"
+#import "TIMYYKit.h"
 #import "TOSKitCustomInfo.h"
 
 #define EmojiCodeToSymbol(c) ((((0x808080F0 | (c & 0x3F000) >> 4) | (c & 0xFC0) << 10) | (c & 0x1C0000) << 18) | (c & 0x3F) << 24)
@@ -271,7 +271,7 @@
 - (CGSize)tim_sizeWithMaxWidth:(CGFloat)width
                   attributeStr:(NSMutableAttributedString *)attributeStr {
     
-    YYLabel *label = [[YYLabel alloc] init];
+    TIMYYLabel *label = [[TIMYYLabel alloc] init];
     label.lineBreakMode = NSLineBreakByWordWrapping;
     [label setNumberOfLines:0];
     [label setAttributedText:attributeStr];

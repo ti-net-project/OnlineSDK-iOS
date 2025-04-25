@@ -9,7 +9,7 @@
 #import "TOSOrderNoDataView.h"
 #import "TIMMasonry.h"
 #import "TIMConstants.h"
-#import "YYKit.h"
+#import "TIMYYKit.h"
 
 @interface TOSOrderNoDataView ()
 

@@ -13,7 +13,7 @@
 #import "ICChatMessageBaseCell+CustomerUnread.h"
 #import "NSDictionary+TIMTool.h"
 #import "XZEmotion.h"
-#import "YYLabel.h"
+#import "TIMYYLabel.h"
 #import "TOSCustomerChatVC.h"
 #import "STBaseWebViewController.h"
 #import <TOSClientLib/TOSClientLib.h>
@@ -21,7 +21,7 @@
 #import <TOSClientLib/TOSMessageSmallProgramModel.h>
 #import "NSObject+TIMShowError.h"
 
-#import "YYKit.h"
+#import "TIMYYKit.h"
 #import "UIImageView+TIMWebCache.h"
 #import "kitUtils.h"
 #import "UIImage+PureColorImage.h"

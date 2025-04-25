@@ -12,7 +12,7 @@
 #import "UIBezierPath+TIMYYAdd.h"
 #import "UIFont+TIMYYAdd.h"
 #import <CoreText/CoreText.h>
-#import "YYKitMacro.h"
+#import "TIMYYKitMacro.h"
 
 YYSYNTH_DUMMY_CLASS(UIBezierPath_TIMYYAdd)
 

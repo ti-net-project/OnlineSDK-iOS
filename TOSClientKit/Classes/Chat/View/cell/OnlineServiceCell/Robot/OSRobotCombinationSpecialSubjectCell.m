@@ -18,7 +18,7 @@
 #import "ICFaceManager.h"
 #import "ICChatMessageBaseCell+CustomerUnread.h"
 #import <TOSClientLib/CombinationMessage.h>
-#import "YYKit.h"
+#import "TIMYYKit.h"
 #import "NSString+Frame.h"
 #import "NSString+Extension.h"
 #import "TIMMessageFrame.h"
@@ -29,7 +29,7 @@
 @interface OSRobotCombinationSpecialSubjectCell ()
 
 @property (nonatomic, strong) UIView *bottomView;
-@property (nonatomic, strong) YYAnimatedImageView *icon;
+@property (nonatomic, strong) TIMYYAnimatedImageView *icon;
 @property (nonatomic, strong) UILabel *title;
 @end
 
@@ -84,7 +84,7 @@
                       progress:nil
                      transform:^UIImage * _Nullable(UIImage * _Nonnull image, NSURL * _Nonnull url) {
         NSLog(@"image ===== %@, class ===== %@, url ==== %@",image,[image class],url);
-        if ([image isKindOfClass:[YYImage class]]) {
+        if ([image isKindOfClass:[TIMYYImage class]]) {
             return image; // 动态图片
         }
         return image; // 静态图片
@@ -105,9 +105,9 @@
     return _bottomView;
 }
 
-- (YYAnimatedImageView *)icon {
+- (TIMYYAnimatedImageView *)icon {
     if (!_icon) {
-        _icon = [[YYAnimatedImageView alloc] initWithFrame:CGRectZero];
+        _icon = [[TIMYYAnimatedImageView alloc] initWithFrame:CGRectZero];
     }
     return _icon;
 }

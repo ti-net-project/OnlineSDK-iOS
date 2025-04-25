@@ -10,7 +10,7 @@
 //
 
 #import "UIBarButtonItem+TIMYYAdd.h"
-#import "YYKitMacro.h"
+#import "TIMYYKitMacro.h"
 #import <objc/runtime.h>
 
 YYSYNTH_DUMMY_CLASS(UIBarButtonItem_TIMYYAdd)

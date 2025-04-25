@@ -10,7 +10,7 @@
 //
 
 #import "UIGestureRecognizer+TIMYYAdd.h"
-#import "YYKitMacro.h"
+#import "TIMYYKitMacro.h"
 #import <objc/runtime.h>
 
 static const int block_key;

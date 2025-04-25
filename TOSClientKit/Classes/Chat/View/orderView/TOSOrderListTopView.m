@@ -9,7 +9,7 @@
 #import "TOSOrderListTopView.h"
 #import "TIMMasonry.h"
 #import "TIMConstants.h"
-#import "YYKit.h"
+#import "TIMYYKit.h"
 
 static const CGFloat kHorizontalMargin = 12.0f;
 static const CGFloat kElementSpacing = 8.0f;

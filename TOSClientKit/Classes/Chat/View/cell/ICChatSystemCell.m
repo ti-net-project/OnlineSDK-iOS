@@ -14,13 +14,13 @@
 #import "TIMConstants.h"
 #import "NSString+Extension.h"
 #import <TOSClientKit/TOSKitCustomInfo.h>
-#import <YYKit.h>
+#import <TIMYYKit.h>
 
 #define labelFont [UIFont systemFontOfSize:11.0]
 
 @interface ICChatSystemCell ()
 
-@property (nonatomic, weak) YYLabel *contentLabel;
+@property (nonatomic, weak) TIMYYLabel *contentLabel;
 
 @end
 
@@ -38,7 +38,7 @@
 {
     if (self = [super initWithStyle:style reuseIdentifier:reuseIdentifier]) {
         
-        YYLabel *contentLabel = [[YYLabel alloc] init];
+        TIMYYLabel *contentLabel = [[TIMYYLabel alloc] init];
         [self addSubview:contentLabel];
         self.contentLabel = contentLabel;
         self.backgroundColor           = [UIColor clearColor];

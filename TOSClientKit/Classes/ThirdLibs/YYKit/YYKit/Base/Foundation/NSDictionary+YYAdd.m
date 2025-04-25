@@ -12,7 +12,7 @@
 #import "NSDictionary+YYAdd.h"
 #import "NSString+TIMYYAdd.h"
 #import "NSData+YYAdd.h"
-#import "YYKitMacro.h"
+#import "TIMYYKitMacro.h"
 
 YYSYNTH_DUMMY_CLASS(NSDictionary_YYAdd)
 

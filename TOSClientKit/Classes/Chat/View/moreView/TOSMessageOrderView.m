@@ -8,7 +8,7 @@
 
 #import "TOSMessageOrderView.h"
 #import "TIMConstants.h"
-#import "YYKit.h"
+#import "TIMYYKit.h"
 #import "TIMMasonry.h"
 #import "UIImageView+YYWebImage.h"
 

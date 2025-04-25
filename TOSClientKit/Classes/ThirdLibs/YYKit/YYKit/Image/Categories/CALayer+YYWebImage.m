@@ -10,9 +10,9 @@
 //
 
 #import "CALayer+YYWebImage.h"
-#import "YYWebImageOperation.h"
+#import "TIMYYWebImageOperation.h"
 #import "_YYWebImageSetter.h"
-#import "YYKitMacro.h"
+#import "TIMYYKitMacro.h"
 #import <objc/runtime.h>
 
 YYSYNTH_DUMMY_CLASS(CALayer_YYWebImage)
@@ -88,13 +88,13 @@ static int _YYWebImageSetterKey;
 - (void)setImageWithURL:(NSURL *)imageURL
             placeholder:(UIImage *)placeholder
                 options:(YYWebImageOptions)options
-                manager:(YYWebImageManager *)manager
+                manager:(TIMYYWebImageManager *)manager
                progress:(YYWebImageProgressBlock)progress
               transform:(YYWebImageTransformBlock)transform
              completion:(YYWebImageCompletionBlock)completion {
     
     if ([imageURL isKindOfClass:[NSString class]]) imageURL = [NSURL URLWithString:(id)imageURL];
-    manager = manager ? manager : [YYWebImageManager sharedManager];
+    manager = manager ? manager : [TIMYYWebImageManager sharedManager];
     
     
     _YYWebImageSetter *setter = objc_getAssociatedObject(self, &_YYWebImageSetterKey);

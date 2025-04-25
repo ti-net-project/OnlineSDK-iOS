@@ -19,7 +19,7 @@
 #import "UIImage+Extension.h"
 #import "UIImage+TIMGIF.h"
 #import <TOSClientLib/TOSClientLib.h>
-#import "YYKit.h"
+#import "TIMYYKit.h"
 #import "UIImageView+YYWebImage.h"
 
 @interface ICChatMessageBaseCell ()
@@ -512,7 +512,7 @@
                imageView:(UIImageView *)imageView
                cacheType:(BOOL)cacheType {
     // 获取默认的图片管理器
-    YYWebImageManager *manager = [YYWebImageManager sharedManager];
+    TIMYYWebImageManager *manager = [TIMYYWebImageManager sharedManager];
     
     // 创建 URL
     NSURL *url = [NSURL URLWithString:urlString];
@@ -552,7 +552,7 @@
                 if (stage == YYWebImageStageFinished) {
                     if (!error) {
                         // 将下载的图片缓存到自定义 Key 下
-                        [[YYImageCache sharedCache] setImage:image forKey:path];
+                        [[TIMYYImageCache sharedCache] setImage:image forKey:path];
                         imageViewBlock.image = image;
                     } else {
                         imageViewBlock.image = placeholderBlock;

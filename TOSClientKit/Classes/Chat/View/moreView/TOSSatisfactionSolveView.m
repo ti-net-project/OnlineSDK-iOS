@@ -7,7 +7,7 @@
 //
 
 #import "TOSSatisfactionSolveView.h"
-#import "YYKit.h"
+#import "TIMYYKit.h"
 #import "TIMConstants.h"
 #import "TOSSatisfactionModel.h"
 
@@ -15,12 +15,12 @@
 
 @property (nonatomic, strong) UILabel *title;
 
-@property (nonatomic, strong) YYAnimatedImageView *resolved;
+@property (nonatomic, strong) TIMYYAnimatedImageView *resolved;
 
-@property (nonatomic, strong) YYAnimatedImageView *unsolved;
+@property (nonatomic, strong) TIMYYAnimatedImageView *unsolved;
 
-@property (nonatomic, strong) YYImage *resolveGray;
-@property (nonatomic, strong) YYImage *unsolvedGray;
+@property (nonatomic, strong) TIMYYImage *resolveGray;
+@property (nonatomic, strong) TIMYYImage *unsolvedGray;
 
 @property (nonatomic, strong) UIView *line;
 
@@ -75,11 +75,11 @@
     return _title;
 }
 
-- (YYAnimatedImageView *)resolved {
+- (TIMYYAnimatedImageView *)resolved {
     if (!_resolved) {
-        _resolved = [[YYAnimatedImageView alloc] initWithFrame:CGRectMake(0.f, 12.f, 116.f, 40.f)];
-        self.resolveGray = [YYImage imageNamed:[NSString stringWithFormat:@"%@/%@",FRAMEWORKS_BUNDLE_PATH,@"TOSSatisfaction_resolve_gray.gif"]];
-        _resolved.image = [YYImage imageNamed:[NSString stringWithFormat:@"%@/%@",FRAMEWORKS_BUNDLE_PATH,@"TOSSatisfaction_resolve.gif"]];
+        _resolved = [[TIMYYAnimatedImageView alloc] initWithFrame:CGRectMake(0.f, 12.f, 116.f, 40.f)];
+        self.resolveGray = [TIMYYImage imageNamed:[NSString stringWithFormat:@"%@/%@",FRAMEWORKS_BUNDLE_PATH,@"TOSSatisfaction_resolve_gray.gif"]];
+        _resolved.image = [TIMYYImage imageNamed:[NSString stringWithFormat:@"%@/%@",FRAMEWORKS_BUNDLE_PATH,@"TOSSatisfaction_resolve.gif"]];
         _resolved.autoPlayAnimatedImage = NO;
         _resolved.currentAnimatedImageIndex = 0;
         _resolved.userInteractionEnabled = YES;
@@ -89,10 +89,10 @@
     return _resolved;
 }
 
-- (YYAnimatedImageView *)unsolved {
+- (TIMYYAnimatedImageView *)unsolved {
     if (!_unsolved) {
-        _unsolved = [[YYAnimatedImageView alloc] initWithFrame:CGRectMake(0.f, 12.f, 116.f, 40.f)];
-        self.unsolvedGray = [YYImage imageNamed:[NSString stringWithFormat:@"%@/%@",FRAMEWORKS_BUNDLE_PATH,@"TOSSatisfaction_unsolved_gray.gif"]];
+        _unsolved = [[TIMYYAnimatedImageView alloc] initWithFrame:CGRectMake(0.f, 12.f, 116.f, 40.f)];
+        self.unsolvedGray = [TIMYYImage imageNamed:[NSString stringWithFormat:@"%@/%@",FRAMEWORKS_BUNDLE_PATH,@"TOSSatisfaction_unsolved_gray.gif"]];
         _unsolved.image = self.unsolvedGray;
         _unsolved.autoPlayAnimatedImage = NO;
         _unsolved.currentAnimatedImageIndex = 0;
@@ -122,13 +122,13 @@
 - (void)setupResolved:(BOOL)isSelectedResolved {
     if (isSelectedResolved) {
         self.resolvedSelected = YES;
-        self.resolved.image = [YYImage imageNamed:[NSString stringWithFormat:@"%@/%@",FRAMEWORKS_BUNDLE_PATH,@"TOSSatisfaction_resolve.gif"]];
+        self.resolved.image = [TIMYYImage imageNamed:[NSString stringWithFormat:@"%@/%@",FRAMEWORKS_BUNDLE_PATH,@"TOSSatisfaction_resolve.gif"]];
         self.unsolved.image = self.unsolvedGray;
         
     } else {
         self.resolvedSelected = NO;
         self.resolved.image = self.resolveGray;
-        self.unsolved.image = [YYImage imageNamed:[NSString stringWithFormat:@"%@/%@",FRAMEWORKS_BUNDLE_PATH,@"TOSSatisfaction_unsolved.gif"]];
+        self.unsolved.image = [TIMYYImage imageNamed:[NSString stringWithFormat:@"%@/%@",FRAMEWORKS_BUNDLE_PATH,@"TOSSatisfaction_unsolved.gif"]];
     }
     
     [self.resolved startAnimating];

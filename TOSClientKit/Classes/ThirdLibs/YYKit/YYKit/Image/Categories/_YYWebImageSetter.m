@@ -10,7 +10,7 @@
 //
 
 #import "_YYWebImageSetter.h"
-#import "YYWebImageOperation.h"
+#import "TIMYYWebImageOperation.h"
 #import <libkern/OSAtomic.h>
 
 NSString *const _YYWebImageFadeAnimationKey = @"YYWebImageFade";
@@ -46,7 +46,7 @@ const NSTimeInterval _YYWebImageProgressiveFadeTime = 0.4;
 - (int32_t)setOperationWithSentinel:(int32_t)sentinel
                                 url:(NSURL *)imageURL
                             options:(YYWebImageOptions)options
-                            manager:(YYWebImageManager *)manager
+                            manager:(TIMYYWebImageManager *)manager
                            progress:(YYWebImageProgressBlock)progress
                           transform:(YYWebImageTransformBlock)transform
                          completion:(YYWebImageCompletionBlock)completion {

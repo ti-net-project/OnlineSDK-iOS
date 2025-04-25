@@ -7,11 +7,11 @@
 //
 
 #import "ICChatMessageBaseCell.h"
-#import "YYLabel.h"
+#import "TIMYYLabel.h"
 
 @interface ICChatMessageTextCell : ICChatMessageBaseCell
 
-@property (nonatomic, strong) YYLabel *chatLabel;
+@property (nonatomic, strong) TIMYYLabel *chatLabel;
 
 
 

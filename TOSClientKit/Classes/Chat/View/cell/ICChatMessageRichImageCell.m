@@ -9,7 +9,7 @@
 #import "ICChatMessageRichImageCell.h"
 #import <TOSClientLib/RichTextMessage.h>
 #import "ICMediaManager.h"
-#import "YYKit.h"
+#import "TIMYYKit.h"
 #import "UIImageView+YYWebImage.h"
 #import "TIMMessageModel.h"
 #import "UIImage+Extension.h"

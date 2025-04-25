@@ -19,7 +19,7 @@
 #import "NSString+Extension.h"
 #import "UIView+TIMYYAdd.h"
 #import "NSObject+TIMShowError.h"
-#import "YYReachability.h"
+#import "TIMYYReachability.h"
 
 @interface TIMChatLeaveVC ()<UITableViewDelegate,UITableViewDataSource>//chatLeaveMultilineLineCellDelegate
 {
@@ -59,7 +59,7 @@
 - (void)leftBarBtnItemAction:(UIBarButtonItem *)sender {
     @WeakObj(self);
     
-    YYReachabilityStatus status = [YYReachability reachability].status;
+    YYReachabilityStatus status = [TIMYYReachability reachability].status;
     if (status == YYReachabilityStatusNone) {
         if (self.successView.hidden) { //未提交
             [self tim_showMBErrorView:@"当前网络异常，请稍候重试。"];
@@ -336,7 +336,7 @@
 - (void)backBtnAction{
     @WeakObj(self);
     
-    YYReachabilityStatus status = [YYReachability reachability].status;
+    YYReachabilityStatus status = [TIMYYReachability reachability].status;
     if (status == YYReachabilityStatusNone) {
         [self tim_showMBErrorView:@"当前网络异常，请稍候重试。"];
         return;
@@ -361,7 +361,7 @@
 //提交
 -(void)commitAction{
     
-    YYReachabilityStatus status = [YYReachability reachability].status;
+    YYReachabilityStatus status = [TIMYYReachability reachability].status;
     if (status == YYReachabilityStatusNone) {
         [self tim_showMBErrorView:@"当前网络异常，请稍候重试。"];
         return;

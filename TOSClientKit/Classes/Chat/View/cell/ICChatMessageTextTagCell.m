@@ -8,13 +8,13 @@
 
 #import "ICChatMessageTextTagCell.h"
 #import "TTGTextTagCollectionView.h"
-#import "YYLabel.h"
+#import "TIMYYLabel.h"
 #import "TIMMessageModel.h"
 #import "ICFaceManager.h"
 #import "TIMConstants.h"
 #import "ICChatMessageBaseCell+CustomerUnread.h"
 #import "NSDictionary+TIMTool.h"
-#import "YYKit.h"
+#import "TIMYYKit.h"
 #import "XZEmotion.h"
 #import "TOSCustomerChatVC.h"
 #import "STBaseWebViewController.h"
@@ -25,7 +25,7 @@
 
 @interface ICChatMessageTextTagCell () <TTGTextTagCollectionViewDelegate>
 
-@property (nonatomic, strong) YYLabel *chatLabel;
+@property (nonatomic, strong) TIMYYLabel *chatLabel;
 @property (nonatomic, strong) TTGTextTagCollectionView *textTagView;
 
 @end
@@ -165,9 +165,9 @@
     return _textTagView;
 }
 
-- (YYLabel *)chatLabel {
+- (TIMYYLabel *)chatLabel {
     if (nil == _chatLabel) {
-        _chatLabel = [[YYLabel alloc] init];
+        _chatLabel = [[TIMYYLabel alloc] init];
         _chatLabel.numberOfLines = 0;
         _chatLabel.font = MessageFont;
         _chatLabel.textColor = TOSHexAColor(0x282724,1.0);

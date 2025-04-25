@@ -13,7 +13,7 @@
 #import "kitUtils.h"
 #import <TOSClientKit/TOSKitCustomInfo.h>
 #import <TOSClientLib/OnlineRequestManager.h>
-#import "YYKit.h"
+#import "TIMYYKit.h"
 #import "UIButton+TIMEnlargeEdge.h"
 
 @interface ICChatBoxMoreViewItem ()

@@ -12,9 +12,9 @@
 #import <UIKit/UIKit.h>
 
 #if __has_include(<YYKit/YYKit.h>)
-#import <YYKit/YYWebImageManager.h>
+#import <TIMYYKit/YYWebImageManager.h>
 #else
-#import "YYWebImageManager.h"
+#import "TIMYYWebImageManager.h"
 #endif
 
 NS_ASSUME_NONNULL_BEGIN
@@ -104,7 +104,7 @@ NS_ASSUME_NONNULL_BEGIN
                   forState:(UIControlState)state
                placeholder:(nullable UIImage *)placeholder
                    options:(YYWebImageOptions)options
-                   manager:(nullable YYWebImageManager *)manager
+                   manager:(nullable TIMYYWebImageManager *)manager
                   progress:(nullable YYWebImageProgressBlock)progress
                  transform:(nullable YYWebImageTransformBlock)transform
                 completion:(nullable YYWebImageCompletionBlock)completion;
@@ -197,7 +197,7 @@ NS_ASSUME_NONNULL_BEGIN
                             forState:(UIControlState)state
                          placeholder:(nullable UIImage *)placeholder
                              options:(YYWebImageOptions)options
-                             manager:(nullable YYWebImageManager *)manager
+                             manager:(nullable TIMYYWebImageManager *)manager
                             progress:(nullable YYWebImageProgressBlock)progress
                            transform:(nullable YYWebImageTransformBlock)transform
                           completion:(nullable YYWebImageCompletionBlock)completion;

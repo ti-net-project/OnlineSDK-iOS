@@ -17,7 +17,7 @@
 #import "TIMConstants.h"
 #import <TOSClientKit/TOSClientKit.h>
 #import "WHToast.h"
-#import "YYKit.h"
+#import "TIMYYKit.h"
 
 @interface ICPhotoBrowserController ()<UIScrollViewDelegate, UIViewControllerTransitioningDelegate>
 

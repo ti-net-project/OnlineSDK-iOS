@@ -9,9 +9,9 @@
 //  LICENSE file in the root directory of this source tree.
 //
 
-#import "CALayer+YYAdd.h"
-#import "YYKitMacro.h"
-#import "YYCGUtilities.h"
+#import "CALayer+TIMYYAdd.h"
+#import "TIMYYKitMacro.h"
+#import "TIMYYCGUtilities.h"
 
 YYSYNTH_DUMMY_CLASS(CALayer_TIMYYAdd)
 

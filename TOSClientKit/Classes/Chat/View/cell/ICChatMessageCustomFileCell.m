@@ -17,14 +17,14 @@
 #import "UIImageView+TIMWebCache.h"
 #import "ICFaceManager.h"
 #import "ICChatMessageBaseCell+CustomerUnread.h"
-#import "YYLabel.h"
+#import "TIMYYLabel.h"
 
 @interface ICChatMessageCustomFileCell ()<UIDocumentInteractionControllerDelegate, NSURLConnectionDataDelegate>
 
 @property (nonatomic, weak) UIViewController *controller;
 
 @property (nonatomic, strong) TIMLabel *custFileNameLabel;
-@property (nonatomic, strong) YYLabel *custFileTypeDescLabel;
+@property (nonatomic, strong) TIMYYLabel *custFileTypeDescLabel;
 @property (nonatomic, strong) UIImageView *custFilePictureView;
 @property (nonatomic, strong) TIMLabel *custFileTimeLabel;
 @property (nonatomic, strong) UIView                * lineView;
@@ -173,9 +173,9 @@
     return _custFilePictureView;
 }
 
-- (YYLabel *)custFileTypeDescLabel {
+- (TIMYYLabel *)custFileTypeDescLabel {
     if (!_custFileTypeDescLabel) {
-        _custFileTypeDescLabel = [[YYLabel alloc] init];
+        _custFileTypeDescLabel = [[TIMYYLabel alloc] init];
 //        _custFileTypeDescLabel.numberOfLines = 2;
 //        _custFileTypeDescLabel.textVerticalAlignment = YYTextVerticalAlignmentTop;
         _custFileTypeDescLabel.numberOfLines = 1;

@@ -10,7 +10,7 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@class YYAnimatedImageView;
+@class TIMYYAnimatedImageView;
 @class TOSSatisfactionModel;
 @interface TOSSatisfactionSolveView : TOSBaseView
 

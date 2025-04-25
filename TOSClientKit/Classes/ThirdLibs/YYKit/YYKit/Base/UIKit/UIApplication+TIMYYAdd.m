@@ -12,7 +12,7 @@
 #import "UIApplication+TIMYYAdd.h"
 #import "NSArray+TIMYYAdd.h"
 #import "NSObject+TIMYYAdd.h"
-#import "YYKitMacro.h"
+#import "TIMYYKitMacro.h"
 #import "UIDevice+TIMYYAdd.h"
 #import <sys/sysctl.h>
 #import <mach/mach.h>

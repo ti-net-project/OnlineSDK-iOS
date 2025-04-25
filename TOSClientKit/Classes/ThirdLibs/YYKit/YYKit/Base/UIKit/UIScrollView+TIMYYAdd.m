@@ -10,7 +10,7 @@
 //
 
 #import "UIScrollView+TIMYYAdd.h"
-#import "YYKitMacro.h"
+#import "TIMYYKitMacro.h"
 
 YYSYNTH_DUMMY_CLASS(UIScrollView_TIMYYAdd)
 

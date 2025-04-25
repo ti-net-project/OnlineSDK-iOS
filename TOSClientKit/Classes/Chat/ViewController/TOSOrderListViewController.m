@@ -8,7 +8,7 @@
 
 #import "TOSOrderListViewController.h"
 #import "TIMConstants.h"
-#import "YYKit.h"
+#import "TIMYYKit.h"
 #import "TIMMasonry.h"
 #import "UIButton+TIMEnlargeEdge.h"
 #import "TOSOrderSearchView.h"

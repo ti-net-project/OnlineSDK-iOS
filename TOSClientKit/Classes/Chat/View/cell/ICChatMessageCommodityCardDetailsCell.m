@@ -10,7 +10,7 @@
 #import "TIMConstants.h"
 #import "ICTransportDetailsTableCell.h"
 
-#import "YYKit.h"
+#import "TIMYYKit.h"
 #import "UIImageView+TIMWebCache.h"
 #import "kitUtils.h"
 #import "UIImage+PureColorImage.h"

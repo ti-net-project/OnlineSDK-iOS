@@ -10,7 +10,7 @@
 //
 
 #import "UITableView+TIMYYAdd.h"
-#import "YYKitMacro.h"
+#import "TIMYYKitMacro.h"
 
 YYSYNTH_DUMMY_CLASS(UITableView_TIMYYAdd)
 

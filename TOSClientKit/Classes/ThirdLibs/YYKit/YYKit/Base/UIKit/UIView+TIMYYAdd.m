@@ -11,7 +11,7 @@
 
 #import "UIView+TIMYYAdd.h"
 #import <QuartzCore/QuartzCore.h>
-#import "YYKitMacro.h"
+#import "TIMYYKitMacro.h"
 
 YYSYNTH_DUMMY_CLASS(UIView_TIMYYAdd)
 

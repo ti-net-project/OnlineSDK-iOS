@@ -7,7 +7,7 @@
 //
 
 #import "ZYSegmentControl.h"
-#import "YYKit.h"
+#import "TIMYYKit.h"
 #import "UIView+Creat.h"
 #import "UIViewExt.h"
 #import "NSArray+TRTool.h"

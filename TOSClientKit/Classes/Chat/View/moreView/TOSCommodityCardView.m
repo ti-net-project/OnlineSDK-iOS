@@ -7,9 +7,9 @@
 //  聊天页面底部的商品卡片UI
 
 #import "TOSCommodityCardView.h"
-#import "YYKit.h"
+#import "TIMYYKit.h"
 #import "TIMConstants.h"
-#import "YYKit.h"
+#import "TIMYYKit.h"
 #import "UIImageView+TIMWebCache.h"
 #import "kitUtils.h"
 #import "UIImage+PureColorImage.h"

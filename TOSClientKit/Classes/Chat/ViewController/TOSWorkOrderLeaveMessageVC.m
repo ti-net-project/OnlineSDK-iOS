@@ -17,7 +17,7 @@
 #import "WHToast.h"
 #import "TOSWorkOrderSuccessView.h"
 #import "NSObject+TIMShowError.h"
-#import "YYReachability.h"
+#import "TIMYYReachability.h"
 
 #define kTOSRedirect @"redirect"
 #define kTOSTinetWebviewInterface @"tinetWebviewInterface"
@@ -86,7 +86,7 @@
 - (void)leftBarBtnItemAction:(UIButton *)sender {
     @WeakObj(self);
     
-    YYReachabilityStatus status = [YYReachability reachability].status;
+    YYReachabilityStatus status = [TIMYYReachability reachability].status;
     if (status == YYReachabilityStatusNone) {
         if (self.noCommit) { //未提交
             [self tim_showMBErrorView:@"当前网络异常，请稍候重试。"];

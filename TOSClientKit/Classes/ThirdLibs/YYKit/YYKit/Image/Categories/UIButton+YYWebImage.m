@@ -10,9 +10,9 @@
 //
 
 #import "UIButton+YYWebImage.h"
-#import "YYWebImageOperation.h"
+#import "TIMYYWebImageOperation.h"
 #import "_YYWebImageSetter.h"
-#import "YYKitMacro.h"
+#import "TIMYYKitMacro.h"
 #import <objc/runtime.h>
 
 YYSYNTH_DUMMY_CLASS(UIButton_YYWebImage)
@@ -80,12 +80,12 @@ static int _YYWebImageBackgroundSetterKey;
           forSingleState:(NSNumber *)state
              placeholder:(UIImage *)placeholder
                  options:(YYWebImageOptions)options
-                 manager:(YYWebImageManager *)manager
+                 manager:(TIMYYWebImageManager *)manager
                 progress:(YYWebImageProgressBlock)progress
                transform:(YYWebImageTransformBlock)transform
               completion:(YYWebImageCompletionBlock)completion {
     if ([imageURL isKindOfClass:[NSString class]]) imageURL = [NSURL URLWithString:(id)imageURL];
-    manager = manager ? manager : [YYWebImageManager sharedManager];
+    manager = manager ? manager : [TIMYYWebImageManager sharedManager];
     
     _YYWebImageSetterDicForButton *dic = objc_getAssociatedObject(self, &_YYWebImageSetterKey);
     if (!dic) {
@@ -228,7 +228,7 @@ static int _YYWebImageBackgroundSetterKey;
                forState:(UIControlState)state
             placeholder:(UIImage *)placeholder
                 options:(YYWebImageOptions)options
-                manager:(YYWebImageManager *)manager
+                manager:(TIMYYWebImageManager *)manager
                progress:(YYWebImageProgressBlock)progress
               transform:(YYWebImageTransformBlock)transform
              completion:(YYWebImageCompletionBlock)completion {
@@ -257,12 +257,12 @@ static int _YYWebImageBackgroundSetterKey;
                     forSingleState:(NSNumber *)state
                        placeholder:(UIImage *)placeholder
                            options:(YYWebImageOptions)options
-                           manager:(YYWebImageManager *)manager
+                           manager:(TIMYYWebImageManager *)manager
                           progress:(YYWebImageProgressBlock)progress
                          transform:(YYWebImageTransformBlock)transform
                         completion:(YYWebImageCompletionBlock)completion {
     if ([imageURL isKindOfClass:[NSString class]]) imageURL = [NSURL URLWithString:(id)imageURL];
-    manager = manager ? manager : [YYWebImageManager sharedManager];
+    manager = manager ? manager : [TIMYYWebImageManager sharedManager];
     
     _YYWebImageSetterDicForButton *dic = objc_getAssociatedObject(self, &_YYWebImageBackgroundSetterKey);
     if (!dic) {
@@ -405,7 +405,7 @@ static int _YYWebImageBackgroundSetterKey;
                forState:(UIControlState)state
             placeholder:(UIImage *)placeholder
                 options:(YYWebImageOptions)options
-                manager:(YYWebImageManager *)manager
+                manager:(TIMYYWebImageManager *)manager
                progress:(YYWebImageProgressBlock)progress
               transform:(YYWebImageTransformBlock)transform
              completion:(YYWebImageCompletionBlock)completion {

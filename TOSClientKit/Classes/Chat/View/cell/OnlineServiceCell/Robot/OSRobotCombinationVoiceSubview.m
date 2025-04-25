@@ -15,7 +15,7 @@
 
 #import "kitUtils.h"
 #import "TIMConstants.h"
-#import "YYKit.h"
+#import "TIMYYKit.h"
 #import "ICMessageConst.h"
 #import "NSString+Extension.h"
 #import "UIResponder+GXRouter.h"

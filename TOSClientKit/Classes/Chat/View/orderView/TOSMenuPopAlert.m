@@ -7,7 +7,7 @@
 //  菜单弹窗
 
 #import "TOSMenuPopAlert.h"
-#import "YYKit.h"
+#import "TIMYYKit.h"
 #import "TIMConstants.h"
 
 

@@ -18,7 +18,7 @@
 #import "ICFaceManager.h"
 #import "ICChatMessageBaseCell+CustomerUnread.h"
 #import <TOSClientLib/CombinationMessage.h>
-#import "YYKit.h"
+#import "TIMYYKit.h"
 #import "NSString+Frame.h"
 #import "NSString+Extension.h"
 #import "TIMMessageFrame.h"

@@ -12,7 +12,7 @@
 #import <TOSClientLib/NSObject+TIMModel.h>
 #import "TIMMasonry.h"
 #import "TIMConstants.h"
-#import "YYKit.h"
+#import "TIMYYKit.h"
 #import "SLButton.h"
 
 @interface ICChatMessageOrdersCell ()

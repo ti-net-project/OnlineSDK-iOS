@@ -8,7 +8,7 @@
 
 #import "OSRobotHotSubIssueListTypeTitleView.h"
 #import "TIMConstants.h"
-#import "YYKit.h"
+#import "TIMYYKit.h"
 #import "ICMessageConst.h"
 #import "NSString+Extension.h"
 #import "UIResponder+GXRouter.h"
@@ -25,7 +25,7 @@
 #import "ZYSegmentControl.h"
 #import <TOSClientLib/CombinationMessage.h>
 #import "OSRobotHotSubIssueView.h"
-#import "YYKit.h"
+#import "TIMYYKit.h"
 #import "NSString+Frame.h"
 #import "NSString+Extension.h"
 #import "TIMMessageFrame.h"

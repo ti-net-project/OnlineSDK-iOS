@@ -18,7 +18,7 @@
 #import "kitUtils.h"
 #import <TOSClientKit/TOSKit.h>
 #import <TOSClientLib/TOSClientLib.h>
-#import <YYKit.h>
+#import <TIMYYKit.h>
 #import "TIMMasonry.h"
 #import <TOSClientKit/TOSKitCustomInfo.h>
 
@@ -53,7 +53,7 @@
 // 退出或压后台标识
 @property (nonatomic, assign) BOOL bExitOrBackground;
 
-@property (nonatomic, strong) YYLabel *placeholderLable;
+@property (nonatomic, strong) TIMYYLabel *placeholderLable;
 
 @end
 
@@ -464,10 +464,10 @@
 }
 
 
-- (YYLabel *) placeholderLable
+- (TIMYYLabel *) placeholderLable
 {
     if (_placeholderLable == nil) {
-        _placeholderLable = [[YYLabel alloc] initWithFrame:CGRectMake([TOSKitCustomInfo shareCustomInfo].chatBox_textView_placeholderMargin, [TOSKitCustomInfo shareCustomInfo].chatBox_textView_textContainerInset.top, [self placeholderWidth], [TOSKitCustomInfo shareCustomInfo].chatBox_textView_height-[TOSKitCustomInfo shareCustomInfo].chatBox_textView_textContainerInset.top - [TOSKitCustomInfo shareCustomInfo].chatBox_textView_textContainerInset.bottom)];
+        _placeholderLable = [[TIMYYLabel alloc] initWithFrame:CGRectMake([TOSKitCustomInfo shareCustomInfo].chatBox_textView_placeholderMargin, [TOSKitCustomInfo shareCustomInfo].chatBox_textView_textContainerInset.top, [self placeholderWidth], [TOSKitCustomInfo shareCustomInfo].chatBox_textView_height-[TOSKitCustomInfo shareCustomInfo].chatBox_textView_textContainerInset.top - [TOSKitCustomInfo shareCustomInfo].chatBox_textView_textContainerInset.bottom)];
 //        _placeholderLable = [[UILabel alloc] initWithFrame:(CGRectZero)];
 //        _placeholderLable.enabled = NO;//禁止lable可以改变,必须设置
 //        _placeholderLable.text = [TOSKitCustomInfo shareCustomInfo].ChatBox_textview_placeholder;//设置内容

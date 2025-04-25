@@ -7,7 +7,7 @@
 //
 
 #import "ICChatMessageCommodityCardCell.h"
-#import "YYKit.h"
+#import "TIMYYKit.h"
 #import "UIImageView+TIMWebCache.h"
 #import "kitUtils.h"
 #import "UIImage+PureColorImage.h"

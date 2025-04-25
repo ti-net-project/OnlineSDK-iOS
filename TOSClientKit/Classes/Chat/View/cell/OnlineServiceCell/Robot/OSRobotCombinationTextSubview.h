@@ -7,7 +7,7 @@
 //
 
 #import "TOSBaseView.h"
-#import "YYLabel.h"
+#import "TIMYYLabel.h"
 
 NS_ASSUME_NONNULL_BEGIN
 
@@ -15,7 +15,7 @@ NS_ASSUME_NONNULL_BEGIN
 @class CombinationMessage;
 @interface OSRobotCombinationTextSubview : TOSBaseView
 
-@property (nonatomic, strong) YYLabel *chatLabel;
+@property (nonatomic, strong) TIMYYLabel *chatLabel;
 
 - (void)setWithCombinationModel:(CombinationMessage *)model;
 

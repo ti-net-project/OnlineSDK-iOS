@@ -8,7 +8,7 @@
 
 #import "TOSOrderCategoryHeaderView.h"
 #import "TIMMasonry.h"
-#import "YYKit.h"
+#import "TIMYYKit.h"
 
 @interface TOSOrderCategoryHeaderView ()
 

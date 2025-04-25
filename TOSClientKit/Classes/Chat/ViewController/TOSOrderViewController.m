@@ -8,7 +8,7 @@
 
 #import "TOSOrderViewController.h"
 #import "TIMConstants.h"
-#import "YYKit.h"
+#import "TIMYYKit.h"
 #import "HWPanModal.h"
 #import "TIMMasonry.h"
 #import "UIButton+TIMEnlargeEdge.h"

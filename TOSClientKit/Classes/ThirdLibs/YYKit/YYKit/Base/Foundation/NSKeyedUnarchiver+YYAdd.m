@@ -10,7 +10,7 @@
 //
 
 #import "NSKeyedUnarchiver+YYAdd.h"
-#import "YYKitMacro.h"
+#import "TIMYYKitMacro.h"
 
 YYSYNTH_DUMMY_CLASS(NSKeyedUnarchiver_YYAdd)
 

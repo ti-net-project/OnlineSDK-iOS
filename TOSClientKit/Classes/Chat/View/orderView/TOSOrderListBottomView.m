@@ -9,7 +9,7 @@
 #import "TOSOrderListBottomView.h"
 #import "TIMConstants.h"
 #import "TIMMasonry.h"
-#import "YYKit.h"
+#import "TIMYYKit.h"
 
 @interface TOSOrderListBottomView ()
 

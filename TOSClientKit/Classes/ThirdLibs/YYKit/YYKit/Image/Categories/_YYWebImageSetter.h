@@ -10,9 +10,9 @@
 //
 
 #if __has_include(<YYKit/YYKit.h>)
-#import <YYKit/YYWebImageManager.h>
+#import <TIMYYKit/YYWebImageManager.h>
 #else
-#import "YYWebImageManager.h"
+#import "TIMYYWebImageManager.h"
 #endif
 
 NS_ASSUME_NONNULL_BEGIN
@@ -35,7 +35,7 @@ extern const NSTimeInterval _YYWebImageProgressiveFadeTime;
 - (int32_t)setOperationWithSentinel:(int32_t)sentinel
                                 url:(nullable NSURL *)imageURL
                             options:(YYWebImageOptions)options
-                            manager:(YYWebImageManager *)manager
+                            manager:(TIMYYWebImageManager *)manager
                            progress:(nullable YYWebImageProgressBlock)progress
                           transform:(nullable YYWebImageTransformBlock)transform
                          completion:(nullable YYWebImageCompletionBlock)completion;

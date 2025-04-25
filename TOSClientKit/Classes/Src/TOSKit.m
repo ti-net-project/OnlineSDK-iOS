@@ -12,7 +12,7 @@
 #import "TOSCustomerChatVC.h"
 
 //#import "TIMRTCMediaViewController.h"
-#import "YYKit.h"
+#import "TIMYYKit.h"
 #import "kitUtils.h"
 #import "ICMediaManager.h"
 #import <TOSClientLib/TOSClientLib.h>

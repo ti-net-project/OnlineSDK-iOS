@@ -8,7 +8,7 @@
 
 #import "OSRobotHotSubIssueView.h"
 #import "TIMConstants.h"
-#import "YYKit.h"
+#import "TIMYYKit.h"
 #import "ICMessageConst.h"
 #import "NSString+Extension.h"
 #import "UIResponder+GXRouter.h"
@@ -18,7 +18,7 @@
 
 @interface OSRobotHotSubIssueView ()
 
-@property (nonatomic, strong) NSMutableArray <YYLabel *>*dataSource;
+@property (nonatomic, strong) NSMutableArray <TIMYYLabel *>*dataSource;
 
 @property (nonatomic, strong) NSArray <KnowledgeDataModel *>*knowledge;
 
@@ -33,7 +33,7 @@
     
     for (NSInteger i = 0; i < TOSKitCustomInfo.shareCustomInfo.chatMessage_tosRobotCombination_showRefreshNumber; i++) {
         
-        YYLabel *content = [[YYLabel alloc] init];
+        TIMYYLabel *content = [[TIMYYLabel alloc] init];
         content.tag = 60000+i;
 //        content.numberOfLines = 2;
 //        content.font = [UIFont fontWithName:@"PingFangSC-Regular" size:14.f];
@@ -75,7 +75,7 @@
 - (void)reloadView:(NSArray <NSNumber *>*)itemH {
     __block CGFloat y = 0;
     @WeakObj(self);
-    [self.dataSource enumerateObjectsUsingBlock:^(YYLabel * obj, NSUInteger idx, BOOL * _Nonnull stop) {
+    [self.dataSource enumerateObjectsUsingBlock:^(TIMYYLabel * obj, NSUInteger idx, BOOL * _Nonnull stop) {
         @StrongObj(self);
         CGFloat height = ((NSNumber *)[itemH objectOrNilAtIndex:idx]).floatValue;
         obj.frame = CGRectMake(0.f, y, self.tos_width, height);
@@ -95,7 +95,7 @@
     }];
 }
 
-- (NSMutableArray<YYLabel *> *)dataSource {
+- (NSMutableArray<TIMYYLabel *> *)dataSource {
     if (!_dataSource) {
         _dataSource = [NSMutableArray array];
     }

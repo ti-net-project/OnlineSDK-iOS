@@ -7,7 +7,7 @@
 //
 
 #import "ICChatMessageSatisfactionPopupCell.h"
-#import "YYKit.h"
+#import "TIMYYKit.h"
 #import "TOSSatisfactionModel.h"
 
 #import "TIMMessageModel.h"
@@ -15,7 +15,7 @@
 #import "TIMConstants.h"
 #import "ICChatMessageBaseCell+CustomerUnread.h"
 #import "NSDictionary+TIMTool.h"
-#import "YYKit.h"
+#import "TIMYYKit.h"
 #import "XZEmotion.h"
 #import "TOSCustomerChatVC.h"
 #import "STBaseWebViewController.h"

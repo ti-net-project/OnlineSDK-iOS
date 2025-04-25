@@ -7,7 +7,7 @@
 //
 
 #import "TOSSatisfactionPopupView.h"
-#import "YYKit.h"
+#import "TIMYYKit.h"
 #import "TIMConstants.h"
 #import "NSString+Extension.h"
 #import "TOSSatisfactionModel.h"
@@ -44,7 +44,7 @@
 @property (nonatomic, strong) NSMutableArray <TOSSatisfactionEvaluationDetailsView *>*options;
 
 @property (nonatomic, strong) UIView *remarkTopLine;
-@property (nonatomic, strong) YYTextView *remark;
+@property (nonatomic, strong) TIMYYTextView *remark;
 
 @property (nonatomic, strong) UIView *commitBtnView;
 @property (nonatomic, strong) UIButton *commitBtn;
@@ -437,9 +437,9 @@
     return _remarkTopLine;
 }
 
-- (YYTextView *)remark {
+- (TIMYYTextView *)remark {
     if (!_remark) {
-        _remark = [[YYTextView alloc] initWithFrame:(CGRectZero)];
+        _remark = [[TIMYYTextView alloc] initWithFrame:(CGRectZero)];
         _remark.placeholderTextColor = TOSHexColor(0xBFBFBF);
         _remark.textColor = TOSHexColor(0x262626);
         _remark.backgroundColor = TOSHexColor(0xF5F5F5);

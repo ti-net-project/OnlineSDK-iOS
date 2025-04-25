@@ -20,7 +20,7 @@
 #import "ZYSegmentControl.h"
 #import <TOSClientLib/CombinationMessage.h>
 #import "OSRobotHotSubIssueView.h"
-#import "YYKit.h"
+#import "TIMYYKit.h"
 #import "NSString+Frame.h"
 #import "NSString+Extension.h"
 #import "TIMMessageFrame.h"
@@ -29,7 +29,7 @@
 
 @interface OSRobotCombinationHotIssueSubview () <ZYSegmentControlDelegate>
 
-@property (nonatomic, strong) YYLabel *title;
+@property (nonatomic, strong) TIMYYLabel *title;
 @property (nonatomic, strong) UIImageView *refreshIcon;
 @property (nonatomic, strong) UIButton *refreshBtn;
 
@@ -332,9 +332,9 @@
     return _subIssueVerticalListView;
 }
 
-- (YYLabel *)title {
+- (TIMYYLabel *)title {
     if (!_title) {
-        _title = [[YYLabel alloc] init];
+        _title = [[TIMYYLabel alloc] init];
 //        _title.text = @"猜你想问";
         _title.text = @"热门问题";
 //        _title.font = [UIFont fontWithName:@"PingFangSC-Medium" size:16.f];

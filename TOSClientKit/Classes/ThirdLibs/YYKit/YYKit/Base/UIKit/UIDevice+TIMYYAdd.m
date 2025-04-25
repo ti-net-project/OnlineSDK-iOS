@@ -17,7 +17,7 @@
 #include <mach/mach.h>
 #include <arpa/inet.h>
 #include <ifaddrs.h>
-#import "YYKitMacro.h"
+#import "TIMYYKitMacro.h"
 #import "NSString+TIMYYAdd.h"
 
 YYSYNTH_DUMMY_CLASS(UIDevice_YYAdd)
