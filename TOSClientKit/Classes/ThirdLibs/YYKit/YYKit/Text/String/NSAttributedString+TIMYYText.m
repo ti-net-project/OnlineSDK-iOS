@@ -596,8 +596,8 @@ return style. _attr_;
     BOOL hasAnim = NO;
     if (image.images.count > 1) {
         hasAnim = YES;
-    } else if ([image conformsToProtocol:@protocol(YYAnimatedImage)]) {
-        id <YYAnimatedImage> ani = (id)image;
+    } else if ([image conformsToProtocol:@protocol(TIMYYAnimatedImage)]) {
+        id <TIMYYAnimatedImage> ani = (id)image;
         if (ani.animatedImageFrameCount > 1) hasAnim = YES;
     }
     

@@ -112,7 +112,7 @@ static dispatch_queue_t YYAsyncLayerGetReleaseQueue() {
         return;
     }
     
-    __strong id<YYAsyncLayerDelegate> delegate = (id)self.delegate;
+    __strong id<TIMYYAsyncLayerDelegate> delegate = (id)self.delegate;
     TIMYYAsyncLayerDisplayTask *task = [delegate newAsyncDisplayTask];
     if (!task.display) {
         if (task.willDisplay) task.willDisplay(self);

@@ -937,7 +937,7 @@ static dispatch_queue_t YYLabelGetReleaseQueue() {
     }
 }
 
-- (void)setLinePositionModifier:(id<YYTextLinePositionModifier>)linePositionModifier {
+- (void)setLinePositionModifier:(id<TIMYYTextLinePositionModifier>)linePositionModifier {
     if (_linePositionModifier == linePositionModifier) return;
     _linePositionModifier = linePositionModifier;
     _innerContainer.linePositionModifier = linePositionModifier;
@@ -951,7 +951,7 @@ static dispatch_queue_t YYLabelGetReleaseQueue() {
     }
 }
 
-- (void)setTextParser:(id<YYTextParser>)textParser {
+- (void)setTextParser:(id<TIMYYTextParser>)textParser {
     if (_textParser == textParser || [_textParser isEqual:textParser]) return;
     _textParser = textParser;
     if ([_textParser parseText:_innerText selectedRange:NULL]) {

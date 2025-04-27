@@ -30,7 +30,7 @@ NS_ASSUME_NONNULL_BEGIN
      YYAnimatedImageView *imageView = [YYAnimatedImageView alloc] initWithImage:image];
      [view addSubView:imageView];
  */
-@interface TIMFrameImage : UIImage <YYAnimatedImage>
+@interface TIMFrameImage : UIImage <TIMYYAnimatedImage>
 
 /**
  Create a frame animated image from files.

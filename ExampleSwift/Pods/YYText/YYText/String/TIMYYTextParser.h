@@ -20,7 +20,7 @@ NS_ASSUME_NONNULL_BEGIN
  You can implement this protocol to add code highlighting or emoticon replacement for
  YYTextView and YYLabel. See `YYTextSimpleMarkdownParser` and `YYTextSimpleEmoticonParser` for example.
  */
-@protocol YYTextParser <NSObject>
+@protocol TIMYYTextParser <NSObject>
 @required
 /**
  When text is changed in YYTextView or YYLabel, this method will be called.
@@ -53,7 +53,7 @@ NS_ASSUME_NONNULL_BEGIN
  
  Or you can use lex/yacc to generate your custom parser.
  */
-@interface YYTextSimpleMarkdownParser : NSObject <YYTextParser>
+@interface YYTextSimpleMarkdownParser : NSObject <TIMYYTextParser>
 @property (nonatomic) CGFloat fontSize;         ///< default is 14
 @property (nonatomic) CGFloat headerFontSize;   ///< default is 20
 
@@ -78,7 +78,7 @@ NS_ASSUME_NONNULL_BEGIN
  
  It can also be used to extend the "unicode emoticon".
  */
-@interface YYTextSimpleEmoticonParser : NSObject <YYTextParser>
+@interface YYTextSimpleEmoticonParser : NSObject <TIMYYTextParser>
 
 /**
  The custom emoticon mapper.

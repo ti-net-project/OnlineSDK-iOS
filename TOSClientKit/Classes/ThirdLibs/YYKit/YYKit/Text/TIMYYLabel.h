@@ -136,7 +136,7 @@ NS_ASSUME_NONNULL_BEGIN
  
  See `YYTextParser` protocol for more information.
  */
-@property (nullable, nonatomic, strong) id<YYTextParser> textParser;
+@property (nullable, nonatomic, strong) id<TIMYYTextParser> textParser;
 
 /**
  The current text layout in text view. It can be used to query the text layout information.
@@ -179,7 +179,7 @@ NS_ASSUME_NONNULL_BEGIN
  Default value is nil.
  See `YYTextLinePositionModifier` protocol for more information.
  */
-@property (nullable, nonatomic, copy) id<YYTextLinePositionModifier> linePositionModifier;
+@property (nullable, nonatomic, copy) id<TIMYYTextLinePositionModifier> linePositionModifier;
 
 /**
  The debug option to display CoreText layout result.
@@ -363,7 +363,7 @@ IB_DESIGNABLE
 @property (nullable, nonatomic, copy) UIBezierPath *textContainerPath;
 @property (nullable, nonatomic, copy) NSArray<UIBezierPath *> *exclusionPaths;
 @property (nonatomic) UIEdgeInsets textContainerInset;
-@property (nullable, nonatomic, copy) id<YYTextLinePositionModifier> linePositionModifier;
+@property (nullable, nonatomic, copy) id<TIMYYTextLinePositionModifier> linePositionModifier;
 @property (nonnull, nonatomic, copy) YYTextDebugOption *debugOption;
 @property (nullable, nonatomic, copy) YYTextAction textTapAction;
 @property (nullable, nonatomic, copy) YYTextAction textLongPressAction;

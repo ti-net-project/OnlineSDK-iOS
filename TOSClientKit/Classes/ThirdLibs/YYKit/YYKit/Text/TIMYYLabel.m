@@ -36,7 +36,7 @@ static dispatch_queue_t YYLabelGetReleaseQueue() {
 #define kAsyncFadeDuration 0.08 // Time in seconds for async display fadeout animation.
 
 
-@interface TIMYYLabel() <TIMYYTextDebugTarget, YYAsyncLayerDelegate> {
+@interface TIMYYLabel() <TIMYYTextDebugTarget, TIMYYAsyncLayerDelegate> {
     NSMutableAttributedString *_innerText; ///< nonnull
     TIMYYTextLayout *_innerLayout;
     TIMYYTextContainer *_innerContainer; ///< nonnull
@@ -945,7 +945,7 @@ static dispatch_queue_t YYLabelGetReleaseQueue() {
     }
 }
 
-- (void)setLinePositionModifier:(id<YYTextLinePositionModifier>)linePositionModifier {
+- (void)setLinePositionModifier:(id<TIMYYTextLinePositionModifier>)linePositionModifier {
     if (_linePositionModifier == linePositionModifier) return;
     _linePositionModifier = linePositionModifier;
     _innerContainer.linePositionModifier = linePositionModifier;
@@ -959,7 +959,7 @@ static dispatch_queue_t YYLabelGetReleaseQueue() {
     }
 }
 
-- (void)setTextParser:(id<YYTextParser>)textParser {
+- (void)setTextParser:(id<TIMYYTextParser>)textParser {
     if (_textParser == textParser || [_textParser isEqual:textParser]) return;
     _textParser = textParser;
     if ([_textParser parseText:_innerText selectedRange:NULL]) {

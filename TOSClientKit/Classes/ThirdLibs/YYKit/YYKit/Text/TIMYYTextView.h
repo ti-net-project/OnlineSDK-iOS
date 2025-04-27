@@ -32,7 +32,7 @@ NS_ASSUME_NONNULL_BEGIN
  @discussion The API and behavior is similar to UITextViewDelegate,
  see UITextViewDelegate's documentation for more information.
  */
-@protocol YYTextViewDelegate <NSObject, UIScrollViewDelegate>
+@protocol TIMYYTextViewDelegate <NSObject, UIScrollViewDelegate>
 @optional
 - (BOOL)textViewShouldBeginEditing:(TIMYYTextView *)textView;
 - (BOOL)textViewShouldEndEditing:(TIMYYTextView *)textView;
@@ -75,7 +75,7 @@ NS_ASSUME_NONNULL_BEGIN
 /// @name Accessing the Delegate
 ///=============================================================================
 
-@property (nullable, nonatomic, weak) id<YYTextViewDelegate> delegate;
+@property (nullable, nonatomic, weak) id<TIMYYTextViewDelegate> delegate;
 
 
 #pragma mark - Configuring the Text Attributes
@@ -159,7 +159,7 @@ NS_ASSUME_NONNULL_BEGIN
  
  See `YYTextParser` protocol for more information.
  */
-@property (nullable, nonatomic, strong) id<YYTextParser> textParser;
+@property (nullable, nonatomic, strong) id<TIMYYTextParser> textParser;
 
 /**
  The current text layout in text view (readonly).
@@ -231,7 +231,7 @@ NS_ASSUME_NONNULL_BEGIN
  The text line position modifier used to modify the lines' position in layout.
  See `YYTextLinePositionModifier` protocol for more information.
  */
-@property (nullable, nonatomic, copy) id<YYTextLinePositionModifier> linePositionModifier;
+@property (nullable, nonatomic, copy) id<TIMYYTextLinePositionModifier> linePositionModifier;
 
 /**
  The debug option to display CoreText layout result.
@@ -391,7 +391,7 @@ IB_DESIGNABLE
 @property (nullable, nonatomic, copy) NSAttributedString *placeholderAttributedText;
 @property (nonatomic) UIEdgeInsets textContainerInset;
 @property (nullable, nonatomic, copy) NSArray *exclusionPaths;
-@property (nullable, nonatomic, copy) id<YYTextLinePositionModifier> linePositionModifier;
+@property (nullable, nonatomic, copy) id<TIMYYTextLinePositionModifier> linePositionModifier;
 @property (nullable, nonatomic, copy) YYTextDebugOption *debugOption;
 - (void)scrollRangeToVisible:(NSRange)range;
 @property (nonatomic) NSRange selectedRange;

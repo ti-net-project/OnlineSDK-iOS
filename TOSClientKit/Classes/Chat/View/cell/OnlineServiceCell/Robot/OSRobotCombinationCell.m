@@ -22,7 +22,7 @@
 #import "OSRobotCombinationHotIssueSubview.h"
 #import "OSRobotCombinationSpecialSubjectSubview.h"
 
-@interface OSRobotCombinationCell() <YYTextViewDelegate> ///<UITableViewDelegate, UITableViewDataSource>
+@interface OSRobotCombinationCell() <TIMYYTextViewDelegate> ///<UITableViewDelegate, UITableViewDataSource>
 
 @property (nonatomic, strong) TIMMessageFrame *tempModelFrame;
 @property (nonatomic, strong) CombinationMessage *obj;

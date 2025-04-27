@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'TOSClientKit'
-  s.version          = '2.4.11'
+  s.version          = '2.4.12'
   s.summary          = 'TOSClientKit 自定义UI的在线客服SDK'
 
   s.description      = <<-DESC

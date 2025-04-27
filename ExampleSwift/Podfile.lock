@@ -3,10 +3,10 @@ PODS:
   - SDWebImage (5.21.0):
     - SDWebImage/Core (= 5.21.0)
   - SDWebImage/Core (5.21.0)
-  - TOSClientKit (2.4.10):
-    - TOSClientKit/no-arc (= 2.4.10)
+  - TOSClientKit (2.4.12):
+    - TOSClientKit/no-arc (= 2.4.12)
     - TOSClientLib (= 2.4.3)
-  - TOSClientKit/no-arc (2.4.10):
+  - TOSClientKit/no-arc (2.4.12):
     - TOSClientLib (= 2.4.3)
   - TOSClientLib (2.4.3)
   - YYText (1.0.7)
@@ -31,7 +31,7 @@ EXTERNAL SOURCES:
 SPEC CHECKSUMS:
   MBProgressHUD: 3ee5efcc380f6a79a7cc9b363dd669c5e1ae7406
   SDWebImage: f84b0feeb08d2d11e6a9b843cb06d75ebf5b8868
-  TOSClientKit: 83b1ae57f78fe5e2112fea408c1f1ac6b483f427
+  TOSClientKit: e1703e377ee69eeb8ad3adcaeef5f2f497cb72f7
   TOSClientLib: 87afd75e4b8390f3dedf7f56c23fc1ee9a2c292e
   YYText: 5c461d709e24d55a182d1441c41dc639a18a4849
 

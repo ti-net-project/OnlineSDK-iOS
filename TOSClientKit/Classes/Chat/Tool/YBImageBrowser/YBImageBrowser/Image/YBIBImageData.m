@@ -204,7 +204,7 @@ static dispatch_queue_t YBIBImageProcessingQueue(void) {
     __weak typeof(self) wSelf = self;
     void(^dealBlock)(void) = ^{
         // Do not need to decode If 'image' conformed 'YYAnimatedImage'. (Not entirely accurate.)
-        if (![image conformsToProtocol:@protocol(YYAnimatedImage)]) {
+        if (![image conformsToProtocol:@protocol(TIMYYAnimatedImage)]) {
             CGImageRef cgImage = TIMCGImageCreateDecodedCopy(image.CGImage, shouldPreDecode);
             image = [UIImage imageWithCGImage:cgImage scale:image.scale orientation:image.imageOrientation];
             if (cgImage) CGImageRelease(cgImage);
@@ -619,7 +619,7 @@ static dispatch_queue_t YBIBImageProcessingQueue(void) {
     };
     
     [YBIBPhotoAlbumManager getPhotoAlbumAuthorizationSuccess:^{
-        if ([self.originImage conformsToProtocol:@protocol(YYAnimatedImage)] && [self.originImage respondsToSelector:@selector(animatedImageData)] && [self.originImage performSelector:@selector(animatedImageData)]) {
+        if ([self.originImage conformsToProtocol:@protocol(TIMYYAnimatedImage)] && [self.originImage respondsToSelector:@selector(animatedImageData)] && [self.originImage performSelector:@selector(animatedImageData)]) {
             NSData *data = [self.originImage performSelector:@selector(animatedImageData)];
             data ? saveData(data) : unableToSave();
         } else if (self.originImage) {

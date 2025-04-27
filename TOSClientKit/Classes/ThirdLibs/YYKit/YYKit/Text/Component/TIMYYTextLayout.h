@@ -22,7 +22,7 @@
 #import "TIMYYTextInput.h"
 #endif
 
-@protocol YYTextLinePositionModifier;
+@protocol TIMYYTextLinePositionModifier;
 
 NS_ASSUME_NONNULL_BEGIN
 
@@ -101,7 +101,7 @@ extern const CGSize YYTextContainerMaxSize;
 
 /// This modifier is applied to the lines before the layout is completed,
 /// give you a chance to modify the line position. Default is nil.
-@property (nullable, copy) id<YYTextLinePositionModifier> linePositionModifier;
+@property (nullable, copy) id<TIMYYTextLinePositionModifier> linePositionModifier;
 @end
 
 
@@ -109,7 +109,7 @@ extern const CGSize YYTextContainerMaxSize;
  The YYTextLinePositionModifier protocol declares the required method to modify
  the line position in text layout progress. See `YYTextLinePositionSimpleModifier` for example.
  */
-@protocol YYTextLinePositionModifier <NSObject, NSCopying>
+@protocol TIMYYTextLinePositionModifier <NSObject, NSCopying>
 @required
 /**
  This method will called before layout is completed. The method should be thread-safe.
@@ -125,7 +125,7 @@ extern const CGSize YYTextContainerMaxSize;
  A simple implementation of `YYTextLinePositionModifier`. It can fix each line's position
  to a specified value, lets each line of height be the same.
  */
-@interface TIMYYTextLinePositionSimpleModifier : NSObject <YYTextLinePositionModifier>
+@interface TIMYYTextLinePositionSimpleModifier : NSObject <TIMYYTextLinePositionModifier>
 @property (assign) CGFloat fixedLineHeight; ///< The fixed line height (distance between two baseline).
 @end
 

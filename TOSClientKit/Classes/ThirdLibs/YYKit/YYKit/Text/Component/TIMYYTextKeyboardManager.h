@@ -32,7 +32,7 @@ typedef struct {
  The YYTextKeyboardObserver protocol defines the method you can use
  to receive system keyboard change information.
  */
-@protocol YYTextKeyboardObserver <NSObject>
+@protocol TIMYYTextKeyboardObserver <NSObject>
 @optional
 - (void)keyboardChangedWithTransition:(YYTextKeyboardTransition)transition;
 @end
@@ -74,7 +74,7 @@ typedef struct {
  @param observer An observer. 
  This method will do nothing if the observer is nil, or already added.
  */
-- (void)addObserver:(id<YYTextKeyboardObserver>)observer;
+- (void)addObserver:(id<TIMYYTextKeyboardObserver>)observer;
 
 /**
  Remove an observer from manager.
@@ -82,7 +82,7 @@ typedef struct {
  @param observer An observer.
  This method will do nothing if the observer is nil, or not in manager.
  */
-- (void)removeObserver:(id<YYTextKeyboardObserver>)observer;
+- (void)removeObserver:(id<TIMYYTextKeyboardObserver>)observer;
 
 /**
  Convert rect to specified view or window.

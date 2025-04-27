@@ -9,7 +9,7 @@
 //  LICENSE file in the root directory of this source tree.
 //
 
-#import "YYTextParser.h"
+#import "TIMYYTextParser.h"
 #import "YYTextUtilities.h"
 #import "YYTextAttribute.h"
 #import "NSAttributedString+YYText.h"

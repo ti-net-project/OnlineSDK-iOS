@@ -12,7 +12,7 @@
 #import <UIKit/UIKit.h>
 
 #if __has_include(<YYText/YYText.h>)
-#import <YYText/YYTextParser.h>
+#import <YYText/TIMYYTextParser.h>
 #import <YYText/YYTextLayout.h>
 #import <YYText/YYTextAttribute.h>
 #else
@@ -136,7 +136,7 @@ NS_ASSUME_NONNULL_BEGIN
  
  See `YYTextParser` protocol for more information.
  */
-@property (nullable, nonatomic, strong) id<YYTextParser> textParser;
+@property (nullable, nonatomic, strong) id<TIMYYTextParser> textParser;
 
 /**
  The current text layout in text view. It can be used to query the text layout information.
@@ -179,7 +179,7 @@ NS_ASSUME_NONNULL_BEGIN
  Default value is nil.
  See `YYTextLinePositionModifier` protocol for more information.
  */
-@property (nullable, nonatomic, copy) id<YYTextLinePositionModifier> linePositionModifier;
+@property (nullable, nonatomic, copy) id<TIMYYTextLinePositionModifier> linePositionModifier;
 
 /**
  The debug option to display CoreText layout result.

@@ -104,12 +104,12 @@ typedef NS_ENUM(NSUInteger, YYTextMoveDirection) {
 @end
 
 
-@interface YYTextView () <UIScrollViewDelegate, UIAlertViewDelegate, YYTextDebugTarget, YYTextKeyboardObserver> {
+@interface YYTextView () <UIScrollViewDelegate, UIAlertViewDelegate, YYTextDebugTarget, TIMYYTextKeyboardObserver> {
     
     YYTextRange *_selectedTextRange; /// nonnull
     YYTextRange *_markedTextRange;
     
-    __weak id<YYTextViewDelegate> _outerDelegate;
+    __weak id<TIMYYTextViewDelegate> _outerDelegate;
     
     UIImageView *_placeHolderView;
     
@@ -1879,7 +1879,7 @@ typedef NS_ENUM(NSUInteger, YYTextMoveDirection) {
     _highlightTextAttributes = highlightTextAttributes.copy;
     [self didChangeValueForKey:@"highlightTextAttributes"];
 }
-- (void)_setTextParser:(id<YYTextParser>)textParser {
+- (void)_setTextParser:(id<TIMYYTextParser>)textParser {
     if (_textParser == textParser || [_textParser isEqual:textParser]) return;
     [self willChangeValueForKey:@"textParser"];
     _textParser = textParser;
@@ -1915,7 +1915,7 @@ typedef NS_ENUM(NSUInteger, YYTextMoveDirection) {
     [self didChangeValueForKey:@"verticalForm"];
 }
 
-- (void)_setLinePositionModifier:(id<YYTextLinePositionModifier>)linePositionModifier {
+- (void)_setLinePositionModifier:(id<TIMYYTextLinePositionModifier>)linePositionModifier {
     if (_linePositionModifier == linePositionModifier) return;
     [self willChangeValueForKey:@"linePositionModifier"];
     _linePositionModifier = [(NSObject *)linePositionModifier copy];
@@ -2128,7 +2128,7 @@ typedef NS_ENUM(NSUInteger, YYTextMoveDirection) {
     }
 }
 
-- (void)setTextParser:(id<YYTextParser>)textParser {
+- (void)setTextParser:(id<TIMYYTextParser>)textParser {
     if (_textParser == textParser || [_textParser isEqual:textParser]) return;
     [self _setTextParser:textParser];
     if (textParser && _text.length) {
@@ -2259,7 +2259,7 @@ typedef NS_ENUM(NSUInteger, YYTextMoveDirection) {
     [self _commitUpdate];
 }
 
-- (void)setLinePositionModifier:(id<YYTextLinePositionModifier>)linePositionModifier {
+- (void)setLinePositionModifier:(id<TIMYYTextLinePositionModifier>)linePositionModifier {
     if (_linePositionModifier == linePositionModifier) return;
     [self _setLinePositionModifier:linePositionModifier];
     _innerContainer.linePositionModifier = linePositionModifier;
@@ -3103,11 +3103,11 @@ typedef NS_ENUM(NSUInteger, YYTextMoveDirection) {
 
 #pragma mark - @protocol UIScrollViewDelegate
 
-- (id<YYTextViewDelegate>)delegate {
+- (id<TIMYYTextViewDelegate>)delegate {
     return _outerDelegate;
 }
 
-- (void)setDelegate:(id<YYTextViewDelegate>)delegate {
+- (void)setDelegate:(id<TIMYYTextViewDelegate>)delegate {
     _outerDelegate = delegate;
 }
 

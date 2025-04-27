@@ -27,7 +27,7 @@ typedef BOOL(^YBImageDecodeDecision)(CGSize imageSize, CGFloat scale);
  🙄波儿菜：Copied from 'YYImage' and made some extensions.
  */
 
-@interface YBImage : UIImage <YYAnimatedImage>
+@interface YBImage : UIImage <TIMYYAnimatedImage>
 
 + (nullable __kindof UIImage *)imageNamed:(NSString *)name; // no cache!
 + (nullable YBImage *)imageWithContentsOfFile:(NSString *)path;

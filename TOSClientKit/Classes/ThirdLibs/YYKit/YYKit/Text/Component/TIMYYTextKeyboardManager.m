@@ -161,12 +161,12 @@ static int _YYTextKeyboardViewFrameObserverKey;
     });
 }
 
-- (void)addObserver:(id<YYTextKeyboardObserver>)observer {
+- (void)addObserver:(id<TIMYYTextKeyboardObserver>)observer {
     if (!observer) return;
     [_observers addObject:observer];
 }
 
-- (void)removeObserver:(id<YYTextKeyboardObserver>)observer {
+- (void)removeObserver:(id<TIMYYTextKeyboardObserver>)observer {
     if (!observer) return;
     [_observers removeObject:observer];
 }
@@ -472,7 +472,7 @@ static int _YYTextKeyboardViewFrameObserverKey;
     }
     
     if (!CGRectEqualToRect(trans.toFrame, _fromFrame)) {
-        for (id<YYTextKeyboardObserver> observer in _observers.copy) {
+        for (id<TIMYYTextKeyboardObserver> observer in _observers.copy) {
             if ([observer respondsToSelector:@selector(keyboardChangedWithTransition:)]) {
                 [observer keyboardChangedWithTransition:trans];
             }

@@ -57,7 +57,7 @@ NS_ASSUME_NONNULL_BEGIN
     imageView.layer.contentsRect = [sheet contentsRectForCALayerAtIndex:6];
  
  */
-@interface TIMSpriteSheetImage : UIImage <YYAnimatedImage>
+@interface TIMSpriteSheetImage : UIImage <TIMYYAnimatedImage>
 
 /**
  Creates and returns an image object.

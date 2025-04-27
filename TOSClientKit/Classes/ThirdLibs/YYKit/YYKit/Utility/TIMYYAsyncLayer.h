@@ -12,7 +12,7 @@
 #import <UIKit/UIKit.h>
 #import <QuartzCore/QuartzCore.h>
 
-@class YYAsyncLayerDisplayTask;
+@class TIMYYAsyncLayerDisplayTask;
 
 NS_ASSUME_NONNULL_BEGIN
 
@@ -32,10 +32,10 @@ NS_ASSUME_NONNULL_BEGIN
  The YYAsyncLayer's delegate protocol. The delegate of the YYAsyncLayer (typically a UIView)
  must implements the method in this protocol.
  */
-@protocol YYAsyncLayerDelegate <NSObject>
+@protocol TIMYYAsyncLayerDelegate <NSObject>
 @required
 /// This method is called to return a new display task when the layer's contents need update.
-- (YYAsyncLayerDisplayTask *)newAsyncDisplayTask;
+- (TIMYYAsyncLayerDisplayTask *)newAsyncDisplayTask;
 @end
 
 

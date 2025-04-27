@@ -36,7 +36,7 @@ typedef NS_ENUM(NSUInteger, YYAnimatedImageType) {
 
 @interface TIMYYAnimatedImageView() {
     @package
-    UIImage <YYAnimatedImage> *_curAnimatedImage;
+    UIImage <TIMYYAnimatedImage> *_curAnimatedImage;
     
     dispatch_once_t _onceToken;
     dispatch_semaphore_t _lock; ///< lock for _buffer
@@ -69,7 +69,7 @@ typedef NS_ENUM(NSUInteger, YYAnimatedImageType) {
 @interface _YYAnimatedImageViewFetchOperation : NSOperation
 @property (nonatomic, weak) TIMYYAnimatedImageView *view;
 @property (nonatomic, assign) NSUInteger nextIndex;
-@property (nonatomic, strong) UIImage <YYAnimatedImage> *curImage;
+@property (nonatomic, strong) UIImage <TIMYYAnimatedImage> *curImage;
 @end
 
 @implementation _YYAnimatedImageViewFetchOperation
@@ -258,10 +258,10 @@ typedef NS_ENUM(NSUInteger, YYAnimatedImageType) {
     NSUInteger newImageFrameCount = 0;
     BOOL hasContentsRect = NO;
     if ([newVisibleImage isKindOfClass:[UIImage class]] &&
-        [newVisibleImage conformsToProtocol:@protocol(YYAnimatedImage)]) {
-        newImageFrameCount = ((UIImage<YYAnimatedImage> *) newVisibleImage).animatedImageFrameCount;
+        [newVisibleImage conformsToProtocol:@protocol(TIMYYAnimatedImage)]) {
+        newImageFrameCount = ((UIImage<TIMYYAnimatedImage> *) newVisibleImage).animatedImageFrameCount;
         if (newImageFrameCount > 1) {
-            hasContentsRect = [((UIImage<YYAnimatedImage> *) newVisibleImage) respondsToSelector:@selector(animatedImageContentsRectAtIndex:)];
+            hasContentsRect = [((UIImage<TIMYYAnimatedImage> *) newVisibleImage) respondsToSelector:@selector(animatedImageContentsRectAtIndex:)];
         }
     }
     if (!hasContentsRect && _curImageHasContentsRect) {
@@ -274,7 +274,7 @@ typedef NS_ENUM(NSUInteger, YYAnimatedImageType) {
     }
     _curImageHasContentsRect = hasContentsRect;
     if (hasContentsRect) {
-        CGRect rect = [((UIImage<YYAnimatedImage> *) newVisibleImage) animatedImageContentsRectAtIndex:0];
+        CGRect rect = [((UIImage<TIMYYAnimatedImage> *) newVisibleImage) animatedImageContentsRectAtIndex:0];
         [self setContentsRect:rect forImage:newVisibleImage];
     }
     
@@ -371,7 +371,7 @@ typedef NS_ENUM(NSUInteger, YYAnimatedImageType) {
 }
 
 - (void)step:(CADisplayLink *)link {
-    UIImage <YYAnimatedImage> *image = _curAnimatedImage;
+    UIImage <TIMYYAnimatedImage> *image = _curAnimatedImage;
     NSMutableDictionary *buffer = _buffer;
     UIImage *bufferedImage = nil;
     NSUInteger nextIndex = (_curIndex + 1) % _totalFrameCount;
@@ -570,12 +570,12 @@ typedef NS_ENUM(NSUInteger, YYAnimatedImageType) {
     [aCoder encodeBool:_autoPlayAnimatedImage forKey:@"autoPlayAnimatedImage"];
     
     BOOL ani, multi;
-    ani = [self.image conformsToProtocol:@protocol(YYAnimatedImage)];
-    multi = (ani && ((UIImage <YYAnimatedImage> *)self.image).animatedImageFrameCount > 1);
+    ani = [self.image conformsToProtocol:@protocol(TIMYYAnimatedImage)];
+    multi = (ani && ((UIImage <TIMYYAnimatedImage> *)self.image).animatedImageFrameCount > 1);
     if (multi) [aCoder encodeObject:self.image forKey:@"YYAnimatedImage"];
     
-    ani = [self.highlightedImage conformsToProtocol:@protocol(YYAnimatedImage)];
-    multi = (ani && ((UIImage <YYAnimatedImage> *)self.highlightedImage).animatedImageFrameCount > 1);
+    ani = [self.highlightedImage conformsToProtocol:@protocol(TIMYYAnimatedImage)];
+    multi = (ani && ((UIImage <TIMYYAnimatedImage> *)self.highlightedImage).animatedImageFrameCount > 1);
     if (multi) [aCoder encodeObject:self.highlightedImage forKey:@"YYHighlightedAnimatedImage"];
 }
 

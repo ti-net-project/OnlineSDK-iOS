@@ -96,7 +96,7 @@ static CGColorRef YYTextGetCGColor(CGColorRef color) {
     NSUInteger _maximumNumberOfRows;
     YYTextTruncationType _truncationType;
     NSAttributedString *_truncationToken;
-    id<YYTextLinePositionModifier> _linePositionModifier;
+    id<TIMYYTextLinePositionModifier> _linePositionModifier;
 }
 
 + (instancetype)containerWithSize:(CGSize)size {
@@ -293,12 +293,12 @@ dispatch_semaphore_signal(_lock);
     Setter(_truncationToken = truncationToken.copy);
 }
 
-- (void)setLinePositionModifier:(id<YYTextLinePositionModifier>)linePositionModifier {
+- (void)setLinePositionModifier:(id<TIMYYTextLinePositionModifier>)linePositionModifier {
     Setter(_linePositionModifier = [(NSObject *)linePositionModifier copy]);
 }
 
-- (id<YYTextLinePositionModifier>)linePositionModifier {
-    Getter(id<YYTextLinePositionModifier> m = _linePositionModifier) return m;
+- (id<TIMYYTextLinePositionModifier>)linePositionModifier {
+    Getter(id<TIMYYTextLinePositionModifier> m = _linePositionModifier) return m;
 }
 
 #undef Getter
