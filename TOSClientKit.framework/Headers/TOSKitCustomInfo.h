@@ -49,6 +49,11 @@ static NSString * const TOS_NO_COMMENT_COUNT_HIDE_QUICK_ENTRY = @"noCommentCount
 static NSString * const TOS_STAFF_COMMENT_TOTAL_COUNT = @"staffCommentTotalCount";
 
 /**
+ * 仅查询当前工单插件的客服留言数
+ */
+static NSString * const TOS_PLUGIN_CREATED_TICKET_COUNT_ENABLE = @"pluginTicketEnable";
+
+/**
  * 应用阶段（
  * TOSAppLicationStageType_OFF：关闭，
  * TOSAppLicationStageType_Robot：机器人，

@@ -179,8 +179,11 @@ NS_ASSUME_NONNULL_BEGIN
 - (void)getTicketCommentStatistics:(NSNumber *)commentCountEnable
               visitorCreatedTicket:(NSNumber *)visitorCreatedTicket
                    ticketPluginUrl:(NSString *)ticketPluginUrl
+                    ticketPluginId:(NSNumber *)ticketPluginId
+                pluginTicketEnable:(NSNumber *)pluginTicketEnable
                            success:(void (^)(NSNumber *staffCommentTotalCount,
-                                             NSString *ticketPluginUrl))successBlock
+                                             NSString *ticketPluginUrl,
+                                             NSNumber *ticketPluginId))successBlock
                              error:(void (^)(TIMConnectErrorCode errCode,NSString *errorDes))errorBlock;
 
 /*
