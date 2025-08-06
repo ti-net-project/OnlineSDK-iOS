@@ -139,7 +139,8 @@ typedef NS_ENUM(NSInteger, TOSQuickEntryEventType) {
     TOSQuickEntryEventTypeArtificial        =   7,
     /// 自定义事件
     TOSQuickEntryEventTypeCustom            =   8,
-    
+    /// 拨打号码事件
+    TOSQuickEntryEventTypeDialing           =   9,
 };
 
 
