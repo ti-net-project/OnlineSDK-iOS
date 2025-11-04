@@ -144,6 +144,10 @@
 		<data>
 		7WQT8U+OBwXyxp+icP/3Y4LGOdk=
 		</data>
+		<key>Headers/TOSPermissionManager.h</key>
+		<data>
+		B+YKuY0Xp3koXnCawQY1EVKh87w=
+		</data>
 		<key>Headers/TOSSendMultiMedia.h</key>
 		<data>
 		avp6meQQ+t77DQ975caflqL5yEE=
@@ -170,7 +174,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		xxydG7JJgQhxefgl+FIDu8lrq2A=
+		lk+OkYSoRrfegYYvUI0149UPlVI=
 		</data>
 		<key>LICENSE</key>
 		<data>
@@ -634,6 +638,17 @@
 			<key>hash2</key>
 			<data>
 			z8Lj6Wt46vBospGwAAelEjjoR0OuZfkYxmnrSkdsWSM=
+			</data>
+		</dict>
+		<key>Headers/TOSPermissionManager.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			B+YKuY0Xp3koXnCawQY1EVKh87w=
+			</data>
+			<key>hash2</key>
+			<data>
+			DD16KywzlXXmRzb5KrT76PdkOA6OveZhNg4+Diyazpc=
 			</data>
 		</dict>
 		<key>Headers/TOSSendMultiMedia.h</key>
